@@ -1062,7 +1062,399 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-19">⚠️ Potential Abuse (19)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>grafana-operator</title><link>https://rbac-atlas.github.io/charts/grafana-operator/4.9.21/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/grafana-operator/4.9.21/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>gitlab</title><link>https://rbac-atlas.github.io/charts/gitlab/9.0.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/gitlab/9.0.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>GitLab is the most comprehensive AI-powered DevSecOps Platform.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://gitlab.com/gitlab-org/charts/gitlab">https://gitlab.com/gitlab-org/charts/gitlab&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-cert-manager">&lt;code>gitlab-cert-manager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>56&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-cert-manager-cainjector">&lt;code>gitlab-cert-manager-cainjector&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>8&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-cert-manager-webhook">&lt;code>gitlab-cert-manager-webhook&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-gitlab-runner">&lt;code>gitlab-gitlab-runner&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-kubernetes-ingress">&lt;code>gitlab-kubernetes-ingress&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>18&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-nginx-ingress">&lt;code>gitlab-nginx-ingress&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>24&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-traefik">&lt;code>gitlab-traefik&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>18&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-prometheus-server">&lt;code>gitlab-prometheus-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>13&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-kube-state-metrics">&lt;code>gitlab-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-cert-manager-startupapicheck">&lt;code>gitlab-cert-manager-startupapicheck&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-certmanager-issuer">&lt;code>gitlab-certmanager-issuer&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-shared-secrets">&lt;code>gitlab-shared-secrets&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-alertmanager">&lt;code>gitlab-alertmanager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-gitlab-zoekt">&lt;code>gitlab-gitlab-zoekt&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-postgresql">&lt;code>gitlab-postgresql&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-prometheus-node-exporter">&lt;code>gitlab-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-prometheus-pushgateway">&lt;code>gitlab-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.1/#sa-gitlab-redis-master">&lt;code>gitlab-redis-master&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>gitlab</title><link>https://rbac-atlas.github.io/charts/gitlab/9.0.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/gitlab/9.0.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>GitLab is the most comprehensive AI-powered DevSecOps Platform.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://gitlab.com/gitlab-org/charts/gitlab">https://gitlab.com/gitlab-org/charts/gitlab&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-cert-manager">&lt;code>gitlab-cert-manager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>56&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-cert-manager-cainjector">&lt;code>gitlab-cert-manager-cainjector&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>8&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-cert-manager-webhook">&lt;code>gitlab-cert-manager-webhook&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-gitlab-runner">&lt;code>gitlab-gitlab-runner&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-kubernetes-ingress">&lt;code>gitlab-kubernetes-ingress&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>18&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-nginx-ingress">&lt;code>gitlab-nginx-ingress&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>24&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-traefik">&lt;code>gitlab-traefik&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>18&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-prometheus-server">&lt;code>gitlab-prometheus-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>13&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-kube-state-metrics">&lt;code>gitlab-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-cert-manager-startupapicheck">&lt;code>gitlab-cert-manager-startupapicheck&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-certmanager-issuer">&lt;code>gitlab-certmanager-issuer&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-shared-secrets">&lt;code>gitlab-shared-secrets&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-alertmanager">&lt;code>gitlab-alertmanager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-gitlab-zoekt">&lt;code>gitlab-gitlab-zoekt&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-postgresql">&lt;code>gitlab-postgresql&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-prometheus-node-exporter">&lt;code>gitlab-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-prometheus-pushgateway">&lt;code>gitlab-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/gitlab/9.0.2/#sa-gitlab-redis-master">&lt;code>gitlab-redis-master&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>grafana-operator</title><link>https://rbac-atlas.github.io/charts/grafana-operator/4.9.21/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/grafana-operator/4.9.21/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Grafana Operator is a Kubernetes operator that enables the installation and management of Grafana instances, dashboards and plugins.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/grafana-operator">https://github.com/bitnami/charts/tree/main/bitnami/grafana-operator&lt;/a>&lt;/li>
@@ -1083,6 +1475,444 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/grafana-operator/4.9.21/#sa-grafana-operator">&lt;code>grafana-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>44&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-grafana-operator">🤖 &lt;code>grafana-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-44">🔑 Permissions (44)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>apps/deployments&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-leaderelectionabuse">&lt;a href="https://rbac-atlas.github.io/tags/leaderelectionabuse/">LeaderElectionAbuse&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ (+4 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>networking.k8s.io/ingresses&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>core/serviceaccounts&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-identitymanagement">&lt;a href="https://rbac-atlas.github.io/tags/identitymanagement/">IdentityManagement&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · get · list · patch · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanaalertrulegroups&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanaalertrulegroups/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanaalertrulegroups/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanacontactpoints&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanacontactpoints/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanacontactpoints/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanadashboards&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanadashboards/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanadashboards/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanadatasources&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanadatasources/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanadatasources/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanafolders&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanafolders/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanafolders/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanalibrarypanels&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanalibrarypanels/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanalibrarypanels/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanamutetimings&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanamutetimings/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanamutetimings/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafananotificationpolicies&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafananotificationpolicies/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafananotificationpolicies/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafananotificationpolicyroutes&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafananotificationpolicyroutes/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafananotificationpolicyroutes/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafananotificationtemplates&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafananotificationtemplates/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafananotificationtemplates/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanas&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanas/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>grafana.integreatly.org/grafanas/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumeclaims&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>route.openshift.io/routes&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>grafana-operator-default&lt;/code>&lt;/td>
+ &lt;td>route.openshift.io/routes/custom-host&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-19">⚠️ Potential Abuse (19)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>grafana-operator</title><link>https://rbac-atlas.github.io/charts/grafana-operator/4.9.22/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/grafana-operator/4.9.22/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Grafana Operator is a Kubernetes operator that enables the installation and management of Grafana instances, dashboards and plugins.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/grafana-operator">https://github.com/bitnami/charts/tree/main/bitnami/grafana-operator&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/grafana-operator/4.9.22/#sa-grafana-operator">&lt;code>grafana-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -2029,7 +2859,73 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-18">⚠️ Potential Abuse (18)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>longhorn</title><link>https://rbac-atlas.github.io/charts/longhorn/1.9.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/longhorn/1.9.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-control-plane/2025.6.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-control-plane/2025.6.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/linkerd/linkerd2/">https://github.com/linkerd/linkerd2/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-control-plane/2025.6.2/#sa-linkerd-destination">&lt;code>linkerd-destination&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>34&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-control-plane/2025.6.2/#sa-linkerd-identity">&lt;code>linkerd-identity&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-control-plane/2025.6.2/#sa-linkerd-heartbeat">&lt;code>linkerd-heartbeat&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-control-plane/2025.6.2/#sa-linkerd-proxy-injector">&lt;code>linkerd-proxy-injector&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>16&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-linkerd-destination">🤖 &lt;code>linkerd-destination&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>longhorn</title><link>https://rbac-atlas.github.io/charts/longhorn/1.9.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/longhorn/1.9.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Longhorn is a distributed block storage system for Kubernetes.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/longhorn/longhorn">https://github.com/longhorn/longhorn&lt;/a>&lt;/li>
@@ -3402,6 +4298,81 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.4/#sa-velero-server-upgrade-crds">&lt;code>velero-server-upgrade-crds&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-velero-server">🤖 &lt;code>velero-server&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
+&lt;h4 id="-permissions-1">🔑 Permissions (1)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Role &lt;code>velero-server&lt;/code>&lt;/td>
+ &lt;td>&lt;em>/&lt;/em>&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-availabilityimpact">&lt;a href="https://rbac-atlas.github.io/tags/availabilityimpact/">AvailabilityImpact&lt;/a>&lt;/span>
+ &lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
+ &lt;span class="tag-codeexecution">&lt;a href="https://rbac-atlas.github.io/tags/codeexecution/">CodeExecution&lt;/a>&lt;/span>
+ &lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ (+40 more)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-39">⚠️ Potential Abuse (39)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>velero</title><link>https://rbac-atlas.github.io/charts/velero/10.0.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/velero/10.0.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for velero&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/vmware-tanzu/velero">https://github.com/vmware-tanzu/velero&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.5/#sa-velero-server">&lt;code>velero-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.5/#sa-velero-server-upgrade-crds">&lt;code>velero-server-upgrade-crds&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
