@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Letter-P on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/letter-p/</link><description>Recent content in Letter-P on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/letter-p/index.xml" rel="self" type="application/rss+xml"/><item><title>postgresql</title><link>https://rbac-atlas.github.io/charts/postgresql/16.7.10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/postgresql/16.7.10/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Letter-P on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/letter-p/</link><description>Recent content in Letter-P on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/letter-p/index.xml" rel="self" type="application/rss+xml"/><item><title>pgadmin4</title><link>https://rbac-atlas.github.io/charts/pgadmin4/1.47.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/pgadmin4/1.47.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>pgAdmin4 is a web based administration tool for PostgreSQL database&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/rowanruseler/helm-charts">https://github.com/rowanruseler/helm-charts&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2></description></item><item><title>postgresql</title><link>https://rbac-atlas.github.io/charts/postgresql/16.7.10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/postgresql/16.7.10/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>PostgreSQL (Postgres) is an open source object-relational database known for reliability and data integrity. ACID-compliant, it supports foreign keys, joins, views, triggers and stored procedures.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/postgresql">https://github.com/bitnami/charts/tree/main/bitnami/postgresql&lt;/a>&lt;/li>
@@ -183,7 +207,137 @@
 &lt;h3 id="sa-postgresql">🤖 &lt;code>postgresql&lt;/code>&lt;/h3>
 &lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
 &lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p></description></item><item><title>promtail</title><link>https://rbac-atlas.github.io/charts/promtail/6.17.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/promtail/6.17.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p></description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus/27.20.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus/27.20.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Prometheus is a monitoring system and time series database.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/prometheus/alertmanager">https://github.com/prometheus/alertmanager&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/prometheus/prometheus">https://github.com/prometheus/prometheus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/prometheus/pushgateway">https://github.com/prometheus/pushgateway&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/prometheus/node_exporter">https://github.com/prometheus/node_exporter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kubernetes/kube-state-metrics">https://github.com/kubernetes/kube-state-metrics&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus/27.20.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>11&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus/27.20.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus/27.20.0/#sa-prometheus-alertmanager">&lt;code>prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus/27.20.0/#sa-prometheus-prometheus-node-exporter">&lt;code>prometheus-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus/27.20.0/#sa-prometheus-prometheus-pushgateway">&lt;code>prometheus-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>prometheus-node-exporter</title><link>https://rbac-atlas.github.io/charts/prometheus-node-exporter/4.47.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-node-exporter/4.47.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for prometheus node-exporter&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/prometheus/node_exporter/">https://github.com/prometheus/node_exporter/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-node-exporter/4.47.0/#sa-prometheus-node-exporter">&lt;code>prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-prometheus-node-exporter">🤖 &lt;code>prometheus-node-exporter&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
+&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
+&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Kind&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;th>Container&lt;/th>
+ &lt;th>Image&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>DaemonSet&lt;/td>
+ &lt;td>prometheus-node-exporter&lt;/td>
+ &lt;td>node-exporter&lt;/td>
+ &lt;td>quay.io/prometheus/node-exporter:v1.9.1&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr></description></item><item><title>promtail</title><link>https://rbac-atlas.github.io/charts/promtail/6.17.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/promtail/6.17.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Promtail is an agent which ships the contents of local logs to a Loki instance&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/grafana/loki">https://github.com/grafana/loki&lt;/a>&lt;/li>
