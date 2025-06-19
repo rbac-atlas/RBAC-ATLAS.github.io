@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Storage on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/storage/</link><description>Recent content in Storage on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/storage/index.xml" rel="self" type="application/rss+xml"/><item><title>longhorn</title><link>https://rbac-atlas.github.io/charts/longhorn/1.9.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/longhorn/1.9.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Storage on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/storage/</link><description>Recent content in Storage on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/storage/index.xml" rel="self" type="application/rss+xml"/><item><title>longhorn</title><link>https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Longhorn is a distributed block storage system for Kubernetes.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/longhorn/longhorn">https://github.com/longhorn/longhorn&lt;/a>&lt;/li>
@@ -25,7 +25,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/1.9.0/#sa-longhorn-service-account">&lt;code>longhorn-service-account&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/#sa-longhorn-service-account">&lt;code>longhorn-service-account&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -35,7 +35,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/1.9.0/#sa-longhorn-support-bundle">&lt;code>longhorn-support-bundle&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/#sa-longhorn-support-bundle">&lt;code>longhorn-support-bundle&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -44,7 +44,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/1.9.0/#sa-longhorn-ui-service-account">&lt;code>longhorn-ui-service-account&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/#sa-longhorn-ui-service-account">&lt;code>longhorn-ui-service-account&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -59,7 +59,7 @@
 &lt;hr>
 &lt;h2 id="identities">Identities&lt;/h2>
 &lt;h3 id="sa-longhorn-service-account">🤖 &lt;code>longhorn-service-account&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>minio</title><link>https://rbac-atlas.github.io/charts/minio/17.0.4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio/17.0.4/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>minio</title><link>https://rbac-atlas.github.io/charts/bitnami/minio/17.0.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/bitnami/minio/17.0.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>MinIO(R) is an object storage server, compatible with Amazon S3 cloud storage service, mainly used for storing unstructured data (such as photos, videos, log files, etc.).&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/minio">https://github.com/bitnami/charts/tree/main/bitnami/minio&lt;/a>&lt;/li>
@@ -79,7 +79,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio/17.0.4/#sa-minio">&lt;code>minio&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/bitnami/minio/17.0.5/#sa-minio">&lt;code>minio&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>minio&lt;/td>
@@ -94,42 +94,7 @@
 &lt;hr>
 &lt;h2 id="identities">Identities&lt;/h2>
 &lt;h3 id="sa-minio">🤖 &lt;code>minio&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌  |  &lt;strong>Secrets:&lt;/strong> minio&lt;/p></description></item><item><title>minio</title><link>https://rbac-atlas.github.io/charts/minio/17.0.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio/17.0.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>MinIO(R) is an object storage server, compatible with Amazon S3 cloud storage service, mainly used for storing unstructured data (such as photos, videos, log files, etc.).&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/minio">https://github.com/bitnami/charts/tree/main/bitnami/minio&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio/17.0.5/#sa-minio">&lt;code>minio&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>minio&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-minio">🤖 &lt;code>minio&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌  |  &lt;strong>Secrets:&lt;/strong> minio&lt;/p></description></item><item><title>minio-operator</title><link>https://rbac-atlas.github.io/charts/minio-operator/4.3.7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio-operator/4.3.7/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌  |  &lt;strong>Secrets:&lt;/strong> minio&lt;/p></description></item><item><title>minio-operator</title><link>https://rbac-atlas.github.io/charts/minio-operator/minio-operator/4.3.7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio-operator/minio-operator/4.3.7/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for MinIO Operator&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/minio/operator">https://github.com/minio/operator&lt;/a>&lt;/li>
@@ -149,7 +114,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/4.3.7/#sa-console-sa">&lt;code>console-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/minio-operator/4.3.7/#sa-console-sa">&lt;code>console-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -159,7 +124,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/4.3.7/#sa-minio-operator">&lt;code>minio-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/minio-operator/4.3.7/#sa-minio-operator">&lt;code>minio-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -480,7 +445,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-20">⚠️ Potential Abuse (20)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>nextcloud</title><link>https://rbac-atlas.github.io/charts/nextcloud/6.6.10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/nextcloud/6.6.10/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>nextcloud</title><link>https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A file sharing server that puts the control and security of your own data back into your hands.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/nextcloud/helm">https://github.com/nextcloud/helm&lt;/a>&lt;/li>
@@ -501,7 +466,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/6.6.10/#sa-nextcloud-mariadb">&lt;code>nextcloud-mariadb&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/#sa-nextcloud-mariadb">&lt;code>nextcloud-mariadb&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -510,7 +475,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/6.6.10/#sa-nextcloud-postgresql">&lt;code>nextcloud-postgresql&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/#sa-nextcloud-postgresql">&lt;code>nextcloud-postgresql&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -519,7 +484,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/6.6.10/#sa-nextcloud-redis-master">&lt;code>nextcloud-redis-master&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/#sa-nextcloud-redis-master">&lt;code>nextcloud-redis-master&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -528,7 +493,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/6.6.10/#sa-nextcloud-redis-replica">&lt;code>nextcloud-redis-replica&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/#sa-nextcloud-redis-replica">&lt;code>nextcloud-redis-replica&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -539,7 +504,67 @@
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>openebs</title><link>https://rbac-atlas.github.io/charts/openebs/3.10.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/openebs/3.10.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>nexus-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp/nexus-operator/3.5.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/nexus-operator/3.5.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for KubeRocketCI Nexus Operator&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/epam/edp-nexus-operator">https://github.com/epam/edp-nexus-operator&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/nexus-operator/3.5.0/#sa-edp-nexus-operator">&lt;code>edp-nexus-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-edp-nexus-operator">🤖 &lt;code>edp-nexus-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-1">🔑 Permissions (1)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>edp-nexus-operator-default&lt;/code>&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-1">⚠️ Potential Abuse (1)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>openebs</title><link>https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Containerized Attached Storage for Kubernetes&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/openebs/openebs">https://github.com/openebs/openebs&lt;/a>&lt;/li>
@@ -559,7 +584,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs">&lt;code>openebs&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs">&lt;code>openebs&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -569,7 +594,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-cstor-csi-controller-sa">&lt;code>openebs-cstor-csi-controller-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-cstor-csi-controller-sa">&lt;code>openebs-cstor-csi-controller-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -579,7 +604,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-cstor-operator">&lt;code>openebs-cstor-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-cstor-operator">&lt;code>openebs-cstor-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -589,7 +614,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-grafana">&lt;code>openebs-grafana&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-grafana">&lt;code>openebs-grafana&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -599,7 +624,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-jaeger-operator">&lt;code>openebs-jaeger-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-jaeger-operator">&lt;code>openebs-jaeger-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -609,7 +634,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-jiva-csi-controller-sa">&lt;code>openebs-jiva-csi-controller-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-jiva-csi-controller-sa">&lt;code>openebs-jiva-csi-controller-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -619,7 +644,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-jiva-operator">&lt;code>openebs-jiva-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-jiva-operator">&lt;code>openebs-jiva-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -629,7 +654,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-localpv-provisioner">&lt;code>openebs-localpv-provisioner&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-localpv-provisioner">&lt;code>openebs-localpv-provisioner&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -639,7 +664,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-lvm-controller-sa">&lt;code>openebs-lvm-controller-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-lvm-controller-sa">&lt;code>openebs-lvm-controller-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -649,7 +674,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-ndm">&lt;code>openebs-ndm&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-ndm">&lt;code>openebs-ndm&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -659,7 +684,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-nfs-provisioner">&lt;code>openebs-nfs-provisioner&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-nfs-provisioner">&lt;code>openebs-nfs-provisioner&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -669,7 +694,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-zfs-controller-sa">&lt;code>openebs-zfs-controller-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-zfs-controller-sa">&lt;code>openebs-zfs-controller-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -679,7 +704,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-cstor-csi-node-sa">&lt;code>openebs-cstor-csi-node-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-cstor-csi-node-sa">&lt;code>openebs-cstor-csi-node-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -689,7 +714,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-jiva-csi-node-sa">&lt;code>openebs-jiva-csi-node-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-jiva-csi-node-sa">&lt;code>openebs-jiva-csi-node-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -699,7 +724,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-prometheus-server">&lt;code>openebs-prometheus-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-prometheus-server">&lt;code>openebs-prometheus-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -709,7 +734,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-kube-state-metrics">&lt;code>openebs-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-kube-state-metrics">&lt;code>openebs-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -719,7 +744,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-lvm-node-sa">&lt;code>openebs-lvm-node-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-lvm-node-sa">&lt;code>openebs-lvm-node-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -729,7 +754,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-service-account">&lt;code>openebs-service-account&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-service-account">&lt;code>openebs-service-account&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -739,7 +764,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-filebeat">&lt;code>openebs-filebeat&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-filebeat">&lt;code>openebs-filebeat&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -749,7 +774,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-fluent-bit-loki">&lt;code>openebs-fluent-bit-loki&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-fluent-bit-loki">&lt;code>openebs-fluent-bit-loki&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -759,7 +784,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-grafana-test">&lt;code>openebs-grafana-test&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-grafana-test">&lt;code>openebs-grafana-test&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -769,7 +794,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-promtail">&lt;code>openebs-promtail&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-promtail">&lt;code>openebs-promtail&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -779,7 +804,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-loki">&lt;code>openebs-loki&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-loki">&lt;code>openebs-loki&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -788,7 +813,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-nats">&lt;code>openebs-nats&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-nats">&lt;code>openebs-nats&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -797,7 +822,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-prometheus-alertmanager">&lt;code>openebs-prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-prometheus-alertmanager">&lt;code>openebs-prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -806,7 +831,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-prometheus-node-exporter">&lt;code>openebs-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-prometheus-node-exporter">&lt;code>openebs-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -815,7 +840,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-prometheus-pushgateway">&lt;code>openebs-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-prometheus-pushgateway">&lt;code>openebs-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -826,7 +851,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>operator</title><link>https://rbac-atlas.github.io/charts/operator/7.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/operator/7.1.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>operator</title><link>https://rbac-atlas.github.io/charts/minio-operator/operator/7.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio-operator/operator/7.1.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for MinIO Operator&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/minio/operator">https://github.com/minio/operator&lt;/a>&lt;/li>
@@ -846,7 +871,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/operator/7.1.1/#sa-minio-operator">&lt;code>minio-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/operator/7.1.1/#sa-minio-operator">&lt;code>minio-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1179,10 +1204,10 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-30">⚠️ Potential Abuse (30)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>tenant</title><link>https://rbac-atlas.github.io/charts/tenant/7.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/tenant/7.1.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for MinIO Operator&lt;/p>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>snapscheduler</title><link>https://rbac-atlas.github.io/charts/backube-helm-charts/snapscheduler/3.5.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/backube-helm-charts/snapscheduler/3.5.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>An operator to take scheduled snapshots of Kubernetes persistent volumes&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/minio/operator">https://github.com/minio/operator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/backube/snapscheduler">https://github.com/backube/snapscheduler&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
@@ -1198,12 +1223,497 @@
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/backube-helm-charts/snapscheduler/3.5.0/#sa-snapscheduler">&lt;code>snapscheduler&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
 &lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
 &lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2></description></item><item><title>zfs-localpv</title><link>https://rbac-atlas.github.io/charts/zfs-localpv/2.8.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/zfs-localpv/2.8.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-snapscheduler">🤖 &lt;code>snapscheduler&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-10">🔑 Permissions (10)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Role &lt;code>snapscheduler-leader-election&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>snapscheduler-leader-election&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>snapscheduler-proxy&lt;/code>&lt;/td>
+ &lt;td>authorization.k8s.io/subjectaccessreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>snapscheduler-proxy&lt;/code>&lt;/td>
+ &lt;td>authentication.k8s.io/tokenreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>snapscheduler-leader-election&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>snapscheduler&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumeclaims&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>snapscheduler&lt;/code>&lt;/td>
+ &lt;td>snapscheduler.backube/snapshotschedules&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>snapscheduler&lt;/code>&lt;/td>
+ &lt;td>snapscheduler.backube/snapshotschedules/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>snapscheduler&lt;/code>&lt;/td>
+ &lt;td>snapscheduler.backube/snapshotschedules/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>snapscheduler&lt;/code>&lt;/td>
+ &lt;td>snapshot.storage.k8s.io/volumesnapshots&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-6">⚠️ Potential Abuse (6)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>volsync</title><link>https://rbac-atlas.github.io/charts/backube-helm-charts/volsync/0.12.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/backube-helm-charts/volsync/0.12.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Asynchronous data replication for Kubernetes&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/backube/volsync">https://github.com/backube/volsync&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/backube-helm-charts/volsync/0.12.1/#sa-volsync">&lt;code>volsync&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-volsync">🤖 &lt;code>volsync&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-32">🔑 Permissions (32)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>apps/deployments&lt;/td>
+ &lt;td>create · delete · deletecollection · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>batch/jobs&lt;/td>
+ &lt;td>create · delete · deletecollection · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>volsync-leader-election&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ (+4 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>volsync-leader-election&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/pods/log&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidelogaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidelogaccess/">ClusterWideLogAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-logaccess">&lt;a href="https://rbac-atlas.github.io/tags/logaccess/">LogAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/rolebindings&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/rbacmanipulation/">RBACManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+ (+1 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/roles&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/rbacmanipulation/">RBACManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/serviceaccounts&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-identitymanagement">&lt;a href="https://rbac-atlas.github.io/tags/identitymanagement/">IdentityManagement&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-proxy&lt;/code>&lt;/td>
+ &lt;td>authorization.k8s.io/subjectaccessreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-proxy&lt;/code>&lt;/td>
+ &lt;td>authentication.k8s.io/tokenreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>volsync-leader-election&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>events.k8s.io/events&lt;/td>
+ &lt;td>create · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/namespaces&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterstructure">&lt;a href="https://rbac-atlas.github.io/tags/clusterstructure/">ClusterStructure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/nodes&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumeclaims&lt;/td>
+ &lt;td>create · delete · deletecollection · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumeclaims/finalizers&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumes&lt;/td>
+ &lt;td>get · list · patch · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>core/pods&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>volsync.backube/replicationdestinations&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>volsync.backube/replicationdestinations/finalizers&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>volsync.backube/replicationdestinations/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>volsync.backube/replicationsources&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>volsync.backube/replicationsources/finalizers&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>volsync.backube/replicationsources/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints&lt;/td>
+ &lt;td>create · get · list · patch · update · use · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>storage.k8s.io/storageclasses&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>populator.storage.k8s.io/volumepopulators&lt;/td>
+ &lt;td>create · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>snapshot.storage.k8s.io/volumesnapshots&lt;/td>
+ &lt;td>create · delete · deletecollection · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-25">⚠️ Potential Abuse (25)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>zfs-localpv</title><link>https://rbac-atlas.github.io/charts/openebs-zfs-localpv/zfs-localpv/2.8.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/openebs-zfs-localpv/zfs-localpv/2.8.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Helm chart for CSI Driver for dynamic provisioning of ZFS Persistent Local Volumes. For instructions on how to use this helm chart, see - &lt;a href="https://openebs.github.io/zfs-localpv/">https://openebs.github.io/zfs-localpv/&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/openebs/zfs-localpv">https://github.com/openebs/zfs-localpv&lt;/a>&lt;/li>
@@ -1223,7 +1733,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/zfs-localpv/2.8.0/#sa-openebs-zfs-controller-sa">&lt;code>openebs-zfs-controller-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs-zfs-localpv/zfs-localpv/2.8.0/#sa-openebs-zfs-controller-sa">&lt;code>openebs-zfs-controller-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1233,7 +1743,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/zfs-localpv/2.8.0/#sa-openebs-zfs-node-sa">&lt;code>openebs-zfs-node-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs-zfs-localpv/zfs-localpv/2.8.0/#sa-openebs-zfs-node-sa">&lt;code>openebs-zfs-node-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>

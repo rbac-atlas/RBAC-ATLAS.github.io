@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fluent-bit on RBAC ATLAS</title><link>https://rbac-atlas.github.io/charts/fluent/fluent-bit/</link><description>Recent content in fluent-bit on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/charts/fluent/fluent-bit/index.xml" rel="self" type="application/rss+xml"/><item><title>fluent-bit</title><link>https://rbac-atlas.github.io/charts/fluent/fluent-bit/0.49.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/fluent/fluent-bit/0.49.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Fast and lightweight log processor and forwarder or Linux, OSX and BSD family operating systems.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/fluent/fluent-bit/">https://github.com/fluent/fluent-bit/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/fluent/fluent-bit/0.49.1/#sa-fluent-bit">&lt;code>fluent-bit&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-fluent-bit">🤖 &lt;code>fluent-bit&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-2">🔑 Permissions (2)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>fluent-bit&lt;/code>&lt;/td>
+ &lt;td>core/namespaces&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterstructure">&lt;a href="https://rbac-atlas.github.io/tags/clusterstructure/">ClusterStructure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>fluent-bit&lt;/code>&lt;/td>
+ &lt;td>core/pods&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-2">⚠️ Potential Abuse (2)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item></channel></rss>

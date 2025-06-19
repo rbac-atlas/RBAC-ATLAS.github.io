@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Letter-T on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/letter-t/</link><description>Recent content in Letter-T on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/letter-t/index.xml" rel="self" type="application/rss+xml"/><item><title>tenant</title><link>https://rbac-atlas.github.io/charts/tenant/7.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/tenant/7.1.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for MinIO Operator&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Letter-T on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/letter-t/</link><description>Recent content in Letter-T on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/letter-t/index.xml" rel="self" type="application/rss+xml"/><item><title>tekton-custom-task</title><link>https://rbac-atlas.github.io/charts/epmdedp/tekton-custom-task/0.2.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/tekton-custom-task/0.2.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for Tekton Custom Tasks&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/minio/operator">https://github.com/minio/operator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/KubeRocketCI/tekton-custom-task">https://github.com/KubeRocketCI/tekton-custom-task&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
@@ -17,12 +17,349 @@
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/tekton-custom-task/0.2.0/#sa-edp-tekton-custom-task">&lt;code>edp-tekton-custom-task&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>8&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
 &lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
 &lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2></description></item><item><title>thanos</title><link>https://rbac-atlas.github.io/charts/thanos/17.0.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/thanos/17.0.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-edp-tekton-custom-task">🤖 &lt;code>edp-tekton-custom-task&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-8">🔑 Permissions (8)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Role &lt;code>edp-tekton-custom-task-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>edp-tekton-custom-task-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>edp-tekton-custom-task-default-role&lt;/code>&lt;/td>
+ &lt;td>edp.epam.com/approvaltasks&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>edp-tekton-custom-task-default-role&lt;/code>&lt;/td>
+ &lt;td>edp.epam.com/approvaltasks/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>edp-tekton-custom-task-default-role&lt;/code>&lt;/td>
+ &lt;td>edp.epam.com/approvaltasks/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>edp-tekton-custom-task-default-role&lt;/code>&lt;/td>
+ &lt;td>tekton.dev/customruns&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>edp-tekton-custom-task-default-role&lt;/code>&lt;/td>
+ &lt;td>tekton.dev/customruns/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>edp-tekton-custom-task-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-4">⚠️ Potential Abuse (4)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>terraform-cloud-operator</title><link>https://rbac-atlas.github.io/charts/hashicorp/terraform-cloud-operator/2.5.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/hashicorp/terraform-cloud-operator/2.5.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Official Helm chart for HCP Terraform Operator for Kubernetes.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hashicorp/terraform-cloud-operator/2.5.0/#sa-terraform-cloud-operator-controller-manager">&lt;code>terraform-cloud-operator-controller-manager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>21&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-terraform-cloud-operator-controller-manager">🤖 &lt;code>terraform-cloud-operator-controller-manager&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-21">🔑 Permissions (21)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>apps/deployments&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>terraform-cloud-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>terraform-cloud-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authorization.k8s.io/subjectaccessreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authentication.k8s.io/tokenreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/agentpools&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/agentpools/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/agentpools/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>terraform-cloud-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/modules&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/modules/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/modules/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/projects&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/projects/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/projects/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>create · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/workspaces&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/workspaces/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>terraform-cloud-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>app.terraform.io/workspaces/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-8">⚠️ Potential Abuse (8)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>thanos</title><link>https://rbac-atlas.github.io/charts/bitnami/thanos/17.0.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/bitnami/thanos/17.0.3/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Thanos is a highly available metrics system that can be added on top of existing Prometheus deployments, providing a global query view across all Prometheus installations.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/thanos">https://github.com/bitnami/charts/tree/main/bitnami/thanos&lt;/a>&lt;/li>
@@ -42,7 +379,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/thanos/17.0.2/#sa-thanos-minio">&lt;code>thanos-minio&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/bitnami/thanos/17.0.3/#sa-thanos-minio">&lt;code>thanos-minio&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>thanos-minio&lt;/td>
@@ -51,7 +388,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/thanos/17.0.2/#sa-thanos-query">&lt;code>thanos-query&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/bitnami/thanos/17.0.3/#sa-thanos-query">&lt;code>thanos-query&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -60,7 +397,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/thanos/17.0.2/#sa-thanos-query-frontend">&lt;code>thanos-query-frontend&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/bitnami/thanos/17.0.3/#sa-thanos-query-frontend">&lt;code>thanos-query-frontend&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -71,56 +408,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>thanos</title><link>https://rbac-atlas.github.io/charts/thanos/17.0.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/thanos/17.0.3/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Thanos is a highly available metrics system that can be added on top of existing Prometheus deployments, providing a global query view across all Prometheus installations.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/thanos">https://github.com/bitnami/charts/tree/main/bitnami/thanos&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/thanos/17.0.3/#sa-thanos-minio">&lt;code>thanos-minio&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>thanos-minio&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/thanos/17.0.3/#sa-thanos-query">&lt;code>thanos-query&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/thanos/17.0.3/#sa-thanos-query-frontend">&lt;code>thanos-query-frontend&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>tigera-operator</title><link>https://rbac-atlas.github.io/charts/tigera-operator/v3.30.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/tigera-operator/v3.30.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>tigera-operator</title><link>https://rbac-atlas.github.io/charts/projectcalico/tigera-operator/3.30.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/projectcalico/tigera-operator/3.30.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Installs the Tigera operator for Calico&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/projectcalico/calico/tree/master/charts/tigera-operator">https://github.com/projectcalico/calico/tree/master/charts/tigera-operator&lt;/a>&lt;/li>
@@ -142,7 +430,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/tigera-operator/v3.30.1/#sa-tigera-operator">&lt;code>tigera-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/projectcalico/tigera-operator/3.30.1/#sa-tigera-operator">&lt;code>tigera-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -744,11 +1032,12 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-22">⚠️ Potential Abuse (22)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>traefik</title><link>https://rbac-atlas.github.io/charts/traefik/35.4.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/traefik/35.4.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Traefik based Kubernetes ingress controller&lt;/p>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>tigera-operator</title><link>https://rbac-atlas.github.io/charts/stevehipwell/tigera-operator/2.12.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/stevehipwell/tigera-operator/2.12.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Helm chart to install the Tigera Operator for managing Calico.&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/traefik/traefik-helm-chart">https://github.com/traefik/traefik-helm-chart&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/traefik/traefik">https://github.com/traefik/traefik&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/tigera/operator">https://github.com/tigera/operator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/projectcalico/calico">https://github.com/projectcalico/calico&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/stevehipwell/helm-charts/">https://github.com/stevehipwell/helm-charts/&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
@@ -765,12 +1054,12 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/traefik/35.4.0/#sa-traefik">&lt;code>traefik&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/stevehipwell/tigera-operator/2.12.1/#sa-tigera-operator">&lt;code>tigera-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>21&lt;/td>
- &lt;td>1&lt;/td>
+ &lt;td>63&lt;/td>
+ &lt;td>2&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
  &lt;/tr>
@@ -780,9 +1069,9 @@
 &lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
 &lt;hr>
 &lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-traefik">🤖 &lt;code>traefik&lt;/code>&lt;/h3>
+&lt;h3 id="sa-tigera-operator">🤖 &lt;code>tigera-operator&lt;/code>&lt;/h3>
 &lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-21">🔑 Permissions (21)&lt;/h4>
+&lt;h4 id="-permissions-63">🔑 Permissions (63)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -795,729 +1084,111 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
- &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>discovery.k8s.io/endpointslices&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>extensions/ingressclasses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingressclasses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>extensions/ingresses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingresses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>extensions/ingresses/status&lt;/td>
- &lt;td>update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingresses/status&lt;/td>
- &lt;td>update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/ingressroutes&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/ingressroutetcps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/ingressrouteudps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/middlewares&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/middlewaretcps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/nodes&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/serverstransports&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/serverstransporttcps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/services&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/tlsoptions&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/tlsstores&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/traefikservices&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h4 id="-potential-abuse-5">⚠️ Potential Abuse (5)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>traefik</title><link>https://rbac-atlas.github.io/charts/traefik/36.0.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/traefik/36.0.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Traefik based Kubernetes ingress controller&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/traefik/traefik-helm-chart">https://github.com/traefik/traefik-helm-chart&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/traefik/traefik">https://github.com/traefik/traefik&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/traefik/36.0.0/#sa-traefik">&lt;code>traefik&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>21&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-traefik">🤖 &lt;code>traefik&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-21">🔑 Permissions (21)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Role&lt;/th>
- &lt;th>Resource&lt;/th>
- &lt;th>Verbs&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;th>Tags&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
- &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>discovery.k8s.io/endpointslices&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>extensions/ingressclasses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingressclasses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>extensions/ingresses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingresses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>extensions/ingresses/status&lt;/td>
- &lt;td>update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingresses/status&lt;/td>
- &lt;td>update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/ingressroutes&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/ingressroutetcps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/ingressrouteudps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/middlewares&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/middlewaretcps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/nodes&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/serverstransports&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/serverstransporttcps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/services&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/tlsoptions&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/tlsstores&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/traefikservices&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h4 id="-potential-abuse-5">⚠️ Potential Abuse (5)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>traefik</title><link>https://rbac-atlas.github.io/charts/traefik/36.1.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/traefik/36.1.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Traefik based Kubernetes ingress controller&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/traefik/traefik-helm-chart">https://github.com/traefik/traefik-helm-chart&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/traefik/traefik">https://github.com/traefik/traefik&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/traefik/36.1.0/#sa-traefik">&lt;code>traefik&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>21&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-traefik">🤖 &lt;code>traefik&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-21">🔑 Permissions (21)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Role&lt;/th>
- &lt;th>Resource&lt;/th>
- &lt;th>Verbs&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;th>Tags&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
- &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>discovery.k8s.io/endpointslices&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>extensions/ingressclasses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingressclasses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>extensions/ingresses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingresses&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>extensions/ingresses/status&lt;/td>
- &lt;td>update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingresses/status&lt;/td>
- &lt;td>update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/ingressroutes&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/ingressroutetcps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/ingressrouteudps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/middlewares&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/middlewaretcps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/nodes&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/serverstransports&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/serverstransporttcps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>core/services&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/tlsoptions&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/tlsstores&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
- &lt;td>traefik.io/traefikservices&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h4 id="-potential-abuse-5">⚠️ Potential Abuse (5)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>trivy-operator</title><link>https://rbac-atlas.github.io/charts/trivy-operator/0.28.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/trivy-operator/0.28.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Keeps security report resources updated&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/aquasecurity/trivy-operator">https://github.com/aquasecurity/trivy-operator&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/trivy-operator/0.28.1/#sa-trivy-operator">&lt;code>trivy-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>43&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-trivy-operator">🤖 &lt;code>trivy-operator&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-43">🔑 Permissions (43)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Role&lt;/th>
- &lt;th>Resource&lt;/th>
- &lt;th>Verbs&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;th>Tags&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/pods/log&lt;/td>
- &lt;td>get · list&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-clusterwidelogaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidelogaccess/">ClusterWideLogAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-logaccess">&lt;a href="https://rbac-atlas.github.io/tags/logaccess/">LogAccess&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterrolebindings&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
- &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
  &lt;td>rbac.authorization.k8s.io/clusterroles&lt;/td>
+ &lt;td>bind · create · delete · escalate · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
+ &lt;span class="tag-clusteradminaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusteradminaccess/">ClusterAdminAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/rbacmanipulation/">RBACManipulation&lt;/a>&lt;/span>
+ (+2 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>apps/daemonsets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-nodeaccess">&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/">NodeAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>apps/deployments&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/pods&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-lateralmovement">&lt;a href="https://rbac-atlas.github.io/tags/lateralmovement/">LateralMovement&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadexecution">&lt;a href="https://rbac-atlas.github.io/tags/workloadexecution/">WorkloadExecution&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
  &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>apps/statefulsets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/namespaces&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterstructure">&lt;a href="https://rbac-atlas.github.io/tags/clusterstructure/">ClusterStructure&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-namespacelifecycle">&lt;a href="https://rbac-atlas.github.io/tags/namespacelifecycle/">NamespaceLifecycle&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+ (+1 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterrolebindings&lt;/td>
+ &lt;td>bind · create · delete · escalate · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
@@ -1526,20 +1197,20 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Role &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>create · get · list · watch&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
- &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
  &lt;td>core/resourcequotas&lt;/td>
- &lt;td>get · list · watch&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
@@ -1549,9 +1220,9 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
  &lt;td>rbac.authorization.k8s.io/rolebindings&lt;/td>
- &lt;td>get · list · watch&lt;/td>
+ &lt;td>bind · create · delete · escalate · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
@@ -1560,9 +1231,9 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
  &lt;td>rbac.authorization.k8s.io/roles&lt;/td>
- &lt;td>get · list · watch&lt;/td>
+ &lt;td>bind · create · delete · escalate · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
@@ -1571,143 +1242,516 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/clustercompliancedetailreports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/apiservers&lt;/td>
+ &lt;td>delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/clustercompliancereports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/apiservers/finalizers&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/clustercompliancereports/status&lt;/td>
- &lt;td>get · patch · update&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/apiservers/status&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/clusterconfigauditreports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>apiregistration.k8s.io/apiservices&lt;/td>
+ &lt;td>create · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/clusterinfraassessmentreports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/clusterrbacassessmentreports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/clustersbomreports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/clustervulnerabilityreports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/configauditreports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>batch/cronjobs&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>crd.projectcalico.org/bgpconfigurations&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>certificates.k8s.io/certificatesigningrequests&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>crd.projectcalico.org/clusterinformations&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>storage.k8s.io/csidrivers&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
  &lt;td>apiextensions.k8s.io/customresourcedefinitions&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>apps/deployments/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/endpoints&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>gateway.envoyproxy.io/envoyproxies&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>crd.projectcalico.org/felixconfigurations&lt;/td>
+ &lt;td>create · get · list · patch · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/gatewayapis&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/gatewayapis/finalizers&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/gatewayapis/status&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/gatewayclasses&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/goldmanes&lt;/td>
+ &lt;td>delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/goldmanes/finalizers&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/goldmanes/status&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/imagesets&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/installations&lt;/td>
+ &lt;td>delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/installations/finalizers&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/installations/status&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>projectcalico.org/ipamconfigurations&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets&lt;/td>
- &lt;td>get · list · watch&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>crd.projectcalico.org/ippools&lt;/td>
+ &lt;td>create · get · list · patch · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>apps.openshift.io/deploymentconfigs&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>trivy-operator-leader-election&lt;/code>&lt;/td>
- &lt;td>core/events&lt;/td>
- &lt;td>create&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/exposedsecretreports&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>projectcalico.org/ippools&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/infraassessmentreports&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>batch/jobs&lt;/td>
+ &lt;td>create · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>crd.projectcalico.org/kubecontrollersconfigurations&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/managementclusterconnections&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/managementclusterconnections/finalizers&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/managementclusterconnections/status&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations&lt;/td>
+ &lt;td>delete&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>networking.k8s.io/networkpolicies&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/nodes&lt;/td>
+ &lt;td>get · list · patch · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>policy/poddisruptionbudgets&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/podtemplates&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>scheduling.k8s.io/priorityclasses&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/serviceaccounts&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>projectcalico.org/tier.globalnetworkpolicies&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>projectcalico.org/tier.networkpolicies&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>projectcalico.org/tiers&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/tigerastatuses&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/tigerastatuses/finalizers&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/tigerastatuses/status&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/whiskers&lt;/td>
+ &lt;td>delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/whiskers/finalizers&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
+ &lt;td>operator.tigera.io/whiskers/status&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-21">⚠️ Potential Abuse (21)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>traefik</title><link>https://rbac-atlas.github.io/charts/traefik/traefik/36.1.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/traefik/traefik/36.1.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Traefik based Kubernetes ingress controller&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/traefik/traefik-helm-chart">https://github.com/traefik/traefik-helm-chart&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/traefik/traefik">https://github.com/traefik/traefik&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/traefik/traefik/36.1.0/#sa-traefik">&lt;code>traefik&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>21&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-traefik">🤖 &lt;code>traefik&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-21">🔑 Permissions (21)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>discovery.k8s.io/endpointslices&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>extensions/ingressclasses&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>networking.k8s.io/ingressclasses&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>extensions/ingresses&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
  &lt;td>networking.k8s.io/ingresses&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -1715,42 +1759,63 @@
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>batch/jobs&lt;/td>
- &lt;td>create · delete · get · list · watch&lt;/td>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>extensions/ingresses/status&lt;/td>
+ &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Role &lt;code>trivy-operator-leader-election&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases&lt;/td>
- &lt;td>create · get · update&lt;/td>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>networking.k8s.io/ingresses/status&lt;/td>
+ &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/limitranges&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
- &lt;span class="tag-resourceconfiguration">&lt;a href="https://rbac-atlas.github.io/tags/resourceconfiguration/">ResourceConfiguration&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/networkpolicies&lt;/td>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/ingressroutes&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/ingressroutetcps&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/ingressrouteudps&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/middlewares&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/middlewaretcps&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
  &lt;td>core/nodes&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -1758,79 +1823,23 @@
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/nodes/proxy&lt;/td>
- &lt;td>get&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/pods&lt;/td>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/serverstransports&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/rbacassessmentreports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>apps/replicasets&lt;/td>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/serverstransporttcps&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/replicationcontrollers&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/sbomreports&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>create · get · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>create · delete · get&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>core/serviceaccounts&lt;/td>
- &lt;td>get&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
  &lt;td>core/services&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -1838,17 +1847,783 @@
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>apps/statefulsets&lt;/td>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/tlsoptions&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>trivy-operator&lt;/code>&lt;/td>
- &lt;td>aquasecurity.github.io/vulnerabilityreports&lt;/td>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/tlsstores&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>traefik-default&lt;/code>&lt;/td>
+ &lt;td>traefik.io/traefikservices&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-5">⚠️ Potential Abuse (5)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>trident-operator</title><link>https://rbac-atlas.github.io/charts/netapp-trident/trident-operator/100.2502.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/netapp-trident/trident-operator/100.2502.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for deploying NetApp&amp;rsquo;s Trident CSI storage provisioner using the Trident Operator.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netapp-trident/trident-operator/100.2502.1/#sa-trident-operator">&lt;code>trident-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>64&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-trident-operator">🤖 &lt;code>trident-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-64">🔑 Permissions (64)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterrolebindings&lt;/td>
+ &lt;td>create · delete · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
+ &lt;span class="tag-clusteradminaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusteradminaccess/">ClusterAdminAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/rbacmanipulation/">RBACManipulation&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterroles&lt;/td>
+ &lt;td>create · delete · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusteradminaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusteradminaccess/">ClusterAdminAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/rbacmanipulation/">RBACManipulation&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>storage.k8s.io/csidrivers&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-nodeaccess">&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/">NodeAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-storagemanipulation">&lt;a href="https://rbac-atlas.github.io/tags/storagemanipulation/">StorageManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-crdmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/crdmanipulation/">CRDManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>apps/daemonsets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-nodeaccess">&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/">NodeAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>apps/deployments&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/pods&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-lateralmovement">&lt;a href="https://rbac-atlas.github.io/tags/lateralmovement/">LateralMovement&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ (+1 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/pods/exec&lt;/td>
+ &lt;td>create · delete · get · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidepodexec">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidepodexec/">ClusterWidePodExec&lt;/a>&lt;/span>
+ &lt;span class="tag-codeexecution">&lt;a href="https://rbac-atlas.github.io/tags/codeexecution/">CodeExecution&lt;/a>&lt;/span>
+ &lt;span class="tag-elevationofprivilege">&lt;a href="https://rbac-atlas.github.io/tags/elevationofprivilege/">ElevationOfPrivilege&lt;/a>&lt;/span>
+ &lt;span class="tag-lateralmovement">&lt;a href="https://rbac-atlas.github.io/tags/lateralmovement/">LateralMovement&lt;/a>&lt;/span>
+ &lt;span class="tag-podexec">&lt;a href="https://rbac-atlas.github.io/tags/podexec/">PodExec&lt;/a>&lt;/span>
+ (+1 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>policy/podsecuritypolicies&lt;/td>
+ &lt;td>create · delete · list · patch · update · use&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-deprecatedfeature">&lt;a href="https://rbac-atlas.github.io/tags/deprecatedfeature/">DeprecatedFeature&lt;/a>&lt;/span>
+ &lt;span class="tag-nodeaccess">&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/">NodeAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-podsecuritypolicy">&lt;a href="https://rbac-atlas.github.io/tags/podsecuritypolicy/">PodSecurityPolicy&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ (+4 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>create · delete · get · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>apps/statefulsets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/pods/log&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidelogaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidelogaccess/">ClusterWideLogAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-logaccess">&lt;a href="https://rbac-atlas.github.io/tags/logaccess/">LogAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/rolebindings&lt;/td>
+ &lt;td>create · delete · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/rbacmanipulation/">RBACManipulation&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/roles&lt;/td>
+ &lt;td>create · delete · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/rbacmanipulation/">RBACManipulation&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/serviceaccounts&lt;/td>
+ &lt;td>create · delete · get · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-identitymanagement">&lt;a href="https://rbac-atlas.github.io/tags/identitymanagement/">IdentityManagement&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>storage.k8s.io/storageclasses&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-storagemanipulation">&lt;a href="https://rbac-atlas.github.io/tags/storagemanipulation/">StorageManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>storage.k8s.io/csinodes&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-nodeaccess">&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/">NodeAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+ &lt;span class="tag-storagedetailsdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/storagedetailsdisclosure/">StorageDetailsDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/resourcequotas&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-quotatampering">&lt;a href="https://rbac-atlas.github.io/tags/quotatampering/">QuotaTampering&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+ &lt;span class="tag-resourceconfiguration">&lt;a href="https://rbac-atlas.github.io/tags/resourceconfiguration/">ResourceConfiguration&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>authorization.openshift.io/clusterrolebindings&lt;/td>
+ &lt;td>create · delete · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>authorization.openshift.io/clusterroles&lt;/td>
+ &lt;td>create · delete · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>csi.storage.k8s.io/csidrivers&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>csi.storage.k8s.io/csinodeinfos&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/namespaces&lt;/td>
+ &lt;td>create · get · list · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/nodes&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumeclaims&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumeclaims/status&lt;/td>
+ &lt;td>patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumes&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>authorization.openshift.io/rolebindings&lt;/td>
+ &lt;td>create · delete · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>authorization.openshift.io/roles&lt;/td>
+ &lt;td>create · delete · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints&lt;/td>
+ &lt;td>create · delete · get · list · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentactionmirrorupdates&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentactionmirrorupdates/status&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentactionsnapshotrestores&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentactionsnapshotrestores/status&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentbackendconfigs&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentbackendconfigs/status&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentbackends&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentconfigurators&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentconfigurators/status&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentmirrorrelationships&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentmirrorrelationships/status&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentnodes&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentorchestrators&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentorchestrators/status&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentprovisioners&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentprovisioners/status&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentsnapshotinfos&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentsnapshotinfos/status&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentsnapshots&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentstorageclasses&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridenttransactions&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentversions&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentvolumepublications&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentvolumereferences&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>trident.netapp.io/tridentvolumes&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>storage.k8s.io/volumeattachments&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>storage.k8s.io/volumeattachments/status&lt;/td>
+ &lt;td>patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>snapshot.storage.k8s.io/volumesnapshotclasses&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>snapshot.storage.k8s.io/volumesnapshotcontents&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>snapshot.storage.k8s.io/volumesnapshotcontents/status&lt;/td>
+ &lt;td>patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>snapshot.storage.k8s.io/volumesnapshots&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
+ &lt;td>snapshot.storage.k8s.io/volumesnapshots/status&lt;/td>
+ &lt;td>patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-35">⚠️ Potential Abuse (35)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>trino-operator</title><link>https://rbac-atlas.github.io/charts/kubedoop/trino-operator/0.2.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/kubedoop/trino-operator/0.2.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The Kubedoop operator for Trino&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/kubedoop/trino-operator/0.2.0/#sa-trino-operator">&lt;code>trino-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>7&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-trino-operator">🤖 &lt;code>trino-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-7">🔑 Permissions (7)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trino-operator&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trino-operator&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trino-operator&lt;/code>&lt;/td>
+ &lt;td>apps/statefulsets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trino-operator&lt;/code>&lt;/td>
+ &lt;td>trino.kubedoop.dev/trinocatalogs&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trino-operator&lt;/code>&lt;/td>
+ &lt;td>trino.kubedoop.dev/trinoclusters&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trino-operator&lt;/code>&lt;/td>
+ &lt;td>trino.kubedoop.dev/trinoclusters/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>trino-operator&lt;/code>&lt;/td>
+ &lt;td>trino.kubedoop.dev/trinoclusters/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
@@ -1856,7 +2631,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-9">⚠️ Potential Abuse (9)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>trivy-operator</title><link>https://rbac-atlas.github.io/charts/trivy-operator/0.29.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/trivy-operator/0.29.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>trivy-operator</title><link>https://rbac-atlas.github.io/charts/aquasecurity/trivy-operator/0.29.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/aquasecurity/trivy-operator/0.29.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Keeps security report resources updated&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/aquasecurity/trivy-operator">https://github.com/aquasecurity/trivy-operator&lt;/a>&lt;/li>
@@ -1876,7 +2651,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/trivy-operator/0.29.0/#sa-trivy-operator">&lt;code>trivy-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/aquasecurity/trivy-operator/0.29.1/#sa-trivy-operator">&lt;code>trivy-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>

@@ -1,4 +1,846 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Letter-N on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/letter-n/</link><description>Recent content in Letter-N on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/letter-n/index.xml" rel="self" type="application/rss+xml"/><item><title>nextcloud</title><link>https://rbac-atlas.github.io/charts/nextcloud/6.6.10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/nextcloud/6.6.10/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Letter-N on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/letter-n/</link><description>Recent content in Letter-N on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/letter-n/index.xml" rel="self" type="application/rss+xml"/><item><title>natz-operator</title><link>https://rbac-atlas.github.io/charts/natz-operator/natz-operator/0.9.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/natz-operator/natz-operator/0.9.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A helm chart for the natz-operator that provides NATS accounting.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/zeiss/natz-operator/tree/main/helm/charts/natz-operator">https://github.com/zeiss/natz-operator/tree/main/helm/charts/natz-operator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/zeiss/natz-operator">https://github.com/zeiss/natz-operator&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/natz-operator/natz-operator/0.9.5/#sa-natz-operator-controller-manager">&lt;code>natz-operator-controller-manager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>25&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-natz-operator-controller-manager">🤖 &lt;code>natz-operator-controller-manager&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-25">🔑 Permissions (25)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ (+4 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>events.k8s.io/events&lt;/td>
+ &lt;td>create · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsaccounts&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsaccounts/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsaccounts/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsactivations&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsactivations/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsactivations/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsconfigs&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsconfigs/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsconfigs/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsgateways&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsgateways/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsgateways/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natskeys&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natskeys/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natskeys/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsoperators&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsoperators/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsoperators/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsusers&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsusers/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>natz-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>natz.zeiss.com/natsusers/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-9">⚠️ Potential Abuse (9)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>netbox-operator</title><link>https://rbac-atlas.github.io/charts/netbox/netbox-operator/1.0.33/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/netbox/netbox-operator/1.0.33/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Operator to manage NetBox resources directly through Kubernetes&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/netbox-community/netbox-operator">https://github.com/netbox-community/netbox-operator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/netbox-community/netbox-chart">https://github.com/netbox-community/netbox-chart&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netbox/netbox-operator/1.0.33/#sa-netbox-operator">&lt;code>netbox-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>22&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netbox/netbox-operator/1.0.33/#sa-netbox-operator-netbox-app">&lt;code>netbox-operator-netbox-app&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netbox/netbox-operator/1.0.33/#sa-netbox-operator-postgresql">&lt;code>netbox-operator-postgresql&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netbox/netbox-operator/1.0.33/#sa-netbox-operator-valkey-primary">&lt;code>netbox-operator-valkey-primary&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netbox/netbox-operator/1.0.33/#sa-netbox-operator-valkey-replica">&lt;code>netbox-operator-valkey-replica&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-netbox-operator">🤖 &lt;code>netbox-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p></description></item><item><title>netchecks</title><link>https://rbac-atlas.github.io/charts/netchecks/netchecks/0.1.19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/netchecks/netchecks/0.1.19/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Netchecks proactively verifies whether your security controls are working as intended.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/hardbyte/netchecks">https://github.com/hardbyte/netchecks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netchecks/netchecks/0.1.19/#sa-netcheck-operator">&lt;code>netcheck-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>18&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netchecks/netchecks/0.1.19/#sa-netchecks-kyverno-plugin">&lt;code>netchecks-kyverno-plugin&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>7&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netchecks/netchecks/0.1.19/#sa-netchecks-policy-reporter">&lt;code>netchecks-policy-reporter&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>5&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netchecks/netchecks/0.1.19/#sa-netchecks-ui">&lt;code>netchecks-ui&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-netcheck-operator">🤖 &lt;code>netcheck-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>netobserv-operator</title><link>https://rbac-atlas.github.io/charts/netobserv/netobserv-operator/1.8.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/netobserv/netobserv-operator/1.8.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Network Observability in Kubernetes based on eBPF.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/netobserv/network-observability-operator">https://github.com/netobserv/network-observability-operator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/netobserv/flowlogs-pipeline">https://github.com/netobserv/flowlogs-pipeline&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/netobserv/netobserv-ebpf-agent">https://github.com/netobserv/netobserv-ebpf-agent&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/netobserv/network-observability-console-plugin">https://github.com/netobserv/network-observability-console-plugin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/netobserv/network-observability-cli">https://github.com/netobserv/network-observability-cli&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/netobserv/netobserv-operator/1.8.2/#sa-netobserv-controller-manager">&lt;code>netobserv-controller-manager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>40&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-netobserv-controller-manager">🤖 &lt;code>netobserv-controller-manager&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-40">🔑 Permissions (40)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>apps/daemonsets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-nodeaccess">&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/">NodeAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>apps/deployments&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>netobserv-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>networking.k8s.io/networkpolicies&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-lateralmovement">&lt;a href="https://rbac-atlas.github.io/tags/lateralmovement/">LateralMovement&lt;/a>&lt;/span>
+ &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-networkpolicymanagement">&lt;a href="https://rbac-atlas.github.io/tags/networkpolicymanagement/">NetworkPolicyManagement&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ (+4 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>netobserv-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/namespaces&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterstructure">&lt;a href="https://rbac-atlas.github.io/tags/clusterstructure/">ClusterStructure&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-namespacelifecycle">&lt;a href="https://rbac-atlas.github.io/tags/namespacelifecycle/">NamespaceLifecycle&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+ (+1 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/serviceaccounts&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-identitymanagement">&lt;a href="https://rbac-atlas.github.io/tags/identitymanagement/">IdentityManagement&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterrolebindings&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterroles&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/rolebindings&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/roles&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>authorization.k8s.io/subjectaccessreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>authentication.k8s.io/tokenreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>apiregistration.k8s.io/apiservices&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>bpfman.io/bpfapplications&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>config.openshift.io/clusterversions&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>console.openshift.io/consoleplugins&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>operator.openshift.io/consoles&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions/status&lt;/td>
+ &lt;td>patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/endpoints&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>netobserv-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>flows.netobserv.io/flowcollectors&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>flows.netobserv.io/flowcollectors/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>flows.netobserv.io/flowcollectors/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>flows.netobserv.io/flowmetrics&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>flows.netobserv.io/flowmetrics/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>autoscaling/horizontalpodautoscalers&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>loki.grafana.com/network&lt;/td>
+ &lt;td>create · get&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>config.openshift.io/networks&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/nodes&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/pods&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>metrics.k8s.io/pods&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>monitoring.coreos.com/prometheusrules&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>apps/replicasets&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints&lt;/td>
+ &lt;td>create · list · update · use · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
+ &lt;td>monitoring.coreos.com/servicemonitors&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-25">⚠️ Potential Abuse (25)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>nextcloud</title><link>https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A file sharing server that puts the control and security of your own data back into your hands.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/nextcloud/helm">https://github.com/nextcloud/helm&lt;/a>&lt;/li>
@@ -19,7 +861,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/6.6.10/#sa-nextcloud-mariadb">&lt;code>nextcloud-mariadb&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/#sa-nextcloud-mariadb">&lt;code>nextcloud-mariadb&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -28,7 +870,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/6.6.10/#sa-nextcloud-postgresql">&lt;code>nextcloud-postgresql&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/#sa-nextcloud-postgresql">&lt;code>nextcloud-postgresql&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -37,7 +879,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/6.6.10/#sa-nextcloud-redis-master">&lt;code>nextcloud-redis-master&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/#sa-nextcloud-redis-master">&lt;code>nextcloud-redis-master&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -46,7 +888,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/6.6.10/#sa-nextcloud-redis-replica">&lt;code>nextcloud-redis-replica&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nextcloud/nextcloud/6.6.10/#sa-nextcloud-redis-replica">&lt;code>nextcloud-redis-replica&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -57,7 +899,634 @@
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>nvidia-device-plugin</title><link>https://rbac-atlas.github.io/charts/nvidia-device-plugin/0.17.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/nvidia-device-plugin/0.17.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>nexus-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp/nexus-operator/3.5.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/nexus-operator/3.5.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for KubeRocketCI Nexus Operator&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/epam/edp-nexus-operator">https://github.com/epam/edp-nexus-operator&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/nexus-operator/3.5.0/#sa-edp-nexus-operator">&lt;code>edp-nexus-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-edp-nexus-operator">🤖 &lt;code>edp-nexus-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-1">🔑 Permissions (1)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>edp-nexus-operator-default&lt;/code>&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-1">⚠️ Potential Abuse (1)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>ngrok-operator</title><link>https://rbac-atlas.github.io/charts/ngrok/ngrok-operator/0.18.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/ngrok/ngrok-operator/0.18.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The official ngrok Kubernetes Operator.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/ngrok/ngrok-operator">https://github.com/ngrok/ngrok-operator&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/ngrok/ngrok-operator/0.18.1/#sa-ngrok-operator">&lt;code>ngrok-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>60&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/ngrok/ngrok-operator/0.18.1/#sa-ngrok-operator-agent">&lt;code>ngrok-operator-agent&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-ngrok-operator">🤖 &lt;code>ngrok-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-60">🔑 Permissions (60)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Role &lt;code>ngrok-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>ngrok-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authorization.k8s.io/subjectaccessreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authentication.k8s.io/tokenreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/agentendpoints&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/agentendpoints/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/agentendpoints/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>bindings.k8s.ngrok.com/boundendpoints&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>bindings.k8s.ngrok.com/boundendpoints/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>bindings.k8s.ngrok.com/boundendpoints/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/cloudendpoints&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/cloudendpoints/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/cloudendpoints/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/domains&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/domains/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/domains/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>ngrok-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/gatewayclasses&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/gatewayclasses/finalizers&lt;/td>
+ &lt;td>patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/gatewayclasses/status&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/gateways&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/gateways/status&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/httproutes&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/httproutes/status&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/httpsedges&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/httpsedges/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/httpsedges/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>networking.k8s.io/ingressclasses&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>networking.k8s.io/ingresses&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>networking.k8s.io/ingresses/status&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/ippolicies&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/ippolicies/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/ippolicies/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/kubernetesoperators&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/kubernetesoperators/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/kubernetesoperators/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/namespaces&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterstructure">&lt;a href="https://rbac-atlas.github.io/tags/clusterstructure/">ClusterStructure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/ngrokmodulesets&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/ngroktrafficpolicies&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/ngroktrafficpolicies/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ngrok.k8s.ngrok.com/ngroktrafficpolicies/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/referencegrants&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>create · delete · get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/services/status&lt;/td>
+ &lt;td>get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/tcpedges&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/tcpedges/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/tcpedges/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/tcproutes&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/tcproutes/status&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/tlsedges&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/tlsedges/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/tlsedges/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/tlsroutes&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>gateway.networking.k8s.io/tlsroutes/status&lt;/td>
+ &lt;td>get · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/tunnels&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/tunnels/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ngrok-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ingress.k8s.ngrok.com/tunnels/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-10">⚠️ Potential Abuse (10)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>nvidia-device-plugin</title><link>https://rbac-atlas.github.io/charts/nvidia/nvidia-device-plugin/0.17.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/nvidia/nvidia-device-plugin/0.17.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for the nvidia-device-plugin on Kubernetes&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
@@ -74,7 +1543,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nvidia-device-plugin/0.17.1/#sa-nvidia-device-plugin-node-feature-discovery">&lt;code>nvidia-device-plugin-node-feature-discovery&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nvidia/nvidia-device-plugin/0.17.1/#sa-nvidia-device-plugin-node-feature-discovery">&lt;code>nvidia-device-plugin-node-feature-discovery&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -84,7 +1553,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nvidia-device-plugin/0.17.1/#sa-nvidia-device-plugin-node-feature-discovery-gc">&lt;code>nvidia-device-plugin-node-feature-discovery-gc&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nvidia/nvidia-device-plugin/0.17.1/#sa-nvidia-device-plugin-node-feature-discovery-gc">&lt;code>nvidia-device-plugin-node-feature-discovery-gc&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -94,7 +1563,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nvidia-device-plugin/0.17.1/#sa-nvidia-device-plugin-node-feature-discovery-worker">&lt;code>nvidia-device-plugin-node-feature-discovery-worker&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/nvidia/nvidia-device-plugin/0.17.1/#sa-nvidia-device-plugin-node-feature-discovery-worker">&lt;code>nvidia-device-plugin-node-feature-discovery-worker&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vault-secrets-operator on RBAC ATLAS</title><link>https://rbac-atlas.github.io/charts/hashicorp/vault-secrets-operator/</link><description>Recent content in vault-secrets-operator on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/charts/hashicorp/vault-secrets-operator/index.xml" rel="self" type="application/rss+xml"/><item><title>vault-secrets-operator</title><link>https://rbac-atlas.github.io/charts/hashicorp/vault-secrets-operator/0.10.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/hashicorp/vault-secrets-operator/0.10.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Official Vault Secrets Operator Chart&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/hashicorp/vault-secrets-operator">https://github.com/hashicorp/vault-secrets-operator&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hashicorp/vault-secrets-operator/0.10.0/#sa-vault-secrets-operator-controller-manager">&lt;code>vault-secrets-operator-controller-manager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>41&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hashicorp/vault-secrets-operator/0.10.0/#sa-vault-secrets-operator-upgrade-crds">&lt;code>vault-secrets-operator-upgrade-crds&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-vault-secrets-operator-controller-manager">🤖 &lt;code>vault-secrets-operator-controller-manager&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-41">🔑 Permissions (41)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Role &lt;code>vault-secrets-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>create · delete · deletecollection · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ (+4 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>vault-secrets-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authorization.k8s.io/subjectaccessreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authentication.k8s.io/tokenreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>apps/daemonsets&lt;/td>
+ &lt;td>get · list · patch · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>apps/deployments&lt;/td>
+ &lt;td>get · list · patch · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>vault-secrets-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/hcpauths&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/hcpauths/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/hcpauths/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/hcpvaultsecretsapps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/hcpvaultsecretsapps/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/hcpvaultsecretsapps/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>argoproj.io/rollouts&lt;/td>
+ &lt;td>get · list · patch · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/secrettransformations&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/secrettransformations/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/secrettransformations/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/serviceaccounts&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/serviceaccounts/token&lt;/td>
+ &lt;td>create · get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>apps/statefulsets&lt;/td>
+ &lt;td>get · list · patch · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultauthglobals&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultauthglobals/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultauthglobals/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultauths&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultauths/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultauths/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultconnections&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultconnections/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultconnections/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultdynamicsecrets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultdynamicsecrets/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultdynamicsecrets/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultpkisecrets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultpkisecrets/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultpkisecrets/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultstaticsecrets&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultstaticsecrets/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>vault-secrets-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>secrets.hashicorp.com/vaultstaticsecrets/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-11">⚠️ Potential Abuse (11)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jaeger on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/jaeger/</link><description>Recent content in Jaeger on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/jaeger/index.xml" rel="self" type="application/rss+xml"/><item><title>jaeger</title><link>https://rbac-atlas.github.io/charts/jaeger/3.4.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jaeger/3.4.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jaeger on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/jaeger/</link><description>Recent content in Jaeger on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/jaeger/index.xml" rel="self" type="application/rss+xml"/><item><title>jaeger</title><link>https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Jaeger Helm chart for Kubernetes&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://hub.docker.com/u/jaegertracing/">https://hub.docker.com/u/jaegertracing/&lt;/a>&lt;/li>
@@ -18,7 +18,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-agent">&lt;code>jaeger-agent&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-agent">&lt;code>jaeger-agent&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -27,7 +27,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-cassandra-schema">&lt;code>jaeger-cassandra-schema&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-cassandra-schema">&lt;code>jaeger-cassandra-schema&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -36,7 +36,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-collector">&lt;code>jaeger-collector&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-collector">&lt;code>jaeger-collector&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -45,7 +45,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-elasticsearch-coordinating">&lt;code>jaeger-elasticsearch-coordinating&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-coordinating">&lt;code>jaeger-elasticsearch-coordinating&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -54,7 +54,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-elasticsearch-data">&lt;code>jaeger-elasticsearch-data&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-data">&lt;code>jaeger-elasticsearch-data&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -63,7 +63,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-elasticsearch-ingest">&lt;code>jaeger-elasticsearch-ingest&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-ingest">&lt;code>jaeger-elasticsearch-ingest&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -72,7 +72,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-elasticsearch-master">&lt;code>jaeger-elasticsearch-master&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-master">&lt;code>jaeger-elasticsearch-master&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -81,7 +81,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-kafka">&lt;code>jaeger-kafka&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-kafka">&lt;code>jaeger-kafka&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -90,7 +90,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-kibana">&lt;code>jaeger-kibana&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-kibana">&lt;code>jaeger-kibana&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -99,7 +99,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/3.4.1/#sa-jaeger-query">&lt;code>jaeger-query&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-query">&lt;code>jaeger-query&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>

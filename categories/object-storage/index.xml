@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Object-Storage on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/object-storage/</link><description>Recent content in Object-Storage on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/object-storage/index.xml" rel="self" type="application/rss+xml"/><item><title>minio</title><link>https://rbac-atlas.github.io/charts/minio/17.0.4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio/17.0.4/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Object-Storage on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/object-storage/</link><description>Recent content in Object-Storage on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/object-storage/index.xml" rel="self" type="application/rss+xml"/><item><title>minio</title><link>https://rbac-atlas.github.io/charts/bitnami/minio/17.0.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/bitnami/minio/17.0.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>MinIO(R) is an object storage server, compatible with Amazon S3 cloud storage service, mainly used for storing unstructured data (such as photos, videos, log files, etc.).&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/minio">https://github.com/bitnami/charts/tree/main/bitnami/minio&lt;/a>&lt;/li>
@@ -18,7 +18,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio/17.0.4/#sa-minio">&lt;code>minio&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/bitnami/minio/17.0.5/#sa-minio">&lt;code>minio&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>minio&lt;/td>
@@ -33,42 +33,7 @@
 &lt;hr>
 &lt;h2 id="identities">Identities&lt;/h2>
 &lt;h3 id="sa-minio">🤖 &lt;code>minio&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌  |  &lt;strong>Secrets:&lt;/strong> minio&lt;/p></description></item><item><title>minio</title><link>https://rbac-atlas.github.io/charts/minio/17.0.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio/17.0.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>MinIO(R) is an object storage server, compatible with Amazon S3 cloud storage service, mainly used for storing unstructured data (such as photos, videos, log files, etc.).&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/minio">https://github.com/bitnami/charts/tree/main/bitnami/minio&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio/17.0.5/#sa-minio">&lt;code>minio&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>minio&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-minio">🤖 &lt;code>minio&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌  |  &lt;strong>Secrets:&lt;/strong> minio&lt;/p></description></item><item><title>minio-operator</title><link>https://rbac-atlas.github.io/charts/minio-operator/4.3.7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio-operator/4.3.7/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌  |  &lt;strong>Secrets:&lt;/strong> minio&lt;/p></description></item><item><title>minio-operator</title><link>https://rbac-atlas.github.io/charts/minio-operator/minio-operator/4.3.7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio-operator/minio-operator/4.3.7/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for MinIO Operator&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/minio/operator">https://github.com/minio/operator&lt;/a>&lt;/li>
@@ -88,7 +53,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/4.3.7/#sa-console-sa">&lt;code>console-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/minio-operator/4.3.7/#sa-console-sa">&lt;code>console-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -98,7 +63,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/4.3.7/#sa-minio-operator">&lt;code>minio-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/minio-operator/4.3.7/#sa-minio-operator">&lt;code>minio-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -419,7 +384,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-20">⚠️ Potential Abuse (20)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>operator</title><link>https://rbac-atlas.github.io/charts/operator/7.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/operator/7.1.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>operator</title><link>https://rbac-atlas.github.io/charts/minio-operator/operator/7.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/minio-operator/operator/7.1.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for MinIO Operator&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/minio/operator">https://github.com/minio/operator&lt;/a>&lt;/li>
@@ -439,7 +404,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/operator/7.1.1/#sa-minio-operator">&lt;code>minio-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/minio-operator/operator/7.1.1/#sa-minio-operator">&lt;code>minio-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -772,28 +737,4 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-30">⚠️ Potential Abuse (30)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>tenant</title><link>https://rbac-atlas.github.io/charts/tenant/7.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/tenant/7.1.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for MinIO Operator&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/minio/operator">https://github.com/minio/operator&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2></description></item></channel></rss>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item></channel></rss>

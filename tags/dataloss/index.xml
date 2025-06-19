@@ -1,4 +1,160 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DataLoss on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/dataloss/</link><description>Recent content in DataLoss on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/dataloss/index.xml" rel="self" type="application/rss+xml"/><item><title>argo-cd</title><link>https://rbac-atlas.github.io/charts/argo-cd/8.0.11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/argo-cd/8.0.11/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DataLoss on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/dataloss/</link><description>Recent content in DataLoss on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/dataloss/index.xml" rel="self" type="application/rss+xml"/><item><title>ais-operator</title><link>https://rbac-atlas.github.io/charts/aistore/ais-operator/2.4.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/aistore/ais-operator/2.4.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for Kubernetes&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>(orphaned-bindings)&lt;/code>&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>11&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="orphaned-bindings">⚠️ &lt;code>(orphaned-bindings)&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Warning:&lt;/strong> The following RBAC bindings exist but are not associated with any active service accounts in the cluster.&lt;/p>
+&lt;h4 id="-permissions-11">🔑 Permissions (11)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ais-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-apiserverdos">&lt;a href="https://rbac-atlas.github.io/tags/apiserverdos/">APIServerDoS&lt;/a>&lt;/span>
+ &lt;span class="tag-apiservicemanipulation">&lt;a href="https://rbac-atlas.github.io/tags/apiservicemanipulation/">APIServiceManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-availabilityimpact">&lt;a href="https://rbac-atlas.github.io/tags/availabilityimpact/">AvailabilityImpact&lt;/a>&lt;/span>
+ &lt;span class="tag-backupaccess">&lt;a href="https://rbac-atlas.github.io/tags/backupaccess/">BackupAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
+ (+67 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>ais-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>ais-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ais-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authorization.k8s.io/subjectaccessreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ais-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authentication.k8s.io/tokenreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ais-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ais.nvidia.com/aistores&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ais-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ais.nvidia.com/aistores/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>ais-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>ais.nvidia.com/aistores/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>ais-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>ais-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>ais-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-106">⚠️ Potential Abuse (106)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>argo-cd</title><link>https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for Argo CD, a declarative, GitOps continuous delivery tool for Kubernetes.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd">https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd&lt;/a>&lt;/li>
@@ -19,7 +175,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.11/#sa-argocd-application-controller">&lt;code>argocd-application-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argocd-application-controller">&lt;code>argocd-application-controller&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -29,7 +185,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.11/#sa-argocd-applicationset-controller">&lt;code>argocd-applicationset-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argocd-applicationset-controller">&lt;code>argocd-applicationset-controller&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -39,7 +195,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.11/#sa-argocd-dex-server">&lt;code>argocd-dex-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argocd-dex-server">&lt;code>argocd-dex-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -49,7 +205,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.11/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -59,7 +215,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.11/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -69,7 +225,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.11/#sa-argo-cd-argocd-redis-secret-init">&lt;code>argo-cd-argocd-redis-secret-init&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argo-cd-argocd-redis-secret-init">&lt;code>argo-cd-argocd-redis-secret-init&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -78,7 +234,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.11/#sa-argo-cd-argocd-repo-server">&lt;code>argo-cd-argocd-repo-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argo-cd-argocd-repo-server">&lt;code>argo-cd-argocd-repo-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -87,7 +243,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.11/#sa-argo-cd-redis-ha">&lt;code>argo-cd-redis-ha&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argo-cd-redis-ha">&lt;code>argo-cd-redis-ha&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>argocd-redis&lt;/td>
@@ -96,7 +252,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.11/#sa-argo-cd-redis-ha-haproxy">&lt;code>argo-cd-redis-ha-haproxy&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argo-cd-redis-ha-haproxy">&lt;code>argo-cd-redis-ha-haproxy&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -107,12 +263,8 @@
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>argo-cd</title><link>https://rbac-atlas.github.io/charts/argo-cd/8.0.13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/argo-cd/8.0.13/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for Argo CD, a declarative, GitOps continuous delivery tool for Kubernetes.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd">https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-cd">https://github.com/argoproj/argo-cd&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>k8sgpt-operator</title><link>https://rbac-atlas.github.io/charts/k8sgpt/k8sgpt-operator/0.2.21/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/k8sgpt/k8sgpt-operator/0.2.21/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Automatic SRE Superpowers within your Kubernetes cluster&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
@@ -128,86 +280,19 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.13/#sa-argocd-application-controller">&lt;code>argocd-application-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/k8sgpt/k8sgpt-operator/0.2.21/#sa-k8sgpt-operator-controller-manager">&lt;code>k8sgpt-operator-controller-manager&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.13/#sa-argocd-applicationset-controller">&lt;code>argocd-applicationset-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
+ &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
  &lt;td>11&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.13/#sa-argocd-dex-server">&lt;code>argocd-dex-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
  &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.13/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/k8sgpt/k8sgpt-operator/0.2.21/#sa-k8sgpt-operator-interplex">&lt;code>k8sgpt-operator-interplex&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.13/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>14&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.13/#sa-argo-cd-argocd-redis-secret-init">&lt;code>argo-cd-argocd-redis-secret-init&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.13/#sa-argo-cd-argocd-repo-server">&lt;code>argo-cd-argocd-repo-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.13/#sa-argo-cd-redis-ha">&lt;code>argo-cd-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>argocd-redis&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.13/#sa-argo-cd-redis-ha-haproxy">&lt;code>argo-cd-redis-ha-haproxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
  &lt;td>0&lt;/td>
  &lt;td>1&lt;/td>
@@ -216,552 +301,139 @@
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>argo-cd</title><link>https://rbac-atlas.github.io/charts/argo-cd/8.0.14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/argo-cd/8.0.14/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for Argo CD, a declarative, GitOps continuous delivery tool for Kubernetes.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd">https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-cd">https://github.com/argoproj/argo-cd&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-k8sgpt-operator-controller-manager">🤖 &lt;code>k8sgpt-operator-controller-manager&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-11">🔑 Permissions (11)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
  &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.14/#sa-argocd-application-controller">&lt;code>argocd-application-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
+ &lt;td>ClusterRole &lt;code>k8sgpt-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-apiserverdos">&lt;a href="https://rbac-atlas.github.io/tags/apiserverdos/">APIServerDoS&lt;/a>&lt;/span>
+ &lt;span class="tag-apiservicemanipulation">&lt;a href="https://rbac-atlas.github.io/tags/apiservicemanipulation/">APIServiceManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-availabilityimpact">&lt;a href="https://rbac-atlas.github.io/tags/availabilityimpact/">AvailabilityImpact&lt;/a>&lt;/span>
+ &lt;span class="tag-backupaccess">&lt;a href="https://rbac-atlas.github.io/tags/backupaccess/">BackupAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
+ (+63 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>k8sgpt-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>apiextensions.k8s.io/*&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-crdmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/crdmanipulation/">CRDManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;span class="tag-wildcardpermission">&lt;a href="https://rbac-atlas.github.io/tags/wildcardpermission/">WildcardPermission&lt;/a>&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.14/#sa-argocd-applicationset-controller">&lt;code>argocd-applicationset-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>1&lt;/td>
+ &lt;td>Role &lt;code>k8sgpt-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.14/#sa-argocd-dex-server">&lt;code>argocd-dex-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+ &lt;td>Role &lt;code>k8sgpt-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.14/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+ &lt;td>ClusterRole &lt;code>k8sgpt-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authorization.k8s.io/subjectaccessreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.14/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>14&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+ &lt;td>ClusterRole &lt;code>k8sgpt-operator-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authentication.k8s.io/tokenreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.14/#sa-argo-cd-argocd-redis-secret-init">&lt;code>argo-cd-argocd-redis-secret-init&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
+ &lt;td>Role &lt;code>k8sgpt-operator-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.14/#sa-argo-cd-argocd-repo-server">&lt;code>argo-cd-argocd-repo-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
+ &lt;td>ClusterRole &lt;code>k8sgpt-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core.k8sgpt.ai/k8sgpts&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.14/#sa-argo-cd-redis-ha">&lt;code>argo-cd-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>argocd-redis&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
+ &lt;td>ClusterRole &lt;code>k8sgpt-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core.k8sgpt.ai/k8sgpts/finalizers&lt;/td>
+ &lt;td>update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.14/#sa-argo-cd-redis-ha-haproxy">&lt;code>argo-cd-redis-ha-haproxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
+ &lt;td>ClusterRole &lt;code>k8sgpt-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core.k8sgpt.ai/k8sgpts/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>k8sgpt-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core.k8sgpt.ai/results&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>argo-cd</title><link>https://rbac-atlas.github.io/charts/argo-cd/8.0.15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/argo-cd/8.0.15/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for Argo CD, a declarative, GitOps continuous delivery tool for Kubernetes.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd">https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-cd">https://github.com/argoproj/argo-cd&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.15/#sa-argocd-application-controller">&lt;code>argocd-application-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.15/#sa-argocd-applicationset-controller">&lt;code>argocd-applicationset-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.15/#sa-argocd-dex-server">&lt;code>argocd-dex-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.15/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.15/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>14&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.15/#sa-argo-cd-argocd-redis-secret-init">&lt;code>argo-cd-argocd-redis-secret-init&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.15/#sa-argo-cd-argocd-repo-server">&lt;code>argo-cd-argocd-repo-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.15/#sa-argo-cd-redis-ha">&lt;code>argo-cd-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>argocd-redis&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.15/#sa-argo-cd-redis-ha-haproxy">&lt;code>argo-cd-redis-ha-haproxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>argo-cd</title><link>https://rbac-atlas.github.io/charts/argo-cd/8.0.16/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/argo-cd/8.0.16/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for Argo CD, a declarative, GitOps continuous delivery tool for Kubernetes.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd">https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-cd">https://github.com/argoproj/argo-cd&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.16/#sa-argocd-application-controller">&lt;code>argocd-application-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.16/#sa-argocd-applicationset-controller">&lt;code>argocd-applicationset-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.16/#sa-argocd-dex-server">&lt;code>argocd-dex-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.16/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.16/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>14&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.16/#sa-argo-cd-argocd-redis-secret-init">&lt;code>argo-cd-argocd-redis-secret-init&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.16/#sa-argo-cd-argocd-repo-server">&lt;code>argo-cd-argocd-repo-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.16/#sa-argo-cd-redis-ha">&lt;code>argo-cd-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>argocd-redis&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.16/#sa-argo-cd-redis-ha-haproxy">&lt;code>argo-cd-redis-ha-haproxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>argo-cd</title><link>https://rbac-atlas.github.io/charts/argo-cd/8.0.17/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/argo-cd/8.0.17/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for Argo CD, a declarative, GitOps continuous delivery tool for Kubernetes.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd">https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-cd">https://github.com/argoproj/argo-cd&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.17/#sa-argocd-application-controller">&lt;code>argocd-application-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.17/#sa-argocd-applicationset-controller">&lt;code>argocd-applicationset-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.17/#sa-argocd-dex-server">&lt;code>argocd-dex-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.17/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.17/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>14&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.17/#sa-argo-cd-argocd-redis-secret-init">&lt;code>argo-cd-argocd-redis-secret-init&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.17/#sa-argo-cd-argocd-repo-server">&lt;code>argo-cd-argocd-repo-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.17/#sa-argo-cd-redis-ha">&lt;code>argo-cd-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>argocd-redis&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.0.17/#sa-argo-cd-redis-ha-haproxy">&lt;code>argo-cd-redis-ha-haproxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>argo-cd</title><link>https://rbac-atlas.github.io/charts/argo-cd/8.1.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/argo-cd/8.1.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for Argo CD, a declarative, GitOps continuous delivery tool for Kubernetes.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd">https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/argoproj/argo-cd">https://github.com/argoproj/argo-cd&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.1.0/#sa-argocd-application-controller">&lt;code>argocd-application-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.1.0/#sa-argocd-applicationset-controller">&lt;code>argocd-applicationset-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.1.0/#sa-argocd-dex-server">&lt;code>argocd-dex-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.1.0/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.1.0/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>14&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.1.0/#sa-argo-cd-argocd-redis-secret-init">&lt;code>argo-cd-argocd-redis-secret-init&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.1.0/#sa-argo-cd-argocd-repo-server">&lt;code>argo-cd-argocd-repo-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.1.0/#sa-argo-cd-redis-ha">&lt;code>argo-cd-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>argocd-redis&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo-cd/8.1.0/#sa-argo-cd-redis-ha-haproxy">&lt;code>argo-cd-redis-ha-haproxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>keda</title><link>https://rbac-atlas.github.io/charts/keda/2.17.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/keda/2.17.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;h4 id="-potential-abuse-97">⚠️ Potential Abuse (97)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>keda</title><link>https://rbac-atlas.github.io/charts/kedacore/keda/2.17.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/kedacore/keda/2.17.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Event-based autoscaler for workloads on Kubernetes&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/kedacore/keda">https://github.com/kedacore/keda&lt;/a>&lt;/li>
@@ -781,7 +453,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/keda/2.17.1/#sa-keda-operator">&lt;code>keda-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/kedacore/keda/2.17.2/#sa-keda-operator">&lt;code>keda-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -791,7 +463,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/keda/2.17.1/#sa-keda-webhook">&lt;code>keda-webhook&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/kedacore/keda/2.17.2/#sa-keda-webhook">&lt;code>keda-webhook&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -801,7 +473,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/keda/2.17.1/#sa-keda-metrics-server">&lt;code>keda-metrics-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/kedacore/keda/2.17.2/#sa-keda-metrics-server">&lt;code>keda-metrics-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -855,7 +527,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>keda-operator&lt;/code>&lt;/td>
- &lt;td>&lt;em>/&lt;/em>&lt;/td>
+ &lt;td>*&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
 &lt;/td>
@@ -1169,7 +841,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-13">⚠️ Potential Abuse (13)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>longhorn</title><link>https://rbac-atlas.github.io/charts/longhorn/1.9.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/longhorn/1.9.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>longhorn</title><link>https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Longhorn is a distributed block storage system for Kubernetes.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/longhorn/longhorn">https://github.com/longhorn/longhorn&lt;/a>&lt;/li>
@@ -1196,7 +868,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/1.9.0/#sa-longhorn-service-account">&lt;code>longhorn-service-account&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/#sa-longhorn-service-account">&lt;code>longhorn-service-account&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1206,7 +878,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/1.9.0/#sa-longhorn-support-bundle">&lt;code>longhorn-support-bundle&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/#sa-longhorn-support-bundle">&lt;code>longhorn-support-bundle&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1215,7 +887,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/1.9.0/#sa-longhorn-ui-service-account">&lt;code>longhorn-ui-service-account&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/longhorn/longhorn/1.9.0/#sa-longhorn-ui-service-account">&lt;code>longhorn-ui-service-account&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1230,7 +902,135 @@
 &lt;hr>
 &lt;h2 id="identities">Identities&lt;/h2>
 &lt;h3 id="sa-longhorn-service-account">🤖 &lt;code>longhorn-service-account&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>openebs</title><link>https://rbac-atlas.github.io/charts/openebs/3.10.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/openebs/3.10.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>meshery-operator</title><link>https://rbac-atlas.github.io/charts/meshery/meshery-operator/0.8.105/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/meshery/meshery-operator/0.8.105/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Meshery Operator chart.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/meshery/meshery-operator/0.8.105/#sa-meshery-operator">&lt;code>meshery-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>8&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-meshery-operator">🤖 &lt;code>meshery-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-8">🔑 Permissions (8)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Role&lt;/th>
+ &lt;th>Resource&lt;/th>
+ &lt;th>Verbs&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;th>Tags&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>meshery-controller-role&lt;/code>&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-apiserverdos">&lt;a href="https://rbac-atlas.github.io/tags/apiserverdos/">APIServerDoS&lt;/a>&lt;/span>
+ &lt;span class="tag-apiservicemanipulation">&lt;a href="https://rbac-atlas.github.io/tags/apiservicemanipulation/">APIServiceManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-availabilityimpact">&lt;a href="https://rbac-atlas.github.io/tags/availabilityimpact/">AvailabilityImpact&lt;/a>&lt;/span>
+ &lt;span class="tag-backupaccess">&lt;a href="https://rbac-atlas.github.io/tags/backupaccess/">BackupAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
+ (+63 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>meshery-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>meshery-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authorization.k8s.io/subjectaccessreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>meshery-proxy-role&lt;/code>&lt;/td>
+ &lt;td>authentication.k8s.io/tokenreviews&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-rbacquery">&lt;a href="https://rbac-atlas.github.io/tags/rbacquery/">RBACQuery&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>meshery-operator-role&lt;/code>&lt;/td>
+ &lt;td>meshery.io/brokers&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>meshery-operator-role&lt;/code>&lt;/td>
+ &lt;td>meshery.io/brokers/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>meshery-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps/status&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>meshery-leader-election-role&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h4 id="-potential-abuse-97">⚠️ Potential Abuse (97)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>openebs</title><link>https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Containerized Attached Storage for Kubernetes&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/openebs/openebs">https://github.com/openebs/openebs&lt;/a>&lt;/li>
@@ -1250,7 +1050,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs">&lt;code>openebs&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs">&lt;code>openebs&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1260,7 +1060,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-cstor-csi-controller-sa">&lt;code>openebs-cstor-csi-controller-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-cstor-csi-controller-sa">&lt;code>openebs-cstor-csi-controller-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1270,7 +1070,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-cstor-operator">&lt;code>openebs-cstor-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-cstor-operator">&lt;code>openebs-cstor-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1280,7 +1080,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-grafana">&lt;code>openebs-grafana&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-grafana">&lt;code>openebs-grafana&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1290,7 +1090,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-jaeger-operator">&lt;code>openebs-jaeger-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-jaeger-operator">&lt;code>openebs-jaeger-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1300,7 +1100,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-jiva-csi-controller-sa">&lt;code>openebs-jiva-csi-controller-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-jiva-csi-controller-sa">&lt;code>openebs-jiva-csi-controller-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1310,7 +1110,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-jiva-operator">&lt;code>openebs-jiva-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-jiva-operator">&lt;code>openebs-jiva-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1320,7 +1120,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-localpv-provisioner">&lt;code>openebs-localpv-provisioner&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-localpv-provisioner">&lt;code>openebs-localpv-provisioner&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1330,7 +1130,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-lvm-controller-sa">&lt;code>openebs-lvm-controller-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-lvm-controller-sa">&lt;code>openebs-lvm-controller-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1340,7 +1140,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-ndm">&lt;code>openebs-ndm&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-ndm">&lt;code>openebs-ndm&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1350,7 +1150,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-nfs-provisioner">&lt;code>openebs-nfs-provisioner&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-nfs-provisioner">&lt;code>openebs-nfs-provisioner&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1360,7 +1160,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-zfs-controller-sa">&lt;code>openebs-zfs-controller-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-zfs-controller-sa">&lt;code>openebs-zfs-controller-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1370,7 +1170,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-cstor-csi-node-sa">&lt;code>openebs-cstor-csi-node-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-cstor-csi-node-sa">&lt;code>openebs-cstor-csi-node-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1380,7 +1180,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-jiva-csi-node-sa">&lt;code>openebs-jiva-csi-node-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-jiva-csi-node-sa">&lt;code>openebs-jiva-csi-node-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1390,7 +1190,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-prometheus-server">&lt;code>openebs-prometheus-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-prometheus-server">&lt;code>openebs-prometheus-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1400,7 +1200,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-kube-state-metrics">&lt;code>openebs-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-kube-state-metrics">&lt;code>openebs-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1410,7 +1210,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-lvm-node-sa">&lt;code>openebs-lvm-node-sa&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-lvm-node-sa">&lt;code>openebs-lvm-node-sa&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1420,7 +1220,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-service-account">&lt;code>openebs-service-account&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-service-account">&lt;code>openebs-service-account&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1430,7 +1230,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-filebeat">&lt;code>openebs-filebeat&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-filebeat">&lt;code>openebs-filebeat&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1440,7 +1240,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-fluent-bit-loki">&lt;code>openebs-fluent-bit-loki&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-fluent-bit-loki">&lt;code>openebs-fluent-bit-loki&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1450,7 +1250,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-grafana-test">&lt;code>openebs-grafana-test&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-grafana-test">&lt;code>openebs-grafana-test&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1460,7 +1260,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-promtail">&lt;code>openebs-promtail&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-promtail">&lt;code>openebs-promtail&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1470,7 +1270,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-loki">&lt;code>openebs-loki&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-loki">&lt;code>openebs-loki&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -1479,7 +1279,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-nats">&lt;code>openebs-nats&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-nats">&lt;code>openebs-nats&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1488,7 +1288,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-prometheus-alertmanager">&lt;code>openebs-prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-prometheus-alertmanager">&lt;code>openebs-prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1497,7 +1297,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-prometheus-node-exporter">&lt;code>openebs-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-prometheus-node-exporter">&lt;code>openebs-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1506,7 +1306,7 @@
  &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/3.10.0/#sa-openebs-prometheus-pushgateway">&lt;code>openebs-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-prometheus-pushgateway">&lt;code>openebs-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -1517,10 +1317,10 @@
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>velero</title><link>https://rbac-atlas.github.io/charts/velero/10.0.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/velero/10.0.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for velero&lt;/p>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>operator-shard-manager</title><link>https://rbac-atlas.github.io/charts/appscode/operator-shard-manager/2025.3.14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/appscode/operator-shard-manager/2025.3.14/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for OpenShift&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/vmware-tanzu/velero">https://github.com/vmware-tanzu/velero&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/appscode-cloud">https://github.com/appscode-cloud&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
@@ -1537,23 +1337,13 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.2/#sa-velero-server">&lt;code>velero-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/appscode/operator-shard-manager/2025.3.14/#sa-operator-shard-manager">&lt;code>operator-shard-manager&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
+ &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>1&lt;/td>
+ &lt;td>4&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.2/#sa-velero-server-upgrade-crds">&lt;code>velero-server-upgrade-crds&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;/tbody>
@@ -1562,9 +1352,9 @@
 &lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
 &lt;hr>
 &lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-velero-server">🤖 &lt;code>velero-server&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-1">🔑 Permissions (1)&lt;/h4>
+&lt;h3 id="sa-operator-shard-manager">🤖 &lt;code>operator-shard-manager&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-4">🔑 Permissions (4)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -1577,25 +1367,58 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>Role &lt;code>velero-server&lt;/code>&lt;/td>
- &lt;td>&lt;em>/&lt;/em>&lt;/td>
+ &lt;td>ClusterRole &lt;code>operator-shard-manager&lt;/code>&lt;/td>
  &lt;td>*&lt;/td>
+ &lt;td>create · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
  &lt;td>&lt;span class="tag-availabilityimpact">&lt;a href="https://rbac-atlas.github.io/tags/availabilityimpact/">AvailabilityImpact&lt;/a>&lt;/span>
- &lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
- &lt;span class="tag-codeexecution">&lt;a href="https://rbac-atlas.github.io/tags/codeexecution/">CodeExecution&lt;/a>&lt;/span>
- &lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
- (+40 more)&lt;/td>
+ &lt;span class="tag-csrapproval">&lt;a href="https://rbac-atlas.github.io/tags/csrapproval/">CSRApproval&lt;/a>&lt;/span>
+ &lt;span class="tag-csrcreation">&lt;a href="https://rbac-atlas.github.io/tags/csrcreation/">CSRCreation&lt;/a>&lt;/span>
+ &lt;span class="tag-certificatemanagement">&lt;a href="https://rbac-atlas.github.io/tags/certificatemanagement/">CertificateManagement&lt;/a>&lt;/span>
+ &lt;span class="tag-clusteradminaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusteradminaccess/">ClusterAdminAccess&lt;/a>&lt;/span>
+ (+47 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>operator-shard-manager:leader-election&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
+ &lt;span class="tag-criticalnamespace">&lt;a href="https://rbac-atlas.github.io/tags/criticalnamespace/">CriticalNamespace&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>operator-shard-manager:leader-election&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>operator-shard-manager:leader-election&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>create · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-39">⚠️ Potential Abuse (39)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>velero</title><link>https://rbac-atlas.github.io/charts/velero/10.0.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/velero/10.0.3/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for velero&lt;/p>
+&lt;h4 id="-potential-abuse-52">⚠️ Potential Abuse (52)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>spark-kubernetes-operator</title><link>https://rbac-atlas.github.io/charts/spark-kubernetes-operator/spark-kubernetes-operator/1.1.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/spark-kubernetes-operator/spark-kubernetes-operator/1.1.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The official Helm chart to deploy Apache Spark, an unified engine for large-scale data analytics&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/vmware-tanzu/velero">https://github.com/vmware-tanzu/velero&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/apache/spark-kubernetes-operator/">https://github.com/apache/spark-kubernetes-operator/&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
@@ -1612,24 +1435,23 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.3/#sa-velero-server">&lt;code>velero-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/spark-kubernetes-operator/spark-kubernetes-operator/1.1.0/#sa-spark-operator">&lt;code>spark-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
+ &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>1&lt;/td>
+ &lt;td>9&lt;/td>
+ &lt;td>2&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.3/#sa-velero-server-upgrade-crds">&lt;code>velero-server-upgrade-crds&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/spark-kubernetes-operator/spark-kubernetes-operator/1.1.0/#sa-spark">&lt;code>spark&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
+ &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
  &lt;td>1&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
+ &lt;td>—&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -1637,9 +1459,9 @@
 &lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
 &lt;hr>
 &lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-velero-server">🤖 &lt;code>velero-server&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-1">🔑 Permissions (1)&lt;/h4>
+&lt;h3 id="sa-spark-operator">🤖 &lt;code>spark-operator&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-9">🔑 Permissions (9)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -1652,97 +1474,117 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>Role &lt;code>velero-server&lt;/code>&lt;/td>
- &lt;td>&lt;em>/&lt;/em>&lt;/td>
+ &lt;td>ClusterRole &lt;code>spark-operator-clusterrole&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
  &lt;td>*&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
- &lt;td>&lt;span class="tag-availabilityimpact">&lt;a href="https://rbac-atlas.github.io/tags/availabilityimpact/">AvailabilityImpact&lt;/a>&lt;/span>
- &lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
- &lt;span class="tag-codeexecution">&lt;a href="https://rbac-atlas.github.io/tags/codeexecution/">CodeExecution&lt;/a>&lt;/span>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
  &lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
- (+40 more)&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h4 id="-potential-abuse-39">⚠️ Potential Abuse (39)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>velero</title><link>https://rbac-atlas.github.io/charts/velero/10.0.4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/velero/10.0.4/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for velero&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/vmware-tanzu/velero">https://github.com/vmware-tanzu/velero&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.4/#sa-velero-server">&lt;code>velero-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ (+2 more)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.4/#sa-velero-server-upgrade-crds">&lt;code>velero-server-upgrade-crds&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-velero-server">🤖 &lt;code>velero-server&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-1">🔑 Permissions (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Role&lt;/th>
- &lt;th>Resource&lt;/th>
- &lt;th>Verbs&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;th>Tags&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Role &lt;code>velero-server&lt;/code>&lt;/td>
- &lt;td>&lt;em>/&lt;/em>&lt;/td>
+ &lt;td>ClusterRole &lt;code>spark-operator-clusterrole&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumes&lt;/td>
  &lt;td>*&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
- &lt;td>&lt;span class="tag-availabilityimpact">&lt;a href="https://rbac-atlas.github.io/tags/availabilityimpact/">AvailabilityImpact&lt;/a>&lt;/span>
- &lt;span class="tag-bindingtoprivilegedrole">&lt;a href="https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/">BindingToPrivilegedRole&lt;/a>&lt;/span>
- &lt;span class="tag-codeexecution">&lt;a href="https://rbac-atlas.github.io/tags/codeexecution/">CodeExecution&lt;/a>&lt;/span>
- &lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-controlplanedisruption">&lt;a href="https://rbac-atlas.github.io/tags/controlplanedisruption/">ControlPlaneDisruption&lt;/a>&lt;/span>
- (+40 more)&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-dataloss">&lt;a href="https://rbac-atlas.github.io/tags/dataloss/">DataLoss&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-storagemanipulation">&lt;a href="https://rbac-atlas.github.io/tags/storagemanipulation/">StorageManipulation&lt;/a>&lt;/span>
+ (+2 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>spark-operator-clusterrole&lt;/code>&lt;/td>
+ &lt;td>core/pods&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-lateralmovement">&lt;a href="https://rbac-atlas.github.io/tags/lateralmovement/">LateralMovement&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ (+3 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>spark-operator-clusterrole&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
+ &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
+ &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ (+1 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>spark-operator-clusterrole&lt;/code>&lt;/td>
+ &lt;td>apps/statefulsets&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
+ &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
+ &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ (+2 more)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>spark-operator-clusterrole&lt;/code>&lt;/td>
+ &lt;td>spark.apache.org/*&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-wildcardpermission">&lt;a href="https://rbac-atlas.github.io/tags/wildcardpermission/">WildcardPermission&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>spark-operator-clusterrole&lt;/code>&lt;/td>
+ &lt;td>autoscaling/horizontalpodautoscalers&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-wildcardpermission">&lt;a href="https://rbac-atlas.github.io/tags/wildcardpermission/">WildcardPermission&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>spark-operator-clusterrole&lt;/code>&lt;/td>
+ &lt;td>core/persistentvolumeclaims&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-wildcardpermission">&lt;a href="https://rbac-atlas.github.io/tags/wildcardpermission/">WildcardPermission&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>spark-operator-clusterrole&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+ &lt;span class="tag-wildcardpermission">&lt;a href="https://rbac-atlas.github.io/tags/wildcardpermission/">WildcardPermission&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-39">⚠️ Potential Abuse (39)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>velero</title><link>https://rbac-atlas.github.io/charts/velero/10.0.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/velero/10.0.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;h4 id="-potential-abuse-15">⚠️ Potential Abuse (15)&lt;/h4>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>velero</title><link>https://rbac-atlas.github.io/charts/vmware-tanzu/velero/10.0.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/vmware-tanzu/velero/10.0.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for velero&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/vmware-tanzu/velero">https://github.com/vmware-tanzu/velero&lt;/a>&lt;/li>
@@ -1762,7 +1604,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.5/#sa-velero-server">&lt;code>velero-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/vmware-tanzu/velero/10.0.5/#sa-velero-server">&lt;code>velero-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -1772,7 +1614,7 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/velero/10.0.5/#sa-velero-server-upgrade-crds">&lt;code>velero-server-upgrade-crds&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/vmware-tanzu/velero/10.0.5/#sa-velero-server-upgrade-crds">&lt;code>velero-server-upgrade-crds&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
@@ -1803,7 +1645,7 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>Role &lt;code>velero-server&lt;/code>&lt;/td>
- &lt;td>&lt;em>/&lt;/em>&lt;/td>
+ &lt;td>*&lt;/td>
  &lt;td>*&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
