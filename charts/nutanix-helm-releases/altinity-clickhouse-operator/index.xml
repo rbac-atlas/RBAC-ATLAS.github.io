@@ -224,11 +224,12 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>altinity-clickhouse-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments&lt;/td>
+ &lt;td>apps/deployments (restricted to: altinity-clickhouse-operator)&lt;/td>
  &lt;td>delete · get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>altinity-clickhouse-operator&lt;/code>&lt;/td>

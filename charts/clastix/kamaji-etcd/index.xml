@@ -22,7 +22,7 @@
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
+ &lt;td>4&lt;/td>
  &lt;td>3&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35,7 +35,7 @@
 &lt;h2 id="identities">Identities&lt;/h2>
 &lt;h3 id="sa-kamaji-etcd">🤖 &lt;code>kamaji-etcd&lt;/code>&lt;/h3>
 &lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-2">🔑 Permissions (2)&lt;/h4>
+&lt;h4 id="-permissions-4">🔑 Permissions (4)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -49,19 +49,38 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
+ &lt;td>core/secrets (restricted to: kamaji-etcd-certs)&lt;/td>
+ &lt;td>delete · get · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
+ &lt;td>core/secrets (restricted to: kamaji-etcd-root-client-certs)&lt;/td>
+ &lt;td>delete · get · patch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
  &lt;td>core/secrets&lt;/td>
- &lt;td>create · delete · get · patch&lt;/td>
+ &lt;td>create&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
- &lt;td>apps/statefulsets&lt;/td>
+ &lt;td>apps/statefulsets (restricted to: kamaji-etcd)&lt;/td>
  &lt;td>get · list · patch · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

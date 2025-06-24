@@ -57,11 +57,12 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kured&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets&lt;/td>
+ &lt;td>apps/daemonsets (restricted to: kured)&lt;/td>
  &lt;td>patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>kured&lt;/code>&lt;/td>
@@ -73,11 +74,12 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kured&lt;/code>&lt;/td>
- &lt;td>extensions/daemonsets&lt;/td>
+ &lt;td>extensions/daemonsets (restricted to: kured)&lt;/td>
  &lt;td>patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>kured&lt;/code>&lt;/td>

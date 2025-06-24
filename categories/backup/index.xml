@@ -22,7 +22,7 @@
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
+ &lt;td>33&lt;/td>
  &lt;td>2&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
@@ -35,7 +35,7 @@
 &lt;h2 id="identities">Identities&lt;/h2>
 &lt;h3 id="sa-volsync">🤖 &lt;code>volsync&lt;/code>&lt;/h3>
 &lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-32">🔑 Permissions (32)&lt;/h4>
+&lt;h4 id="-permissions-33">🔑 Permissions (33)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -329,10 +329,19 @@
  &lt;tr>
  &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
  &lt;td>security.openshift.io/securitycontextconstraints&lt;/td>
- &lt;td>create · get · list · patch · update · use · watch&lt;/td>
+ &lt;td>create · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints (restricted to: volsync-privileged-mover)&lt;/td>
+ &lt;td>use&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>

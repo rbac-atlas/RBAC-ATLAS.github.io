@@ -22,7 +22,7 @@
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>38&lt;/td>
+ &lt;td>39&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
@@ -54,7 +54,7 @@
 &lt;h2 id="identities">Identities&lt;/h2>
 &lt;h3 id="sa-keda-operator">🤖 &lt;code>keda-operator&lt;/code>&lt;/h3>
 &lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-38">🔑 Permissions (38)&lt;/h4>
+&lt;h4 id="-permissions-39">🔑 Permissions (39)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -357,8 +357,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>keda-operator-certs&lt;/code>&lt;/td>
+ &lt;td>core/secrets (restricted to: kedaorg-certs)&lt;/td>
+ &lt;td>get&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>keda-operator-certs&lt;/code>&lt;/td>
  &lt;td>core/secrets&lt;/td>
- &lt;td>create · get · update&lt;/td>
+ &lt;td>create · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>

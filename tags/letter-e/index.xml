@@ -207,7 +207,7 @@
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>46&lt;/td>
+ &lt;td>47&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
@@ -220,7 +220,7 @@
 &lt;h2 id="identities">Identities&lt;/h2>
 &lt;h3 id="sa-elastic-operator">🤖 &lt;code>elastic-operator&lt;/code>&lt;/h3>
 &lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-46">🔑 Permissions (46)&lt;/h4>
+&lt;h4 id="-permissions-47">🔑 Permissions (47)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -570,10 +570,19 @@
  &lt;tr>
  &lt;td>ClusterRole &lt;code>elastic-operator&lt;/code>&lt;/td>
  &lt;td>coordination.k8s.io/leases&lt;/td>
- &lt;td>create · get · update · watch&lt;/td>
+ &lt;td>create&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>elastic-operator&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases (restricted to: elastic-operator-leader)&lt;/td>
+ &lt;td>get · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>elastic-operator&lt;/code>&lt;/td>
@@ -964,11 +973,12 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/consoles&lt;/td>
+ &lt;td>config.openshift.io/consoles (restricted to: cluster)&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
@@ -1114,11 +1124,12 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/proxies&lt;/td>
+ &lt;td>config.openshift.io/proxies (restricted to: cluster)&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
@@ -1501,11 +1512,12 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/consoles&lt;/td>
+ &lt;td>config.openshift.io/consoles (restricted to: cluster)&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
@@ -1651,11 +1663,12 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/proxies&lt;/td>
+ &lt;td>config.openshift.io/proxies (restricted to: cluster)&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
@@ -1833,16 +1846,6 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/edp-install/3.11.3/#sa-tekton-interceptor">&lt;code>tekton-interceptor&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/edp-install/3.11.3/#sa-edp-gerrit-operator">&lt;code>edp-gerrit-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -1850,6 +1853,16 @@
  &lt;td>28&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/edp-install/3.11.3/#sa-tekton-interceptor">&lt;code>tekton-interceptor&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>12&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -1916,7 +1929,7 @@
  &lt;td>cert-manager&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>52&lt;/td>
+ &lt;td>53&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
@@ -1926,17 +1939,7 @@
  &lt;td>cert-manager&lt;/td>
  &lt;td>✅&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/eg-universal-agent-operator/eg-universal-agent-operator/0.0.4/#sa-eg-universal-agent-operator-cert-manager-webhook">&lt;code>eg-universal-agent-operator-cert-manager-webhook&lt;/code>&lt;/a>&lt;/td>
- &lt;td>cert-manager&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
+ &lt;td>10&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
@@ -1949,6 +1952,16 @@
  &lt;td>45&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/eg-universal-agent-operator/eg-universal-agent-operator/0.0.4/#sa-eg-universal-agent-operator-cert-manager-webhook">&lt;code>eg-universal-agent-operator-cert-manager-webhook&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>cert-manager&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2567,7 +2580,7 @@
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>41&lt;/td>
+ &lt;td>42&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
@@ -2577,7 +2590,7 @@
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>6&lt;/td>
+ &lt;td>8&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
@@ -2608,7 +2621,7 @@
 &lt;h2 id="identities">Identities&lt;/h2>
 &lt;h3 id="sa-external-secrets">🤖 &lt;code>external-secrets&lt;/code>&lt;/h3>
 &lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-41">🔑 Permissions (41)&lt;/h4>
+&lt;h4 id="-permissions-42">🔑 Permissions (42)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -2734,8 +2747,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>external-secrets-leaderelection&lt;/code>&lt;/td>
+ &lt;td>core/configmaps (restricted to: external-secrets-controller)&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>external-secrets-leaderelection&lt;/code>&lt;/td>
  &lt;td>core/configmaps&lt;/td>
- &lt;td>create · get · patch · update&lt;/td>
+ &lt;td>create&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>

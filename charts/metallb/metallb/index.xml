@@ -18,16 +18,6 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/metallb/metallb/0.15.2/#sa-metallb-controller">&lt;code>metallb-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>7&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/metallb/metallb/0.15.2/#sa-metallb-speaker">&lt;code>metallb-speaker&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -38,11 +28,21 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/metallb/metallb/0.15.2/#sa-metallb-controller">&lt;code>metallb-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>14&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/metallb/metallb/0.15.2/#sa-metallb-frr-k8s-controller">&lt;code>metallb-frr-k8s-controller&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
- &lt;td>9&lt;/td>
+ &lt;td>10&lt;/td>
  &lt;td>8&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
@@ -53,9 +53,9 @@
 &lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
 &lt;hr>
 &lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-metallb-controller">🤖 &lt;code>metallb-controller&lt;/code>&lt;/h3>
+&lt;h3 id="sa-metallb-speaker">🤖 &lt;code>metallb-speaker&lt;/code>&lt;/h3>
 &lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-7">🔑 Permissions (7)&lt;/h4>
+&lt;h4 id="-permissions-8">🔑 Permissions (8)&lt;/h4>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -68,31 +68,43 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>metallb:controller&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+ &lt;td>ClusterRole &lt;code>metallb:speaker&lt;/code>&lt;/td>
+ &lt;td>metallb.io/servicel2statuses&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
 &lt;/td>
- &lt;td>&lt;span class="tag-crdmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/crdmanipulation/">CRDManipulation&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-wildcardpermission">&lt;a href="https://rbac-atlas.github.io/tags/wildcardpermission/">WildcardPermission&lt;/a>&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>metallb:controller&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+ &lt;td>ClusterRole &lt;code>metallb:speaker&lt;/code>&lt;/td>
+ &lt;td>metallb.io/servicel2statuses/status&lt;/td>
+ &lt;td>*&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
 &lt;/td>
- &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-webhookmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/webhookmanipulation/">WebhookManipulation&lt;/a>&lt;/span>
- (+1 more)&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwideaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwideaccess/">ClusterWideAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-wildcardpermission">&lt;a href="https://rbac-atlas.github.io/tags/wildcardpermission/">WildcardPermission&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>metallb:controller&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>metallb:speaker&lt;/code>&lt;/td>
+ &lt;td>core/endpoints&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>metallb:speaker&lt;/code>&lt;/td>
+ &lt;td>discovery.k8s.io/endpointslices&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>metallb:speaker&lt;/code>&lt;/td>
  &lt;td>core/events&lt;/td>
  &lt;td>create · patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -100,7 +112,7 @@
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>metallb:controller&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>metallb:speaker&lt;/code>&lt;/td>
  &lt;td>core/namespaces&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -111,30 +123,22 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>metallb:controller&lt;/code>&lt;/td>
+ &lt;td>ClusterRole &lt;code>metallb:speaker&lt;/code>&lt;/td>
  &lt;td>core/nodes&lt;/td>
- &lt;td>list&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>metallb:controller&lt;/code>&lt;/td>
- &lt;td>core/services&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>metallb:controller&lt;/code>&lt;/td>
- &lt;td>core/services/status&lt;/td>
- &lt;td>update&lt;/td>
+ &lt;td>ClusterRole &lt;code>metallb:speaker&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-5">⚠️ Potential Abuse (5)&lt;/h4>
+&lt;h4 id="-potential-abuse-3">⚠️ Potential Abuse (3)&lt;/h4>
 &lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item></channel></rss>
