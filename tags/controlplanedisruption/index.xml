@@ -1921,7 +1921,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: datadogtoken)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: datadogtoken)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1930,7 +1930,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: datadog-leader-election)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: datadog-leader-election)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1947,7 +1947,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: datadog-cluster-id)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: datadog-cluster-id)&lt;/strong>&lt;/td>
  &lt;td>create · get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2132,7 +2132,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases (restricted to: datadog-leader-election)&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: datadog-leader-election)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2168,7 +2168,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations (restricted to: datadog-webhook)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations &lt;strong>(restricted to: datadog-webhook)&lt;/strong>&lt;/td>
  &lt;td>delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2199,7 +2199,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>core/namespaces (restricted to: kube-system)&lt;/td>
+ &lt;td>core/namespaces &lt;strong>(restricted to: kube-system)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2371,7 +2371,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: datadog-cluster-agent)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: datadog-cluster-agent)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2380,7 +2380,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: hostnetwork)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: hostnetwork)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2445,7 +2445,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations (restricted to: datadog-webhook)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations &lt;strong>(restricted to: datadog-webhook)&lt;/strong>&lt;/td>
  &lt;td>delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2648,7 +2648,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: datadog-cluster-id)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: datadog-cluster-id)&lt;/strong>&lt;/td>
  &lt;td>create · get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2657,7 +2657,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: datadogtoken)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: datadogtoken)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2666,7 +2666,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: datadog-leader-election)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: datadog-leader-election)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2851,7 +2851,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases (restricted to: datadog-leader-election)&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: datadog-leader-election)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2887,7 +2887,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations (restricted to: datadog-webhook)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations &lt;strong>(restricted to: datadog-webhook)&lt;/strong>&lt;/td>
  &lt;td>delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2918,7 +2918,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>core/namespaces (restricted to: kube-system)&lt;/td>
+ &lt;td>core/namespaces &lt;strong>(restricted to: kube-system)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3090,7 +3090,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: datadog-cluster-agent)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: datadog-cluster-agent)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3099,7 +3099,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: hostnetwork)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: hostnetwork)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3164,7 +3164,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-cluster-agent&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations (restricted to: datadog-webhook)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations &lt;strong>(restricted to: datadog-webhook)&lt;/strong>&lt;/td>
  &lt;td>delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3895,7 +3895,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: restricted)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: restricted)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -5302,7 +5302,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations (restricted to: gatekeeper-mutating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-mutating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -5338,7 +5338,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations (restricted to: gatekeeper-validating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-validating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -8957,7 +8957,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>keda-operator-certs&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: kedaorg-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: kedaorg-certs)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -9616,7 +9616,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>certificate-operator-role&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: keptn-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: keptn-certs)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -10356,7 +10356,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kong-kong&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: kong-ingress-controller-leader-kong-kong)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: kong-ingress-controller-leader-kong-kong)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -13075,7 +13075,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
- &lt;td>loki.grafana.com/network (restricted to: logs)&lt;/td>
+ &lt;td>loki.grafana.com/network &lt;strong>(restricted to: logs)&lt;/strong>&lt;/td>
  &lt;td>create · get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -13140,7 +13140,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: hostnetwork)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: hostnetwork)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -16567,7 +16567,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>raven-operator-manager-role&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ravencollectors.raven.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ravencollectors.raven.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -16576,7 +16576,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>raven-operator-manager-role&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ravensensors.raven.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ravensensors.raven.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -18663,7 +18663,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: volsync-privileged-mover)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: volsync-privileged-mover)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

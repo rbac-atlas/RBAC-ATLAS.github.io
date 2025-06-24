@@ -1230,7 +1230,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/legacy-unknown)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/legacy-unknown)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1239,7 +1239,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/kube-apiserver-client)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/kube-apiserver-client)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1248,7 +1248,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/kubelet-serving)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/kubelet-serving)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1257,7 +1257,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: beta.eks.amazonaws.com/app-serving)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: beta.eks.amazonaws.com/app-serving)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1751,7 +1751,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: volsync-privileged-mover)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: volsync-privileged-mover)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

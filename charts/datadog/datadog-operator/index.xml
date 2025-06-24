@@ -692,7 +692,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: restricted)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: restricted)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

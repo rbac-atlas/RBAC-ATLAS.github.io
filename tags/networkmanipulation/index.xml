@@ -534,7 +534,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>altinity-clickhouse-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments (restricted to: altinity-clickhouse-operator)&lt;/td>
+ &lt;td>apps/deployments &lt;strong>(restricted to: altinity-clickhouse-operator)&lt;/strong>&lt;/td>
  &lt;td>delete · get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2540,7 +2540,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: restricted)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: restricted)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3472,7 +3472,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>elastic-operator&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases (restricted to: elastic-operator-leader)&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: elastic-operator-leader)&lt;/strong>&lt;/td>
  &lt;td>get · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3868,7 +3868,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/consoles (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/consoles &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -4019,7 +4019,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/proxies (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/proxies &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -4407,7 +4407,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/consoles (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/consoles &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -4558,7 +4558,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/proxies (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/proxies &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -12300,7 +12300,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
- &lt;td>loki.grafana.com/network (restricted to: logs)&lt;/td>
+ &lt;td>loki.grafana.com/network &lt;strong>(restricted to: logs)&lt;/strong>&lt;/td>
  &lt;td>create · get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -12365,7 +12365,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: hostnetwork)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: hostnetwork)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -15015,7 +15015,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/legacy-unknown)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/legacy-unknown)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -15024,7 +15024,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/kube-apiserver-client)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/kube-apiserver-client)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -15033,7 +15033,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/kubelet-serving)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/kubelet-serving)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -15042,7 +15042,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: beta.eks.amazonaws.com/app-serving)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: beta.eks.amazonaws.com/app-serving)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17286,7 +17286,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgbackupconfigs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgbackupconfigs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17295,7 +17295,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgshardedclusters.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgshardedclusters.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17304,7 +17304,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: prometheuses.monitoring.coreos.com)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: prometheuses.monitoring.coreos.com)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17313,7 +17313,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgobjectstorages.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgobjectstorages.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17322,7 +17322,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgdbops.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgdbops.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17331,7 +17331,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgshardeddbops.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgshardeddbops.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17340,7 +17340,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgstreams.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgstreams.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17349,7 +17349,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgclusters.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgclusters.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17358,7 +17358,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgdistributedlogs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgdistributedlogs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17367,7 +17367,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgconfigs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgconfigs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17376,7 +17376,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgpgconfigs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgpgconfigs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17385,7 +17385,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgpoolconfigs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgpoolconfigs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17394,7 +17394,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgbackups.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgbackups.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17403,7 +17403,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgshardedbackups.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgshardedbackups.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17412,7 +17412,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgscripts.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgscripts.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17429,7 +17429,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sginstanceprofiles.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sginstanceprofiles.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17678,7 +17678,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations (restricted to: stackgres-operator)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations &lt;strong>(restricted to: stackgres-operator)&lt;/strong>&lt;/td>
  &lt;td>get · patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -18471,7 +18471,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations (restricted to: stackgres-operator)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations &lt;strong>(restricted to: stackgres-operator)&lt;/strong>&lt;/td>
  &lt;td>get · patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -21817,7 +21817,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: volsync-privileged-mover)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: volsync-privileged-mover)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

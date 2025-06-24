@@ -93,7 +93,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kong-kong&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: kong-ingress-controller-leader-kong-kong)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: kong-ingress-controller-leader-kong-kong)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

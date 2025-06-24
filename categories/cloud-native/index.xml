@@ -599,7 +599,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>certificate-operator-role&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: keptn-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: keptn-certs)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

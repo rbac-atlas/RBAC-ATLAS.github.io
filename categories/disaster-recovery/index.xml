@@ -336,7 +336,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: volsync-privileged-mover)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: volsync-privileged-mover)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

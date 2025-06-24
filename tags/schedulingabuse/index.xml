@@ -1087,7 +1087,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>nvidia-device-plugin-node-feature-discovery&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases (restricted to: nfd-master.nfd.kubernetes.io)&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: nfd-master.nfd.kubernetes.io)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1213,7 +1213,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>nvidia-device-plugin-node-feature-discovery&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases (restricted to: nfd-master.nfd.kubernetes.io)&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: nfd-master.nfd.kubernetes.io)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

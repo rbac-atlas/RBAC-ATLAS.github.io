@@ -57,7 +57,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kured&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets (restricted to: kured)&lt;/td>
+ &lt;td>apps/daemonsets &lt;strong>(restricted to: kured)&lt;/strong>&lt;/td>
  &lt;td>patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -74,7 +74,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kured&lt;/code>&lt;/td>
- &lt;td>extensions/daemonsets (restricted to: kured)&lt;/td>
+ &lt;td>extensions/daemonsets &lt;strong>(restricted to: kured)&lt;/strong>&lt;/td>
  &lt;td>patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

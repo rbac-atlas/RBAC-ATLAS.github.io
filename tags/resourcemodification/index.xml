@@ -962,7 +962,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>keda-operator-certs&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: kedaorg-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: kedaorg-certs)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

@@ -469,7 +469,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations (restricted to: gatekeeper-mutating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-mutating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -505,7 +505,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations (restricted to: gatekeeper-validating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-validating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2712,7 +2712,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterrolebindings (restricted to: trident-controller)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterrolebindings &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2721,7 +2721,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterrolebindings (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterrolebindings &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2730,7 +2730,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterrolebindings (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterrolebindings &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2739,7 +2739,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterrolebindings (restricted to: trident-csi)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterrolebindings &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2748,7 +2748,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterrolebindings (restricted to: trident)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterrolebindings &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2765,7 +2765,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterrolebindings (restricted to: trident-controller)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterrolebindings &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2774,7 +2774,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterrolebindings (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterrolebindings &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2783,7 +2783,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterrolebindings (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterrolebindings &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2792,7 +2792,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterrolebindings (restricted to: trident-csi)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterrolebindings &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2801,7 +2801,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterrolebindings (restricted to: trident)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterrolebindings &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2810,7 +2810,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterroles (restricted to: trident)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterroles &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2827,7 +2827,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterroles (restricted to: trident-controller)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterroles &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2836,7 +2836,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterroles (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterroles &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2845,7 +2845,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterroles (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterroles &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2854,7 +2854,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/clusterroles (restricted to: trident-csi)&lt;/td>
+ &lt;td>authorization.openshift.io/clusterroles &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2863,7 +2863,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterroles (restricted to: trident-controller)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterroles &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2872,7 +2872,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterroles (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterroles &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2881,7 +2881,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterroles (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterroles &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2890,7 +2890,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterroles (restricted to: trident-csi)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterroles &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2899,7 +2899,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterroles (restricted to: trident)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/clusterroles &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2932,7 +2932,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets (restricted to: trident-csi)&lt;/td>
+ &lt;td>apps/daemonsets &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2941,7 +2941,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets (restricted to: trident-csi-windows)&lt;/td>
+ &lt;td>apps/daemonsets &lt;strong>(restricted to: trident-csi-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2950,7 +2950,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>apps/daemonsets &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2959,7 +2959,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>apps/daemonsets &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2976,7 +2976,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets (restricted to: trident)&lt;/td>
+ &lt;td>apps/daemonsets &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2993,7 +2993,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments (restricted to: trident)&lt;/td>
+ &lt;td>apps/deployments &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3002,7 +3002,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments (restricted to: trident-csi)&lt;/td>
+ &lt;td>apps/deployments &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3011,7 +3011,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments (restricted to: trident-controller)&lt;/td>
+ &lt;td>apps/deployments &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3060,7 +3060,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>core/pods/exec (restricted to: trident-csi)&lt;/td>
+ &lt;td>core/pods/exec &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3069,7 +3069,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>core/pods/exec (restricted to: trident)&lt;/td>
+ &lt;td>core/pods/exec &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3078,7 +3078,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>policy/podsecuritypolicies (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>policy/podsecuritypolicies &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update · use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3091,7 +3091,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>policy/podsecuritypolicies (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>policy/podsecuritypolicies &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update · use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3112,7 +3112,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>policy/podsecuritypolicies (restricted to: tridentpods)&lt;/td>
+ &lt;td>policy/podsecuritypolicies &lt;strong>(restricted to: tridentpods)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3121,7 +3121,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>policy/podsecuritypolicies (restricted to: tridentoperatorpods)&lt;/td>
+ &lt;td>policy/podsecuritypolicies &lt;strong>(restricted to: tridentoperatorpods)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3134,7 +3134,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>policy/podsecuritypolicies (restricted to: trident-controller)&lt;/td>
+ &lt;td>policy/podsecuritypolicies &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update · use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3147,7 +3147,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/rolebindings (restricted to: trident-controller)&lt;/td>
+ &lt;td>authorization.openshift.io/rolebindings &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3156,7 +3156,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/rolebindings (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>authorization.openshift.io/rolebindings &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3165,7 +3165,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/rolebindings (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>authorization.openshift.io/rolebindings &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3174,7 +3174,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/rolebindings (restricted to: trident-csi)&lt;/td>
+ &lt;td>authorization.openshift.io/rolebindings &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3183,7 +3183,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/rolebindings (restricted to: trident)&lt;/td>
+ &lt;td>authorization.openshift.io/rolebindings &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3200,7 +3200,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/rolebindings (restricted to: trident)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/rolebindings &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3217,7 +3217,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/rolebindings (restricted to: trident-controller)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/rolebindings &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3226,7 +3226,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/rolebindings (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/rolebindings &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3235,7 +3235,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/rolebindings (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/rolebindings &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3244,7 +3244,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/rolebindings (restricted to: trident-csi)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/rolebindings &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3261,7 +3261,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/roles (restricted to: trident-controller)&lt;/td>
+ &lt;td>authorization.openshift.io/roles &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3270,7 +3270,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/roles (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>authorization.openshift.io/roles &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3279,7 +3279,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/roles (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>authorization.openshift.io/roles &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3288,7 +3288,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/roles (restricted to: trident-csi)&lt;/td>
+ &lt;td>authorization.openshift.io/roles &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3297,7 +3297,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>authorization.openshift.io/roles (restricted to: trident)&lt;/td>
+ &lt;td>authorization.openshift.io/roles &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3306,7 +3306,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/roles (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/roles &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3315,7 +3315,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/roles (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/roles &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3324,7 +3324,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/roles (restricted to: trident-csi)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/roles &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3333,7 +3333,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/roles (restricted to: trident)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/roles &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3350,7 +3350,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/roles (restricted to: trident-controller)&lt;/td>
+ &lt;td>rbac.authorization.k8s.io/roles &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3367,7 +3367,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: trident-controller)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3376,7 +3376,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3385,7 +3385,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3394,7 +3394,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: trident)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3411,7 +3411,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>core/serviceaccounts (restricted to: trident-controller)&lt;/td>
+ &lt;td>core/serviceaccounts &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3420,7 +3420,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>core/serviceaccounts (restricted to: trident-node-linux)&lt;/td>
+ &lt;td>core/serviceaccounts &lt;strong>(restricted to: trident-node-linux)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3429,7 +3429,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>core/serviceaccounts (restricted to: trident-node-windows)&lt;/td>
+ &lt;td>core/serviceaccounts &lt;strong>(restricted to: trident-node-windows)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3438,7 +3438,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>core/serviceaccounts (restricted to: trident-csi)&lt;/td>
+ &lt;td>core/serviceaccounts &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3447,7 +3447,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>core/serviceaccounts (restricted to: trident)&lt;/td>
+ &lt;td>core/serviceaccounts &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3464,7 +3464,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>core/services (restricted to: trident-csi)&lt;/td>
+ &lt;td>core/services &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3473,7 +3473,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>core/services (restricted to: trident)&lt;/td>
+ &lt;td>core/services &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3482,7 +3482,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/statefulsets (restricted to: trident-controller)&lt;/td>
+ &lt;td>apps/statefulsets &lt;strong>(restricted to: trident-controller)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3499,7 +3499,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/statefulsets (restricted to: trident)&lt;/td>
+ &lt;td>apps/statefulsets &lt;strong>(restricted to: trident)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3508,7 +3508,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>trident-operator&lt;/code>&lt;/td>
- &lt;td>apps/statefulsets (restricted to: trident-csi)&lt;/td>
+ &lt;td>apps/statefulsets &lt;strong>(restricted to: trident-csi)&lt;/strong>&lt;/td>
  &lt;td>delete · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

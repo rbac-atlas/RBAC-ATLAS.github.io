@@ -534,7 +534,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>altinity-clickhouse-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments (restricted to: altinity-clickhouse-operator)&lt;/td>
+ &lt;td>apps/deployments &lt;strong>(restricted to: altinity-clickhouse-operator)&lt;/strong>&lt;/td>
  &lt;td>delete · get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2453,7 +2453,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: cilium-config)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: cilium-config)&lt;/strong>&lt;/td>
  &lt;td>patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2462,7 +2462,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumenvoyconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumenvoyconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2471,7 +2471,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumidentities.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumidentities.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2480,7 +2480,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumnodeconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumnodeconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2497,7 +2497,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgpnodeconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgpnodeconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2506,7 +2506,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliuml2announcementpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliuml2announcementpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2515,7 +2515,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgppeeringpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgppeeringpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2524,7 +2524,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumclusterwidenetworkpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumclusterwidenetworkpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2533,7 +2533,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumnetworkpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumnetworkpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2542,7 +2542,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumnodes.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumnodes.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2551,7 +2551,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgpnodeconfigoverrides.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgpnodeconfigoverrides.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2560,7 +2560,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumclusterwideenvoyconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumclusterwideenvoyconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2569,7 +2569,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumegressgatewaypolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumegressgatewaypolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2578,7 +2578,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumendpointslices.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumendpointslices.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2587,7 +2587,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumexternalworkloads.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumexternalworkloads.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2596,7 +2596,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumlocalredirectpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumlocalredirectpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2605,7 +2605,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumcidrgroups.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumcidrgroups.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2614,7 +2614,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumpodippools.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumpodippools.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2623,7 +2623,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumloadbalancerippools.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumloadbalancerippools.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2632,7 +2632,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgpclusterconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgpclusterconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2641,7 +2641,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgppeerconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgppeerconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2650,7 +2650,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgpadvertisements.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgpadvertisements.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2659,7 +2659,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumendpoints.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumendpoints.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3007,7 +3007,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: cilium-config)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: cilium-config)&lt;/strong>&lt;/td>
  &lt;td>patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3016,7 +3016,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgpclusterconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgpclusterconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3025,7 +3025,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgppeerconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgppeerconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3034,7 +3034,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgpnodeconfigoverrides.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgpnodeconfigoverrides.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3043,7 +3043,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumclusterwideenvoyconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumclusterwideenvoyconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3052,7 +3052,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumegressgatewaypolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumegressgatewaypolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3061,7 +3061,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumendpoints.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumendpoints.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3070,7 +3070,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumlocalredirectpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumlocalredirectpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3079,7 +3079,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumnetworkpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumnetworkpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3088,7 +3088,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumnodes.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumnodes.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3097,7 +3097,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumnodeconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumnodeconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3106,7 +3106,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumcidrgroups.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumcidrgroups.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3115,7 +3115,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliuml2announcementpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliuml2announcementpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3124,7 +3124,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumpodippools.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumpodippools.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3141,7 +3141,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumloadbalancerippools.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumloadbalancerippools.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3150,7 +3150,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgpadvertisements.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgpadvertisements.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3159,7 +3159,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgpnodeconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgpnodeconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3168,7 +3168,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumclusterwidenetworkpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumclusterwidenetworkpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3177,7 +3177,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumendpointslices.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumendpointslices.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3186,7 +3186,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumenvoyconfigs.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumenvoyconfigs.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3195,7 +3195,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumexternalworkloads.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumexternalworkloads.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3204,7 +3204,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumbgppeeringpolicies.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumbgppeeringpolicies.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3213,7 +3213,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>cilium-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ciliumidentities.cilium.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ciliumidentities.cilium.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -6138,7 +6138,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: restricted)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: restricted)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -7404,7 +7404,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>elastic-operator&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases (restricted to: elastic-operator-leader)&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: elastic-operator-leader)&lt;/strong>&lt;/td>
  &lt;td>get · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -7800,7 +7800,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/consoles (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/consoles &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -7951,7 +7951,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/proxies (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/proxies &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -8339,7 +8339,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/consoles (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/consoles &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -8490,7 +8490,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/proxies (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/proxies &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -9161,7 +9161,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>external-secrets-leaderelection&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: external-secrets-controller)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: external-secrets-controller)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -9959,7 +9959,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations (restricted to: gatekeeper-mutating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-mutating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -9995,7 +9995,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations (restricted to: gatekeeper-validating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-validating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -14347,7 +14347,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>ingress-nginx&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases (restricted to: ingress-nginx-leader)&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: ingress-nginx-leader)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17317,7 +17317,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>keda-operator-certs&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: kedaorg-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: kedaorg-certs)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -17976,7 +17976,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>certificate-operator-role&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: keptn-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: keptn-certs)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -18716,7 +18716,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kong-kong&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: kong-ingress-controller-leader-kong-kong)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: kong-ingress-controller-leader-kong-kong)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -23584,7 +23584,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
- &lt;td>loki.grafana.com/network (restricted to: logs)&lt;/td>
+ &lt;td>loki.grafana.com/network &lt;strong>(restricted to: logs)&lt;/strong>&lt;/td>
  &lt;td>create · get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -23649,7 +23649,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: hostnetwork)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: hostnetwork)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -27433,7 +27433,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/legacy-unknown)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/legacy-unknown)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -27442,7 +27442,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/kube-apiserver-client)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/kube-apiserver-client)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -27451,7 +27451,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/kubelet-serving)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/kubelet-serving)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -27460,7 +27460,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: beta.eks.amazonaws.com/app-serving)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: beta.eks.amazonaws.com/app-serving)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -29551,7 +29551,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>raven-operator-manager-role&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ravencollectors.raven.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ravencollectors.raven.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -29560,7 +29560,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>raven-operator-manager-role&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ravensensors.raven.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ravensensors.raven.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31274,7 +31274,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgbackupconfigs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgbackupconfigs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31283,7 +31283,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgshardedclusters.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgshardedclusters.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31292,7 +31292,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: prometheuses.monitoring.coreos.com)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: prometheuses.monitoring.coreos.com)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31301,7 +31301,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgobjectstorages.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgobjectstorages.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31310,7 +31310,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgdbops.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgdbops.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31319,7 +31319,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgshardeddbops.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgshardeddbops.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31328,7 +31328,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgstreams.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgstreams.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31337,7 +31337,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgclusters.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgclusters.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31346,7 +31346,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgdistributedlogs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgdistributedlogs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31355,7 +31355,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgconfigs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgconfigs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31364,7 +31364,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgpgconfigs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgpgconfigs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31373,7 +31373,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgpoolconfigs.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgpoolconfigs.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31382,7 +31382,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgbackups.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgbackups.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31391,7 +31391,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgshardedbackups.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgshardedbackups.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31400,7 +31400,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sgscripts.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sgscripts.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31417,7 +31417,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: sginstanceprofiles.stackgres.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: sginstanceprofiles.stackgres.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -31666,7 +31666,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations (restricted to: stackgres-operator)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations &lt;strong>(restricted to: stackgres-operator)&lt;/strong>&lt;/td>
  &lt;td>get · patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -32459,7 +32459,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>stackgres-operator&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations (restricted to: stackgres-operator)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations &lt;strong>(restricted to: stackgres-operator)&lt;/strong>&lt;/td>
  &lt;td>get · patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33253,7 +33253,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: globalnetworksets.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: globalnetworksets.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33262,7 +33262,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tcproutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tcproutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33271,7 +33271,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tlsroutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tlsroutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33280,7 +33280,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: envoypatchpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: envoypatchpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33289,7 +33289,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: installations.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: installations.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33298,7 +33298,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: networkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: networkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33307,7 +33307,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: gatewayclasses.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: gatewayclasses.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33316,7 +33316,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: grpcroutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: grpcroutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33325,7 +33325,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: adminnetworkpolicies.policy.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: adminnetworkpolicies.policy.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33334,7 +33334,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: caliconodestatuses.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: caliconodestatuses.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33343,7 +33343,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: hostendpoints.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: hostendpoints.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33352,7 +33352,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ipreservations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ipreservations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33361,7 +33361,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: stagednetworkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: stagednetworkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33370,7 +33370,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: whiskers.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: whiskers.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33379,7 +33379,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backendlbpolicies.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backendlbpolicies.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33388,7 +33388,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: httproutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: httproutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33397,7 +33397,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: imagesets.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: imagesets.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33406,7 +33406,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tigerastatuses.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tigerastatuses.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33415,7 +33415,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: bgpconfigurations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: bgpconfigurations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33424,7 +33424,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: bgppeers.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: bgppeers.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33433,7 +33433,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: clusterinformations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: clusterinformations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33442,7 +33442,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: stagedkubernetesnetworkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: stagedkubernetesnetworkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33451,7 +33451,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: gateways.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: gateways.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33460,7 +33460,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backends.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backends.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33469,7 +33469,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: stagedglobalnetworkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: stagedglobalnetworkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33478,7 +33478,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: managementclusterconnections.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: managementclusterconnections.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33487,7 +33487,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: clienttrafficpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: clienttrafficpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33496,7 +33496,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: envoyextensionpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: envoyextensionpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33513,7 +33513,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: blockaffinities.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: blockaffinities.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33522,7 +33522,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: globalnetworkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: globalnetworkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33531,7 +33531,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ipamconfigs.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ipamconfigs.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33540,7 +33540,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tiers.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tiers.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33549,7 +33549,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: goldmanes.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: goldmanes.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33558,7 +33558,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backendtrafficpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backendtrafficpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33567,7 +33567,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: apiservers.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: apiservers.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33576,7 +33576,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ipamhandles.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ipamhandles.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33585,7 +33585,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: networksets.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: networksets.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33594,7 +33594,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backendtlspolicies.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backendtlspolicies.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33603,7 +33603,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: referencegrants.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: referencegrants.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33612,7 +33612,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: udproutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: udproutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33621,7 +33621,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: envoyproxies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: envoyproxies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33630,7 +33630,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: httproutefilters.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: httproutefilters.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33639,7 +33639,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: felixconfigurations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: felixconfigurations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33648,7 +33648,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ipamblocks.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ipamblocks.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33657,7 +33657,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ippools.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ippools.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33666,7 +33666,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: kubecontrollersconfigurations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: kubecontrollersconfigurations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33675,7 +33675,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: securitypolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: securitypolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33684,7 +33684,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: baselineadminnetworkpolicies.policy.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: baselineadminnetworkpolicies.policy.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33693,7 +33693,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: gatewayapis.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: gatewayapis.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33702,7 +33702,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: bgpfilters.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: bgpfilters.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33711,7 +33711,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments/finalizers (restricted to: tigera-operator)&lt;/td>
+ &lt;td>apps/deployments/finalizers &lt;strong>(restricted to: tigera-operator)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33864,7 +33864,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>batch/jobs (restricted to: tigera-gateway-api-gateway-helm-certgen)&lt;/td>
+ &lt;td>batch/jobs &lt;strong>(restricted to: tigera-gateway-api-gateway-helm-certgen)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33945,7 +33945,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>policy/podsecuritypolicies (restricted to: tigera-operator)&lt;/td>
+ &lt;td>policy/podsecuritypolicies &lt;strong>(restricted to: tigera-operator)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33982,7 +33982,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>core/resourcequotas (restricted to: calico-critical-pods)&lt;/td>
+ &lt;td>core/resourcequotas &lt;strong>(restricted to: calico-critical-pods)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -33995,7 +33995,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>core/resourcequotas (restricted to: tigera-critical-pods)&lt;/td>
+ &lt;td>core/resourcequotas &lt;strong>(restricted to: tigera-critical-pods)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34024,7 +34024,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>projectcalico.org/tier.globalnetworkpolicies (restricted to: allow-tigera.*)&lt;/td>
+ &lt;td>projectcalico.org/tier.globalnetworkpolicies &lt;strong>(restricted to: allow-tigera.*)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34033,7 +34033,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>projectcalico.org/tier.networkpolicies (restricted to: allow-tigera.*)&lt;/td>
+ &lt;td>projectcalico.org/tier.networkpolicies &lt;strong>(restricted to: allow-tigera.*)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34042,7 +34042,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>projectcalico.org/tiers (restricted to: allow-tigera)&lt;/td>
+ &lt;td>projectcalico.org/tiers &lt;strong>(restricted to: allow-tigera)&lt;/strong>&lt;/td>
  &lt;td>delete · get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34383,7 +34383,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: bgppeers.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: bgppeers.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34392,7 +34392,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: globalnetworkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: globalnetworkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34401,7 +34401,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ipamconfigs.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ipamconfigs.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34410,7 +34410,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ipreservations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ipreservations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34419,7 +34419,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backendtlspolicies.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backendtlspolicies.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34428,7 +34428,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tcproutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tcproutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34437,7 +34437,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: udproutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: udproutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34446,7 +34446,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: clienttrafficpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: clienttrafficpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34455,7 +34455,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: imagesets.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: imagesets.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34464,7 +34464,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: kubecontrollersconfigurations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: kubecontrollersconfigurations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34473,7 +34473,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tiers.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tiers.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34482,7 +34482,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: httproutefilters.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: httproutefilters.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34491,7 +34491,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: securitypolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: securitypolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34500,7 +34500,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: clusterinformations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: clusterinformations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34509,7 +34509,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: hostendpoints.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: hostendpoints.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34518,7 +34518,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backendlbpolicies.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backendlbpolicies.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34527,7 +34527,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backends.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backends.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34536,7 +34536,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: envoypatchpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: envoypatchpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34545,7 +34545,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: adminnetworkpolicies.policy.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: adminnetworkpolicies.policy.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>delete · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34554,7 +34554,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tlsroutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tlsroutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34563,7 +34563,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backendtrafficpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backendtrafficpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34572,7 +34572,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: envoyextensionpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: envoyextensionpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34581,7 +34581,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: envoyproxies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: envoyproxies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34590,7 +34590,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: installations.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: installations.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34599,7 +34599,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: stagedglobalnetworkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: stagedglobalnetworkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34608,7 +34608,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ipamblocks.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ipamblocks.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34617,7 +34617,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: goldmanes.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: goldmanes.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34634,7 +34634,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tigerastatuses.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tigerastatuses.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34643,7 +34643,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: blockaffinities.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: blockaffinities.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34652,7 +34652,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: felixconfigurations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: felixconfigurations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34661,7 +34661,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: stagednetworkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: stagednetworkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34670,7 +34670,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: stagedkubernetesnetworkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: stagedkubernetesnetworkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34679,7 +34679,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: baselineadminnetworkpolicies.policy.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: baselineadminnetworkpolicies.policy.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>delete · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34688,7 +34688,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: gatewayclasses.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: gatewayclasses.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34697,7 +34697,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: bgpfilters.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: bgpfilters.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34706,7 +34706,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ipamhandles.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ipamhandles.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34715,7 +34715,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ippools.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ippools.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34724,7 +34724,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: networksets.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: networksets.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34733,7 +34733,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: whiskers.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: whiskers.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34742,7 +34742,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: managementclusterconnections.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: managementclusterconnections.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34751,7 +34751,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: gateways.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: gateways.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34760,7 +34760,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: httproutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: httproutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34769,7 +34769,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: apiservers.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: apiservers.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34778,7 +34778,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: gatewayapis.operator.tigera.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: gatewayapis.operator.tigera.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34787,7 +34787,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: bgpconfigurations.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: bgpconfigurations.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34796,7 +34796,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: caliconodestatuses.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: caliconodestatuses.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34805,7 +34805,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: globalnetworksets.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: globalnetworksets.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34814,7 +34814,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: networkpolicies.crd.projectcalico.org)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: networkpolicies.crd.projectcalico.org)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34823,7 +34823,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: grpcroutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: grpcroutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34832,7 +34832,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: referencegrants.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: referencegrants.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34841,7 +34841,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments/finalizers (restricted to: tigera-operator)&lt;/td>
+ &lt;td>apps/deployments/finalizers &lt;strong>(restricted to: tigera-operator)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -34994,7 +34994,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>batch/jobs (restricted to: tigera-gateway-api-gateway-helm-certgen)&lt;/td>
+ &lt;td>batch/jobs &lt;strong>(restricted to: tigera-gateway-api-gateway-helm-certgen)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35083,7 +35083,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>policy/podsecuritypolicies (restricted to: tigera-operator)&lt;/td>
+ &lt;td>policy/podsecuritypolicies &lt;strong>(restricted to: tigera-operator)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35112,7 +35112,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>core/resourcequotas (restricted to: tigera-critical-pods)&lt;/td>
+ &lt;td>core/resourcequotas &lt;strong>(restricted to: tigera-critical-pods)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35125,7 +35125,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>core/resourcequotas (restricted to: calico-critical-pods)&lt;/td>
+ &lt;td>core/resourcequotas &lt;strong>(restricted to: calico-critical-pods)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35154,7 +35154,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>projectcalico.org/tier.globalnetworkpolicies (restricted to: allow-tigera.*)&lt;/td>
+ &lt;td>projectcalico.org/tier.globalnetworkpolicies &lt;strong>(restricted to: allow-tigera.*)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35163,7 +35163,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>projectcalico.org/tier.networkpolicies (restricted to: allow-tigera.*)&lt;/td>
+ &lt;td>projectcalico.org/tier.networkpolicies &lt;strong>(restricted to: allow-tigera.*)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35172,7 +35172,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>projectcalico.org/tiers (restricted to: allow-tigera)&lt;/td>
+ &lt;td>projectcalico.org/tiers &lt;strong>(restricted to: allow-tigera)&lt;/strong>&lt;/td>
  &lt;td>delete · get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35513,7 +35513,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tcproutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tcproutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35522,7 +35522,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: tlsroutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: tlsroutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35531,7 +35531,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backendtrafficpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backendtrafficpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35540,7 +35540,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backendtlspolicies.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backendtlspolicies.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35549,7 +35549,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: gateways.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: gateways.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35558,7 +35558,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: envoypatchpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: envoypatchpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35567,7 +35567,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: httproutefilters.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: httproutefilters.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35576,7 +35576,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: grpcroutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: grpcroutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35585,7 +35585,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: securitypolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: securitypolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35594,7 +35594,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backendlbpolicies.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backendlbpolicies.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35603,7 +35603,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: gatewayclasses.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: gatewayclasses.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35612,7 +35612,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: httproutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: httproutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35621,7 +35621,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: udproutes.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: udproutes.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35630,7 +35630,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: backends.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: backends.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35639,7 +35639,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: clienttrafficpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: clienttrafficpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35648,7 +35648,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: envoyextensionpolicies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: envoyextensionpolicies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35657,7 +35657,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: envoyproxies.gateway.envoyproxy.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: envoyproxies.gateway.envoyproxy.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35666,7 +35666,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: referencegrants.gateway.networking.k8s.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: referencegrants.gateway.networking.k8s.io)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35675,7 +35675,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments/finalizers (restricted to: tigera-operator)&lt;/td>
+ &lt;td>apps/deployments/finalizers &lt;strong>(restricted to: tigera-operator)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35828,7 +35828,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>batch/jobs (restricted to: tigera-gateway-api-gateway-helm-certgen)&lt;/td>
+ &lt;td>batch/jobs &lt;strong>(restricted to: tigera-gateway-api-gateway-helm-certgen)&lt;/strong>&lt;/td>
  &lt;td>update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35925,7 +35925,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>core/resourcequotas (restricted to: calico-critical-pods)&lt;/td>
+ &lt;td>core/resourcequotas &lt;strong>(restricted to: calico-critical-pods)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35938,7 +35938,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>core/resourcequotas (restricted to: tigera-critical-pods)&lt;/td>
+ &lt;td>core/resourcequotas &lt;strong>(restricted to: tigera-critical-pods)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35967,7 +35967,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>projectcalico.org/tier.globalnetworkpolicies (restricted to: allow-tigera.*)&lt;/td>
+ &lt;td>projectcalico.org/tier.globalnetworkpolicies &lt;strong>(restricted to: allow-tigera.*)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35976,7 +35976,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>projectcalico.org/tier.networkpolicies (restricted to: allow-tigera.*)&lt;/td>
+ &lt;td>projectcalico.org/tier.networkpolicies &lt;strong>(restricted to: allow-tigera.*)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -35993,7 +35993,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>tigera-operator&lt;/code>&lt;/td>
- &lt;td>projectcalico.org/tiers (restricted to: allow-tigera)&lt;/td>
+ &lt;td>projectcalico.org/tiers &lt;strong>(restricted to: allow-tigera)&lt;/strong>&lt;/td>
  &lt;td>delete · get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -40305,7 +40305,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>volsync-manager&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: volsync-privileged-mover)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: volsync-privileged-mover)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

@@ -204,7 +204,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations (restricted to: gatekeeper-mutating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-mutating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -240,7 +240,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations (restricted to: gatekeeper-validating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-validating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

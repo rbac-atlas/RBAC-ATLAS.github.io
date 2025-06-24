@@ -730,7 +730,7 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: kamaji-etcd-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: kamaji-etcd-certs)&lt;/strong>&lt;/td>
  &lt;td>delete · get · patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -739,7 +739,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: kamaji-etcd-root-client-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: kamaji-etcd-root-client-certs)&lt;/strong>&lt;/td>
  &lt;td>delete · get · patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -756,7 +756,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
- &lt;td>apps/statefulsets (restricted to: kamaji-etcd)&lt;/td>
+ &lt;td>apps/statefulsets &lt;strong>(restricted to: kamaji-etcd)&lt;/strong>&lt;/td>
  &lt;td>get · list · patch · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1125,7 +1125,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>keda-operator-certs&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: kedaorg-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: kedaorg-certs)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1784,7 +1784,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>certificate-operator-role&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: keptn-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: keptn-certs)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2813,7 +2813,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kong-kong&lt;/code>&lt;/td>
- &lt;td>core/configmaps (restricted to: kong-ingress-controller-leader-kong-kong)&lt;/td>
+ &lt;td>core/configmaps &lt;strong>(restricted to: kong-ingress-controller-leader-kong-kong)&lt;/strong>&lt;/td>
  &lt;td>get · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -5463,7 +5463,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kured&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets (restricted to: kured)&lt;/td>
+ &lt;td>apps/daemonsets &lt;strong>(restricted to: kured)&lt;/strong>&lt;/td>
  &lt;td>patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -5480,7 +5480,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>kured&lt;/code>&lt;/td>
- &lt;td>extensions/daemonsets (restricted to: kured)&lt;/td>
+ &lt;td>extensions/daemonsets &lt;strong>(restricted to: kured)&lt;/strong>&lt;/td>
  &lt;td>patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

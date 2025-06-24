@@ -957,7 +957,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: restricted)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: restricted)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1321,7 +1321,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/consoles (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/consoles &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1472,7 +1472,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/proxies (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/proxies &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -1860,7 +1860,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/consoles (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/consoles &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -2011,7 +2011,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/proxies (restricted to: cluster)&lt;/td>
+ &lt;td>config.openshift.io/proxies &lt;strong>(restricted to: cluster)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -4600,7 +4600,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
- &lt;td>loki.grafana.com/network (restricted to: logs)&lt;/td>
+ &lt;td>loki.grafana.com/network &lt;strong>(restricted to: logs)&lt;/strong>&lt;/td>
  &lt;td>create · get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -4665,7 +4665,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>netobserv-manager-role&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: hostnetwork)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: hostnetwork)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

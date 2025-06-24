@@ -522,7 +522,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>cert-manager:leaderelection&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases (restricted to: cert-manager-controller)&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: cert-manager-controller)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -579,7 +579,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>cert-manager-tokenrequest&lt;/code>&lt;/td>
- &lt;td>core/serviceaccounts/token (restricted to: cert-manager)&lt;/td>
+ &lt;td>core/serviceaccounts/token &lt;strong>(restricted to: cert-manager)&lt;/strong>&lt;/td>
  &lt;td>create&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

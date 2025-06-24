@@ -852,7 +852,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>raven-operator-manager-role&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ravencollectors.raven.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ravencollectors.raven.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -861,7 +861,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>raven-operator-manager-role&lt;/code>&lt;/td>
- &lt;td>apiextensions.k8s.io/customresourcedefinitions (restricted to: ravensensors.raven.io)&lt;/td>
+ &lt;td>apiextensions.k8s.io/customresourcedefinitions &lt;strong>(restricted to: ravensensors.raven.io)&lt;/strong>&lt;/td>
  &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>

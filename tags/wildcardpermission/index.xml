@@ -2331,7 +2331,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>datadog-operator&lt;/code>&lt;/td>
- &lt;td>security.openshift.io/securitycontextconstraints (restricted to: restricted)&lt;/td>
+ &lt;td>security.openshift.io/securitycontextconstraints &lt;strong>(restricted to: restricted)&lt;/strong>&lt;/td>
  &lt;td>use&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3253,7 +3253,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations (restricted to: gatekeeper-mutating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-mutating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -3289,7 +3289,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>gatekeeper-manager-role&lt;/code>&lt;/td>
- &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations (restricted to: gatekeeper-validating-webhook-configuration)&lt;/td>
+ &lt;td>admissionregistration.k8s.io/validatingwebhookconfigurations &lt;strong>(restricted to: gatekeeper-validating-webhook-configuration)&lt;/strong>&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -6727,7 +6727,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>keda-operator-certs&lt;/code>&lt;/td>
- &lt;td>core/secrets (restricted to: kedaorg-certs)&lt;/td>
+ &lt;td>core/secrets &lt;strong>(restricted to: kedaorg-certs)&lt;/strong>&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -11449,7 +11449,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/legacy-unknown)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/legacy-unknown)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -11458,7 +11458,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/kube-apiserver-client)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/kube-apiserver-client)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -11467,7 +11467,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: kubernetes.io/kubelet-serving)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: kubernetes.io/kubelet-serving)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -11476,7 +11476,7 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>minio-operator-role&lt;/code>&lt;/td>
- &lt;td>certificates.k8s.io/signers (restricted to: beta.eks.amazonaws.com/app-serving)&lt;/td>
+ &lt;td>certificates.k8s.io/signers &lt;strong>(restricted to: beta.eks.amazonaws.com/app-serving)&lt;/strong>&lt;/td>
  &lt;td>approve · sign&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
