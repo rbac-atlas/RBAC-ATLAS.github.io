@@ -248,15 +248,6 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>ingress-nginx&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: ingress-nginx-leader)&lt;/strong>&lt;/td>
- &lt;td>get · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>ingress-nginx&lt;/code>&lt;/td>
  &lt;td>coordination.k8s.io/leases&lt;/td>
  &lt;td>create&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -329,6 +320,15 @@
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>ingress-nginx&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: ingress-nginx-leader)&lt;/strong>&lt;/td>
+ &lt;td>get · update&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

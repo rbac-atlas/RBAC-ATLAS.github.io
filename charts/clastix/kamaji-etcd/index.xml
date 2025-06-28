@@ -49,6 +49,23 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>create&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
+ &lt;td>apps/statefulsets &lt;strong>(restricted to: kamaji-etcd)&lt;/strong>&lt;/td>
+ &lt;td>get · list · patch · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
  &lt;td>core/secrets &lt;strong>(restricted to: kamaji-etcd-certs)&lt;/strong>&lt;/td>
  &lt;td>delete · get · patch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -60,23 +77,6 @@
  &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
  &lt;td>core/secrets &lt;strong>(restricted to: kamaji-etcd-root-client-certs)&lt;/strong>&lt;/td>
  &lt;td>delete · get · patch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>create&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>kamaji-etcd-gen-certs-role&lt;/code>&lt;/td>
- &lt;td>apps/statefulsets &lt;strong>(restricted to: kamaji-etcd)&lt;/strong>&lt;/td>
- &lt;td>get · list · patch · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>

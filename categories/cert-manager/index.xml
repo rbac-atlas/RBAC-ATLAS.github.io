@@ -522,15 +522,6 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>Role &lt;code>cert-manager:leaderelection&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: cert-manager-controller)&lt;/strong>&lt;/td>
- &lt;td>get · patch · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>cert-manager:leaderelection&lt;/code>&lt;/td>
  &lt;td>coordination.k8s.io/leases&lt;/td>
  &lt;td>create&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -578,6 +569,14 @@
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>ClusterRole &lt;code>cert-manager-http01-controller-challenges&lt;/code>&lt;/td>
+ &lt;td>core/services&lt;/td>
+ &lt;td>create · delete · get · list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>Role &lt;code>cert-manager-tokenrequest&lt;/code>&lt;/td>
  &lt;td>core/serviceaccounts/token &lt;strong>(restricted to: cert-manager)&lt;/strong>&lt;/td>
  &lt;td>create&lt;/td>
@@ -587,12 +586,13 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>cert-manager-http01-controller-challenges&lt;/code>&lt;/td>
- &lt;td>core/services&lt;/td>
- &lt;td>create · delete · get · list · watch&lt;/td>
+ &lt;td>Role &lt;code>cert-manager:leaderelection&lt;/code>&lt;/td>
+ &lt;td>coordination.k8s.io/leases &lt;strong>(restricted to: cert-manager-controller)&lt;/strong>&lt;/td>
+ &lt;td>get · patch · update&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-resourcenamerestricted">&lt;a href="https://rbac-atlas.github.io/tags/resourcenamerestricted/">ResourceNameRestricted&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
