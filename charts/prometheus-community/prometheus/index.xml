@@ -22,6 +22,16 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -29,16 +39,6 @@
  &lt;td>11&lt;/td>
  &lt;td>2&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -95,6 +95,16 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -102,16 +112,6 @@
  &lt;td>11&lt;/td>
  &lt;td>2&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -168,6 +168,16 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -175,16 +185,6 @@
  &lt;td>11&lt;/td>
  &lt;td>2&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -241,6 +241,16 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -248,16 +258,6 @@
  &lt;td>11&lt;/td>
  &lt;td>2&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>

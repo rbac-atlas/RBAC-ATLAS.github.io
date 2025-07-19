@@ -92,6 +92,19 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>keda-operator&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>keda-operator&lt;/code>&lt;/td>
  &lt;td>*&lt;/td>
  &lt;td>get&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
@@ -348,14 +361,6 @@
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ClusterRole &lt;code>keda-operator&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
  &lt;td>Role &lt;code>keda-operator-certs&lt;/code>&lt;/td>
  &lt;td>core/secrets&lt;/td>
  &lt;td>create · update&lt;/td>
@@ -414,5 +419,5 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-13">⚠️ Potential Abuse (13)&lt;/h4>
+&lt;h4 id="-potential-abuse-15">⚠️ Potential Abuse (15)&lt;/h4>
 &lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item></channel></rss>

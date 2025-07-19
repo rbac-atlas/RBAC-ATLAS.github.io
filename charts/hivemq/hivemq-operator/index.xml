@@ -35,6 +35,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.52/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>31&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.52/#sa-hivemq-operator-operator">&lt;code>hivemq-operator-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -42,16 +52,6 @@
  &lt;td>25&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.52/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>31&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -160,6 +160,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.53/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>31&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.53/#sa-hivemq-operator-operator">&lt;code>hivemq-operator-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -167,16 +177,6 @@
  &lt;td>25&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.53/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>31&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -285,6 +285,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.54/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>31&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.54/#sa-hivemq-operator-operator">&lt;code>hivemq-operator-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -292,16 +302,6 @@
  &lt;td>25&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.54/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>31&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>

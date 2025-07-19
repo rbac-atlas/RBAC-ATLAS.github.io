@@ -635,6 +635,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>12&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -642,16 +652,6 @@
  &lt;td>14&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.1/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>12&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -744,6 +744,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.2/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>12&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.2/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -751,16 +761,6 @@
  &lt;td>14&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.2/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>12&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -853,6 +853,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.3/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>12&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.3/#sa-argocd-server">&lt;code>argocd-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -860,16 +870,6 @@
  &lt;td>14&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/argo/argo-cd/8.1.3/#sa-argocd-notifications-controller">&lt;code>argocd-notifications-controller&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>12&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -7170,6 +7170,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-kube-state-metrics">&lt;code>openebs-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>31&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-localpv-provisioner">&lt;code>openebs-localpv-provisioner&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -7247,16 +7257,6 @@
  &lt;td>12&lt;/td>
  &lt;td>2&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/openebs/openebs/3.10.0/#sa-openebs-kube-state-metrics">&lt;code>openebs-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>31&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -7628,6 +7628,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
+ &lt;td>events.k8s.io/events&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
  &lt;td>policy/poddisruptionbudgets&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
@@ -7725,14 +7736,6 @@
  &lt;td>Role &lt;code>opentelemetry-operator-leader-election&lt;/code>&lt;/td>
  &lt;td>core/events&lt;/td>
  &lt;td>create · patch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
- &lt;td>events.k8s.io/events&lt;/td>
- &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
@@ -8420,6 +8423,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
+ &lt;td>events.k8s.io/events&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
  &lt;td>policy/poddisruptionbudgets&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
@@ -8517,14 +8531,6 @@
  &lt;td>Role &lt;code>opentelemetry-operator-leader-election&lt;/code>&lt;/td>
  &lt;td>core/events&lt;/td>
  &lt;td>create · patch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
- &lt;td>events.k8s.io/events&lt;/td>
- &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
@@ -9212,6 +9218,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
+ &lt;td>events.k8s.io/events&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
  &lt;td>policy/poddisruptionbudgets&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
@@ -9309,14 +9326,6 @@
  &lt;td>Role &lt;code>opentelemetry-operator-leader-election&lt;/code>&lt;/td>
  &lt;td>core/events&lt;/td>
  &lt;td>create · patch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
- &lt;td>events.k8s.io/events&lt;/td>
- &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
@@ -10693,6 +10702,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.17.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.17.0/#sa-victoria-metrics-distributed-victoria-metrics-operator">&lt;code>victoria-metrics-distributed-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -10710,16 +10729,6 @@
  &lt;td>48&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.17.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -10773,6 +10782,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.18.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.18.0/#sa-victoria-metrics-distributed-victoria-metrics-operator">&lt;code>victoria-metrics-distributed-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -10790,16 +10809,6 @@
  &lt;td>48&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.18.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -10853,6 +10862,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.19.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.19.0/#sa-victoria-metrics-distributed-victoria-metrics-operator">&lt;code>victoria-metrics-distributed-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -10870,16 +10889,6 @@
  &lt;td>48&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.19.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -10933,6 +10942,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.52.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.52.0/#sa-victoria-metrics-k8s-stack-victoria-metrics-operator">&lt;code>victoria-metrics-k8s-stack-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -10950,16 +10969,6 @@
  &lt;td>54&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.52.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11013,6 +11022,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.54.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.54.0/#sa-victoria-metrics-k8s-stack-victoria-metrics-operator">&lt;code>victoria-metrics-k8s-stack-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -11030,16 +11049,6 @@
  &lt;td>57&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.54.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11093,6 +11102,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.55.2/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.55.2/#sa-victoria-metrics-k8s-stack-victoria-metrics-operator">&lt;code>victoria-metrics-k8s-stack-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -11110,16 +11129,6 @@
  &lt;td>57&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.55.2/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11173,6 +11182,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.56.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.56.0/#sa-victoria-metrics-k8s-stack-victoria-metrics-operator">&lt;code>victoria-metrics-k8s-stack-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -11190,16 +11209,6 @@
  &lt;td>57&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.56.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>

@@ -256,6 +256,30 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>ClusterRole &lt;code>hcp-terraform-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>create · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>hcp-terraform-operator-manager-role&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>create · list · update · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>Role &lt;code>hcp-terraform-operator-leader-election-role&lt;/code>&lt;/td>
  &lt;td>core/configmaps&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
@@ -309,14 +333,6 @@
  &lt;td>ClusterRole &lt;code>hcp-terraform-operator-manager-role&lt;/code>&lt;/td>
  &lt;td>app.terraform.io/agentpools/status&lt;/td>
  &lt;td>get · patch · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>hcp-terraform-operator-manager-role&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>create · list · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
@@ -387,14 +403,6 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>hcp-terraform-operator-manager-role&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>create · list · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>hcp-terraform-operator-manager-role&lt;/code>&lt;/td>
  &lt;td>app.terraform.io/workspaces&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -419,7 +427,7 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-8">⚠️ Potential Abuse (8)&lt;/h4>
+&lt;h4 id="-potential-abuse-11">⚠️ Potential Abuse (11)&lt;/h4>
 &lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>hdfs-operator</title><link>https://rbac-atlas.github.io/charts/kubedoop/hdfs-operator/0.2.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/kubedoop/hdfs-operator/0.2.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>The Kubedoop operator for Apache HDFS&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
@@ -1127,6 +1135,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.52/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>31&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.52/#sa-hivemq-operator-operator">&lt;code>hivemq-operator-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -1134,16 +1152,6 @@
  &lt;td>25&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.52/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>31&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -1252,6 +1260,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.53/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>31&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.53/#sa-hivemq-operator-operator">&lt;code>hivemq-operator-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -1259,16 +1277,6 @@
  &lt;td>25&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.53/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>31&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -1377,6 +1385,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.54/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>31&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.54/#sa-hivemq-operator-operator">&lt;code>hivemq-operator-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
@@ -1384,16 +1402,6 @@
  &lt;td>25&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hivemq/hivemq-operator/0.11.54/#sa-hivemq-operator-kube-state-metrics">&lt;code>hivemq-operator-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>31&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>

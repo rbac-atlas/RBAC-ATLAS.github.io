@@ -24,7 +24,7 @@
  &lt;td>—&lt;/td>
  &lt;td>31&lt;/td>
  &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -59,6 +59,30 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
  &lt;td>admissionregistration.k8s.io/mutatingwebhookconfigurations&lt;/td>
  &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
@@ -66,6 +90,18 @@
  &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
  &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
  &lt;span class="tag-webhookreconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/webhookreconnaissance/">WebhookReconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
+ &lt;td>core/resourcequotas&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-quotatampering">&lt;a href="https://rbac-atlas.github.io/tags/quotatampering/">QuotaTampering&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+ &lt;span class="tag-resourceconfiguration">&lt;a href="https://rbac-atlas.github.io/tags/resourceconfiguration/">ResourceConfiguration&lt;/a>&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -82,14 +118,6 @@
  &lt;tr>
  &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
  &lt;td>certificates.k8s.io/certificatesigningrequests&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
  &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
@@ -181,7 +209,10 @@
  &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+ &lt;span class="tag-resourceconfiguration">&lt;a href="https://rbac-atlas.github.io/tags/resourceconfiguration/">ResourceConfiguration&lt;/a>&lt;/span>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
@@ -268,22 +299,6 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
- &lt;td>core/resourcequotas&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>metricbeat-kube-state-metrics&lt;/code>&lt;/td>
  &lt;td>core/services&lt;/td>
  &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -316,5 +331,5 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-4">⚠️ Potential Abuse (4)&lt;/h4>
+&lt;h4 id="-potential-abuse-11">⚠️ Potential Abuse (11)&lt;/h4>
 &lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item></channel></rss>

@@ -259,6 +259,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
+ &lt;td>events.k8s.io/events&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
  &lt;td>policy/poddisruptionbudgets&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
@@ -356,14 +367,6 @@
  &lt;td>Role &lt;code>opentelemetry-operator-leader-election&lt;/code>&lt;/td>
  &lt;td>core/events&lt;/td>
  &lt;td>create · patch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
- &lt;td>events.k8s.io/events&lt;/td>
- &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
@@ -1051,6 +1054,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
+ &lt;td>events.k8s.io/events&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
  &lt;td>policy/poddisruptionbudgets&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
@@ -1148,14 +1162,6 @@
  &lt;td>Role &lt;code>opentelemetry-operator-leader-election&lt;/code>&lt;/td>
  &lt;td>core/events&lt;/td>
  &lt;td>create · patch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
- &lt;td>events.k8s.io/events&lt;/td>
- &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
@@ -1843,6 +1849,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
+ &lt;td>events.k8s.io/events&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
  &lt;td>policy/poddisruptionbudgets&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
@@ -1940,14 +1957,6 @@
  &lt;td>Role &lt;code>opentelemetry-operator-leader-election&lt;/code>&lt;/td>
  &lt;td>core/events&lt;/td>
  &lt;td>create · patch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>opentelemetry-operator-manager&lt;/code>&lt;/td>
- &lt;td>events.k8s.io/events&lt;/td>
- &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>

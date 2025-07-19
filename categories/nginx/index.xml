@@ -58,6 +58,19 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
+ &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>Role &lt;code>ingress-nginx&lt;/code>&lt;/td>
  &lt;td>core/secrets&lt;/td>
  &lt;td>get · list · watch&lt;/td>
@@ -70,6 +83,17 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>Role &lt;code>ingress-nginx&lt;/code>&lt;/td>
  &lt;td>core/configmaps&lt;/td>
  &lt;td>get · list · watch&lt;/td>
@@ -79,14 +103,6 @@
  &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
  &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
 &lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
@@ -245,14 +261,6 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
  &lt;td>core/services&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -278,7 +286,7 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-4">⚠️ Potential Abuse (4)&lt;/h4>
+&lt;h4 id="-potential-abuse-6">⚠️ Potential Abuse (6)&lt;/h4>
 &lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>ingress-nginx</title><link>https://rbac-atlas.github.io/charts/ingress-nginx/ingress-nginx/4.13.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/ingress-nginx/ingress-nginx/4.13.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer&lt;/p>
 &lt;ul>
@@ -339,6 +347,19 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
+ &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
+ &lt;td>core/secrets&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-clusterwidesecretaccess">&lt;a href="https://rbac-atlas.github.io/tags/clusterwidesecretaccess/">ClusterWideSecretAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-secretaccess">&lt;a href="https://rbac-atlas.github.io/tags/secretaccess/">SecretAccess&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>Role &lt;code>ingress-nginx&lt;/code>&lt;/td>
  &lt;td>core/secrets&lt;/td>
  &lt;td>get · list · watch&lt;/td>
@@ -351,6 +372,17 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
+ &lt;td>core/configmaps&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-high">High&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
+ &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
+ &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>Role &lt;code>ingress-nginx&lt;/code>&lt;/td>
  &lt;td>core/configmaps&lt;/td>
  &lt;td>get · list · watch&lt;/td>
@@ -360,14 +392,6 @@
  &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
  &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
 &lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
@@ -526,14 +550,6 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>ingress-nginx&lt;/code>&lt;/td>
  &lt;td>core/services&lt;/td>
  &lt;td>get · list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
@@ -559,7 +575,7 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-4">⚠️ Potential Abuse (4)&lt;/h4>
+&lt;h4 id="-potential-abuse-6">⚠️ Potential Abuse (6)&lt;/h4>
 &lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>openresty-operator</title><link>https://rbac-atlas.github.io/charts/openresty-operator/openresty-operator/1.0.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/openresty-operator/openresty-operator/1.0.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>Kubernetes Operator for managing OpenResty with custom CRDs (OpenResty, Server, Location, Upstream, RateLimitPolicy)&lt;/p>
 &lt;ul>

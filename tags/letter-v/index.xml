@@ -891,6 +891,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.17.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.17.0/#sa-victoria-metrics-distributed-victoria-metrics-operator">&lt;code>victoria-metrics-distributed-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -908,16 +918,6 @@
  &lt;td>48&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.17.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -971,6 +971,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.18.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.18.0/#sa-victoria-metrics-distributed-victoria-metrics-operator">&lt;code>victoria-metrics-distributed-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -988,16 +998,6 @@
  &lt;td>48&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.18.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -1051,6 +1051,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.19.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.19.0/#sa-victoria-metrics-distributed-victoria-metrics-operator">&lt;code>victoria-metrics-distributed-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -1068,16 +1078,6 @@
  &lt;td>48&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-distributed/0.19.0/#sa-victoria-metrics-distributed-kube-state-metrics">&lt;code>victoria-metrics-distributed-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -1131,6 +1131,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.52.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.52.0/#sa-victoria-metrics-k8s-stack-victoria-metrics-operator">&lt;code>victoria-metrics-k8s-stack-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -1148,16 +1158,6 @@
  &lt;td>54&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.52.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -1211,6 +1211,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.54.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>32&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.54.0/#sa-victoria-metrics-k8s-stack-victoria-metrics-operator">&lt;code>victoria-metrics-k8s-stack-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -1228,16 +1238,6 @@
  &lt;td>57&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.54.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -1291,6 +1291,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.55.2/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.55.2/#sa-victoria-metrics-k8s-stack-victoria-metrics-operator">&lt;code>victoria-metrics-k8s-stack-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -1308,16 +1318,6 @@
  &lt;td>57&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.55.2/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -1371,6 +1371,16 @@
 &lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.56.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.56.0/#sa-victoria-metrics-k8s-stack-victoria-metrics-operator">&lt;code>victoria-metrics-k8s-stack-victoria-metrics-operator&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>✅&lt;/td>
@@ -1388,16 +1398,6 @@
  &lt;td>57&lt;/td>
  &lt;td>1&lt;/td>
  &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/victoriametrics/victoria-metrics-k8s-stack/0.56.0/#sa-victoria-metrics-k8s-stack-kube-state-metrics">&lt;code>victoria-metrics-k8s-stack-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
 &lt;/td>
  &lt;/tr>
  &lt;tr>

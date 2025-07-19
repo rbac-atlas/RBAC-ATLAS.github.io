@@ -247,6 +247,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
  &lt;td>core/resourcequotas&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
@@ -354,14 +365,6 @@
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
  &lt;td>workspace.devfile.io/devworkspacetemplates&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>core/events&lt;/td>
- &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
@@ -536,7 +539,7 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-41">⚠️ Potential Abuse (41)&lt;/h4>
+&lt;h4 id="-potential-abuse-42">⚠️ Potential Abuse (42)&lt;/h4>
 &lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>eclipse-che</title><link>https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.105.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.105.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for deploying Eclipse Che on a Kubernetes&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
@@ -786,6 +789,17 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
+ &lt;td>core/events&lt;/td>
+ &lt;td>list · watch&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;td>&lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
+ &lt;span class="tag-operationaldata">&lt;a href="https://rbac-atlas.github.io/tags/operationaldata/">OperationalData&lt;/a>&lt;/span>
+ &lt;span class="tag-reconnaissance">&lt;a href="https://rbac-atlas.github.io/tags/reconnaissance/">Reconnaissance&lt;/a>&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
  &lt;td>core/resourcequotas&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
  &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
@@ -893,14 +907,6 @@
  &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
  &lt;td>workspace.devfile.io/devworkspacetemplates&lt;/td>
  &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>che-operator&lt;/code>&lt;/td>
- &lt;td>core/events&lt;/td>
- &lt;td>list · watch&lt;/td>
  &lt;td>&lt;span class="risk-low">Low&lt;/span>
 &lt;/td>
  &lt;td>&lt;/td>
@@ -1075,5 +1081,5 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h4 id="-potential-abuse-41">⚠️ Potential Abuse (41)&lt;/h4>
+&lt;h4 id="-potential-abuse-42">⚠️ Potential Abuse (42)&lt;/h4>
 &lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item></channel></rss>
