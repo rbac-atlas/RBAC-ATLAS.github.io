@@ -2758,7 +2758,66 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h4 id="-potential-abuse-42">⚠️ Potential Abuse (42)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>edp-headlamp</title><link>https://rbac-atlas.github.io/charts/epmdedp/edp-headlamp/0.22.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/edp-headlamp/0.22.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>edp-headlamp</title><link>https://rbac-atlas.github.io/charts/epmdedp-dev/edp-headlamp/0.24.0-snapshot.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp-dev/edp-headlamp/0.24.0-snapshot.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for KubeRocketCI Headlamp&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/epam/edp-headlamp">https://github.com/epam/edp-headlamp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kinvolk/headlamp">https://github.com/kinvolk/headlamp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kinvolk.io/">https://kinvolk.io/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-headlamp/0.24.0-snapshot.5/#sa-edp-headlamp">&lt;code>edp-headlamp&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-edp-headlamp">🤖 &lt;code>edp-headlamp&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
+&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
+&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
+&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Kind&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;th>Container&lt;/th>
+ &lt;th>Image&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Deployment&lt;/td>
+ &lt;td>portal&lt;/td>
+ &lt;td>portal&lt;/td>
+ &lt;td>epamedp/edp-headlamp:0.24.0-SNAPSHOT.5&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr></description></item><item><title>edp-headlamp</title><link>https://rbac-atlas.github.io/charts/epmdedp/edp-headlamp/0.22.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/edp-headlamp/0.22.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for KubeRocketCI Headlamp&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/epam/edp-headlamp">https://github.com/epam/edp-headlamp&lt;/a>&lt;/li>
@@ -2876,7 +2935,116 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;hr></description></item><item><title>edp-install</title><link>https://rbac-atlas.github.io/charts/epmdedp/edp-install/3.11.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/edp-install/3.11.3/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;hr></description></item><item><title>edp-install</title><link>https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart for KubeRocketCI Platform&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/epam/edp-install">https://github.com/epam/edp-install&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/#sa-edp-cd-pipeline-operator">&lt;code>edp-cd-pipeline-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>29&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/#sa-edp-codebase-operator">&lt;code>edp-codebase-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>37&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/#sa-tekton">&lt;code>tekton&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>kaniko-docker-config&lt;/td>
+ &lt;td>17&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/#sa-edp-gerrit-operator">&lt;code>edp-gerrit-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>28&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/#sa-tekton-interceptor">&lt;code>tekton-interceptor&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>12&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/#sa-tekton-resource-pruner">&lt;code>tekton-resource-pruner&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/#sa-edp-headlamp">&lt;code>edp-headlamp&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/#sa-gerrit">&lt;code>gerrit&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/edp-install/3.13.0-snapshot.4/#sa-tekton-triggers-sa-default">&lt;code>tekton-triggers-sa-default&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>edp-install</title><link>https://rbac-atlas.github.io/charts/epmdedp/edp-install/3.11.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/edp-install/3.11.3/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for KubeRocketCI Platform&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/epam/edp-install">https://github.com/epam/edp-install&lt;/a>&lt;/li>
@@ -3256,6 +3424,41 @@
  &lt;tbody>
  &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/bitnami/etcd/12.0.17/#sa-etcd">&lt;code>etcd&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-etcd">🤖 &lt;code>etcd&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>etcd</title><link>https://rbac-atlas.github.io/charts/bitnami/etcd/12.0.18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/bitnami/etcd/12.0.18/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>etcd is a distributed key-value store designed to securely store data across a cluster. etcd is widely used in production on account of its reliability, fault-tolerance and ease of use.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/bitnami/charts/tree/main/bitnami/etcd">https://github.com/bitnami/charts/tree/main/bitnami/etcd&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/bitnami/etcd/12.0.18/#sa-etcd">&lt;code>etcd&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
