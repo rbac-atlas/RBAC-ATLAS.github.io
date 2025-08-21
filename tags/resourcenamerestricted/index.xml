@@ -1328,6 +1328,86 @@
  &lt;/tbody>
 &lt;/table>
 &lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>capsule</title><link>https://rbac-atlas.github.io/charts/projectcapsule/capsule/0.10.6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/projectcapsule/capsule/0.10.6/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>A Helm chart to deploy the Capsule Operator for easily implementing, managing, and maintaining mutitenancy and access control in Kubernetes.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/projectcapsule/capsule">https://github.com/projectcapsule/capsule&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/projectcapsule/capsule/0.10.6/#sa-capsule-crds">&lt;code>capsule-crds&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/projectcapsule/capsule/0.10.6/#sa-capsule-post-install">&lt;code>capsule-post-install&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/projectcapsule/capsule/0.10.6/#sa-capsule-pre-delete">&lt;code>capsule-pre-delete&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>5&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/projectcapsule/capsule/0.10.6/#sa-capsule-proxy-crds">&lt;code>capsule-proxy-crds&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/projectcapsule/capsule/0.10.6/#sa-capsule">&lt;code>capsule&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/projectcapsule/capsule/0.10.6/#sa-capsule-capsule-proxy">&lt;code>capsule-capsule-proxy&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
 &lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>cert-manager</title><link>https://rbac-atlas.github.io/charts/cert-manager/cert-manager/1.18.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/cert-manager/cert-manager/1.18.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
 &lt;p>A Helm chart for cert-manager&lt;/p>
 &lt;ul>
@@ -4897,6 +4977,83 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hashicorp/consul/1.8.0/#sa-consul-consul-server">&lt;code>consul-consul-server&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="identities">Identities&lt;/h2>
+&lt;h3 id="sa-consul-consul-connect-injector">🤖 &lt;code>consul-consul-connect-injector&lt;/code>&lt;/h3>
+&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>consul</title><link>https://rbac-atlas.github.io/charts/hashicorp/consul/1.8.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/hashicorp/consul/1.8.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Official HashiCorp Consul Chart&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/hashicorp/consul">https://github.com/hashicorp/consul&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/hashicorp/consul-k8s">https://github.com/hashicorp/consul-k8s&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hashicorp/consul/1.8.1/#sa-consul-consul-connect-injector">&lt;code>consul-consul-connect-injector&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>65&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hashicorp/consul/1.8.1/#sa-consul-consul-webhook-cert-manager">&lt;code>consul-consul-webhook-cert-manager&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hashicorp/consul/1.8.1/#sa-consul-consul-gateway-cleanup">&lt;code>consul-consul-gateway-cleanup&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hashicorp/consul/1.8.1/#sa-consul-consul-gateway-resources">&lt;code>consul-consul-gateway-resources&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/hashicorp/consul/1.8.1/#sa-consul-consul-server">&lt;code>consul-consul-server&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
@@ -12436,6 +12593,134 @@
  &lt;/tr>
  &lt;tr>
  &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.1/#sa-dynatrace-node-config-collector">&lt;code>dynatrace-node-config-collector&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>dynatrace-operator</title><link>https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The Dynatrace Operator Helm chart for Kubernetes and OpenShift&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Dynatrace/dynatrace-operator">https://github.com/Dynatrace/dynatrace-operator&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Identity&lt;/th>
+ &lt;th>Namespace&lt;/th>
+ &lt;th>Automount&lt;/th>
+ &lt;th>Secrets&lt;/th>
+ &lt;th>Permissions&lt;/th>
+ &lt;th>Workloads&lt;/th>
+ &lt;th>Risk&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-oneagent-csi-driver">&lt;code>dynatrace-oneagent-csi-driver&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>6&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-webhook">&lt;code>dynatrace-webhook&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>18&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-kubernetes-monitoring">&lt;code>dynatrace-kubernetes-monitoring&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>41&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-dynakube-oneagent">&lt;code>dynatrace-dynakube-oneagent&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-logmonitoring">&lt;code>dynatrace-logmonitoring&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-opentelemetry-collector">&lt;code>dynatrace-opentelemetry-collector&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>14&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-operator">&lt;code>dynatrace-operator&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>&lt;span class="risk-low">Low&lt;/span>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-activegate">&lt;code>dynatrace-activegate&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-edgeconnect">&lt;code>dynatrace-edgeconnect&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-extensions-controller">&lt;code>dynatrace-extensions-controller&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>default&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>—&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/dynatrace/dynatrace-operator/1.6.2/#sa-dynatrace-node-config-collector">&lt;code>dynatrace-node-config-collector&lt;/code>&lt;/a>&lt;/td>
  &lt;td>default&lt;/td>
  &lt;td>❌&lt;/td>
  &lt;td>—&lt;/td>
