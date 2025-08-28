@@ -1,585 +1,585 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>prometheus on RBAC ATLAS</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/</link><description>Recent content in prometheus on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/index.xml" rel="self" type="application/rss+xml"/><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Prometheus is a monitoring system and time series database.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/prometheus/alertmanager">https://github.com/prometheus/alertmanager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/prometheus">https://github.com/prometheus/prometheus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/pushgateway">https://github.com/prometheus/pushgateway&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/node_exporter">https://github.com/prometheus/node_exporter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubernetes/kube-state-metrics">https://github.com/kubernetes/kube-state-metrics&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>32&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-alertmanager">&lt;code>prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-prometheus-node-exporter">&lt;code>prometheus-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-prometheus-pushgateway">&lt;code>prometheus-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Prometheus is a monitoring system and time series database.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/prometheus/alertmanager">https://github.com/prometheus/alertmanager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/prometheus">https://github.com/prometheus/prometheus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/pushgateway">https://github.com/prometheus/pushgateway&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/node_exporter">https://github.com/prometheus/node_exporter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubernetes/kube-state-metrics">https://github.com/kubernetes/kube-state-metrics&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-alertmanager">&lt;code>prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-prometheus-node-exporter">&lt;code>prometheus-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-prometheus-pushgateway">&lt;code>prometheus-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Prometheus is a monitoring system and time series database.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/prometheus/alertmanager">https://github.com/prometheus/alertmanager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/prometheus">https://github.com/prometheus/prometheus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/pushgateway">https://github.com/prometheus/pushgateway&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/node_exporter">https://github.com/prometheus/node_exporter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubernetes/kube-state-metrics">https://github.com/kubernetes/kube-state-metrics&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-alertmanager">&lt;code>prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-prometheus-node-exporter">&lt;code>prometheus-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-prometheus-pushgateway">&lt;code>prometheus-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Prometheus is a monitoring system and time series database.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/prometheus/alertmanager">https://github.com/prometheus/alertmanager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/prometheus">https://github.com/prometheus/prometheus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/pushgateway">https://github.com/prometheus/pushgateway&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/node_exporter">https://github.com/prometheus/node_exporter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubernetes/kube-state-metrics">https://github.com/kubernetes/kube-state-metrics&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-alertmanager">&lt;code>prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-prometheus-node-exporter">&lt;code>prometheus-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-prometheus-pushgateway">&lt;code>prometheus-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Prometheus is a monitoring system and time series database.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/prometheus/alertmanager">https://github.com/prometheus/alertmanager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/prometheus">https://github.com/prometheus/prometheus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/pushgateway">https://github.com/prometheus/pushgateway&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/node_exporter">https://github.com/prometheus/node_exporter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubernetes/kube-state-metrics">https://github.com/kubernetes/kube-state-metrics&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-alertmanager">&lt;code>prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-prometheus-node-exporter">&lt;code>prometheus-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-prometheus-pushgateway">&lt;code>prometheus-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Prometheus is a monitoring system and time series database.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/prometheus/alertmanager">https://github.com/prometheus/alertmanager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/prometheus">https://github.com/prometheus/prometheus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/pushgateway">https://github.com/prometheus/pushgateway&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/node_exporter">https://github.com/prometheus/node_exporter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubernetes/kube-state-metrics">https://github.com/kubernetes/kube-state-metrics&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-alertmanager">&lt;code>prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-prometheus-node-exporter">&lt;code>prometheus-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-prometheus-pushgateway">&lt;code>prometheus-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Prometheus is a monitoring system and time series database.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/prometheus/alertmanager">https://github.com/prometheus/alertmanager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/prometheus">https://github.com/prometheus/prometheus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/pushgateway">https://github.com/prometheus/pushgateway&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/node_exporter">https://github.com/prometheus/node_exporter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubernetes/kube-state-metrics">https://github.com/kubernetes/kube-state-metrics&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-alertmanager">&lt;code>prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-prometheus-node-exporter">&lt;code>prometheus-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-prometheus-pushgateway">&lt;code>prometheus-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Prometheus is a monitoring system and time series database.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/prometheus/alertmanager">https://github.com/prometheus/alertmanager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/prometheus">https://github.com/prometheus/prometheus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/pushgateway">https://github.com/prometheus/pushgateway&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prometheus/node_exporter">https://github.com/prometheus/node_exporter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubernetes/kube-state-metrics">https://github.com/kubernetes/kube-state-metrics&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-kube-state-metrics">&lt;code>prometheus-kube-state-metrics&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>28&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-server">&lt;code>prometheus-server&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-alertmanager">&lt;code>prometheus-alertmanager&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-prometheus-node-exporter">&lt;code>prometheus-prometheus-node-exporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-prometheus-pushgateway">&lt;code>prometheus-prometheus-pushgateway&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>prometheus on RBAC ATLAS</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/</link><description>Recent content in prometheus on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/index.xml" rel="self" type="application/rss+xml"/><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Prometheus is a monitoring system and time series database.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/alertmanager"&gt;https://github.com/prometheus/alertmanager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/prometheus"&gt;https://github.com/prometheus/prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/pushgateway"&gt;https://github.com/prometheus/pushgateway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/node_exporter"&gt;https://github.com/prometheus/node_exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kubernetes/kube-state-metrics"&gt;https://github.com/kubernetes/kube-state-metrics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-kube-state-metrics"&gt;&lt;code&gt;prometheus-kube-state-metrics&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;32&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-server"&gt;&lt;code&gt;prometheus-server&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-alertmanager"&gt;&lt;code&gt;prometheus-alertmanager&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-prometheus-node-exporter"&gt;&lt;code&gt;prometheus-prometheus-node-exporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.20.1/#sa-prometheus-prometheus-pushgateway"&gt;&lt;code&gt;prometheus-prometheus-pushgateway&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Prometheus is a monitoring system and time series database.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/alertmanager"&gt;https://github.com/prometheus/alertmanager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/prometheus"&gt;https://github.com/prometheus/prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/pushgateway"&gt;https://github.com/prometheus/pushgateway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/node_exporter"&gt;https://github.com/prometheus/node_exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kubernetes/kube-state-metrics"&gt;https://github.com/kubernetes/kube-state-metrics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-kube-state-metrics"&gt;&lt;code&gt;prometheus-kube-state-metrics&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;28&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-server"&gt;&lt;code&gt;prometheus-server&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-alertmanager"&gt;&lt;code&gt;prometheus-alertmanager&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-prometheus-node-exporter"&gt;&lt;code&gt;prometheus-prometheus-node-exporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.22.0/#sa-prometheus-prometheus-pushgateway"&gt;&lt;code&gt;prometheus-prometheus-pushgateway&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Prometheus is a monitoring system and time series database.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/alertmanager"&gt;https://github.com/prometheus/alertmanager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/prometheus"&gt;https://github.com/prometheus/prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/pushgateway"&gt;https://github.com/prometheus/pushgateway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/node_exporter"&gt;https://github.com/prometheus/node_exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kubernetes/kube-state-metrics"&gt;https://github.com/kubernetes/kube-state-metrics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-kube-state-metrics"&gt;&lt;code&gt;prometheus-kube-state-metrics&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;28&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-server"&gt;&lt;code&gt;prometheus-server&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-alertmanager"&gt;&lt;code&gt;prometheus-alertmanager&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-prometheus-node-exporter"&gt;&lt;code&gt;prometheus-prometheus-node-exporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.23.0/#sa-prometheus-prometheus-pushgateway"&gt;&lt;code&gt;prometheus-prometheus-pushgateway&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Prometheus is a monitoring system and time series database.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/alertmanager"&gt;https://github.com/prometheus/alertmanager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/prometheus"&gt;https://github.com/prometheus/prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/pushgateway"&gt;https://github.com/prometheus/pushgateway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/node_exporter"&gt;https://github.com/prometheus/node_exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kubernetes/kube-state-metrics"&gt;https://github.com/kubernetes/kube-state-metrics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-kube-state-metrics"&gt;&lt;code&gt;prometheus-kube-state-metrics&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;28&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-server"&gt;&lt;code&gt;prometheus-server&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-alertmanager"&gt;&lt;code&gt;prometheus-alertmanager&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-prometheus-node-exporter"&gt;&lt;code&gt;prometheus-prometheus-node-exporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.24.0/#sa-prometheus-prometheus-pushgateway"&gt;&lt;code&gt;prometheus-prometheus-pushgateway&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Prometheus is a monitoring system and time series database.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/alertmanager"&gt;https://github.com/prometheus/alertmanager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/prometheus"&gt;https://github.com/prometheus/prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/pushgateway"&gt;https://github.com/prometheus/pushgateway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/node_exporter"&gt;https://github.com/prometheus/node_exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kubernetes/kube-state-metrics"&gt;https://github.com/kubernetes/kube-state-metrics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-kube-state-metrics"&gt;&lt;code&gt;prometheus-kube-state-metrics&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;28&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-server"&gt;&lt;code&gt;prometheus-server&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-alertmanager"&gt;&lt;code&gt;prometheus-alertmanager&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-prometheus-node-exporter"&gt;&lt;code&gt;prometheus-prometheus-node-exporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.29.0/#sa-prometheus-prometheus-pushgateway"&gt;&lt;code&gt;prometheus-prometheus-pushgateway&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Prometheus is a monitoring system and time series database.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/alertmanager"&gt;https://github.com/prometheus/alertmanager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/prometheus"&gt;https://github.com/prometheus/prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/pushgateway"&gt;https://github.com/prometheus/pushgateway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/node_exporter"&gt;https://github.com/prometheus/node_exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kubernetes/kube-state-metrics"&gt;https://github.com/kubernetes/kube-state-metrics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-kube-state-metrics"&gt;&lt;code&gt;prometheus-kube-state-metrics&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;28&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-server"&gt;&lt;code&gt;prometheus-server&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-alertmanager"&gt;&lt;code&gt;prometheus-alertmanager&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-prometheus-node-exporter"&gt;&lt;code&gt;prometheus-prometheus-node-exporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.30.0/#sa-prometheus-prometheus-pushgateway"&gt;&lt;code&gt;prometheus-prometheus-pushgateway&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Prometheus is a monitoring system and time series database.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/alertmanager"&gt;https://github.com/prometheus/alertmanager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/prometheus"&gt;https://github.com/prometheus/prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/pushgateway"&gt;https://github.com/prometheus/pushgateway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/node_exporter"&gt;https://github.com/prometheus/node_exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kubernetes/kube-state-metrics"&gt;https://github.com/kubernetes/kube-state-metrics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-kube-state-metrics"&gt;&lt;code&gt;prometheus-kube-state-metrics&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;28&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-server"&gt;&lt;code&gt;prometheus-server&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-alertmanager"&gt;&lt;code&gt;prometheus-alertmanager&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-prometheus-node-exporter"&gt;&lt;code&gt;prometheus-prometheus-node-exporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.31.0/#sa-prometheus-prometheus-pushgateway"&gt;&lt;code&gt;prometheus-prometheus-pushgateway&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>prometheus</title><link>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Prometheus is a monitoring system and time series database.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/alertmanager"&gt;https://github.com/prometheus/alertmanager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/prometheus"&gt;https://github.com/prometheus/prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/pushgateway"&gt;https://github.com/prometheus/pushgateway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prometheus/node_exporter"&gt;https://github.com/prometheus/node_exporter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kubernetes/kube-state-metrics"&gt;https://github.com/kubernetes/kube-state-metrics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-kube-state-metrics"&gt;&lt;code&gt;prometheus-kube-state-metrics&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;28&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-server"&gt;&lt;code&gt;prometheus-server&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-alertmanager"&gt;&lt;code&gt;prometheus-alertmanager&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-prometheus-node-exporter"&gt;&lt;code&gt;prometheus-prometheus-node-exporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/prometheus-community/prometheus/27.32.0/#sa-prometheus-prometheus-pushgateway"&gt;&lt;code&gt;prometheus-prometheus-pushgateway&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

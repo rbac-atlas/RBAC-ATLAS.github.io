@@ -1,1265 +1,1323 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Letter-J on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/letter-j/</link><description>Recent content in Letter-J on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/letter-j/index.xml" rel="self" type="application/rss+xml"/><item><title>jaeger</title><link>https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Jaeger Helm chart for Kubernetes&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://hub.docker.com/u/jaegertracing/">https://hub.docker.com/u/jaegertracing/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-agent">&lt;code>jaeger-agent&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-cassandra-schema">&lt;code>jaeger-cassandra-schema&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-collector">&lt;code>jaeger-collector&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-coordinating">&lt;code>jaeger-elasticsearch-coordinating&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-data">&lt;code>jaeger-elasticsearch-data&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-ingest">&lt;code>jaeger-elasticsearch-ingest&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-master">&lt;code>jaeger-elasticsearch-master&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-kafka">&lt;code>jaeger-kafka&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-kibana">&lt;code>jaeger-kibana&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-query">&lt;code>jaeger-query&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>jaeger-operator</title><link>https://rbac-atlas.github.io/charts/jaeger/jaeger-operator/2.57.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jaeger/jaeger-operator/2.57.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>jaeger-operator Helm chart for Kubernetes&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jaegertracing/jaeger-operator">https://github.com/jaegertracing/jaeger-operator&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger-operator/2.57.0/#sa-jaeger-operator">&lt;code>jaeger-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>33&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jaeger-operator">🤖 &lt;code>jaeger-operator&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-33">🔑 Permissions (33)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Role&lt;/th>
- &lt;th>Resource&lt;/th>
- &lt;th>Verbs&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;th>Tags&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-nodeaccess">&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/">NodeAccess&lt;/a>&lt;/span>
- &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- (+2 more)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>batch/cronjobs&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingresses&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
- &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
- &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>batch/jobs&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/pods&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-lateralmovement">&lt;a href="https://rbac-atlas.github.io/tags/lateralmovement/">LateralMovement&lt;/a>&lt;/span>
- &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadexecution">&lt;a href="https://rbac-atlas.github.io/tags/workloadexecution/">WorkloadExecution&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/services&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
- &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
- &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/statefulsets&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/serviceaccounts&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-identitymanagement">&lt;a href="https://rbac-atlas.github.io/tags/identitymanagement/">IdentityManagement&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterrolebindings&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>console.openshift.io/consolelinks&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments/status&lt;/td>
- &lt;td>get · patch · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>logging.openshift.io/elasticsearch&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>logging.openshift.io/elasticsearches&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>autoscaling/horizontalpodautoscalers&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>image.openshift.io/imagestreams&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingressclasses&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>extensions/ingresses&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>jaegertracing.io/jaegers&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>jaegertracing.io/jaegers/finalizers&lt;/td>
- &lt;td>update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>jaegertracing.io/jaegers/status&lt;/td>
- &lt;td>get · patch · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>kafka.strimzi.io/kafkas&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>kafka.strimzi.io/kafkausers&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases&lt;/td>
- &lt;td>create · get · list · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/namespaces&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/namespaces/status&lt;/td>
- &lt;td>get · patch · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/persistentvolumeclaims&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/replicasets&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>route.openshift.io/routes&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>monitoring.coreos.com/servicemonitors&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/services/finalizers&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h4 id="-potential-abuse-15">⚠️ Potential Abuse (15)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>jaeger-operator</title><link>https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.57.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.57.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>jaeger-operator Helm chart for Kubernetes&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jaegertracing/jaeger-operator">https://github.com/jaegertracing/jaeger-operator&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.57.0/#sa-jaeger-operator">&lt;code>jaeger-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>33&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jaeger-operator">🤖 &lt;code>jaeger-operator&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-33">🔑 Permissions (33)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Role&lt;/th>
- &lt;th>Resource&lt;/th>
- &lt;th>Verbs&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;th>Tags&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/daemonsets&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-nodeaccess">&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/">NodeAccess&lt;/a>&lt;/span>
- &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-privilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/">PrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/secrets&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-credentialaccess">&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/">CredentialAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- (+2 more)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/configmaps&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-configmapaccess">&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/">ConfigMapAccess&lt;/a>&lt;/span>
- &lt;span class="tag-dataexposure">&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/">DataExposure&lt;/a>&lt;/span>
- &lt;span class="tag-informationdisclosure">&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/">InformationDisclosure&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>batch/cronjobs&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingresses&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
- &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
- &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>batch/jobs&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/pods&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-lateralmovement">&lt;a href="https://rbac-atlas.github.io/tags/lateralmovement/">LateralMovement&lt;/a>&lt;/span>
- &lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadexecution">&lt;a href="https://rbac-atlas.github.io/tags/workloadexecution/">WorkloadExecution&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/services&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-denialofservice">&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/">DenialOfService&lt;/a>&lt;/span>
- &lt;span class="tag-networkmanipulation">&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/">NetworkManipulation&lt;/a>&lt;/span>
- &lt;span class="tag-serviceexposure">&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/">ServiceExposure&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/statefulsets&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-persistence">&lt;a href="https://rbac-atlas.github.io/tags/persistence/">Persistence&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
- &lt;span class="tag-workloadlifecycle">&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/">WorkloadLifecycle&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/serviceaccounts&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;td>&lt;span class="tag-identitymanagement">&lt;a href="https://rbac-atlas.github.io/tags/identitymanagement/">IdentityManagement&lt;/a>&lt;/span>
- &lt;span class="tag-potentialprivilegeescalation">&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/">PotentialPrivilegeEscalation&lt;/a>&lt;/span>
- &lt;span class="tag-tampering">&lt;a href="https://rbac-atlas.github.io/tags/tampering/">Tampering&lt;/a>&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>rbac.authorization.k8s.io/clusterrolebindings&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>console.openshift.io/consolelinks&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/deployments/status&lt;/td>
- &lt;td>get · patch · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>logging.openshift.io/elasticsearch&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>logging.openshift.io/elasticsearches&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>autoscaling/horizontalpodautoscalers&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>image.openshift.io/imagestreams&lt;/td>
- &lt;td>get · list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>networking.k8s.io/ingressclasses&lt;/td>
- &lt;td>list · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>extensions/ingresses&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>jaegertracing.io/jaegers&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>jaegertracing.io/jaegers/finalizers&lt;/td>
- &lt;td>update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>jaegertracing.io/jaegers/status&lt;/td>
- &lt;td>get · patch · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>kafka.strimzi.io/kafkas&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>kafka.strimzi.io/kafkausers&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>coordination.k8s.io/leases&lt;/td>
- &lt;td>create · get · list · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/namespaces&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/namespaces/status&lt;/td>
- &lt;td>get · patch · update&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/persistentvolumeclaims&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>apps/replicasets&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>route.openshift.io/routes&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>monitoring.coreos.com/servicemonitors&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Role &lt;code>jaeger-operator&lt;/code>&lt;/td>
- &lt;td>core/services/finalizers&lt;/td>
- &lt;td>create · delete · get · list · patch · update · watch&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h4 id="-potential-abuse-15">⚠️ Potential Abuse (15)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.59/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.59/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jenkinsci/jenkins">https://github.com/jenkinsci/jenkins&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/docker-inbound-agent">https://github.com/jenkinsci/docker-inbound-agent&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/maorfr/kube-tasks">https://github.com/maorfr/kube-tasks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin">https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.59/#sa-jenkins">&lt;code>jenkins&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>6&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jenkins">🤖 &lt;code>jenkins&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p></description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.61/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.61/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jenkinsci/jenkins">https://github.com/jenkinsci/jenkins&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/docker-inbound-agent">https://github.com/jenkinsci/docker-inbound-agent&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/maorfr/kube-tasks">https://github.com/maorfr/kube-tasks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin">https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.61/#sa-jenkins">&lt;code>jenkins&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>6&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jenkins">🤖 &lt;code>jenkins&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p></description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.66/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.66/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jenkinsci/jenkins">https://github.com/jenkinsci/jenkins&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/docker-inbound-agent">https://github.com/jenkinsci/docker-inbound-agent&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/maorfr/kube-tasks">https://github.com/maorfr/kube-tasks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin">https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.66/#sa-jenkins">&lt;code>jenkins&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>6&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jenkins">🤖 &lt;code>jenkins&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p></description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.68/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.68/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jenkinsci/jenkins">https://github.com/jenkinsci/jenkins&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/docker-inbound-agent">https://github.com/jenkinsci/docker-inbound-agent&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/maorfr/kube-tasks">https://github.com/maorfr/kube-tasks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin">https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.68/#sa-jenkins">&lt;code>jenkins&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>6&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jenkins">🤖 &lt;code>jenkins&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p></description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.73/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.73/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jenkinsci/jenkins">https://github.com/jenkinsci/jenkins&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/docker-inbound-agent">https://github.com/jenkinsci/docker-inbound-agent&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/maorfr/kube-tasks">https://github.com/maorfr/kube-tasks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin">https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.73/#sa-jenkins">&lt;code>jenkins&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>6&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jenkins">🤖 &lt;code>jenkins&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p></description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.79/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.79/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jenkinsci/jenkins">https://github.com/jenkinsci/jenkins&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/docker-inbound-agent">https://github.com/jenkinsci/docker-inbound-agent&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/maorfr/kube-tasks">https://github.com/maorfr/kube-tasks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin">https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.79/#sa-jenkins">&lt;code>jenkins&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>6&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jenkins">🤖 &lt;code>jenkins&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p></description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.82/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.82/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jenkinsci/jenkins">https://github.com/jenkinsci/jenkins&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/docker-inbound-agent">https://github.com/jenkinsci/docker-inbound-agent&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/maorfr/kube-tasks">https://github.com/maorfr/kube-tasks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin">https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.82/#sa-jenkins">&lt;code>jenkins&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>6&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jenkins">🤖 &lt;code>jenkins&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p></description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.83/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.83/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/jenkinsci/jenkins">https://github.com/jenkinsci/jenkins&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/docker-inbound-agent">https://github.com/jenkinsci/docker-inbound-agent&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/maorfr/kube-tasks">https://github.com/maorfr/kube-tasks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin">https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.83/#sa-jenkins">&lt;code>jenkins&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>6&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jenkins">🤖 &lt;code>jenkins&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p></description></item><item><title>jira</title><link>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A chart for installing Jira Data Center on Kubernetes&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/atlassian/data-center-helm-charts">https://github.com/atlassian/data-center-helm-charts&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bitbucket.org/atlassian-docker/docker-atlassian-jira/">https://bitbucket.org/atlassian-docker/docker-atlassian-jira/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/atlassian/jira/2.0.2/#sa-jira">&lt;code>jira&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jira">🤖 &lt;code>jira&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>StatefulSet&lt;/td>
- &lt;td>jira&lt;/td>
- &lt;td>jira&lt;/td>
- &lt;td>atlassian/jira-software:10.3.7&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr></description></item><item><title>jira</title><link>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.3/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A chart for installing Jira Data Center on Kubernetes&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/atlassian/data-center-helm-charts">https://github.com/atlassian/data-center-helm-charts&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bitbucket.org/atlassian-docker/docker-atlassian-jira/">https://bitbucket.org/atlassian-docker/docker-atlassian-jira/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/atlassian/jira/2.0.3/#sa-jira">&lt;code>jira&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-jira">🤖 &lt;code>jira&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>StatefulSet&lt;/td>
- &lt;td>jira&lt;/td>
- &lt;td>jira&lt;/td>
- &lt;td>atlassian/jira-software:10.3.8&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Letter-J on RBAC ATLAS</title><link>https://rbac-atlas.github.io/tags/letter-j/</link><description>Recent content in Letter-J on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/tags/letter-j/index.xml" rel="self" type="application/rss+xml"/><item><title>jaeger</title><link>https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A Jaeger Helm chart for Kubernetes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://hub.docker.com/u/jaegertracing/"&gt;https://hub.docker.com/u/jaegertracing/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-agent"&gt;&lt;code&gt;jaeger-agent&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-cassandra-schema"&gt;&lt;code&gt;jaeger-cassandra-schema&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-collector"&gt;&lt;code&gt;jaeger-collector&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-coordinating"&gt;&lt;code&gt;jaeger-elasticsearch-coordinating&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-data"&gt;&lt;code&gt;jaeger-elasticsearch-data&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-ingest"&gt;&lt;code&gt;jaeger-elasticsearch-ingest&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-elasticsearch-master"&gt;&lt;code&gt;jaeger-elasticsearch-master&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-kafka"&gt;&lt;code&gt;jaeger-kafka&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-kibana"&gt;&lt;code&gt;jaeger-kibana&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger/3.4.1/#sa-jaeger-query"&gt;&lt;code&gt;jaeger-query&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>jaeger-operator</title><link>https://rbac-atlas.github.io/charts/jaeger/jaeger-operator/2.57.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jaeger/jaeger-operator/2.57.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;jaeger-operator Helm chart for Kubernetes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jaegertracing/jaeger-operator"&gt;https://github.com/jaegertracing/jaeger-operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaeger/jaeger-operator/2.57.0/#sa-jaeger-operator"&gt;&lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;33&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jaeger-operator"&gt;🤖 &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-33"&gt;🔑 Permissions (33)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Role&lt;/th&gt;
+ &lt;th&gt;Resource&lt;/th&gt;
+ &lt;th&gt;Verbs&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;th&gt;Tags&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/daemonsets&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-nodeaccess"&gt;&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/"&gt;NodeAccess&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-privilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/"&gt;PrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/secrets&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-credentialaccess"&gt;&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/"&gt;CredentialAccess&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-dataexposure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/"&gt;DataExposure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-informationdisclosure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/"&gt;InformationDisclosure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ (+2 more)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/configmaps&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-configmapaccess"&gt;&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/"&gt;ConfigMapAccess&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-dataexposure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/"&gt;DataExposure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-informationdisclosure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/"&gt;InformationDisclosure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;batch/cronjobs&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/deployments&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;networking.k8s.io/ingresses&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-denialofservice"&gt;&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/"&gt;DenialOfService&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-networkmanipulation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/"&gt;NetworkManipulation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-serviceexposure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/"&gt;ServiceExposure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;batch/jobs&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/pods&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-lateralmovement"&gt;&lt;a href="https://rbac-atlas.github.io/tags/lateralmovement/"&gt;LateralMovement&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadexecution"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadexecution/"&gt;WorkloadExecution&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/services&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-denialofservice"&gt;&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/"&gt;DenialOfService&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-networkmanipulation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/"&gt;NetworkManipulation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-serviceexposure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/"&gt;ServiceExposure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/statefulsets&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/serviceaccounts&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-identitymanagement"&gt;&lt;a href="https://rbac-atlas.github.io/tags/identitymanagement/"&gt;IdentityManagement&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;rbac.authorization.k8s.io/clusterrolebindings&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;console.openshift.io/consolelinks&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/deployments/status&lt;/td&gt;
+ &lt;td&gt;get · patch · update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;logging.openshift.io/elasticsearch&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;logging.openshift.io/elasticsearches&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;autoscaling/horizontalpodautoscalers&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;image.openshift.io/imagestreams&lt;/td&gt;
+ &lt;td&gt;get · list · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;networking.k8s.io/ingressclasses&lt;/td&gt;
+ &lt;td&gt;list · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;extensions/ingresses&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;jaegertracing.io/jaegers&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;jaegertracing.io/jaegers/finalizers&lt;/td&gt;
+ &lt;td&gt;update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;jaegertracing.io/jaegers/status&lt;/td&gt;
+ &lt;td&gt;get · patch · update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;kafka.strimzi.io/kafkas&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;kafka.strimzi.io/kafkausers&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;coordination.k8s.io/leases&lt;/td&gt;
+ &lt;td&gt;create · get · list · update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/namespaces&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/namespaces/status&lt;/td&gt;
+ &lt;td&gt;get · patch · update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/persistentvolumeclaims&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/replicasets&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;route.openshift.io/routes&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;monitoring.coreos.com/servicemonitors&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/services/finalizers&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id="-potential-abuse-15"&gt;⚠️ Potential Abuse (15)&lt;/h4&gt;
+&lt;p&gt;The following security risks were found based on the above permissions:&lt;/p&gt;</description></item><item><title>jaeger-operator</title><link>https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.57.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.57.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;jaeger-operator Helm chart for Kubernetes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jaegertracing/jaeger-operator"&gt;https://github.com/jaegertracing/jaeger-operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.57.0/#sa-jaeger-operator"&gt;&lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;33&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jaeger-operator"&gt;🤖 &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-33"&gt;🔑 Permissions (33)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Role&lt;/th&gt;
+ &lt;th&gt;Resource&lt;/th&gt;
+ &lt;th&gt;Verbs&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;th&gt;Tags&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/daemonsets&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-nodeaccess"&gt;&lt;a href="https://rbac-atlas.github.io/tags/nodeaccess/"&gt;NodeAccess&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-privilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/privilegeescalation/"&gt;PrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/secrets&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-credentialaccess"&gt;&lt;a href="https://rbac-atlas.github.io/tags/credentialaccess/"&gt;CredentialAccess&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-dataexposure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/"&gt;DataExposure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-informationdisclosure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/"&gt;InformationDisclosure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ (+2 more)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/configmaps&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-configmapaccess"&gt;&lt;a href="https://rbac-atlas.github.io/tags/configmapaccess/"&gt;ConfigMapAccess&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-dataexposure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/dataexposure/"&gt;DataExposure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-informationdisclosure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/informationdisclosure/"&gt;InformationDisclosure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;batch/cronjobs&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/deployments&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;networking.k8s.io/ingresses&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-denialofservice"&gt;&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/"&gt;DenialOfService&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-networkmanipulation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/"&gt;NetworkManipulation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-serviceexposure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/"&gt;ServiceExposure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;batch/jobs&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/pods&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-lateralmovement"&gt;&lt;a href="https://rbac-atlas.github.io/tags/lateralmovement/"&gt;LateralMovement&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadexecution"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadexecution/"&gt;WorkloadExecution&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/services&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-denialofservice"&gt;&lt;a href="https://rbac-atlas.github.io/tags/denialofservice/"&gt;DenialOfService&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-networkmanipulation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/networkmanipulation/"&gt;NetworkManipulation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-serviceexposure"&gt;&lt;a href="https://rbac-atlas.github.io/tags/serviceexposure/"&gt;ServiceExposure&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/statefulsets&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-persistence"&gt;&lt;a href="https://rbac-atlas.github.io/tags/persistence/"&gt;Persistence&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-workloadlifecycle"&gt;&lt;a href="https://rbac-atlas.github.io/tags/workloadlifecycle/"&gt;WorkloadLifecycle&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/serviceaccounts&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;span class="tag-identitymanagement"&gt;&lt;a href="https://rbac-atlas.github.io/tags/identitymanagement/"&gt;IdentityManagement&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-potentialprivilegeescalation"&gt;&lt;a href="https://rbac-atlas.github.io/tags/potentialprivilegeescalation/"&gt;PotentialPrivilegeEscalation&lt;/a&gt;&lt;/span&gt;
+ &lt;span class="tag-tampering"&gt;&lt;a href="https://rbac-atlas.github.io/tags/tampering/"&gt;Tampering&lt;/a&gt;&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;rbac.authorization.k8s.io/clusterrolebindings&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;console.openshift.io/consolelinks&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/deployments/status&lt;/td&gt;
+ &lt;td&gt;get · patch · update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;logging.openshift.io/elasticsearch&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;logging.openshift.io/elasticsearches&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;autoscaling/horizontalpodautoscalers&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;image.openshift.io/imagestreams&lt;/td&gt;
+ &lt;td&gt;get · list · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;networking.k8s.io/ingressclasses&lt;/td&gt;
+ &lt;td&gt;list · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;extensions/ingresses&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;jaegertracing.io/jaegers&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;jaegertracing.io/jaegers/finalizers&lt;/td&gt;
+ &lt;td&gt;update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;jaegertracing.io/jaegers/status&lt;/td&gt;
+ &lt;td&gt;get · patch · update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;kafka.strimzi.io/kafkas&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;kafka.strimzi.io/kafkausers&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;coordination.k8s.io/leases&lt;/td&gt;
+ &lt;td&gt;create · get · list · update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/namespaces&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/namespaces/status&lt;/td&gt;
+ &lt;td&gt;get · patch · update&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/persistentvolumeclaims&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;apps/replicasets&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;route.openshift.io/routes&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;monitoring.coreos.com/servicemonitors&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Role &lt;code&gt;jaeger-operator&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;core/services/finalizers&lt;/td&gt;
+ &lt;td&gt;create · delete · get · list · patch · update · watch&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id="-potential-abuse-15"&gt;⚠️ Potential Abuse (15)&lt;/h4&gt;
+&lt;p&gt;The following security risks were found based on the above permissions:&lt;/p&gt;</description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.59/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.59/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/jenkins"&gt;https://github.com/jenkinsci/jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/docker-inbound-agent"&gt;https://github.com/jenkinsci/docker-inbound-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maorfr/kube-tasks"&gt;https://github.com/maorfr/kube-tasks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin"&gt;https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.59/#sa-jenkins"&gt;&lt;code&gt;jenkins&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jenkins"&gt;🤖 &lt;code&gt;jenkins&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;</description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.61/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.61/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/jenkins"&gt;https://github.com/jenkinsci/jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/docker-inbound-agent"&gt;https://github.com/jenkinsci/docker-inbound-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maorfr/kube-tasks"&gt;https://github.com/maorfr/kube-tasks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin"&gt;https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.61/#sa-jenkins"&gt;&lt;code&gt;jenkins&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jenkins"&gt;🤖 &lt;code&gt;jenkins&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;</description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.66/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.66/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/jenkins"&gt;https://github.com/jenkinsci/jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/docker-inbound-agent"&gt;https://github.com/jenkinsci/docker-inbound-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maorfr/kube-tasks"&gt;https://github.com/maorfr/kube-tasks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin"&gt;https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.66/#sa-jenkins"&gt;&lt;code&gt;jenkins&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jenkins"&gt;🤖 &lt;code&gt;jenkins&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;</description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.68/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.68/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/jenkins"&gt;https://github.com/jenkinsci/jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/docker-inbound-agent"&gt;https://github.com/jenkinsci/docker-inbound-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maorfr/kube-tasks"&gt;https://github.com/maorfr/kube-tasks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin"&gt;https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.68/#sa-jenkins"&gt;&lt;code&gt;jenkins&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jenkins"&gt;🤖 &lt;code&gt;jenkins&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;</description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.73/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.73/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/jenkins"&gt;https://github.com/jenkinsci/jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/docker-inbound-agent"&gt;https://github.com/jenkinsci/docker-inbound-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maorfr/kube-tasks"&gt;https://github.com/maorfr/kube-tasks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin"&gt;https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.73/#sa-jenkins"&gt;&lt;code&gt;jenkins&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jenkins"&gt;🤖 &lt;code&gt;jenkins&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;</description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.79/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.79/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/jenkins"&gt;https://github.com/jenkinsci/jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/docker-inbound-agent"&gt;https://github.com/jenkinsci/docker-inbound-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maorfr/kube-tasks"&gt;https://github.com/maorfr/kube-tasks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin"&gt;https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.79/#sa-jenkins"&gt;&lt;code&gt;jenkins&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jenkins"&gt;🤖 &lt;code&gt;jenkins&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;</description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.82/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.82/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/jenkins"&gt;https://github.com/jenkinsci/jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/docker-inbound-agent"&gt;https://github.com/jenkinsci/docker-inbound-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maorfr/kube-tasks"&gt;https://github.com/maorfr/kube-tasks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin"&gt;https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.82/#sa-jenkins"&gt;&lt;code&gt;jenkins&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jenkins"&gt;🤖 &lt;code&gt;jenkins&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;</description></item><item><title>jenkins</title><link>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.83/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.83/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Jenkins - Build great things at any scale! As the leading open source automation server, Jenkins provides over 2000 plugins to support building, deploying and automating any project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/jenkins"&gt;https://github.com/jenkinsci/jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/docker-inbound-agent"&gt;https://github.com/jenkinsci/docker-inbound-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maorfr/kube-tasks"&gt;https://github.com/maorfr/kube-tasks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jenkinsci/configuration-as-code-plugin"&gt;https://github.com/jenkinsci/configuration-as-code-plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/jenkins/jenkins/5.8.83/#sa-jenkins"&gt;&lt;code&gt;jenkins&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jenkins"&gt;🤖 &lt;code&gt;jenkins&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;</description></item><item><title>jira</title><link>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.2/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A chart for installing Jira Data Center on Kubernetes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/atlassian/data-center-helm-charts"&gt;https://github.com/atlassian/data-center-helm-charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/atlassian-docker/docker-atlassian-jira/"&gt;https://bitbucket.org/atlassian-docker/docker-atlassian-jira/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/atlassian/jira/2.0.2/#sa-jira"&gt;&lt;code&gt;jira&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jira"&gt;🤖 &lt;code&gt;jira&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;StatefulSet&lt;/td&gt;
+ &lt;td&gt;jira&lt;/td&gt;
+ &lt;td&gt;jira&lt;/td&gt;
+ &lt;td&gt;atlassian/jira-software:10.3.7&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description></item><item><title>jira</title><link>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.3/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A chart for installing Jira Data Center on Kubernetes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/atlassian/data-center-helm-charts"&gt;https://github.com/atlassian/data-center-helm-charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/atlassian-docker/docker-atlassian-jira/"&gt;https://bitbucket.org/atlassian-docker/docker-atlassian-jira/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/atlassian/jira/2.0.3/#sa-jira"&gt;&lt;code&gt;jira&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jira"&gt;🤖 &lt;code&gt;jira&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;StatefulSet&lt;/td&gt;
+ &lt;td&gt;jira&lt;/td&gt;
+ &lt;td&gt;jira&lt;/td&gt;
+ &lt;td&gt;atlassian/jira-software:10.3.8&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description></item><item><title>jira</title><link>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/atlassian/jira/2.0.4/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A chart for installing Jira Data Center on Kubernetes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/atlassian/data-center-helm-charts"&gt;https://github.com/atlassian/data-center-helm-charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/atlassian-docker/docker-atlassian-jira/"&gt;https://bitbucket.org/atlassian-docker/docker-atlassian-jira/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/atlassian/jira/2.0.4/#sa-jira"&gt;&lt;code&gt;jira&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-jira"&gt;🤖 &lt;code&gt;jira&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;StatefulSet&lt;/td&gt;
+ &lt;td&gt;jira&lt;/td&gt;
+ &lt;td&gt;jira&lt;/td&gt;
+ &lt;td&gt;atlassian/jira-software:10.3.9&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description></item></channel></rss>

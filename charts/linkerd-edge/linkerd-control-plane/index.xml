@@ -1,463 +1,463 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linkerd-control-plane on RBAC ATLAS</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/</link><description>Recent content in linkerd-control-plane on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/index.xml" rel="self" type="application/rss+xml"/><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/linkerd/linkerd2/">https://github.com/linkerd/linkerd2/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/#sa-linkerd-destination">&lt;code>linkerd-destination&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>34&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/#sa-linkerd-identity">&lt;code>linkerd-identity&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/#sa-linkerd-heartbeat">&lt;code>linkerd-heartbeat&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/#sa-linkerd-proxy-injector">&lt;code>linkerd-proxy-injector&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>16&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-linkerd-destination">🤖 &lt;code>linkerd-destination&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/linkerd/linkerd2/">https://github.com/linkerd/linkerd2/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/#sa-linkerd-destination">&lt;code>linkerd-destination&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>34&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/#sa-linkerd-identity">&lt;code>linkerd-identity&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/#sa-linkerd-heartbeat">&lt;code>linkerd-heartbeat&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/#sa-linkerd-proxy-injector">&lt;code>linkerd-proxy-injector&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>16&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-linkerd-destination">🤖 &lt;code>linkerd-destination&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/linkerd/linkerd2/">https://github.com/linkerd/linkerd2/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/#sa-linkerd-destination">&lt;code>linkerd-destination&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>34&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/#sa-linkerd-identity">&lt;code>linkerd-identity&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/#sa-linkerd-heartbeat">&lt;code>linkerd-heartbeat&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/#sa-linkerd-proxy-injector">&lt;code>linkerd-proxy-injector&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>16&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-linkerd-destination">🤖 &lt;code>linkerd-destination&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/linkerd/linkerd2/">https://github.com/linkerd/linkerd2/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/#sa-linkerd-destination">&lt;code>linkerd-destination&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>34&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/#sa-linkerd-identity">&lt;code>linkerd-identity&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/#sa-linkerd-heartbeat">&lt;code>linkerd-heartbeat&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/#sa-linkerd-proxy-injector">&lt;code>linkerd-proxy-injector&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>16&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-linkerd-destination">🤖 &lt;code>linkerd-destination&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/linkerd/linkerd2/">https://github.com/linkerd/linkerd2/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/#sa-linkerd-destination">&lt;code>linkerd-destination&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>34&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/#sa-linkerd-identity">&lt;code>linkerd-identity&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/#sa-linkerd-heartbeat">&lt;code>linkerd-heartbeat&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/#sa-linkerd-proxy-injector">&lt;code>linkerd-proxy-injector&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>16&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-linkerd-destination">🤖 &lt;code>linkerd-destination&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/linkerd/linkerd2/">https://github.com/linkerd/linkerd2/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/#sa-linkerd-destination">&lt;code>linkerd-destination&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>34&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/#sa-linkerd-identity">&lt;code>linkerd-identity&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/#sa-linkerd-heartbeat">&lt;code>linkerd-heartbeat&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/#sa-linkerd-proxy-injector">&lt;code>linkerd-proxy-injector&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>16&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-linkerd-destination">🤖 &lt;code>linkerd-destination&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/linkerd/linkerd2/">https://github.com/linkerd/linkerd2/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/#sa-linkerd-destination">&lt;code>linkerd-destination&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>34&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/#sa-linkerd-identity">&lt;code>linkerd-identity&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/#sa-linkerd-heartbeat">&lt;code>linkerd-heartbeat&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/#sa-linkerd-proxy-injector">&lt;code>linkerd-proxy-injector&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>16&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-linkerd-destination">🤖 &lt;code>linkerd-destination&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linkerd-control-plane on RBAC ATLAS</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/</link><description>Recent content in linkerd-control-plane on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/index.xml" rel="self" type="application/rss+xml"/><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/linkerd/linkerd2/"&gt;https://github.com/linkerd/linkerd2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/#sa-linkerd-destination"&gt;&lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;34&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/#sa-linkerd-identity"&gt;&lt;code&gt;linkerd-identity&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/#sa-linkerd-heartbeat"&gt;&lt;code&gt;linkerd-heartbeat&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.3/#sa-linkerd-proxy-injector"&gt;&lt;code&gt;linkerd-proxy-injector&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;16&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-linkerd-destination"&gt;🤖 &lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/linkerd/linkerd2/"&gt;https://github.com/linkerd/linkerd2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/#sa-linkerd-destination"&gt;&lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;34&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/#sa-linkerd-identity"&gt;&lt;code&gt;linkerd-identity&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/#sa-linkerd-heartbeat"&gt;&lt;code&gt;linkerd-heartbeat&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.6.4/#sa-linkerd-proxy-injector"&gt;&lt;code&gt;linkerd-proxy-injector&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;16&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-linkerd-destination"&gt;🤖 &lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/linkerd/linkerd2/"&gt;https://github.com/linkerd/linkerd2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/#sa-linkerd-destination"&gt;&lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;34&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/#sa-linkerd-identity"&gt;&lt;code&gt;linkerd-identity&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/#sa-linkerd-heartbeat"&gt;&lt;code&gt;linkerd-heartbeat&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.1/#sa-linkerd-proxy-injector"&gt;&lt;code&gt;linkerd-proxy-injector&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;16&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-linkerd-destination"&gt;🤖 &lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/linkerd/linkerd2/"&gt;https://github.com/linkerd/linkerd2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/#sa-linkerd-destination"&gt;&lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;34&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/#sa-linkerd-identity"&gt;&lt;code&gt;linkerd-identity&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/#sa-linkerd-heartbeat"&gt;&lt;code&gt;linkerd-heartbeat&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.7.2/#sa-linkerd-proxy-injector"&gt;&lt;code&gt;linkerd-proxy-injector&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;16&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-linkerd-destination"&gt;🤖 &lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/linkerd/linkerd2/"&gt;https://github.com/linkerd/linkerd2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/#sa-linkerd-destination"&gt;&lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;34&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/#sa-linkerd-identity"&gt;&lt;code&gt;linkerd-identity&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/#sa-linkerd-heartbeat"&gt;&lt;code&gt;linkerd-heartbeat&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.1/#sa-linkerd-proxy-injector"&gt;&lt;code&gt;linkerd-proxy-injector&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;16&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-linkerd-destination"&gt;🤖 &lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/linkerd/linkerd2/"&gt;https://github.com/linkerd/linkerd2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/#sa-linkerd-destination"&gt;&lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;34&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/#sa-linkerd-identity"&gt;&lt;code&gt;linkerd-identity&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/#sa-linkerd-heartbeat"&gt;&lt;code&gt;linkerd-heartbeat&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.2/#sa-linkerd-proxy-injector"&gt;&lt;code&gt;linkerd-proxy-injector&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;16&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-linkerd-destination"&gt;🤖 &lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item><item><title>linkerd-control-plane</title><link>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Linkerd gives you observability, reliability, and security for your microservices — with no code change required.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/linkerd/linkerd2/"&gt;https://github.com/linkerd/linkerd2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/#sa-linkerd-destination"&gt;&lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;34&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/#sa-linkerd-identity"&gt;&lt;code&gt;linkerd-identity&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/#sa-linkerd-heartbeat"&gt;&lt;code&gt;linkerd-heartbeat&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/linkerd-edge/linkerd-control-plane/2025.8.3/#sa-linkerd-proxy-injector"&gt;&lt;code&gt;linkerd-proxy-injector&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;16&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-linkerd-destination"&gt;🤖 &lt;code&gt;linkerd-destination&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item></channel></rss>

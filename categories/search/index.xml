@@ -1,67 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Search on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/search/</link><description>Recent content in Search on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/search/index.xml" rel="self" type="application/rss+xml"/><item><title>solr-operator</title><link>https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>The Solr Operator enables easy management of Solr resources within Kubernetes.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/apache/solr-operator">https://github.com/apache/solr-operator&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/#sa-solr-operator">&lt;code>solr-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>30&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/#sa-zookeeper-operator">&lt;code>zookeeper-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>15&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/#sa-solr-operator-zookeeper-operator-pre-delete">&lt;code>solr-operator-zookeeper-operator-pre-delete&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/#sa-solr-operator-zookeeper-operator-post-install-upgrade">&lt;code>solr-operator-zookeeper-operator-post-install-upgrade&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-solr-operator">🤖 &lt;code>solr-operator&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Search on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/search/</link><description>Recent content in Search on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/search/index.xml" rel="self" type="application/rss+xml"/><item><title>solr-operator</title><link>https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;The Solr Operator enables easy management of Solr resources within Kubernetes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/apache/solr-operator"&gt;https://github.com/apache/solr-operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/#sa-solr-operator"&gt;&lt;code&gt;solr-operator&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;30&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/#sa-zookeeper-operator"&gt;&lt;code&gt;zookeeper-operator&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;15&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/#sa-solr-operator-zookeeper-operator-pre-delete"&gt;&lt;code&gt;solr-operator-zookeeper-operator-pre-delete&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/apache-solr/solr-operator/0.9.1/#sa-solr-operator-zookeeper-operator-post-install-upgrade"&gt;&lt;code&gt;solr-operator-zookeeper-operator-post-install-upgrade&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-solr-operator"&gt;🤖 &lt;code&gt;solr-operator&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item></channel></rss>

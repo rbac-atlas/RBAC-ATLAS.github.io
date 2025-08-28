@@ -1,845 +1,845 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Oauth on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/oauth/</link><description>Recent content in Oauth on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/oauth/index.xml" rel="self" type="application/rss+xml"/><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.16/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.16/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for KubeRocketCI Keycloak Operator&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/epam/edp-keycloak-operator">https://github.com/epam/edp-keycloak-operator&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.16/#sa-edp-keycloak-operator">&lt;code>edp-keycloak-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-edp-keycloak-operator">🤖 &lt;code>edp-keycloak-operator&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Deployment&lt;/td>
- &lt;td>keycloak-operator&lt;/td>
- &lt;td>keycloak-operator&lt;/td>
- &lt;td>epamedp/keycloak-operator:1.29.0-SNAPSHOT.16&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr></description></item><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.18/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for KubeRocketCI Keycloak Operator&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/epam/edp-keycloak-operator">https://github.com/epam/edp-keycloak-operator&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.18/#sa-edp-keycloak-operator">&lt;code>edp-keycloak-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-edp-keycloak-operator">🤖 &lt;code>edp-keycloak-operator&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Deployment&lt;/td>
- &lt;td>keycloak-operator&lt;/td>
- &lt;td>keycloak-operator&lt;/td>
- &lt;td>epamedp/keycloak-operator:1.29.0-SNAPSHOT.18&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr></description></item><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.27.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.27.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for KubeRocketCI Keycloak Operator&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/epam/edp-keycloak-operator">https://github.com/epam/edp-keycloak-operator&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.27.1/#sa-edp-keycloak-operator">&lt;code>edp-keycloak-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-edp-keycloak-operator">🤖 &lt;code>edp-keycloak-operator&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Deployment&lt;/td>
- &lt;td>keycloak-operator&lt;/td>
- &lt;td>keycloak-operator&lt;/td>
- &lt;td>epamedp/keycloak-operator:1.27.1&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr></description></item><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.28.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.28.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A Helm chart for KubeRocketCI Keycloak Operator&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/epam/edp-keycloak-operator">https://github.com/epam/edp-keycloak-operator&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.28.0/#sa-edp-keycloak-operator">&lt;code>edp-keycloak-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-edp-keycloak-operator">🤖 &lt;code>edp-keycloak-operator&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Deployment&lt;/td>
- &lt;td>keycloak-operator&lt;/td>
- &lt;td>keycloak-operator&lt;/td>
- &lt;td>epamedp/keycloak-operator:1.28.0&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr></description></item><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/fmjstudios/keycloak-operator/0.1.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/fmjstudios/keycloak-operator/0.1.2/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Keycloak is an open source software product to allow single sign-on with identity and access management&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/fmjstudios/helm">https://github.com/fmjstudios/helm&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/fmjstudios/keycloak-operator/0.1.2/#sa-keycloak-operator">&lt;code>keycloak-operator&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-keycloak-operator">🤖 &lt;code>keycloak-operator&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p>
-&lt;h4 id="-permissions-1">🔑 Permissions (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Role&lt;/th>
- &lt;th>Resource&lt;/th>
- &lt;th>Verbs&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;th>Tags&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>ClusterRole &lt;code>keycloak-operator-cluster-role&lt;/code>&lt;/td>
- &lt;td>config.openshift.io/ingresses&lt;/td>
- &lt;td>get&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h4 id="-potential-abuse-1">⚠️ Potential Abuse (1)&lt;/h4>
-&lt;p>The following security risks were found based on the above permissions:&lt;/p></description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A reverse proxy that provides authentication with Google, Github or other providers&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy">https://github.com/oauth2-proxy/oauth2-proxy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/manifests">https://github.com/oauth2-proxy/manifests&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/#sa-oauth2-proxy">&lt;code>oauth2-proxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/#sa-oauth2-proxy-redis-master">&lt;code>oauth2-proxy-redis-master&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/#sa-oauth2-proxy-redis-replica">&lt;code>oauth2-proxy-redis-replica&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-oauth2-proxy">🤖 &lt;code>oauth2-proxy&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p></description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A reverse proxy that provides authentication with Google, Github or other providers&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy">https://github.com/oauth2-proxy/oauth2-proxy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/manifests">https://github.com/oauth2-proxy/manifests&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/#sa-oauth2-proxy">&lt;code>oauth2-proxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/#sa-oauth2-proxy-redis-master">&lt;code>oauth2-proxy-redis-master&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/#sa-oauth2-proxy-redis-replica">&lt;code>oauth2-proxy-redis-replica&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-oauth2-proxy">🤖 &lt;code>oauth2-proxy&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p></description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A reverse proxy that provides authentication with Google, Github or other providers&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy">https://github.com/oauth2-proxy/oauth2-proxy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/manifests">https://github.com/oauth2-proxy/manifests&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/#sa-oauth2-proxy">&lt;code>oauth2-proxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/#sa-oauth2-proxy-redis-master">&lt;code>oauth2-proxy-redis-master&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/#sa-oauth2-proxy-redis-replica">&lt;code>oauth2-proxy-redis-replica&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-oauth2-proxy">🤖 &lt;code>oauth2-proxy&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p></description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A reverse proxy that provides authentication with Google, Github or other providers&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy">https://github.com/oauth2-proxy/oauth2-proxy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/manifests">https://github.com/oauth2-proxy/manifests&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/#sa-oauth2-proxy">&lt;code>oauth2-proxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/#sa-oauth2-proxy-redis-master">&lt;code>oauth2-proxy-redis-master&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/#sa-oauth2-proxy-redis-replica">&lt;code>oauth2-proxy-redis-replica&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-oauth2-proxy">🤖 &lt;code>oauth2-proxy&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p></description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A reverse proxy that provides authentication with Google, Github or other providers&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy">https://github.com/oauth2-proxy/oauth2-proxy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/manifests">https://github.com/oauth2-proxy/manifests&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/#sa-oauth2-proxy">&lt;code>oauth2-proxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/#sa-oauth2-proxy-redis-master">&lt;code>oauth2-proxy-redis-master&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/#sa-oauth2-proxy-redis-replica">&lt;code>oauth2-proxy-redis-replica&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-oauth2-proxy">🤖 &lt;code>oauth2-proxy&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p></description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.0.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.0.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A reverse proxy that provides authentication with Google, Github or other providers&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy">https://github.com/oauth2-proxy/oauth2-proxy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/manifests">https://github.com/oauth2-proxy/manifests&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.0.1/#sa-oauth2-proxy">&lt;code>oauth2-proxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.0.1/#sa-oauth2-proxy-redis-ha">&lt;code>oauth2-proxy-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-oauth2-proxy">🤖 &lt;code>oauth2-proxy&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Deployment&lt;/td>
- &lt;td>oauth2-proxy&lt;/td>
- &lt;td>oauth2-proxy&lt;/td>
- &lt;td>quay.io/oauth2-proxy/oauth2-proxy:v7.11.0&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;h3 id="sa-oauth2-proxy-redis-ha">🤖 &lt;code>oauth2-proxy-redis-ha&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A reverse proxy that provides authentication with Google, Github or other providers&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy">https://github.com/oauth2-proxy/oauth2-proxy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/manifests">https://github.com/oauth2-proxy/manifests&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.0/#sa-oauth2-proxy">&lt;code>oauth2-proxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.0/#sa-oauth2-proxy-redis-ha">&lt;code>oauth2-proxy-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-oauth2-proxy">🤖 &lt;code>oauth2-proxy&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Deployment&lt;/td>
- &lt;td>oauth2-proxy&lt;/td>
- &lt;td>oauth2-proxy&lt;/td>
- &lt;td>quay.io/oauth2-proxy/oauth2-proxy:v7.12.0&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;h3 id="sa-oauth2-proxy-redis-ha">🤖 &lt;code>oauth2-proxy-redis-ha&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.1/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A reverse proxy that provides authentication with Google, Github or other providers&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy">https://github.com/oauth2-proxy/oauth2-proxy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/manifests">https://github.com/oauth2-proxy/manifests&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.1/#sa-oauth2-proxy">&lt;code>oauth2-proxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.1/#sa-oauth2-proxy-redis-ha">&lt;code>oauth2-proxy-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-oauth2-proxy">🤖 &lt;code>oauth2-proxy&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Deployment&lt;/td>
- &lt;td>oauth2-proxy&lt;/td>
- &lt;td>oauth2-proxy&lt;/td>
- &lt;td>quay.io/oauth2-proxy/oauth2-proxy:v7.12.0&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;h3 id="sa-oauth2-proxy-redis-ha">🤖 &lt;code>oauth2-proxy-redis-ha&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.2.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.2.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>A reverse proxy that provides authentication with Google, Github or other providers&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy">https://github.com/oauth2-proxy/oauth2-proxy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/oauth2-proxy/manifests">https://github.com/oauth2-proxy/manifests&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.2.0/#sa-oauth2-proxy">&lt;code>oauth2-proxy&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>✅&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.2.0/#sa-oauth2-proxy-redis-ha">&lt;code>oauth2-proxy-redis-ha&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p>&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="identities">Identities&lt;/h2>
-&lt;h3 id="sa-oauth2-proxy">🤖 &lt;code>oauth2-proxy&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ✅&lt;/p>
-&lt;h4 id="-permissions-0">🔑 Permissions (0)&lt;/h4>
-&lt;p>&lt;em>No explicit RBAC bindings.&lt;/em>&lt;/p>
-&lt;h4 id="-workloads-1">📦 Workloads (1)&lt;/h4>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Kind&lt;/th>
- &lt;th>Name&lt;/th>
- &lt;th>Container&lt;/th>
- &lt;th>Image&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Deployment&lt;/td>
- &lt;td>oauth2-proxy&lt;/td>
- &lt;td>oauth2-proxy&lt;/td>
- &lt;td>quay.io/oauth2-proxy/oauth2-proxy:v7.12.0&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;h3 id="sa-oauth2-proxy-redis-ha">🤖 &lt;code>oauth2-proxy-redis-ha&lt;/code>&lt;/h3>
-&lt;p>&lt;strong>Namespace:&lt;/strong> &lt;code>default&lt;/code>  |  &lt;strong>Automount:&lt;/strong> ❌&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Oauth on RBAC ATLAS</title><link>https://rbac-atlas.github.io/categories/oauth/</link><description>Recent content in Oauth on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/categories/oauth/index.xml" rel="self" type="application/rss+xml"/><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.16/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.16/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A Helm chart for KubeRocketCI Keycloak Operator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/epam/edp-keycloak-operator"&gt;https://github.com/epam/edp-keycloak-operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.16/#sa-edp-keycloak-operator"&gt;&lt;code&gt;edp-keycloak-operator&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-edp-keycloak-operator"&gt;🤖 &lt;code&gt;edp-keycloak-operator&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deployment&lt;/td&gt;
+ &lt;td&gt;keycloak-operator&lt;/td&gt;
+ &lt;td&gt;keycloak-operator&lt;/td&gt;
+ &lt;td&gt;epamedp/keycloak-operator:1.29.0-SNAPSHOT.16&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description></item><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.18/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A Helm chart for KubeRocketCI Keycloak Operator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/epam/edp-keycloak-operator"&gt;https://github.com/epam/edp-keycloak-operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/epmdedp-dev/keycloak-operator/1.29.0-snapshot.18/#sa-edp-keycloak-operator"&gt;&lt;code&gt;edp-keycloak-operator&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-edp-keycloak-operator"&gt;🤖 &lt;code&gt;edp-keycloak-operator&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deployment&lt;/td&gt;
+ &lt;td&gt;keycloak-operator&lt;/td&gt;
+ &lt;td&gt;keycloak-operator&lt;/td&gt;
+ &lt;td&gt;epamedp/keycloak-operator:1.29.0-SNAPSHOT.18&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description></item><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.27.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.27.1/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A Helm chart for KubeRocketCI Keycloak Operator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/epam/edp-keycloak-operator"&gt;https://github.com/epam/edp-keycloak-operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.27.1/#sa-edp-keycloak-operator"&gt;&lt;code&gt;edp-keycloak-operator&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-edp-keycloak-operator"&gt;🤖 &lt;code&gt;edp-keycloak-operator&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deployment&lt;/td&gt;
+ &lt;td&gt;keycloak-operator&lt;/td&gt;
+ &lt;td&gt;keycloak-operator&lt;/td&gt;
+ &lt;td&gt;epamedp/keycloak-operator:1.27.1&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description></item><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.28.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.28.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A Helm chart for KubeRocketCI Keycloak Operator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/epam/edp-keycloak-operator"&gt;https://github.com/epam/edp-keycloak-operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/epmdedp/keycloak-operator/1.28.0/#sa-edp-keycloak-operator"&gt;&lt;code&gt;edp-keycloak-operator&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-edp-keycloak-operator"&gt;🤖 &lt;code&gt;edp-keycloak-operator&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deployment&lt;/td&gt;
+ &lt;td&gt;keycloak-operator&lt;/td&gt;
+ &lt;td&gt;keycloak-operator&lt;/td&gt;
+ &lt;td&gt;epamedp/keycloak-operator:1.28.0&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description></item><item><title>keycloak-operator</title><link>https://rbac-atlas.github.io/charts/fmjstudios/keycloak-operator/0.1.2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/fmjstudios/keycloak-operator/0.1.2/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Keycloak is an open source software product to allow single sign-on with identity and access management&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/fmjstudios/helm"&gt;https://github.com/fmjstudios/helm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/fmjstudios/keycloak-operator/0.1.2/#sa-keycloak-operator"&gt;&lt;code&gt;keycloak-operator&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-keycloak-operator"&gt;🤖 &lt;code&gt;keycloak-operator&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;
+&lt;h4 id="-permissions-1"&gt;🔑 Permissions (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Role&lt;/th&gt;
+ &lt;th&gt;Resource&lt;/th&gt;
+ &lt;th&gt;Verbs&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;th&gt;Tags&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ClusterRole &lt;code&gt;keycloak-operator-cluster-role&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;config.openshift.io/ingresses&lt;/td&gt;
+ &lt;td&gt;get&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id="-potential-abuse-1"&gt;⚠️ Potential Abuse (1)&lt;/h4&gt;
+&lt;p&gt;The following security risks were found based on the above permissions:&lt;/p&gt;</description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A reverse proxy that provides authentication with Google, Github or other providers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy"&gt;https://github.com/oauth2-proxy/oauth2-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/manifests"&gt;https://github.com/oauth2-proxy/manifests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/#sa-oauth2-proxy"&gt;&lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/#sa-oauth2-proxy-redis-master"&gt;&lt;code&gt;oauth2-proxy-redis-master&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.18/#sa-oauth2-proxy-redis-replica"&gt;&lt;code&gt;oauth2-proxy-redis-replica&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-oauth2-proxy"&gt;🤖 &lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A reverse proxy that provides authentication with Google, Github or other providers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy"&gt;https://github.com/oauth2-proxy/oauth2-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/manifests"&gt;https://github.com/oauth2-proxy/manifests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/#sa-oauth2-proxy"&gt;&lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/#sa-oauth2-proxy-redis-master"&gt;&lt;code&gt;oauth2-proxy-redis-master&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.12.19/#sa-oauth2-proxy-redis-replica"&gt;&lt;code&gt;oauth2-proxy-redis-replica&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-oauth2-proxy"&gt;🤖 &lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A reverse proxy that provides authentication with Google, Github or other providers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy"&gt;https://github.com/oauth2-proxy/oauth2-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/manifests"&gt;https://github.com/oauth2-proxy/manifests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/#sa-oauth2-proxy"&gt;&lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/#sa-oauth2-proxy-redis-master"&gt;&lt;code&gt;oauth2-proxy-redis-master&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.16.0/#sa-oauth2-proxy-redis-replica"&gt;&lt;code&gt;oauth2-proxy-redis-replica&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-oauth2-proxy"&gt;🤖 &lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A reverse proxy that provides authentication with Google, Github or other providers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy"&gt;https://github.com/oauth2-proxy/oauth2-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/manifests"&gt;https://github.com/oauth2-proxy/manifests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/#sa-oauth2-proxy"&gt;&lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/#sa-oauth2-proxy-redis-master"&gt;&lt;code&gt;oauth2-proxy-redis-master&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.17.1/#sa-oauth2-proxy-redis-replica"&gt;&lt;code&gt;oauth2-proxy-redis-replica&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-oauth2-proxy"&gt;🤖 &lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A reverse proxy that provides authentication with Google, Github or other providers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy"&gt;https://github.com/oauth2-proxy/oauth2-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/manifests"&gt;https://github.com/oauth2-proxy/manifests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/#sa-oauth2-proxy"&gt;&lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/#sa-oauth2-proxy-redis-master"&gt;&lt;code&gt;oauth2-proxy-redis-master&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/7.18.0/#sa-oauth2-proxy-redis-replica"&gt;&lt;code&gt;oauth2-proxy-redis-replica&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-oauth2-proxy"&gt;🤖 &lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.0.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.0.1/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A reverse proxy that provides authentication with Google, Github or other providers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy"&gt;https://github.com/oauth2-proxy/oauth2-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/manifests"&gt;https://github.com/oauth2-proxy/manifests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.0.1/#sa-oauth2-proxy"&gt;&lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.0.1/#sa-oauth2-proxy-redis-ha"&gt;&lt;code&gt;oauth2-proxy-redis-ha&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-oauth2-proxy"&gt;🤖 &lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deployment&lt;/td&gt;
+ &lt;td&gt;oauth2-proxy&lt;/td&gt;
+ &lt;td&gt;oauth2-proxy&lt;/td&gt;
+ &lt;td&gt;quay.io/oauth2-proxy/oauth2-proxy:v7.11.0&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id="sa-oauth2-proxy-redis-ha"&gt;🤖 &lt;code&gt;oauth2-proxy-redis-ha&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A reverse proxy that provides authentication with Google, Github or other providers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy"&gt;https://github.com/oauth2-proxy/oauth2-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/manifests"&gt;https://github.com/oauth2-proxy/manifests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.0/#sa-oauth2-proxy"&gt;&lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.0/#sa-oauth2-proxy-redis-ha"&gt;&lt;code&gt;oauth2-proxy-redis-ha&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-oauth2-proxy"&gt;🤖 &lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deployment&lt;/td&gt;
+ &lt;td&gt;oauth2-proxy&lt;/td&gt;
+ &lt;td&gt;oauth2-proxy&lt;/td&gt;
+ &lt;td&gt;quay.io/oauth2-proxy/oauth2-proxy:v7.12.0&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id="sa-oauth2-proxy-redis-ha"&gt;🤖 &lt;code&gt;oauth2-proxy-redis-ha&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.1/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A reverse proxy that provides authentication with Google, Github or other providers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy"&gt;https://github.com/oauth2-proxy/oauth2-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/manifests"&gt;https://github.com/oauth2-proxy/manifests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.1/#sa-oauth2-proxy"&gt;&lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.1.1/#sa-oauth2-proxy-redis-ha"&gt;&lt;code&gt;oauth2-proxy-redis-ha&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-oauth2-proxy"&gt;🤖 &lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deployment&lt;/td&gt;
+ &lt;td&gt;oauth2-proxy&lt;/td&gt;
+ &lt;td&gt;oauth2-proxy&lt;/td&gt;
+ &lt;td&gt;quay.io/oauth2-proxy/oauth2-proxy:v7.12.0&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id="sa-oauth2-proxy-redis-ha"&gt;🤖 &lt;code&gt;oauth2-proxy-redis-ha&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item><item><title>oauth2-proxy</title><link>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.2.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.2.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;A reverse proxy that provides authentication with Google, Github or other providers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/oauth2-proxy"&gt;https://github.com/oauth2-proxy/oauth2-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oauth2-proxy/manifests"&gt;https://github.com/oauth2-proxy/manifests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.2.0/#sa-oauth2-proxy"&gt;&lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/oauth2-proxy/oauth2-proxy/8.2.0/#sa-oauth2-proxy-redis-ha"&gt;&lt;code&gt;oauth2-proxy-redis-ha&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
+&lt;h3 id="sa-oauth2-proxy"&gt;🤖 &lt;code&gt;oauth2-proxy&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h4 id="-permissions-0"&gt;🔑 Permissions (0)&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;No explicit RBAC bindings.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id="-workloads-1"&gt;📦 Workloads (1)&lt;/h4&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Kind&lt;/th&gt;
+ &lt;th&gt;Name&lt;/th&gt;
+ &lt;th&gt;Container&lt;/th&gt;
+ &lt;th&gt;Image&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deployment&lt;/td&gt;
+ &lt;td&gt;oauth2-proxy&lt;/td&gt;
+ &lt;td&gt;oauth2-proxy&lt;/td&gt;
+ &lt;td&gt;quay.io/oauth2-proxy/oauth2-proxy:v7.12.0&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id="sa-oauth2-proxy-redis-ha"&gt;🤖 &lt;code&gt;oauth2-proxy-redis-ha&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Namespace:&lt;/strong&gt; &lt;code&gt;default&lt;/code&gt;  |  &lt;strong&gt;Automount:&lt;/strong&gt; ❌&lt;/p&gt;</description></item></channel></rss>

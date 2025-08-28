@@ -1,911 +1,911 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rook-ceph on RBAC ATLAS</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/</link><description>Recent content in rook-ceph on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/index.xml" rel="self" type="application/rss+xml"/><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rook/rook">https://github.com/rook/rook&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-system">&lt;code>rook-ceph-system&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>116&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-csi-rbd-provisioner-sa">&lt;code>rook-csi-rbd-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>24&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-cmd-reporter">&lt;code>rook-ceph-cmd-reporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-mgr">&lt;code>rook-ceph-mgr&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>30&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-osd">&lt;code>rook-ceph-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-csi-cephfs-provisioner-sa">&lt;code>rook-csi-cephfs-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>22&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-csi-rbd-plugin-sa">&lt;code>rook-csi-rbd-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-objectstorage-provisioner">&lt;code>objectstorage-provisioner&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-purge-osd">&lt;code>rook-ceph-purge-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-csi-cephfs-plugin-sa">&lt;code>rook-csi-cephfs-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-default">&lt;code>rook-ceph-default&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-rgw">&lt;code>rook-ceph-rgw&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rook/rook">https://github.com/rook/rook&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-system">&lt;code>rook-ceph-system&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>116&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-csi-rbd-provisioner-sa">&lt;code>rook-csi-rbd-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>24&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-cmd-reporter">&lt;code>rook-ceph-cmd-reporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-mgr">&lt;code>rook-ceph-mgr&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>30&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-osd">&lt;code>rook-ceph-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-csi-cephfs-provisioner-sa">&lt;code>rook-csi-cephfs-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>22&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-csi-rbd-plugin-sa">&lt;code>rook-csi-rbd-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-objectstorage-provisioner">&lt;code>objectstorage-provisioner&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-purge-osd">&lt;code>rook-ceph-purge-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-csi-cephfs-plugin-sa">&lt;code>rook-csi-cephfs-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-default">&lt;code>rook-ceph-default&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-rgw">&lt;code>rook-ceph-rgw&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rook/rook">https://github.com/rook/rook&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-system">&lt;code>rook-ceph-system&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>116&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-csi-rbd-provisioner-sa">&lt;code>rook-csi-rbd-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>24&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-cmd-reporter">&lt;code>rook-ceph-cmd-reporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-mgr">&lt;code>rook-ceph-mgr&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>30&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-osd">&lt;code>rook-ceph-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-csi-cephfs-provisioner-sa">&lt;code>rook-csi-cephfs-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>22&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-csi-rbd-plugin-sa">&lt;code>rook-csi-rbd-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-objectstorage-provisioner">&lt;code>objectstorage-provisioner&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-purge-osd">&lt;code>rook-ceph-purge-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-csi-cephfs-plugin-sa">&lt;code>rook-csi-cephfs-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-default">&lt;code>rook-ceph-default&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-rgw">&lt;code>rook-ceph-rgw&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rook/rook">https://github.com/rook/rook&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-system">&lt;code>rook-ceph-system&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>116&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-csi-rbd-provisioner-sa">&lt;code>rook-csi-rbd-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>24&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-cmd-reporter">&lt;code>rook-ceph-cmd-reporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-mgr">&lt;code>rook-ceph-mgr&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>30&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-osd">&lt;code>rook-ceph-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-csi-cephfs-provisioner-sa">&lt;code>rook-csi-cephfs-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>22&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-csi-rbd-plugin-sa">&lt;code>rook-csi-rbd-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-objectstorage-provisioner">&lt;code>objectstorage-provisioner&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-purge-osd">&lt;code>rook-ceph-purge-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-csi-cephfs-plugin-sa">&lt;code>rook-csi-cephfs-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-default">&lt;code>rook-ceph-default&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-rgw">&lt;code>rook-ceph-rgw&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rook/rook">https://github.com/rook/rook&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-system">&lt;code>rook-ceph-system&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>116&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-csi-rbd-provisioner-sa">&lt;code>rook-csi-rbd-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>24&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-cmd-reporter">&lt;code>rook-ceph-cmd-reporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-mgr">&lt;code>rook-ceph-mgr&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>30&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-osd">&lt;code>rook-ceph-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-csi-cephfs-provisioner-sa">&lt;code>rook-csi-cephfs-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>22&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-csi-rbd-plugin-sa">&lt;code>rook-csi-rbd-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-objectstorage-provisioner">&lt;code>objectstorage-provisioner&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-purge-osd">&lt;code>rook-ceph-purge-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-csi-cephfs-plugin-sa">&lt;code>rook-csi-cephfs-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-default">&lt;code>rook-ceph-default&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-rgw">&lt;code>rook-ceph-rgw&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/</guid><description>&lt;h2 id="description">Description&lt;/h2>
-&lt;p>File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/rook/rook">https://github.com/rook/rook&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Identity&lt;/th>
- &lt;th>Namespace&lt;/th>
- &lt;th>Automount&lt;/th>
- &lt;th>Secrets&lt;/th>
- &lt;th>Permissions&lt;/th>
- &lt;th>Workloads&lt;/th>
- &lt;th>Risk&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-controller-manager">&lt;code>ceph-csi-controller-manager&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>22&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-rbd-ctrlplugin-sa">&lt;code>ceph-csi-rbd-ctrlplugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>34&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-system">&lt;code>rook-ceph-system&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>116&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-csi-rbd-provisioner-sa">&lt;code>rook-csi-rbd-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>25&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-critical">Critical&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-cmd-reporter">&lt;code>rook-ceph-cmd-reporter&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-mgr">&lt;code>rook-ceph-mgr&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>30&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-high">High&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-cephfs-ctrlplugin-sa">&lt;code>ceph-csi-cephfs-ctrlplugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>30&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-cephfs-nodeplugin-sa">&lt;code>ceph-csi-cephfs-nodeplugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-nfs-ctrlplugin-sa">&lt;code>ceph-csi-nfs-ctrlplugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>15&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-rbd-nodeplugin-sa">&lt;code>ceph-csi-rbd-nodeplugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>15&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-osd">&lt;code>rook-ceph-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-csi-cephfs-provisioner-sa">&lt;code>rook-csi-cephfs-provisioner-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>22&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-csi-rbd-plugin-sa">&lt;code>rook-csi-rbd-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>8&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-medium">Medium&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-nfs-nodeplugin-sa">&lt;code>ceph-csi-nfs-nodeplugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-objectstorage-provisioner">&lt;code>objectstorage-provisioner&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>11&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-purge-osd">&lt;code>rook-ceph-purge-osd&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-csi-cephfs-plugin-sa">&lt;code>rook-csi-cephfs-plugin-sa&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>5&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>&lt;span class="risk-low">Low&lt;/span>
-&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-default">&lt;code>rook-ceph-default&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-rgw">&lt;code>rook-ceph-rgw&lt;/code>&lt;/a>&lt;/td>
- &lt;td>default&lt;/td>
- &lt;td>❌&lt;/td>
- &lt;td>—&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>—&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rook-ceph on RBAC ATLAS</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/</link><description>Recent content in rook-ceph on RBAC ATLAS</description><generator>Hugo</generator><language>en</language><atom:link href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/index.xml" rel="self" type="application/rss+xml"/><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rook/rook"&gt;https://github.com/rook/rook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-system"&gt;&lt;code&gt;rook-ceph-system&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;116&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-csi-rbd-provisioner-sa"&gt;&lt;code&gt;rook-csi-rbd-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;24&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-cmd-reporter"&gt;&lt;code&gt;rook-ceph-cmd-reporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-mgr"&gt;&lt;code&gt;rook-ceph-mgr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;30&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-osd"&gt;&lt;code&gt;rook-ceph-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-csi-cephfs-provisioner-sa"&gt;&lt;code&gt;rook-csi-cephfs-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;22&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-csi-rbd-plugin-sa"&gt;&lt;code&gt;rook-csi-rbd-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-objectstorage-provisioner"&gt;&lt;code&gt;objectstorage-provisioner&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-purge-osd"&gt;&lt;code&gt;rook-ceph-purge-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-csi-cephfs-plugin-sa"&gt;&lt;code&gt;rook-csi-cephfs-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-default"&gt;&lt;code&gt;rook-ceph-default&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.4/#sa-rook-ceph-rgw"&gt;&lt;code&gt;rook-ceph-rgw&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rook/rook"&gt;https://github.com/rook/rook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-system"&gt;&lt;code&gt;rook-ceph-system&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;116&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-csi-rbd-provisioner-sa"&gt;&lt;code&gt;rook-csi-rbd-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;24&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-cmd-reporter"&gt;&lt;code&gt;rook-ceph-cmd-reporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-mgr"&gt;&lt;code&gt;rook-ceph-mgr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;30&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-osd"&gt;&lt;code&gt;rook-ceph-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-csi-cephfs-provisioner-sa"&gt;&lt;code&gt;rook-csi-cephfs-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;22&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-csi-rbd-plugin-sa"&gt;&lt;code&gt;rook-csi-rbd-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-objectstorage-provisioner"&gt;&lt;code&gt;objectstorage-provisioner&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-purge-osd"&gt;&lt;code&gt;rook-ceph-purge-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-csi-cephfs-plugin-sa"&gt;&lt;code&gt;rook-csi-cephfs-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-default"&gt;&lt;code&gt;rook-ceph-default&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.5/#sa-rook-ceph-rgw"&gt;&lt;code&gt;rook-ceph-rgw&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rook/rook"&gt;https://github.com/rook/rook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-system"&gt;&lt;code&gt;rook-ceph-system&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;116&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-csi-rbd-provisioner-sa"&gt;&lt;code&gt;rook-csi-rbd-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;24&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-cmd-reporter"&gt;&lt;code&gt;rook-ceph-cmd-reporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-mgr"&gt;&lt;code&gt;rook-ceph-mgr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;30&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-osd"&gt;&lt;code&gt;rook-ceph-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-csi-cephfs-provisioner-sa"&gt;&lt;code&gt;rook-csi-cephfs-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;22&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-csi-rbd-plugin-sa"&gt;&lt;code&gt;rook-csi-rbd-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-objectstorage-provisioner"&gt;&lt;code&gt;objectstorage-provisioner&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-purge-osd"&gt;&lt;code&gt;rook-ceph-purge-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-csi-cephfs-plugin-sa"&gt;&lt;code&gt;rook-csi-cephfs-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-default"&gt;&lt;code&gt;rook-ceph-default&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.6/#sa-rook-ceph-rgw"&gt;&lt;code&gt;rook-ceph-rgw&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rook/rook"&gt;https://github.com/rook/rook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-system"&gt;&lt;code&gt;rook-ceph-system&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;116&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-csi-rbd-provisioner-sa"&gt;&lt;code&gt;rook-csi-rbd-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;24&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-cmd-reporter"&gt;&lt;code&gt;rook-ceph-cmd-reporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-mgr"&gt;&lt;code&gt;rook-ceph-mgr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;30&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-osd"&gt;&lt;code&gt;rook-ceph-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-csi-cephfs-provisioner-sa"&gt;&lt;code&gt;rook-csi-cephfs-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;22&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-csi-rbd-plugin-sa"&gt;&lt;code&gt;rook-csi-rbd-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-objectstorage-provisioner"&gt;&lt;code&gt;objectstorage-provisioner&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-purge-osd"&gt;&lt;code&gt;rook-ceph-purge-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-csi-cephfs-plugin-sa"&gt;&lt;code&gt;rook-csi-cephfs-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-default"&gt;&lt;code&gt;rook-ceph-default&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.17.7/#sa-rook-ceph-rgw"&gt;&lt;code&gt;rook-ceph-rgw&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rook/rook"&gt;https://github.com/rook/rook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-system"&gt;&lt;code&gt;rook-ceph-system&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;116&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-csi-rbd-provisioner-sa"&gt;&lt;code&gt;rook-csi-rbd-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;24&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-cmd-reporter"&gt;&lt;code&gt;rook-ceph-cmd-reporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-mgr"&gt;&lt;code&gt;rook-ceph-mgr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;30&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-osd"&gt;&lt;code&gt;rook-ceph-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-csi-cephfs-provisioner-sa"&gt;&lt;code&gt;rook-csi-cephfs-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;22&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-csi-rbd-plugin-sa"&gt;&lt;code&gt;rook-csi-rbd-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-objectstorage-provisioner"&gt;&lt;code&gt;objectstorage-provisioner&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-purge-osd"&gt;&lt;code&gt;rook-ceph-purge-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-csi-cephfs-plugin-sa"&gt;&lt;code&gt;rook-csi-cephfs-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-default"&gt;&lt;code&gt;rook-ceph-default&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0-beta-0/#sa-rook-ceph-rgw"&gt;&lt;code&gt;rook-ceph-rgw&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>rook-ceph</title><link>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;File, Block, and Object Storage Services for your Cloud-Native Environment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rook/rook"&gt;https://github.com/rook/rook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Identity&lt;/th&gt;
+ &lt;th&gt;Namespace&lt;/th&gt;
+ &lt;th&gt;Automount&lt;/th&gt;
+ &lt;th&gt;Secrets&lt;/th&gt;
+ &lt;th&gt;Permissions&lt;/th&gt;
+ &lt;th&gt;Workloads&lt;/th&gt;
+ &lt;th&gt;Risk&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-controller-manager"&gt;&lt;code&gt;ceph-csi-controller-manager&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;22&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-rbd-ctrlplugin-sa"&gt;&lt;code&gt;ceph-csi-rbd-ctrlplugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;34&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-system"&gt;&lt;code&gt;rook-ceph-system&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;116&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-csi-rbd-provisioner-sa"&gt;&lt;code&gt;rook-csi-rbd-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;25&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-critical"&gt;Critical&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-cmd-reporter"&gt;&lt;code&gt;rook-ceph-cmd-reporter&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-mgr"&gt;&lt;code&gt;rook-ceph-mgr&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;30&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-high"&gt;High&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-cephfs-ctrlplugin-sa"&gt;&lt;code&gt;ceph-csi-cephfs-ctrlplugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;30&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-cephfs-nodeplugin-sa"&gt;&lt;code&gt;ceph-csi-cephfs-nodeplugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-nfs-ctrlplugin-sa"&gt;&lt;code&gt;ceph-csi-nfs-ctrlplugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;15&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-rbd-nodeplugin-sa"&gt;&lt;code&gt;ceph-csi-rbd-nodeplugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;15&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-osd"&gt;&lt;code&gt;rook-ceph-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-csi-cephfs-provisioner-sa"&gt;&lt;code&gt;rook-csi-cephfs-provisioner-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;22&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-csi-rbd-plugin-sa"&gt;&lt;code&gt;rook-csi-rbd-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-medium"&gt;Medium&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-ceph-csi-nfs-nodeplugin-sa"&gt;&lt;code&gt;ceph-csi-nfs-nodeplugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-objectstorage-provisioner"&gt;&lt;code&gt;objectstorage-provisioner&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;11&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-purge-osd"&gt;&lt;code&gt;rook-ceph-purge-osd&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-csi-cephfs-plugin-sa"&gt;&lt;code&gt;rook-csi-cephfs-plugin-sa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;&lt;span class="risk-low"&gt;Low&lt;/span&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-default"&gt;&lt;code&gt;rook-ceph-default&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://rbac-atlas.github.io/charts/rook-release/rook-ceph/1.18.0/#sa-rook-ceph-rgw"&gt;&lt;code&gt;rook-ceph-rgw&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;default&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
