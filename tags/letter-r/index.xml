@@ -29,7 +29,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq"&gt;🤖 &lt;code&gt;rabbitmq&lt;/code&gt;&lt;/h3&gt;
@@ -66,7 +67,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq"&gt;🤖 &lt;code&gt;rabbitmq&lt;/code&gt;&lt;/h3&gt;
@@ -103,7 +105,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq"&gt;🤖 &lt;code&gt;rabbitmq&lt;/code&gt;&lt;/h3&gt;
@@ -140,7 +143,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq"&gt;🤖 &lt;code&gt;rabbitmq&lt;/code&gt;&lt;/h3&gt;
@@ -177,7 +181,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq"&gt;🤖 &lt;code&gt;rabbitmq&lt;/code&gt;&lt;/h3&gt;
@@ -214,7 +219,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq"&gt;🤖 &lt;code&gt;rabbitmq&lt;/code&gt;&lt;/h3&gt;
@@ -262,7 +268,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator"&gt;🤖 &lt;code&gt;rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator&lt;/code&gt;&lt;/h3&gt;
@@ -714,7 +721,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator"&gt;🤖 &lt;code&gt;rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1166,7 +1174,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator"&gt;🤖 &lt;code&gt;rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1618,7 +1627,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator"&gt;🤖 &lt;code&gt;rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator&lt;/code&gt;&lt;/h3&gt;
@@ -2070,7 +2080,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator"&gt;🤖 &lt;code&gt;rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator&lt;/code&gt;&lt;/h3&gt;
@@ -2522,7 +2533,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator"&gt;🤖 &lt;code&gt;rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator&lt;/code&gt;&lt;/h3&gt;
@@ -2974,7 +2986,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator"&gt;🤖 &lt;code&gt;rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator&lt;/code&gt;&lt;/h3&gt;
@@ -3426,7 +3439,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator"&gt;🤖 &lt;code&gt;rabbitmq-cluster-operator-rabbitmq-messaging-topology-operator&lt;/code&gt;&lt;/h3&gt;
@@ -3877,7 +3891,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rancher-post-delete"&gt;🤖 &lt;code&gt;rancher-post-delete&lt;/code&gt;&lt;/h3&gt;
@@ -4074,7 +4089,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rancher-post-delete"&gt;🤖 &lt;code&gt;rancher-post-delete&lt;/code&gt;&lt;/h3&gt;
@@ -4281,7 +4297,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rancher-post-delete"&gt;🤖 &lt;code&gt;rancher-post-delete&lt;/code&gt;&lt;/h3&gt;
@@ -4488,7 +4505,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-rancher-post-delete"&gt;🤖 &lt;code&gt;rancher-post-delete&lt;/code&gt;&lt;/h3&gt;
@@ -4706,7 +4724,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-raven-operator-controller-manager"&gt;🤖 &lt;code&gt;raven-operator-controller-manager&lt;/code&gt;&lt;/h3&gt;
@@ -4973,7 +4992,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-raven-operator-controller-manager"&gt;🤖 &lt;code&gt;raven-operator-controller-manager&lt;/code&gt;&lt;/h3&gt;
@@ -5240,7 +5260,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-raven-operator-controller-manager"&gt;🤖 &lt;code&gt;raven-operator-controller-manager&lt;/code&gt;&lt;/h3&gt;
@@ -5485,7 +5506,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5529,7 +5551,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5573,7 +5596,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5617,7 +5641,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5661,7 +5686,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5705,7 +5731,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5749,7 +5776,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5793,7 +5821,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5837,7 +5866,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5881,7 +5911,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5925,7 +5956,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -5969,7 +6001,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -6013,7 +6046,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -6057,7 +6091,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-master"&gt;🤖 &lt;code&gt;redis-master&lt;/code&gt;&lt;/h3&gt;
@@ -6109,7 +6144,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-enterprise-installer"&gt;🤖 &lt;code&gt;redis-enterprise-installer&lt;/code&gt;&lt;/h3&gt;
@@ -6193,7 +6229,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-enterprise-installer"&gt;🤖 &lt;code&gt;redis-enterprise-installer&lt;/code&gt;&lt;/h3&gt;
@@ -6277,7 +6314,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-redis-enterprise-installer"&gt;🤖 &lt;code&gt;redis-enterprise-installer&lt;/code&gt;&lt;/h3&gt;
@@ -6354,7 +6392,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-test-nodeport-tls-redpanda-no-a-test"&gt;🤖 &lt;code&gt;test-nodeport-tls-redpanda-no-a-test&lt;/code&gt;&lt;/h3&gt;
@@ -6422,7 +6461,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-resource-binding-operator"&gt;🤖 &lt;code&gt;resource-binding-operator&lt;/code&gt;&lt;/h3&gt;

@@ -31,7 +31,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-sbom-operator"&gt;🤖 &lt;code&gt;sbom-operator&lt;/code&gt;&lt;/h3&gt;
@@ -108,7 +109,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-sbom-operator"&gt;🤖 &lt;code&gt;sbom-operator&lt;/code&gt;&lt;/h3&gt;
@@ -185,7 +187,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-sbom-operator"&gt;🤖 &lt;code&gt;sbom-operator&lt;/code&gt;&lt;/h3&gt;
@@ -262,7 +265,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-sbom-operator"&gt;🤖 &lt;code&gt;sbom-operator&lt;/code&gt;&lt;/h3&gt;
@@ -345,7 +349,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-secret-operator"&gt;🤖 &lt;code&gt;secret-operator&lt;/code&gt;&lt;/h3&gt;
@@ -523,7 +528,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-secret-operator-csi"&gt;🤖 &lt;code&gt;secret-operator-csi&lt;/code&gt;&lt;/h3&gt;
@@ -714,7 +720,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-sm-operator-controller-manager"&gt;🤖 &lt;code&gt;sm-operator-controller-manager&lt;/code&gt;&lt;/h3&gt;
@@ -862,7 +869,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-sm-operator-controller-manager"&gt;🤖 &lt;code&gt;sm-operator-controller-manager&lt;/code&gt;&lt;/h3&gt;
@@ -992,7 +1000,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-snapscheduler"&gt;🤖 &lt;code&gt;snapscheduler&lt;/code&gt;&lt;/h3&gt;
@@ -1168,7 +1177,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-solr-operator"&gt;🤖 &lt;code&gt;solr-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1203,7 +1213,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-edp-sonar-operator"&gt;🤖 &lt;code&gt;edp-sonar-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1260,7 +1271,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-edp-sonar-operator"&gt;🤖 &lt;code&gt;edp-sonar-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1317,7 +1329,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-edp-sonar-operator"&gt;🤖 &lt;code&gt;edp-sonar-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1374,7 +1387,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-edp-sonar-operator"&gt;🤖 &lt;code&gt;edp-sonar-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1431,7 +1445,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-edp-sonar-operator"&gt;🤖 &lt;code&gt;edp-sonar-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1489,7 +1504,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-sops-secrets-operator"&gt;🤖 &lt;code&gt;sops-secrets-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1646,7 +1662,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-sops-secrets-operator"&gt;🤖 &lt;code&gt;sops-secrets-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1803,7 +1820,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-sops-secrets-operator"&gt;🤖 &lt;code&gt;sops-secrets-operator&lt;/code&gt;&lt;/h3&gt;
@@ -1957,7 +1975,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-spark-k8s-operator"&gt;🤖 &lt;code&gt;spark-k8s-operator&lt;/code&gt;&lt;/h3&gt;
@@ -2125,7 +2144,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-spark-operator"&gt;🤖 &lt;code&gt;spark-operator&lt;/code&gt;&lt;/h3&gt;
@@ -2294,7 +2314,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-spark-operator"&gt;🤖 &lt;code&gt;spark-operator&lt;/code&gt;&lt;/h3&gt;
@@ -2463,7 +2484,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-spark-operator"&gt;🤖 &lt;code&gt;spark-operator&lt;/code&gt;&lt;/h3&gt;
@@ -2633,7 +2655,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-stackgres-operator"&gt;🤖 &lt;code&gt;stackgres-operator&lt;/code&gt;&lt;/h3&gt;
@@ -4202,7 +4225,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-stackgres-operator"&gt;🤖 &lt;code&gt;stackgres-operator&lt;/code&gt;&lt;/h3&gt;
@@ -5771,7 +5795,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-stackgres-operator"&gt;🤖 &lt;code&gt;stackgres-operator&lt;/code&gt;&lt;/h3&gt;
@@ -7340,7 +7365,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-stackgres-operator"&gt;🤖 &lt;code&gt;stackgres-operator&lt;/code&gt;&lt;/h3&gt;
@@ -8896,7 +8922,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-superset-operator"&gt;🤖 &lt;code&gt;superset-operator&lt;/code&gt;&lt;/h3&gt;
@@ -9028,7 +9055,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h2 id="identities"&gt;Identities&lt;/h2&gt;
 &lt;h3 id="sa-superset-operator"&gt;🤖 &lt;code&gt;superset-operator&lt;/code&gt;&lt;/h3&gt;
