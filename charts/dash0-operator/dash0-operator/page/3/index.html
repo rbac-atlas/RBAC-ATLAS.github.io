@@ -1,8 +1,21 @@
-<!doctype html><html lang=en><head><title>dash0-operator :: RBAC ATLAS</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0."><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/><meta property="og:image" content="https://rbac-atlas.github.io/images/preview.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="502"><meta property="og:image:height" content="502"><meta property="og:title" content="dash0-operator - RBAC ATLAS"><meta property="og:description" content="The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0."><meta property="og:url" content="https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/"><link rel=icon type=image/png href=https://rbac-atlas.github.io/favicon.png><script async src="https://www.googletagmanager.com/gtag/js?id=G-J1HDNEGQJ7"></script><script>var doNotTrack=!1,dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes";if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-J1HDNEGQJ7")}</script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/syntax.min.c252f9729d601989647371892e4174bccaae7a374e1ed03a351c4c49bb69a605.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/header.min.6b542678ef39e1f7ad983c5ee7d6dba3e3e2cdce3912754c1001572f5517802f.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/post.min.66409bd827ce80a95edc85dfe3ef6cfec9647424221e6756924362937400110d.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.min.afe4c56190de01a41463c8ca74494b331f56118a5dca730091372d25f7a69c1e.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.original.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><script>function toggleTags(e){const t=e.previousElementSibling,n=t.style.display!=="none";t.style.display=n?"none":"inline";const s=e.getAttribute("data-count");e.textContent=n?`(+${s} more)`:"Show less"}document.addEventListener("DOMContentLoaded",function(){const e=document.querySelectorAll("table");e.forEach(e=>{const n=e.querySelectorAll("thead th"),t=Array.from(n).map(e=>e.textContent.trim()),s=e.querySelectorAll("tbody td");s.forEach((e,n)=>{const s=n%t.length;e.setAttribute("data-label",t[s])})})})</script></head><body><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=https://rbac-atlas.github.io/ class=logo><div class=logo-icon><img src=/images/compass-svgrepo-com.svg alt="RBAC Atlas Logo"></div><div class=logo-text><div class=title><span class=title-line>RBAC</span>
+<!doctype html><html lang=en><head><title>dash0-operator :: RBAC ATLAS</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0."><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/><meta property="og:image" content="https://rbac-atlas.github.io/images/preview.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="502"><meta property="og:image:height" content="502"><meta property="og:title" content="dash0-operator - RBAC ATLAS"><meta property="og:description" content="The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0."><meta property="og:url" content="https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/"><link rel=icon type=image/png href=https://rbac-atlas.github.io/favicon.png><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/syntax.min.c252f9729d601989647371892e4174bccaae7a374e1ed03a351c4c49bb69a605.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/header.min.6b542678ef39e1f7ad983c5ee7d6dba3e3e2cdce3912754c1001572f5517802f.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/post.min.66409bd827ce80a95edc85dfe3ef6cfec9647424221e6756924362937400110d.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.min.afe4c56190de01a41463c8ca74494b331f56118a5dca730091372d25f7a69c1e.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.original.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><script>function toggleTags(e){const t=e.previousElementSibling,n=t.style.display!=="none";t.style.display=n?"none":"inline";const s=e.getAttribute("data-count");e.textContent=n?`(+${s} more)`:"Show less"}document.addEventListener("DOMContentLoaded",function(){const e=document.querySelectorAll("table");e.forEach(e=>{const n=e.querySelectorAll("thead th"),t=Array.from(n).map(e=>e.textContent.trim()),s=e.querySelectorAll("tbody td");s.forEach((e,n)=>{const s=n%t.length;e.setAttribute("data-label",t[s])})})})</script></head><body><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=https://rbac-atlas.github.io/ class=logo><div class=logo-icon><img src=/images/compass-svgrepo-com.svg alt="RBAC Atlas Logo"></div><div class=logo-text><div class=title><span class=title-line>RBAC</span>
 <span class=title-line>ATLAS</span></div><span class=tagline>A CURATED INDEX OF RBAC POLICIES IN K8S</span></div></a></div><nav class=navigation-menu><ul class="navigation-menu__inner menu--desktop"><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><button class=hamburger id=hamburger-btn aria-label="Toggle menu" aria-expanded=false>
 <span class=hamburger__line></span>
 <span class=hamburger__line></span>
-<span class=hamburger__line></span></button></div><nav class=mobile-nav id=mobile-nav aria-hidden=true><ul class=mobile-nav__links><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><script>(function(){var e=document.getElementById("hamburger-btn"),t=document.getElementById("mobile-nav");if(!e||!t)return;e.addEventListener("click",function(){var n=e.classList.toggle("is-open");t.classList.toggle("is-open"),e.setAttribute("aria-expanded",n),t.setAttribute("aria-hidden",!n)})})()</script><link href=/pagefind/pagefind-ui.css rel=stylesheet><script src=/pagefind/pagefind-ui.js></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search",showSubResults:!0})})</script></header><div class=content><div class=index-content><h2 id=dash0-operator>dash0-operator</h2><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p><h2 id=sources>Sources</h2><ul><li><a href=https://github.com/dash0hq/dash0-operator>https://github.com/dash0hq/dash0-operator</a></li></ul></div><h2>Versions</h2><div class=posts><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.99.0/>dash0-operator</a></h2><span class=post-version>v0.99.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+<span class=hamburger__line></span></button></div><nav class=mobile-nav id=mobile-nav aria-hidden=true><ul class=mobile-nav__links><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><script>(function(){var e=document.getElementById("hamburger-btn"),t=document.getElementById("mobile-nav");if(!e||!t)return;e.addEventListener("click",function(){var n=e.classList.toggle("is-open");t.classList.toggle("is-open"),e.setAttribute("aria-expanded",n),t.setAttribute("aria-hidden",!n)})})()</script><link href=/pagefind/pagefind-ui.css rel=stylesheet><script src=/pagefind/pagefind-ui.js></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search",showSubResults:!0})})</script></header><div class=content><div class=index-content><h2>dash0-operator</h2><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p><h2>Sources</h2><ul><li><a href=https://github.com/dash0hq/dash0-operator>https://github.com/dash0hq/dash0-operator</a></li></ul></div><h2>Versions</h2><div class=posts><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.99.1/>dash0-operator</a></h2><span class=post-version>v0.99.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+41 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.99.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.99.0/>dash0-operator</a></h2><span class=post-version>v0.99.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 9 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 4 High
@@ -16,19 +29,19 @@
 #<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 (+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.99.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.98.0/>dash0-operator</a></h2><span class=post-version>v0.98.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
-8 Critical
+9 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 4 High
 </span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
 4 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
-42 Low
+41 Low
 </span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
 <span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+<span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
-#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.98.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.97.0/>dash0-operator</a></h2><span class=post-version>v0.97.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.98.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.97.0/>dash0-operator</a></h2><span class=post-version>v0.97.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 8 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 4 High
@@ -106,7 +119,33 @@
 <span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.93.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.92.1/>dash0-operator</a></h2><span class=post-version>v0.92.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.93.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.93.1/>dash0-operator</a></h2><span class=post-version>v0.93.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+41 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.93.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.93.0/>dash0-operator</a></h2><span class=post-version>v0.93.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+41 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.93.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.92.1/>dash0-operator</a></h2><span class=post-version>v0.92.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 8 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 4 High
@@ -119,7 +158,20 @@
 <span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.92.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.91.0/>dash0-operator</a></h2><span class=post-version>v0.91.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.92.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.92.0/>dash0-operator</a></h2><span class=post-version>v0.92.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+41 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.92.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.91.0/>dash0-operator</a></h2><span class=post-version>v0.91.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 8 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 4 High
@@ -145,7 +197,20 @@
 <span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.90.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.88.2/>dash0-operator</a></h2><span class=post-version>v0.88.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.90.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.89.0/>dash0-operator</a></h2><span class=post-version>v0.89.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+41 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.89.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.88.2/>dash0-operator</a></h2><span class=post-version>v0.88.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 8 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 4 High
@@ -171,7 +236,20 @@
 <span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.88.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.87.0/>dash0-operator</a></h2><span class=post-version>v0.87.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.88.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.88.0/>dash0-operator</a></h2><span class=post-version>v0.88.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+41 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 58</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.88.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.87.0/>dash0-operator</a></h2><span class=post-version>v0.87.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 8 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 4 High
@@ -444,7 +522,46 @@
 <span class=stat-item><i class="fa-solid fa-link"></i> 48</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.70.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.69.1/>dash0-operator</a></h2><span class=post-version>v0.69.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.70.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.70.2/>dash0-operator</a></h2><span class=post-version>v0.70.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 46</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.70.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.70.1/>dash0-operator</a></h2><span class=post-version>v0.70.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 46</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.70.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.70.0/>dash0-operator</a></h2><span class=post-version>v0.70.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 46</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.70.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.69.1/>dash0-operator</a></h2><span class=post-version>v0.69.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 8 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 4 High
@@ -457,7 +574,20 @@
 <span class=stat-item><i class="fa-solid fa-link"></i> 46</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.69.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.68.0/>dash0-operator</a></h2><span class=post-version>v0.68.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.69.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.69.0/>dash0-operator</a></h2><span class=post-version>v0.69.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 46</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.69.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.68.0/>dash0-operator</a></h2><span class=post-version>v0.68.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 8 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 4 High
@@ -470,8 +600,1267 @@
 <span class=stat-item><i class="fa-solid fa-link"></i> 46</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.68.0/>See Details ›</a></div></article><div class=pagination><div class=pagination__buttons><a href=/charts/dash0-operator/dash0-operator/page/2/ class="button inline prev">&lt; [<span class=button__text>Newer entries</span>]
-</a>::
-<a href=/charts/dash0-operator/dash0-operator/page/4/ class="button inline next">[<span class=button__text>Older entries</span>] ></a></div></div></div></div><footer class=footer><div class=footer__inner><div class=copyright><span>Made with ❤️ by <a href=https://twitter.com/alevsk target=_blank rel="noopener noreferrer">@alevsk</a></span><div class=footer-github><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">rbac-scope</a>
+(+25 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.68.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.67.0/>dash0-operator</a></h2><span class=post-version>v0.67.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 46</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.67.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.66.0/>dash0-operator</a></h2><span class=post-version>v0.66.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 46</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.66.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.65.0/>dash0-operator</a></h2><span class=post-version>v0.65.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.65.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.64.0/>dash0-operator</a></h2><span class=post-version>v0.64.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.64.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.63.0/>dash0-operator</a></h2><span class=post-version>v0.63.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.63.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.62.0/>dash0-operator</a></h2><span class=post-version>v0.62.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.62.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.61.1/>dash0-operator</a></h2><span class=post-version>v0.61.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.61.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.61.0/>dash0-operator</a></h2><span class=post-version>v0.61.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.61.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.60.0/>dash0-operator</a></h2><span class=post-version>v0.60.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.60.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.59.0/>dash0-operator</a></h2><span class=post-version>v0.59.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.59.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.58.0/>dash0-operator</a></h2><span class=post-version>v0.58.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.58.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.57.1/>dash0-operator</a></h2><span class=post-version>v0.57.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.57.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.57.0/>dash0-operator</a></h2><span class=post-version>v0.57.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 45</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+29 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.57.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.56.3/>dash0-operator</a></h2><span class=post-version>v0.56.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.56.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.56.2/>dash0-operator</a></h2><span class=post-version>v0.56.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.56.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.56.1/>dash0-operator</a></h2><span class=post-version>v0.56.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.56.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.56.0/>dash0-operator</a></h2><span class=post-version>v0.56.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.56.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.55.1/>dash0-operator</a></h2><span class=post-version>v0.55.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.55.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.55.0/>dash0-operator</a></h2><span class=post-version>v0.55.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.55.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.54.2/>dash0-operator</a></h2><span class=post-version>v0.54.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.54.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.54.1/>dash0-operator</a></h2><span class=post-version>v0.54.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.54.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.53.0/>dash0-operator</a></h2><span class=post-version>v0.53.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.53.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.52.1/>dash0-operator</a></h2><span class=post-version>v0.52.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.52.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.52.0/>dash0-operator</a></h2><span class=post-version>v0.52.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.52.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.51.0/>dash0-operator</a></h2><span class=post-version>v0.51.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.51.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.50.1/>dash0-operator</a></h2><span class=post-version>v0.50.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.50.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.50.0/>dash0-operator</a></h2><span class=post-version>v0.50.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.50.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.49.0/>dash0-operator</a></h2><span class=post-version>v0.49.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.49.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.48.0/>dash0-operator</a></h2><span class=post-version>v0.48.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.48.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.47.2/>dash0-operator</a></h2><span class=post-version>v0.47.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.47.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.47.1/>dash0-operator</a></h2><span class=post-version>v0.47.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.47.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.47.0/>dash0-operator</a></h2><span class=post-version>v0.47.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.47.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.46.0/>dash0-operator</a></h2><span class=post-version>v0.46.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.46.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.45.1/>dash0-operator</a></h2><span class=post-version>v0.45.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.45.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.45.0/>dash0-operator</a></h2><span class=post-version>v0.45.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.45.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.44.0/>dash0-operator</a></h2><span class=post-version>v0.44.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.44.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.43.1/>dash0-operator</a></h2><span class=post-version>v0.43.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.43.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.43.0/>dash0-operator</a></h2><span class=post-version>v0.43.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.43.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.42.0/>dash0-operator</a></h2><span class=post-version>v0.42.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.42.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.41.0/>dash0-operator</a></h2><span class=post-version>v0.41.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.41.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.40.1/>dash0-operator</a></h2><span class=post-version>v0.40.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.40.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.40.0/>dash0-operator</a></h2><span class=post-version>v0.40.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.40.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.39.0/>dash0-operator</a></h2><span class=post-version>v0.39.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.39.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.38.0/>dash0-operator</a></h2><span class=post-version>v0.38.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.38.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.37.2/>dash0-operator</a></h2><span class=post-version>v0.37.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.37.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.37.1/>dash0-operator</a></h2><span class=post-version>v0.37.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.37.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.37.0/>dash0-operator</a></h2><span class=post-version>v0.37.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.37.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.36.1/>dash0-operator</a></h2><span class=post-version>v0.36.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.36.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.36.0/>dash0-operator</a></h2><span class=post-version>v0.36.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.36.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.35.3/>dash0-operator</a></h2><span class=post-version>v0.35.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.35.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.35.2/>dash0-operator</a></h2><span class=post-version>v0.35.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+8 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 44</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+(+27 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.35.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.35.1/>dash0-operator</a></h2><span class=post-version>v0.35.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.35.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.35.0/>dash0-operator</a></h2><span class=post-version>v0.35.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.35.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.34.0/>dash0-operator</a></h2><span class=post-version>v0.34.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.34.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.33.1/>dash0-operator</a></h2><span class=post-version>v0.33.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.33.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.33.0/>dash0-operator</a></h2><span class=post-version>v0.33.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.33.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.32.1/>dash0-operator</a></h2><span class=post-version>v0.32.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.32.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.32.0/>dash0-operator</a></h2><span class=post-version>v0.32.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.32.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.31.0/>dash0-operator</a></h2><span class=post-version>v0.31.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.31.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.30.0/>dash0-operator</a></h2><span class=post-version>v0.30.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.30.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.29.0/>dash0-operator</a></h2><span class=post-version>v0.29.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.29.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.28.0/>dash0-operator</a></h2><span class=post-version>v0.28.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.28.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.27.0/>dash0-operator</a></h2><span class=post-version>v0.27.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.27.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.26.0/>dash0-operator</a></h2><span class=post-version>v0.26.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.26.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.25.0/>dash0-operator</a></h2><span class=post-version>v0.25.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 43</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.25.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.24.3/>dash0-operator</a></h2><span class=post-version>v0.24.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+27 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 42</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.24.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.24.2/>dash0-operator</a></h2><span class=post-version>v0.24.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+27 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 42</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.24.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.24.1/>dash0-operator</a></h2><span class=post-version>v0.24.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+27 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 42</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.24.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.24.0/>dash0-operator</a></h2><span class=post-version>v0.24.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+27 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 42</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.24.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.23.0/>dash0-operator</a></h2><span class=post-version>v0.23.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+27 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 42</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.23.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.22.0/>dash0-operator</a></h2><span class=post-version>v0.22.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+25 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 40</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.22.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.21.1/>dash0-operator</a></h2><span class=post-version>v0.21.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+25 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 40</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.21.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.21.0/>dash0-operator</a></h2><span class=post-version>v0.21.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+25 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 40</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.21.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.20.0/>dash0-operator</a></h2><span class=post-version>v0.20.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+25 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 40</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.20.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.18.0/>dash0-operator</a></h2><span class=post-version>v0.18.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+24 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 39</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.18.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.17.0/>dash0-operator</a></h2><span class=post-version>v0.17.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+24 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 39</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.17.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.16.0/>dash0-operator</a></h2><span class=post-version>v0.16.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+24 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 39</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+23 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.16.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.15.0/>dash0-operator</a></h2><span class=post-version>v0.15.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+6 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 29</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+20 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.15.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.14.0/>dash0-operator</a></h2><span class=post-version>v0.14.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+6 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+16 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 28</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+20 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.14.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.13.0/>dash0-operator</a></h2><span class=post-version>v0.13.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+6 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+16 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 28</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+20 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.13.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.12.0/>dash0-operator</a></h2><span class=post-version>v0.12.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+6 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+16 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 28</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+20 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.12.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.11.0/>dash0-operator</a></h2><span class=post-version>v0.11.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+6 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+13 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 25</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+20 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.11.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.10.0/>dash0-operator</a></h2><span class=post-version>v0.10.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+6 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+13 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 25</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+20 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.10.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.9.0/>dash0-operator</a></h2><span class=post-version>v0.9.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+6 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+4 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+13 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 25</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+20 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.9.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.8.1/>dash0-operator</a></h2><span class=post-version>v0.8.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.8.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.8.0/>dash0-operator</a></h2><span class=post-version>v0.8.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.8.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.7.0/>dash0-operator</a></h2><span class=post-version>v0.7.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.7.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.6.0/>dash0-operator</a></h2><span class=post-version>v0.6.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.6.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.5.1/>dash0-operator</a></h2><span class=post-version>v0.5.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.5.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.5.0/>dash0-operator</a></h2><span class=post-version>v0.5.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.5.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.4.0/>dash0-operator</a></h2><span class=post-version>v0.4.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.4.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.3.0/>dash0-operator</a></h2><span class=post-version>v0.3.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.3.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.2.0/>dash0-operator</a></h2><span class=post-version>v0.2.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.2.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.1.3/>dash0-operator</a></h2><span class=post-version>v0.1.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.1.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.1.2/>dash0-operator</a></h2><span class=post-version>v0.1.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.1.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.1.1/>dash0-operator</a></h2><span class=post-version>v0.1.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.1.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/dash0-operator/dash0-operator/0.1.0/>dash0-operator</a></h2><span class=post-version>v0.1.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+1 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+2 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+17 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 21</span></div><div class=post-content><p>The Dash0 Kubernetes Operator makes observability easy for every Kubernetes setup, simply install the operator into your cluster to get OpenTelemetry data flowing from your applications and infrastructure to Dash0.</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/controlplanedisruption/>ControlPlaneDisruption</a>&nbsp;
+(+10 more)</span><div><a class="read-more button inline" href=/charts/dash0-operator/dash0-operator/0.1.0/>See Details ›</a></div></article><div class=pagination><div class=pagination__buttons><a href=/charts/dash0-operator/dash0-operator/page/2/ class="button inline prev">&lt; [<span class=button__text>Newer entries</span>]</a></div></div></div></div><footer class=footer><div class=footer__inner><div class=copyright><span>Made with ❤️ by <a href=https://twitter.com/alevsk target=_blank rel="noopener noreferrer">@alevsk</a></span><div class=footer-github><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">rbac-scope</a>
 <span>&#183;</span>
 <a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">rbac-atlas</a></div></div></div></footer><script type=text/javascript src=/bundle.min.js></script></div></body></html>

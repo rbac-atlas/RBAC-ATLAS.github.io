@@ -1,0 +1,579 @@
+<!doctype html><html lang=en><head><title>wiz-sensor :: RBAC ATLAS</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Wiz Sensor helm chart"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/><meta property="og:image" content="https://rbac-atlas.github.io/images/preview.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="502"><meta property="og:image:height" content="502"><meta property="og:title" content="wiz-sensor - RBAC ATLAS"><meta property="og:description" content="Wiz Sensor helm chart"><meta property="og:url" content="https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/"><link rel=icon type=image/png href=https://rbac-atlas.github.io/favicon.png><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/syntax.min.c252f9729d601989647371892e4174bccaae7a374e1ed03a351c4c49bb69a605.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/header.min.6b542678ef39e1f7ad983c5ee7d6dba3e3e2cdce3912754c1001572f5517802f.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/post.min.66409bd827ce80a95edc85dfe3ef6cfec9647424221e6756924362937400110d.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.min.afe4c56190de01a41463c8ca74494b331f56118a5dca730091372d25f7a69c1e.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.original.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><script>function toggleTags(e){const t=e.previousElementSibling,n=t.style.display!=="none";t.style.display=n?"none":"inline";const s=e.getAttribute("data-count");e.textContent=n?`(+${s} more)`:"Show less"}document.addEventListener("DOMContentLoaded",function(){const e=document.querySelectorAll("table");e.forEach(e=>{const n=e.querySelectorAll("thead th"),t=Array.from(n).map(e=>e.textContent.trim()),s=e.querySelectorAll("tbody td");s.forEach((e,n)=>{const s=n%t.length;e.setAttribute("data-label",t[s])})})})</script></head><body><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=https://rbac-atlas.github.io/ class=logo><div class=logo-icon><img src=/images/compass-svgrepo-com.svg alt="RBAC Atlas Logo"></div><div class=logo-text><div class=title><span class=title-line>RBAC</span>
+<span class=title-line>ATLAS</span></div><span class=tagline>A CURATED INDEX OF RBAC POLICIES IN K8S</span></div></a></div><nav class=navigation-menu><ul class="navigation-menu__inner menu--desktop"><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><button class=hamburger id=hamburger-btn aria-label="Toggle menu" aria-expanded=false>
+<span class=hamburger__line></span>
+<span class=hamburger__line></span>
+<span class=hamburger__line></span></button></div><nav class=mobile-nav id=mobile-nav aria-hidden=true><ul class=mobile-nav__links><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><script>(function(){var e=document.getElementById("hamburger-btn"),t=document.getElementById("mobile-nav");if(!e||!t)return;e.addEventListener("click",function(){var n=e.classList.toggle("is-open");t.classList.toggle("is-open"),e.setAttribute("aria-expanded",n),t.setAttribute("aria-hidden",!n)})})()</script><link href=/pagefind/pagefind-ui.css rel=stylesheet><script src=/pagefind/pagefind-ui.js></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search",showSubResults:!0})})</script></header><div class=content><div class=index-content><h2>wiz-sensor</h2><p>Wiz Sensor helm chart</p></div><h2>Versions</h2><div class=posts><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.9426/>wiz-sensor</a></h2><span class=post-version>v1.0.9426</span></div><div class=post-stats><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 38</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+3 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.9426/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8834/>wiz-sensor</a></h2><span class=post-version>v1.0.8834</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8834/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8833/>wiz-sensor</a></h2><span class=post-version>v1.0.8833</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8833/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8832/>wiz-sensor</a></h2><span class=post-version>v1.0.8832</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8832/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8831/>wiz-sensor</a></h2><span class=post-version>v1.0.8831</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8831/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8403/>wiz-sensor</a></h2><span class=post-version>v1.0.8403</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8403/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8402/>wiz-sensor</a></h2><span class=post-version>v1.0.8402</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8402/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8401/>wiz-sensor</a></h2><span class=post-version>v1.0.8401</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8401/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8399/>wiz-sensor</a></h2><span class=post-version>v1.0.8399</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8399/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8327/>wiz-sensor</a></h2><span class=post-version>v1.0.8327</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8327/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8313/>wiz-sensor</a></h2><span class=post-version>v1.0.8313</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8313/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.8204/>wiz-sensor</a></h2><span class=post-version>v1.0.8204</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.8204/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.7947/>wiz-sensor</a></h2><span class=post-version>v1.0.7947</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+7 High
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 41</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+9 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.7947/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.7505/>wiz-sensor</a></h2><span class=post-version>v1.0.7505</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.7505/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.7504/>wiz-sensor</a></h2><span class=post-version>v1.0.7504</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.7504/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.7503/>wiz-sensor</a></h2><span class=post-version>v1.0.7503</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.7503/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.7502/>wiz-sensor</a></h2><span class=post-version>v1.0.7502</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.7502/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.7501/>wiz-sensor</a></h2><span class=post-version>v1.0.7501</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.7501/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.7500/>wiz-sensor</a></h2><span class=post-version>v1.0.7500</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.7500/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.7327/>wiz-sensor</a></h2><span class=post-version>v1.0.7327</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.7327/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.7326/>wiz-sensor</a></h2><span class=post-version>v1.0.7326</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.7326/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.6816/>wiz-sensor</a></h2><span class=post-version>v1.0.6816</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.6816/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.6572/>wiz-sensor</a></h2><span class=post-version>v1.0.6572</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.6572/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.6440/>wiz-sensor</a></h2><span class=post-version>v1.0.6440</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.6440/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.6349/>wiz-sensor</a></h2><span class=post-version>v1.0.6349</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.6349/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.6187/>wiz-sensor</a></h2><span class=post-version>v1.0.6187</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.6187/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.6051/>wiz-sensor</a></h2><span class=post-version>v1.0.6051</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+33 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 34</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+7 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.6051/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.5835/>wiz-sensor</a></h2><span class=post-version>v1.0.5835</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.5835/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.5685/>wiz-sensor</a></h2><span class=post-version>v1.0.5685</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.5685/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.5443/>wiz-sensor</a></h2><span class=post-version>v1.0.5443</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.5443/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.5429/>wiz-sensor</a></h2><span class=post-version>v1.0.5429</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.5429/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.5145/>wiz-sensor</a></h2><span class=post-version>v1.0.5145</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.5145/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4945/>wiz-sensor</a></h2><span class=post-version>v1.0.4945</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4945/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4760/>wiz-sensor</a></h2><span class=post-version>v1.0.4760</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4760/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4708/>wiz-sensor</a></h2><span class=post-version>v1.0.4708</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4708/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4677/>wiz-sensor</a></h2><span class=post-version>v1.0.4677</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4677/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4673/>wiz-sensor</a></h2><span class=post-version>v1.0.4673</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4673/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4483/>wiz-sensor</a></h2><span class=post-version>v1.0.4483</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4483/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4470/>wiz-sensor</a></h2><span class=post-version>v1.0.4470</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4470/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4423/>wiz-sensor</a></h2><span class=post-version>v1.0.4423</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4423/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4413/>wiz-sensor</a></h2><span class=post-version>v1.0.4413</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4413/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4365/>wiz-sensor</a></h2><span class=post-version>v1.0.4365</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4365/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4334/>wiz-sensor</a></h2><span class=post-version>v1.0.4334</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4334/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4250/>wiz-sensor</a></h2><span class=post-version>v1.0.4250</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4250/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4199/>wiz-sensor</a></h2><span class=post-version>v1.0.4199</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4199/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.4152/>wiz-sensor</a></h2><span class=post-version>v1.0.4152</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.4152/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.3999/>wiz-sensor</a></h2><span class=post-version>v1.0.3999</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.3999/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.3891/>wiz-sensor</a></h2><span class=post-version>v1.0.3891</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.3891/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.3828/>wiz-sensor</a></h2><span class=post-version>v1.0.3828</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.3828/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.3492/>wiz-sensor</a></h2><span class=post-version>v1.0.3492</span></div><div class=post-stats><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a>&nbsp;
+(+1 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.3492/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.3369/>wiz-sensor</a></h2><span class=post-version>v1.0.3369</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+(+4 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.3369/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.3011/>wiz-sensor</a></h2><span class=post-version>v1.0.3011</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+(+4 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.3011/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2969/>wiz-sensor</a></h2><span class=post-version>v1.0.2969</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+(+4 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2969/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2864/>wiz-sensor</a></h2><span class=post-version>v1.0.2864</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+(+4 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2864/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2823/>wiz-sensor</a></h2><span class=post-version>v1.0.2823</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+(+4 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2823/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2670/>wiz-sensor</a></h2><span class=post-version>v1.0.2670</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2670/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2586/>wiz-sensor</a></h2><span class=post-version>v1.0.2586</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2586/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2484/>wiz-sensor</a></h2><span class=post-version>v1.0.2484</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2484/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2446/>wiz-sensor</a></h2><span class=post-version>v1.0.2446</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2446/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2304/>wiz-sensor</a></h2><span class=post-version>v1.0.2304</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2304/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2280/>wiz-sensor</a></h2><span class=post-version>v1.0.2280</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+31 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2280/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2142/>wiz-sensor</a></h2><span class=post-version>v1.0.2142</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 29</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2142/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2062/>wiz-sensor</a></h2><span class=post-version>v1.0.2062</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 29</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2062/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2019/>wiz-sensor</a></h2><span class=post-version>v1.0.2019</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 29</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2019/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2006/>wiz-sensor</a></h2><span class=post-version>v1.0.2006</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 29</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2006/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/wiz-sec/wiz-sensor/1.0.2002/>wiz-sensor</a></h2><span class=post-version>v1.0.2002</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+1 Critical
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+28 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 29</span></div><div class=post-content><p>Wiz Sensor helm chart</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/informationdisclosure/>InformationDisclosure</a>&nbsp;
+(+2 more)</span><div><a class="read-more button inline" href=/charts/wiz-sec/wiz-sensor/1.0.2002/>See Details ›</a></div></article><div class=pagination><div class=pagination__buttons><a href=/charts/wiz-sec/wiz-sensor/page/2/ class="button inline next">[<span class=button__text>Older entries</span>] ></a></div></div></div></div><footer class=footer><div class=footer__inner><div class=copyright><span>Made with ❤️ by <a href=https://twitter.com/alevsk target=_blank rel="noopener noreferrer">@alevsk</a></span><div class=footer-github><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">rbac-scope</a>
+<span>&#183;</span>
+<a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">rbac-atlas</a></div></div></div></footer><script type=text/javascript src=/bundle.min.js></script></div></body></html>

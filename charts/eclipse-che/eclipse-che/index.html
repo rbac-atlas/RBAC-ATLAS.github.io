@@ -1,8 +1,21 @@
-<!doctype html><html lang=en><head><title>eclipse-che :: RBAC ATLAS</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="A Helm chart for deploying Eclipse Che on a Kubernetes"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/><meta property="og:image" content="https://rbac-atlas.github.io/images/preview.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="502"><meta property="og:image:height" content="502"><meta property="og:title" content="eclipse-che - RBAC ATLAS"><meta property="og:description" content="A Helm chart for deploying Eclipse Che on a Kubernetes"><meta property="og:url" content="https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/"><link rel=icon type=image/png href=https://rbac-atlas.github.io/favicon.png><script async src="https://www.googletagmanager.com/gtag/js?id=G-J1HDNEGQJ7"></script><script>var doNotTrack=!1,dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes";if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-J1HDNEGQJ7")}</script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/syntax.min.c252f9729d601989647371892e4174bccaae7a374e1ed03a351c4c49bb69a605.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/header.min.6b542678ef39e1f7ad983c5ee7d6dba3e3e2cdce3912754c1001572f5517802f.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/post.min.66409bd827ce80a95edc85dfe3ef6cfec9647424221e6756924362937400110d.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.min.afe4c56190de01a41463c8ca74494b331f56118a5dca730091372d25f7a69c1e.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.original.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><script>function toggleTags(e){const t=e.previousElementSibling,n=t.style.display!=="none";t.style.display=n?"none":"inline";const s=e.getAttribute("data-count");e.textContent=n?`(+${s} more)`:"Show less"}document.addEventListener("DOMContentLoaded",function(){const e=document.querySelectorAll("table");e.forEach(e=>{const n=e.querySelectorAll("thead th"),t=Array.from(n).map(e=>e.textContent.trim()),s=e.querySelectorAll("tbody td");s.forEach((e,n)=>{const s=n%t.length;e.setAttribute("data-label",t[s])})})})</script></head><body><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=https://rbac-atlas.github.io/ class=logo><div class=logo-icon><img src=/images/compass-svgrepo-com.svg alt="RBAC Atlas Logo"></div><div class=logo-text><div class=title><span class=title-line>RBAC</span>
+<!doctype html><html lang=en><head><title>eclipse-che :: RBAC ATLAS</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="A Helm chart for deploying Eclipse Che on a Kubernetes"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/><meta property="og:image" content="https://rbac-atlas.github.io/images/preview.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="502"><meta property="og:image:height" content="502"><meta property="og:title" content="eclipse-che - RBAC ATLAS"><meta property="og:description" content="A Helm chart for deploying Eclipse Che on a Kubernetes"><meta property="og:url" content="https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/"><link rel=icon type=image/png href=https://rbac-atlas.github.io/favicon.png><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/syntax.min.c252f9729d601989647371892e4174bccaae7a374e1ed03a351c4c49bb69a605.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/header.min.6b542678ef39e1f7ad983c5ee7d6dba3e3e2cdce3912754c1001572f5517802f.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/post.min.66409bd827ce80a95edc85dfe3ef6cfec9647424221e6756924362937400110d.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.min.afe4c56190de01a41463c8ca74494b331f56118a5dca730091372d25f7a69c1e.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.original.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><script>function toggleTags(e){const t=e.previousElementSibling,n=t.style.display!=="none";t.style.display=n?"none":"inline";const s=e.getAttribute("data-count");e.textContent=n?`(+${s} more)`:"Show less"}document.addEventListener("DOMContentLoaded",function(){const e=document.querySelectorAll("table");e.forEach(e=>{const n=e.querySelectorAll("thead th"),t=Array.from(n).map(e=>e.textContent.trim()),s=e.querySelectorAll("tbody td");s.forEach((e,n)=>{const s=n%t.length;e.setAttribute("data-label",t[s])})})})</script></head><body><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=https://rbac-atlas.github.io/ class=logo><div class=logo-icon><img src=/images/compass-svgrepo-com.svg alt="RBAC Atlas Logo"></div><div class=logo-text><div class=title><span class=title-line>RBAC</span>
 <span class=title-line>ATLAS</span></div><span class=tagline>A CURATED INDEX OF RBAC POLICIES IN K8S</span></div></a></div><nav class=navigation-menu><ul class="navigation-menu__inner menu--desktop"><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><button class=hamburger id=hamburger-btn aria-label="Toggle menu" aria-expanded=false>
 <span class=hamburger__line></span>
 <span class=hamburger__line></span>
-<span class=hamburger__line></span></button></div><nav class=mobile-nav id=mobile-nav aria-hidden=true><ul class=mobile-nav__links><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><script>(function(){var e=document.getElementById("hamburger-btn"),t=document.getElementById("mobile-nav");if(!e||!t)return;e.addEventListener("click",function(){var n=e.classList.toggle("is-open");t.classList.toggle("is-open"),e.setAttribute("aria-expanded",n),t.setAttribute("aria-hidden",!n)})})()</script><link href=/pagefind/pagefind-ui.css rel=stylesheet><script src=/pagefind/pagefind-ui.js></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search",showSubResults:!0})})</script></header><div class=content><div class=index-content><h2 id=eclipse-che>eclipse-che</h2><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><h2>Versions</h2><div class=posts><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.113.0/>eclipse-che</a></h2><span class=post-version>v7.113.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+<span class=hamburger__line></span></button></div><nav class=mobile-nav id=mobile-nav aria-hidden=true><ul class=mobile-nav__links><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><script>(function(){var e=document.getElementById("hamburger-btn"),t=document.getElementById("mobile-nav");if(!e||!t)return;e.addEventListener("click",function(){var n=e.classList.toggle("is-open");t.classList.toggle("is-open"),e.setAttribute("aria-expanded",n),t.setAttribute("aria-hidden",!n)})})()</script><link href=/pagefind/pagefind-ui.css rel=stylesheet><script src=/pagefind/pagefind-ui.js></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search",showSubResults:!0})})</script></header><div class=content><div class=index-content><h2>eclipse-che</h2><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><h2>Versions</h2><div class=posts><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.114.0/>eclipse-che</a></h2><span class=post-version>v7.114.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.114.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.113.0/>eclipse-che</a></h2><span class=post-version>v7.113.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 10 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 6 High
@@ -93,7 +106,20 @@
 <span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.107.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.105.0/>eclipse-che</a></h2><span class=post-version>v7.105.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.107.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.106.0/>eclipse-che</a></h2><span class=post-version>v7.106.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.106.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.105.0/>eclipse-che</a></h2><span class=post-version>v7.105.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 10 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 6 High
@@ -119,6 +145,916 @@
 <span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
-(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.104.0/>See Details ›</a></div></article><div class=pagination><div class=pagination__buttons></div></div></div></div><footer class=footer><div class=footer__inner><div class=copyright><span>Made with ❤️ by <a href=https://twitter.com/alevsk target=_blank rel="noopener noreferrer">@alevsk</a></span><div class=footer-github><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">rbac-scope</a>
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.104.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.103.0/>eclipse-che</a></h2><span class=post-version>v7.103.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.103.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.102.0/>eclipse-che</a></h2><span class=post-version>v7.102.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.102.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.101.0/>eclipse-che</a></h2><span class=post-version>v7.101.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.101.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.100.0/>eclipse-che</a></h2><span class=post-version>v7.100.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.100.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.99.0/>eclipse-che</a></h2><span class=post-version>v7.99.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.99.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.98.0/>eclipse-che</a></h2><span class=post-version>v7.98.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.98.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.97.0/>eclipse-che</a></h2><span class=post-version>v7.97.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.97.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.96.0/>eclipse-che</a></h2><span class=post-version>v7.96.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.96.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.95.0/>eclipse-che</a></h2><span class=post-version>v7.95.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.95.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.94.0/>eclipse-che</a></h2><span class=post-version>v7.94.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+4 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 50</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+34 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.94.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.93.0/>eclipse-che</a></h2><span class=post-version>v7.93.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.93.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.92.0/>eclipse-che</a></h2><span class=post-version>v7.92.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.92.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.91.0/>eclipse-che</a></h2><span class=post-version>v7.91.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.91.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.90.0/>eclipse-che</a></h2><span class=post-version>v7.90.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.90.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.89.0/>eclipse-che</a></h2><span class=post-version>v7.89.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.89.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.88.0/>eclipse-che</a></h2><span class=post-version>v7.88.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.88.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.87.0/>eclipse-che</a></h2><span class=post-version>v7.87.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.87.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.86.0/>eclipse-che</a></h2><span class=post-version>v7.86.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.86.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.85.0/>eclipse-che</a></h2><span class=post-version>v7.85.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.85.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.84.0/>eclipse-che</a></h2><span class=post-version>v7.84.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.84.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.83.0/>eclipse-che</a></h2><span class=post-version>v7.83.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+6 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+3 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 47</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/bindingtoprivilegedrole/>BindingToPrivilegedRole</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.83.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.82.0/>eclipse-che</a></h2><span class=post-version>v7.82.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+13 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+35 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 62</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.82.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.81.0/>eclipse-che</a></h2><span class=post-version>v7.81.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+35 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 61</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.81.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.80.0/>eclipse-che</a></h2><span class=post-version>v7.80.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+35 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 61</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.80.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.79.0/>eclipse-che</a></h2><span class=post-version>v7.79.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+35 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 61</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.79.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.78.0/>eclipse-che</a></h2><span class=post-version>v7.78.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.78.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.77.0/>eclipse-che</a></h2><span class=post-version>v7.77.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.77.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.76.0/>eclipse-che</a></h2><span class=post-version>v7.76.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.76.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.75.0/>eclipse-che</a></h2><span class=post-version>v7.75.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.75.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.74.0/>eclipse-che</a></h2><span class=post-version>v7.74.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.74.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.73.0/>eclipse-che</a></h2><span class=post-version>v7.73.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.73.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.72.0/>eclipse-che</a></h2><span class=post-version>v7.72.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.72.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.71.0/>eclipse-che</a></h2><span class=post-version>v7.71.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.71.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.70.0/>eclipse-che</a></h2><span class=post-version>v7.70.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.70.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.69.0/>eclipse-che</a></h2><span class=post-version>v7.69.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.69.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.68.0/>eclipse-che</a></h2><span class=post-version>v7.68.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+12 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 60</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.68.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.67.0/>eclipse-che</a></h2><span class=post-version>v7.67.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.67.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.66.0/>eclipse-che</a></h2><span class=post-version>v7.66.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.66.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.65.0/>eclipse-che</a></h2><span class=post-version>v7.65.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.65.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.64.0/>eclipse-che</a></h2><span class=post-version>v7.64.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.64.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.63.0/>eclipse-che</a></h2><span class=post-version>v7.63.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.63.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.62.0/>eclipse-che</a></h2><span class=post-version>v7.62.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.62.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.61.0/>eclipse-che</a></h2><span class=post-version>v7.61.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.61.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.60.1/>eclipse-che</a></h2><span class=post-version>v7.60.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.60.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.60.0/>eclipse-che</a></h2><span class=post-version>v7.60.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.60.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.59.0/>eclipse-che</a></h2><span class=post-version>v7.59.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+7 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+11 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+34 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 59</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.59.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.58.0/>eclipse-che</a></h2><span class=post-version>v7.58.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+19 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+24 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+50 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 102</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+36 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.58.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.57.0/>eclipse-che</a></h2><span class=post-version>v7.57.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+19 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+23 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+51 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 102</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+35 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.57.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.56.0/>eclipse-che</a></h2><span class=post-version>v7.56.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+19 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+23 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+51 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 102</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+35 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.56.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.55.0/>eclipse-che</a></h2><span class=post-version>v7.55.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+19 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+23 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+50 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 101</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+35 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.55.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.54.0/>eclipse-che</a></h2><span class=post-version>v7.54.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+9 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+19 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+23 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+50 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 101</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+35 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.54.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.53.0/>eclipse-che</a></h2><span class=post-version>v7.53.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.53.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.52.0/>eclipse-che</a></h2><span class=post-version>v7.52.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.52.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.51.0/>eclipse-che</a></h2><span class=post-version>v7.51.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.51.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.50.0/>eclipse-che</a></h2><span class=post-version>v7.50.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.50.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.49.0/>eclipse-che</a></h2><span class=post-version>v7.49.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.49.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.48.1/>eclipse-che</a></h2><span class=post-version>v7.48.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.48.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.47.0/>eclipse-che</a></h2><span class=post-version>v7.47.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.47.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.46.0/>eclipse-che</a></h2><span class=post-version>v7.46.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.46.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.45.0/>eclipse-che</a></h2><span class=post-version>v7.45.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.45.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.44.0/>eclipse-che</a></h2><span class=post-version>v7.44.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.44.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.43.0/>eclipse-che</a></h2><span class=post-version>v7.43.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 69</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.43.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.42.0/>eclipse-che</a></h2><span class=post-version>v7.42.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+23 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+37 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 77</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.42.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.41.2/>eclipse-che</a></h2><span class=post-version>v7.41.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+23 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+36 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 76</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.41.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.41.1/>eclipse-che</a></h2><span class=post-version>v7.41.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+23 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+36 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 76</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.41.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.41.0/>eclipse-che</a></h2><span class=post-version>v7.41.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+23 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+36 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 76</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+33 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.41.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.40.2/>eclipse-che</a></h2><span class=post-version>v7.40.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+22 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+36 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 75</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.40.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.40.1/>eclipse-che</a></h2><span class=post-version>v7.40.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+22 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+36 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 75</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.40.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.40.0/>eclipse-che</a></h2><span class=post-version>v7.40.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+22 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+35 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 74</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.40.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/eclipse-che/eclipse-che/7.39.2/>eclipse-che</a></h2><span class=post-version>v7.39.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+10 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+22 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+35 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 74</span></div><div class=post-content><p>A Helm chart for deploying Eclipse Che on a Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/clusteradminaccess/>ClusterAdminAccess</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+31 more)</span><div><a class="read-more button inline" href=/charts/eclipse-che/eclipse-che/7.39.2/>See Details ›</a></div></article><div class=pagination><div class=pagination__buttons><a href=/charts/eclipse-che/eclipse-che/page/2/ class="button inline next">[<span class=button__text>Older entries</span>] ></a></div></div></div></div><footer class=footer><div class=footer__inner><div class=copyright><span>Made with ❤️ by <a href=https://twitter.com/alevsk target=_blank rel="noopener noreferrer">@alevsk</a></span><div class=footer-github><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">rbac-scope</a>
 <span>&#183;</span>
 <a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">rbac-atlas</a></div></div></div></footer><script type=text/javascript src=/bundle.min.js></script></div></body></html>

@@ -1,0 +1,953 @@
+<!doctype html><html lang=en><head><title>base :: RBAC ATLAS</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Helm chart for deploying Istio cluster resources and CRDs"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://rbac-atlas.github.io/charts/istio/base/><meta property="og:image" content="https://rbac-atlas.github.io/images/preview.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="502"><meta property="og:image:height" content="502"><meta property="og:title" content="base - RBAC ATLAS"><meta property="og:description" content="Helm chart for deploying Istio cluster resources and CRDs"><meta property="og:url" content="https://rbac-atlas.github.io/charts/istio/base/"><link rel=icon type=image/png href=https://rbac-atlas.github.io/favicon.png><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/syntax.min.c252f9729d601989647371892e4174bccaae7a374e1ed03a351c4c49bb69a605.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/header.min.6b542678ef39e1f7ad983c5ee7d6dba3e3e2cdce3912754c1001572f5517802f.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/post.min.66409bd827ce80a95edc85dfe3ef6cfec9647424221e6756924362937400110d.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.min.afe4c56190de01a41463c8ca74494b331f56118a5dca730091372d25f7a69c1e.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terminal.original.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=https://rbac-atlas.github.io/css/custom.min.abbb285c38209787d8f8168df1a7ba772ecf8c5a9241e2742f8cbf6fe00e0af6.css><script>function toggleTags(e){const t=e.previousElementSibling,n=t.style.display!=="none";t.style.display=n?"none":"inline";const s=e.getAttribute("data-count");e.textContent=n?`(+${s} more)`:"Show less"}document.addEventListener("DOMContentLoaded",function(){const e=document.querySelectorAll("table");e.forEach(e=>{const n=e.querySelectorAll("thead th"),t=Array.from(n).map(e=>e.textContent.trim()),s=e.querySelectorAll("tbody td");s.forEach((e,n)=>{const s=n%t.length;e.setAttribute("data-label",t[s])})})})</script></head><body><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=https://rbac-atlas.github.io/ class=logo><div class=logo-icon><img src=/images/compass-svgrepo-com.svg alt="RBAC Atlas Logo"></div><div class=logo-text><div class=title><span class=title-line>RBAC</span>
+<span class=title-line>ATLAS</span></div><span class=tagline>A CURATED INDEX OF RBAC POLICIES IN K8S</span></div></a></div><nav class=navigation-menu><ul class="navigation-menu__inner menu--desktop"><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><button class=hamburger id=hamburger-btn aria-label="Toggle menu" aria-expanded=false>
+<span class=hamburger__line></span>
+<span class=hamburger__line></span>
+<span class=hamburger__line></span></button></div><nav class=mobile-nav id=mobile-nav aria-hidden=true><ul class=mobile-nav__links><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><script>(function(){var e=document.getElementById("hamburger-btn"),t=document.getElementById("mobile-nav");if(!e||!t)return;e.addEventListener("click",function(){var n=e.classList.toggle("is-open");t.classList.toggle("is-open"),e.setAttribute("aria-expanded",n),t.setAttribute("aria-hidden",!n)})})()</script><link href=/pagefind/pagefind-ui.css rel=stylesheet><script src=/pagefind/pagefind-ui.js></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search",showSubResults:!0})})</script></header><div class=content><div class=index-content><h2>base</h2><p>Helm chart for deploying Istio cluster resources and CRDs</p><h2>Sources</h2><ul><li><a href=https://github.com/istio/istio>https://github.com/istio/istio</a></li></ul></div><h2>Versions</h2><div class=posts><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.29.0-alpha.0/>base</a></h2><span class=post-version>v1.29.0-alpha.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.29.0-alpha.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.29.0-beta.0/>base</a></h2><span class=post-version>v1.29.0-beta.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.29.0-beta.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.29.0-rc.0/>base</a></h2><span class=post-version>v1.29.0-rc.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.29.0-rc.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.28.3/>base</a></h2><span class=post-version>v1.28.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.28.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.28.2/>base</a></h2><span class=post-version>v1.28.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.28.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.28.1/>base</a></h2><span class=post-version>v1.28.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.28.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.28.0-alpha.0/>base</a></h2><span class=post-version>v1.28.0-alpha.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.28.0-alpha.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.28.0-beta.0/>base</a></h2><span class=post-version>v1.28.0-beta.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.28.0-beta.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.28.0-beta.1/>base</a></h2><span class=post-version>v1.28.0-beta.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.28.0-beta.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.28.0-rc.0/>base</a></h2><span class=post-version>v1.28.0-rc.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.28.0-rc.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.28.0-rc.1/>base</a></h2><span class=post-version>v1.28.0-rc.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.28.0-rc.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.28.0/>base</a></h2><span class=post-version>v1.28.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.28.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.27.5/>base</a></h2><span class=post-version>v1.27.5</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.27.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.27.4/>base</a></h2><span class=post-version>v1.27.4</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.27.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.27.3/>base</a></h2><span class=post-version>v1.27.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.27.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.27.2/>base</a></h2><span class=post-version>v1.27.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.27.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.27.1/>base</a></h2><span class=post-version>v1.27.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.27.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.27.0/>base</a></h2><span class=post-version>v1.27.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.27.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.26.8/>base</a></h2><span class=post-version>v1.26.8</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.26.8/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.26.7/>base</a></h2><span class=post-version>v1.26.7</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.26.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.26.6/>base</a></h2><span class=post-version>v1.26.6</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.26.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.26.5/>base</a></h2><span class=post-version>v1.26.5</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.26.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.26.4/>base</a></h2><span class=post-version>v1.26.4</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.26.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.26.3/>base</a></h2><span class=post-version>v1.26.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.26.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.26.2/>base</a></h2><span class=post-version>v1.26.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.26.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.26.1/>base</a></h2><span class=post-version>v1.26.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.26.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.26.0/>base</a></h2><span class=post-version>v1.26.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.26.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.25.5/>base</a></h2><span class=post-version>v1.25.5</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.25.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.25.4/>base</a></h2><span class=post-version>v1.25.4</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.25.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.25.3/>base</a></h2><span class=post-version>v1.25.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.25.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.25.2/>base</a></h2><span class=post-version>v1.25.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.25.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.25.1/>base</a></h2><span class=post-version>v1.25.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.25.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.25.0/>base</a></h2><span class=post-version>v1.25.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.25.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.24.6/>base</a></h2><span class=post-version>v1.24.6</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.24.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.24.5/>base</a></h2><span class=post-version>v1.24.5</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.24.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.24.4/>base</a></h2><span class=post-version>v1.24.4</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.24.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.24.3/>base</a></h2><span class=post-version>v1.24.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.24.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.24.2/>base</a></h2><span class=post-version>v1.24.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.24.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.24.1/>base</a></h2><span class=post-version>v1.24.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.24.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.24.0/>base</a></h2><span class=post-version>v1.24.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.24.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.23.6/>base</a></h2><span class=post-version>v1.23.6</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.23.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.23.5/>base</a></h2><span class=post-version>v1.23.5</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.23.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.23.4/>base</a></h2><span class=post-version>v1.23.4</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.23.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.23.3/>base</a></h2><span class=post-version>v1.23.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.23.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.23.2/>base</a></h2><span class=post-version>v1.23.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.23.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.23.1/>base</a></h2><span class=post-version>v1.23.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.23.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.23.0/>base</a></h2><span class=post-version>v1.23.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.23.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.22.8/>base</a></h2><span class=post-version>v1.22.8</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.22.8/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.22.7/>base</a></h2><span class=post-version>v1.22.7</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.22.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.22.6/>base</a></h2><span class=post-version>v1.22.6</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.22.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.22.5/>base</a></h2><span class=post-version>v1.22.5</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.22.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.22.4/>base</a></h2><span class=post-version>v1.22.4</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.22.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.22.3/>base</a></h2><span class=post-version>v1.22.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.22.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.22.2/>base</a></h2><span class=post-version>v1.22.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.22.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.22.1/>base</a></h2><span class=post-version>v1.22.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.22.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.22.0/>base</a></h2><span class=post-version>v1.22.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.22.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.21.6/>base</a></h2><span class=post-version>v1.21.6</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.21.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.21.5/>base</a></h2><span class=post-version>v1.21.5</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.21.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.21.4/>base</a></h2><span class=post-version>v1.21.4</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.21.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.21.3/>base</a></h2><span class=post-version>v1.21.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.21.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.21.2/>base</a></h2><span class=post-version>v1.21.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.21.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.21.1/>base</a></h2><span class=post-version>v1.21.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.21.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.21.0/>base</a></h2><span class=post-version>v1.21.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.21.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.20.8/>base</a></h2><span class=post-version>v1.20.8</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.20.8/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.20.7/>base</a></h2><span class=post-version>v1.20.7</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.20.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.20.6/>base</a></h2><span class=post-version>v1.20.6</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.20.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.20.5/>base</a></h2><span class=post-version>v1.20.5</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.20.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.20.4/>base</a></h2><span class=post-version>v1.20.4</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.20.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.20.3/>base</a></h2><span class=post-version>v1.20.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.20.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.20.2/>base</a></h2><span class=post-version>v1.20.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.20.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.20.1/>base</a></h2><span class=post-version>v1.20.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.20.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.20.0/>base</a></h2><span class=post-version>v1.20.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.20.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.10/>base</a></h2><span class=post-version>v1.19.10</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.10/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.9/>base</a></h2><span class=post-version>v1.19.9</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.9/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.8/>base</a></h2><span class=post-version>v1.19.8</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.8/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.7/>base</a></h2><span class=post-version>v1.19.7</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.6/>base</a></h2><span class=post-version>v1.19.6</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.5/>base</a></h2><span class=post-version>v1.19.5</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.4/>base</a></h2><span class=post-version>v1.19.4</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.3/>base</a></h2><span class=post-version>v1.19.3</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.2/>base</a></h2><span class=post-version>v1.19.2</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.1/>base</a></h2><span class=post-version>v1.19.1</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.19.0/>base</a></h2><span class=post-version>v1.19.0</span></div><div class=post-stats><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 0</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/letter-b/>letter-B</a>&nbsp;</span><div><a class="read-more button inline" href=/charts/istio/base/1.19.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.18.7/>base</a></h2><span class=post-version>v1.18.7</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.18.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.18.6/>base</a></h2><span class=post-version>v1.18.6</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.18.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.18.5/>base</a></h2><span class=post-version>v1.18.5</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.18.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.18.4/>base</a></h2><span class=post-version>v1.18.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.18.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.18.3/>base</a></h2><span class=post-version>v1.18.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.18.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.18.2/>base</a></h2><span class=post-version>v1.18.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.18.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.18.1/>base</a></h2><span class=post-version>v1.18.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.18.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.18.0/>base</a></h2><span class=post-version>v1.18.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.18.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.17.8/>base</a></h2><span class=post-version>v1.17.8</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.17.8/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.17.7/>base</a></h2><span class=post-version>v1.17.7</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.17.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.17.6/>base</a></h2><span class=post-version>v1.17.6</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.17.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.17.5/>base</a></h2><span class=post-version>v1.17.5</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.17.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.17.4/>base</a></h2><span class=post-version>v1.17.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.17.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.17.3/>base</a></h2><span class=post-version>v1.17.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.17.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.17.2/>base</a></h2><span class=post-version>v1.17.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.17.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.17.1/>base</a></h2><span class=post-version>v1.17.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.17.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.17.0/>base</a></h2><span class=post-version>v1.17.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.17.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.16.7/>base</a></h2><span class=post-version>v1.16.7</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.16.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.16.6/>base</a></h2><span class=post-version>v1.16.6</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.16.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.16.5/>base</a></h2><span class=post-version>v1.16.5</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.16.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.16.4/>base</a></h2><span class=post-version>v1.16.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.16.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.16.3/>base</a></h2><span class=post-version>v1.16.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.16.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.16.2/>base</a></h2><span class=post-version>v1.16.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.16.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.16.1/>base</a></h2><span class=post-version>v1.16.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.16.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.16.0/>base</a></h2><span class=post-version>v1.16.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.16.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.15.7/>base</a></h2><span class=post-version>v1.15.7</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.15.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.15.6/>base</a></h2><span class=post-version>v1.15.6</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.15.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.15.5/>base</a></h2><span class=post-version>v1.15.5</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.15.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.15.4/>base</a></h2><span class=post-version>v1.15.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.15.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.15.3/>base</a></h2><span class=post-version>v1.15.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.15.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.15.2/>base</a></h2><span class=post-version>v1.15.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.15.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.15.1/>base</a></h2><span class=post-version>v1.15.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.15.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.15.0/>base</a></h2><span class=post-version>v1.15.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.15.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.14.6/>base</a></h2><span class=post-version>v1.14.6</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.14.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.14.5/>base</a></h2><span class=post-version>v1.14.5</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.14.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.14.4/>base</a></h2><span class=post-version>v1.14.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.14.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.14.3/>base</a></h2><span class=post-version>v1.14.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.14.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.14.2/>base</a></h2><span class=post-version>v1.14.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.14.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.14.1/>base</a></h2><span class=post-version>v1.14.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.14.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.14.0/>base</a></h2><span class=post-version>v1.14.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+30 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 55</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.14.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.9/>base</a></h2><span class=post-version>v1.13.9</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.9/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.8/>base</a></h2><span class=post-version>v1.13.8</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.8/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.7/>base</a></h2><span class=post-version>v1.13.7</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.6/>base</a></h2><span class=post-version>v1.13.6</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.5/>base</a></h2><span class=post-version>v1.13.5</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.4/>base</a></h2><span class=post-version>v1.13.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.3/>base</a></h2><span class=post-version>v1.13.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.2/>base</a></h2><span class=post-version>v1.13.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.1/>base</a></h2><span class=post-version>v1.13.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.13.0/>base</a></h2><span class=post-version>v1.13.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.13.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.9/>base</a></h2><span class=post-version>v1.12.9</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.9/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.8/>base</a></h2><span class=post-version>v1.12.8</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.8/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.7/>base</a></h2><span class=post-version>v1.12.7</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.7/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.6/>base</a></h2><span class=post-version>v1.12.6</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.6/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.5/>base</a></h2><span class=post-version>v1.12.5</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.5/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.4/>base</a></h2><span class=post-version>v1.12.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.3/>base</a></h2><span class=post-version>v1.12.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.2/>base</a></h2><span class=post-version>v1.12.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.1/>base</a></h2><span class=post-version>v1.12.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/istio/base/1.12.0/>base</a></h2><span class=post-version>v1.12.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+3 Critical
+</span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
+15 High
+</span><span class="stat-item risk-medium"><i class="fas fa-exclamation-circle"></i>
+7 Medium
+</span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
+29 Low
+</span><span class=stat-item><i class="fa-solid fa-robot"></i> 2</span>
+<span class=stat-item><i class="fa-solid fa-cube"></i> 0</span>
+<span class=stat-item><i class="fa-solid fa-link"></i> 54</span></div><div class=post-content><p>Helm chart for deploying Istio cluster resources and CRDs</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/csrcreation/>CSRCreation</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterstructure/>ClusterStructure</a>&nbsp;
+#<a href=https://rbac-atlas.github.io/tags/clusterwideaccess/>ClusterWideAccess</a>&nbsp;
+(+14 more)</span><div><a class="read-more button inline" href=/charts/istio/base/1.12.0/>See Details ›</a></div></article><div class=pagination><div class=pagination__buttons><a href=/charts/istio/base/page/2/ class="button inline prev">&lt; [<span class=button__text>Newer entries</span>]</a></div></div></div></div><footer class=footer><div class=footer__inner><div class=copyright><span>Made with ❤️ by <a href=https://twitter.com/alevsk target=_blank rel="noopener noreferrer">@alevsk</a></span><div class=footer-github><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">rbac-scope</a>
+<span>&#183;</span>
+<a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">rbac-atlas</a></div></div></div></footer><script type=text/javascript src=/bundle.min.js></script></div></body></html>
