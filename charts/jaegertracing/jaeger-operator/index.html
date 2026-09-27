@@ -1,8 +1,14 @@
-<!doctype html><html lang=en><head><title>jaeger-operator :: RBAC ATLAS</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="jaeger-operator Helm chart for Kubernetes"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/><meta property="og:image" content="https://rbac-atlas.github.io/images/preview.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="502"><meta property="og:image:height" content="502"><meta property="og:title" content="jaeger-operator - RBAC ATLAS"><meta property="og:description" content="jaeger-operator Helm chart for Kubernetes"><meta property="og:url" content="https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/"><link rel=icon type=image/png href=https://rbac-atlas.github.io/favicon.png><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=/css/custom.min.5e93a521926abcdfb7de3e98a16b3750fd63ea34d43328d900def6cbe918b277.css><link rel=stylesheet href=/css/syntax.min.c252f9729d601989647371892e4174bccaae7a374e1ed03a351c4c49bb69a605.css><link rel=stylesheet href=/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css><link rel=stylesheet href=/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=/css/header.min.6b542678ef39e1f7ad983c5ee7d6dba3e3e2cdce3912754c1001572f5517802f.css><link rel=stylesheet href=/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css><link rel=stylesheet href=/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css><link rel=stylesheet href=/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=/css/post.min.75f18b78fd071aff9afe811a0f64079a50aa64627ab03372265d73ee3d5faab4.css><link rel=stylesheet href=/css/terminal.min.afe4c56190de01a41463c8ca74494b331f56118a5dca730091372d25f7a69c1e.css><link rel=stylesheet href=/css/terminal.original.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=/css/custom.min.5e93a521926abcdfb7de3e98a16b3750fd63ea34d43328d900def6cbe918b277.css><script src=https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js></script><script>function toggleTags(e){const t=e.previousElementSibling,n=t.style.display!=="none";t.style.display=n?"none":"inline";const s=e.getAttribute("data-count");e.textContent=n?`(+${s} more)`:"Show less"}document.addEventListener("DOMContentLoaded",function(){const e=document.querySelectorAll("table");e.forEach(e=>{const n=e.querySelectorAll("thead th"),t=Array.from(n).map(e=>e.textContent.trim()),s=e.querySelectorAll("tbody td");s.forEach((e,n)=>{const s=n%t.length;e.setAttribute("data-label",t[s])})})})</script></head><body><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=https://rbac-atlas.github.io/ class=logo><div class=logo-icon><img src=/images/compass-svgrepo-com.svg alt="RBAC Atlas Logo"></div><div class=logo-text><div class=title><span class=title-line>RBAC</span>
-<span class=title-line>ATLAS</span></div><span class=tagline>A CURATED INDEX OF RBAC POLICIES IN K8S</span></div></a></div><nav class=navigation-menu><ul class="navigation-menu__inner menu--desktop"><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><button class=hamburger id=hamburger-btn aria-label="Toggle menu" aria-expanded=false>
+<!doctype html><html lang=en><head><title>jaeger-operator :: RBAC ATLAS</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=theme-color content="#f6f8fb"><script>(function(){try{var e=localStorage.getItem("rbac-atlas-theme"),t=e==="light"||e==="dark"?e:matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t)}catch{document.documentElement.setAttribute("data-theme",matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}})()</script><meta name=description content="jaeger-operator Helm chart for Kubernetes"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/><meta property="og:image" content="https://rbac-atlas.github.io/images/preview.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="502"><meta property="og:image:height" content="502"><meta property="og:title" content="jaeger-operator - RBAC ATLAS"><meta property="og:description" content="jaeger-operator Helm chart for Kubernetes"><meta property="og:url" content="https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/"><link rel=icon type=image/png href=https://rbac-atlas.github.io/favicon.png><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=/css/custom.min.2451e3df53e949bbcd8703de6905e68a1d96271ecc640745b640dd9f72640ed3.css><link rel=stylesheet href=/css/syntax.min.c252f9729d601989647371892e4174bccaae7a374e1ed03a351c4c49bb69a605.css><link rel=stylesheet href=/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css><link rel=stylesheet href=/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css><link rel=stylesheet href=/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css><link rel=stylesheet href=/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css><link rel=stylesheet href=/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css><link rel=stylesheet href=/css/header.min.6b542678ef39e1f7ad983c5ee7d6dba3e3e2cdce3912754c1001572f5517802f.css><link rel=stylesheet href=/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css><link rel=stylesheet href=/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css><link rel=stylesheet href=/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css><link rel=stylesheet href=/css/post.min.75f18b78fd071aff9afe811a0f64079a50aa64627ab03372265d73ee3d5faab4.css><link rel=stylesheet href=/css/terminal.min.afe4c56190de01a41463c8ca74494b331f56118a5dca730091372d25f7a69c1e.css><link rel=stylesheet href=/css/terminal.original.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css><link rel=stylesheet href=/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css><link rel=stylesheet href=/css/custom.min.2451e3df53e949bbcd8703de6905e68a1d96271ecc640745b640dd9f72640ed3.css><script src=https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js></script><script>function toggleTags(e){const t=e.previousElementSibling,n=t.style.display!=="none";t.style.display=n?"none":"inline";const s=e.getAttribute("data-count");e.textContent=n?`(+${s} more)`:"Show less"}</script></head><body><div class="container center"><header class=header><div class=header__inner><div class=header__logo><a href=/ class=logo aria-label="RBAC Atlas home"><span class=logo-icon aria-hidden=true><svg viewBox="0 0 40 40" fill="none"><path d="M20 2 37 20 20 38 3 20 20 2z" stroke="currentColor" stroke-width="1.8"/><path d="m20 10 10 10-10 10-10-10 10-10z" fill="currentColor"/><circle cx="20" cy="20" r="3" fill="var(--brand-mark-center)"/></svg></span><div class=logo-text><div class=title><span class=title-line>RBAC</span>
+<span class=title-line>ATLAS</span></div><span class=tagline>KUBERNETES ACCESS INTELLIGENCE</span></div></a></div><nav class=navigation-menu aria-label="Main navigation"><ul class="navigation-menu__inner menu--desktop"><li><a href=/#projects-list>Projects</a></li><li><a href=/pages/threat-landscape/>Threat landscape</a></li><li><a href=/tags/>Risks</a></li><li><a href=/categories/>Categories</a></li><li><a href=/rules/>Rules</a></li></ul></nav><div class=header__actions><button class=theme-toggle type=button aria-label="Switch color mode" title="Switch color mode">
+<svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+<svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20.7 14.3a8.5 8.5.0 01-11-11 8.5 8.5.0 1011 11z"/></svg>
+</button>
+<button class=hamburger id=hamburger-btn aria-label="Open menu" aria-expanded=false aria-controls=mobile-nav>
 <span class=hamburger__line></span>
 <span class=hamburger__line></span>
-<span class=hamburger__line></span></button></div><nav class=mobile-nav id=mobile-nav aria-hidden=true><ul class=mobile-nav__links><li><a href=/categories/>All Categories</a></li><li><a href=/tags/>All Risks</a></li></ul></nav><script>(function(){var e=document.getElementById("hamburger-btn"),t=document.getElementById("mobile-nav");if(!e||!t)return;e.addEventListener("click",function(){var n=e.classList.toggle("is-open");t.classList.toggle("is-open"),e.setAttribute("aria-expanded",n),t.setAttribute("aria-hidden",!n)})})()</script><link href=/pagefind/pagefind-ui.css rel=stylesheet><script src=/pagefind/pagefind-ui.js></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search",showSubResults:!0})})</script></header><div class=content><div class=index-content><h2>jaeger-operator</h2><p>jaeger-operator Helm chart for Kubernetes</p><h2>Sources</h2><ul><li><a href=https://github.com/jaegertracing/jaeger-operator>https://github.com/jaegertracing/jaeger-operator</a></li></ul></div><div class=chart-section><h2>Risk Trend Across Versions</h2><div class=chart-container><canvas id=version-risk-chart></canvas></div></div><script>(function(){var e=[{version:"v2.30.0",critical:2,high:8,medium:2,low:14,bindings:26},{version:"v2.31.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.32.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.32.1",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.32.2",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.33.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.34.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.35.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.36.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.37.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.38.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.39.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.40.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.41.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.42.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.43.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.45.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.46.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.46.1",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.46.2",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.47.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.49.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.50.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.50.1",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.51.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.52.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.53.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.54.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.56.0",critical:2,high:8,medium:1,low:22,bindings:33},{version:"v2.57.0",critical:2,high:8,medium:1,low:22,bindings:33}],t=getComputedStyle(document.documentElement).getPropertyValue("--foreground").trim()||"#45372b",n="rgba(69, 55, 43, 0.08)",o=e.map(function(e){return e.version}),s=document.getElementById("version-risk-chart");s&&new Chart(s,{type:"line",data:{labels:o,datasets:[{label:"Critical",data:e.map(function(e){return e.critical}),borderColor:"#dc3545",backgroundColor:"#dc3545",fill:!1,tension:.3,pointRadius:3,borderWidth:2.5},{label:"High",data:e.map(function(e){return e.high}),borderColor:"#e76f51",backgroundColor:"#e76f51",fill:!1,tension:.3,pointRadius:3,borderWidth:2.5},{label:"Medium",data:e.map(function(e){return e.medium}),borderColor:"#f4a261",backgroundColor:"#f4a261",fill:!1,tension:.3,pointRadius:3,borderWidth:2.5},{label:"Low",data:e.map(function(e){return e.low}),borderColor:"#6b9080",backgroundColor:"#6b9080",fill:!1,tension:.3,pointRadius:3,borderWidth:2.5}]},options:{responsive:!0,maintainAspectRatio:!0,plugins:{legend:{position:"top",labels:{color:t,usePointStyle:!0,padding:16}},tooltip:{callbacks:{title:function(e){return"Version "+e[0].label}}}},scales:{x:{ticks:{color:t,maxRotation:45,autoSkip:!0,maxTicksLimit:15},grid:{color:n}},y:{ticks:{color:t},grid:{color:n},beginAtZero:!0}}}})})()</script><h2>Versions</h2><div class=posts><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.57.0/>jaeger-operator</a></h2><span class=post-version>v2.57.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
+<span class=hamburger__line></span></button></div></div><nav class=mobile-nav id=mobile-nav aria-label="Mobile navigation" aria-hidden=true inert><ul class=mobile-nav__links><li><a href=/#projects-list>Projects</a></li><li><a href=/pages/threat-landscape/>Threat landscape</a></li><li><a href=/tags/>Risks</a></li><li><a href=/categories/>Categories</a></li><li><a href=/rules/>Rules</a></li></ul></nav><script>(function(){var e=document.getElementById("hamburger-btn"),t=document.getElementById("mobile-nav");if(!e||!t)return;function n(n){e.classList.toggle("is-open",n),t.classList.toggle("is-open",n),e.setAttribute("aria-expanded",String(n)),e.setAttribute("aria-label",n?"Close menu":"Open menu"),t.setAttribute("aria-hidden",String(!n)),t.inert=!n}e.addEventListener("click",function(){n(e.getAttribute("aria-expanded")!=="true")}),t.addEventListener("click",function(e){e.target.closest("a")&&n(!1)}),document.addEventListener("keydown",function(e){e.key==="Escape"&&n(!1)}),matchMedia("(min-width: 901px)").addEventListener("change",function(e){e.matches&&n(!1)})})()</script><div class=header__search><span class=search-label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg>
+<span>Search the atlas</span></span>
+<link href=/pagefind/pagefind-ui.css rel=stylesheet><script src=/pagefind/pagefind-ui.js></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",()=>{typeof PagefindUI!="undefined"&&new PagefindUI({element:"#search",showSubResults:!0})})</script></div></header><div class=content><div class=index-content><h2>jaeger-operator</h2><p>jaeger-operator Helm chart for Kubernetes</p><h2>Sources</h2><ul><li><a href=https://github.com/jaegertracing/jaeger-operator>https://github.com/jaegertracing/jaeger-operator</a></li></ul></div><div class=chart-section><h2>Risk Trend Across Versions</h2><div class=chart-container><canvas id=version-risk-chart></canvas></div></div><script>(function(){var e=[{version:"v2.30.0",critical:2,high:8,medium:2,low:14,bindings:26},{version:"v2.31.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.32.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.32.1",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.32.2",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.33.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.34.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.35.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.36.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.37.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.38.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.39.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.40.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.41.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.42.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.43.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.45.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.46.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.46.1",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.46.2",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.47.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.49.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.50.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.50.1",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.51.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.52.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.53.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.54.0",critical:2,high:8,medium:1,low:21,bindings:32},{version:"v2.56.0",critical:2,high:8,medium:1,low:22,bindings:33},{version:"v2.57.0",critical:2,high:8,medium:1,low:22,bindings:33}],t=getComputedStyle(document.documentElement).getPropertyValue("--foreground").trim()||"#45372b",n=getComputedStyle(document.documentElement).getPropertyValue("--chart-grid").trim(),o=e.map(function(e){return e.version}),s=document.getElementById("version-risk-chart");s&&new Chart(s,{type:"line",data:{labels:o,datasets:[{label:"Critical",data:e.map(function(e){return e.critical}),borderColor:"#dc3545",backgroundColor:"#dc3545",fill:!1,tension:.3,pointRadius:3,borderWidth:2.5},{label:"High",data:e.map(function(e){return e.high}),borderColor:"#e76f51",backgroundColor:"#e76f51",fill:!1,tension:.3,pointRadius:3,borderWidth:2.5},{label:"Medium",data:e.map(function(e){return e.medium}),borderColor:"#f4a261",backgroundColor:"#f4a261",fill:!1,tension:.3,pointRadius:3,borderWidth:2.5},{label:"Low",data:e.map(function(e){return e.low}),borderColor:"#6b9080",backgroundColor:"#6b9080",fill:!1,tension:.3,pointRadius:3,borderWidth:2.5}]},options:{responsive:!0,maintainAspectRatio:!0,plugins:{legend:{position:"top",labels:{color:t,usePointStyle:!0,padding:16}},tooltip:{callbacks:{title:function(e){return"Version "+e[0].label}}}},scales:{x:{ticks:{color:t,maxRotation:45,autoSkip:!0,maxTicksLimit:15},grid:{color:n}},y:{ticks:{color:t},grid:{color:n},beginAtZero:!0}}}})})()</script><h2>Versions</h2><div class=posts><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.57.0/>jaeger-operator</a></h2><span class=post-version>v2.57.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
 2 Critical
 </span><span class="stat-item risk-high"><i class="fas fa-exclamation-triangle"></i>
 8 High
@@ -10,9 +16,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 22 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 33</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 33 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.57.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.56.0/>jaeger-operator</a></h2><span class=post-version>v2.56.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -23,9 +29,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 22 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 33</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 33 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.56.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.54.0/>jaeger-operator</a></h2><span class=post-version>v2.54.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -36,9 +42,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.54.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.53.0/>jaeger-operator</a></h2><span class=post-version>v2.53.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -49,9 +55,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.53.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.52.0/>jaeger-operator</a></h2><span class=post-version>v2.52.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -62,9 +68,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.52.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.51.0/>jaeger-operator</a></h2><span class=post-version>v2.51.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -75,9 +81,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.51.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.50.1/>jaeger-operator</a></h2><span class=post-version>v2.50.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -88,9 +94,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.50.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.50.0/>jaeger-operator</a></h2><span class=post-version>v2.50.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -101,9 +107,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.50.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.49.0/>jaeger-operator</a></h2><span class=post-version>v2.49.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -114,9 +120,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.49.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.47.0/>jaeger-operator</a></h2><span class=post-version>v2.47.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -127,9 +133,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.47.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.46.2/>jaeger-operator</a></h2><span class=post-version>v2.46.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -140,9 +146,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.46.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.46.1/>jaeger-operator</a></h2><span class=post-version>v2.46.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -153,9 +159,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.46.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.46.0/>jaeger-operator</a></h2><span class=post-version>v2.46.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -166,9 +172,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.46.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.45.0/>jaeger-operator</a></h2><span class=post-version>v2.45.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -179,9 +185,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.45.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.43.0/>jaeger-operator</a></h2><span class=post-version>v2.43.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -192,9 +198,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.43.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.42.0/>jaeger-operator</a></h2><span class=post-version>v2.42.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -205,9 +211,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.42.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.41.0/>jaeger-operator</a></h2><span class=post-version>v2.41.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -218,9 +224,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.41.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.40.0/>jaeger-operator</a></h2><span class=post-version>v2.40.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -231,9 +237,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.40.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.39.0/>jaeger-operator</a></h2><span class=post-version>v2.39.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -244,9 +250,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.39.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.38.0/>jaeger-operator</a></h2><span class=post-version>v2.38.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -257,9 +263,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.38.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.37.0/>jaeger-operator</a></h2><span class=post-version>v2.37.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -270,9 +276,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.37.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.36.0/>jaeger-operator</a></h2><span class=post-version>v2.36.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -283,9 +289,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.36.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.35.0/>jaeger-operator</a></h2><span class=post-version>v2.35.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -296,9 +302,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.35.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.34.0/>jaeger-operator</a></h2><span class=post-version>v2.34.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -309,9 +315,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.34.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.33.0/>jaeger-operator</a></h2><span class=post-version>v2.33.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -322,9 +328,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.33.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.32.2/>jaeger-operator</a></h2><span class=post-version>v2.32.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -335,9 +341,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.32.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.32.1/>jaeger-operator</a></h2><span class=post-version>v2.32.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -348,9 +354,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.32.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.32.0/>jaeger-operator</a></h2><span class=post-version>v2.32.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -361,9 +367,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.32.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.31.0/>jaeger-operator</a></h2><span class=post-version>v2.31.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -374,9 +380,9 @@
 1 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 21 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 32</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 32 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+15 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.31.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.30.0/>jaeger-operator</a></h2><span class=post-version>v2.30.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -387,9 +393,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.30.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.29.0/>jaeger-operator</a></h2><span class=post-version>v2.29.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -400,9 +406,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.29.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.28.0/>jaeger-operator</a></h2><span class=post-version>v2.28.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -413,9 +419,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.28.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.27.1/>jaeger-operator</a></h2><span class=post-version>v2.27.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -426,9 +432,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.27.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.27.0/>jaeger-operator</a></h2><span class=post-version>v2.27.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -439,9 +445,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.27.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.26.0/>jaeger-operator</a></h2><span class=post-version>v2.26.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -452,9 +458,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.26.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.25.0/>jaeger-operator</a></h2><span class=post-version>v2.25.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -465,9 +471,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.25.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.24.0/>jaeger-operator</a></h2><span class=post-version>v2.24.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -478,9 +484,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.24.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.23.0/>jaeger-operator</a></h2><span class=post-version>v2.23.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -491,9 +497,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.23.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.22.0/>jaeger-operator</a></h2><span class=post-version>v2.22.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -504,9 +510,9 @@
 2 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 14 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 26</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 26 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+19 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.22.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.21.4/>jaeger-operator</a></h2><span class=post-version>v2.21.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -517,9 +523,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.21.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.21.3/>jaeger-operator</a></h2><span class=post-version>v2.21.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -530,9 +536,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.21.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.21.2/>jaeger-operator</a></h2><span class=post-version>v2.21.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -543,9 +549,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.21.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.21.1/>jaeger-operator</a></h2><span class=post-version>v2.21.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -556,9 +562,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.21.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.21.0/>jaeger-operator</a></h2><span class=post-version>v2.21.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -569,9 +575,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.21.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.20.0/>jaeger-operator</a></h2><span class=post-version>v2.20.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -582,9 +588,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.20.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.19.1/>jaeger-operator</a></h2><span class=post-version>v2.19.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -595,9 +601,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.19.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.19.0/>jaeger-operator</a></h2><span class=post-version>v2.19.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -608,9 +614,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.19.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.18.4/>jaeger-operator</a></h2><span class=post-version>v2.18.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -621,9 +627,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.18.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.18.3/>jaeger-operator</a></h2><span class=post-version>v2.18.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -634,9 +640,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.18.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.18.2/>jaeger-operator</a></h2><span class=post-version>v2.18.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -647,9 +653,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.18.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.18.1/>jaeger-operator</a></h2><span class=post-version>v2.18.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -660,9 +666,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.18.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.18.0/>jaeger-operator</a></h2><span class=post-version>v2.18.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -673,9 +679,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.18.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.17.0/>jaeger-operator</a></h2><span class=post-version>v2.17.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -686,9 +692,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.17.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.16.0/>jaeger-operator</a></h2><span class=post-version>v2.16.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -699,9 +705,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.16.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.15.1/>jaeger-operator</a></h2><span class=post-version>v2.15.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -712,9 +718,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 31</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 31 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.15.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.15.0/>jaeger-operator</a></h2><span class=post-version>v2.15.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -725,9 +731,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 30</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 30 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.15.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.14.2/>jaeger-operator</a></h2><span class=post-version>v2.14.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -738,9 +744,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 30</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 30 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.14.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.14.1/>jaeger-operator</a></h2><span class=post-version>v2.14.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -751,9 +757,9 @@
 17 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 30</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 30 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.14.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.14.0/>jaeger-operator</a></h2><span class=post-version>v2.14.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -764,9 +770,9 @@
 16 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 29</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 29 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.14.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.13.1/>jaeger-operator</a></h2><span class=post-version>v2.13.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -777,9 +783,9 @@
 16 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 29</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 29 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.13.1/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.13.0/>jaeger-operator</a></h2><span class=post-version>v2.13.0</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -790,9 +796,9 @@
 14 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 27</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 27 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.13.0/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.12.4/>jaeger-operator</a></h2><span class=post-version>v2.12.4</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -803,9 +809,9 @@
 14 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 27</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 27 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.12.4/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.12.3/>jaeger-operator</a></h2><span class=post-version>v2.12.3</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -816,9 +822,9 @@
 14 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 27</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 27 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.12.3/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.12.2/>jaeger-operator</a></h2><span class=post-version>v2.12.2</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -829,9 +835,9 @@
 14 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 27</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 27 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
 (+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.12.2/>See Details ›</a></div></article><article class="post on-list"><div class=title-card-wrapper><h2><a href=https://rbac-atlas.github.io/charts/jaegertracing/jaeger-operator/2.12.1/>jaeger-operator</a></h2><span class=post-version>v2.12.1</span></div><div class=post-stats><span class="stat-item risk-critical"><i class="fas fa-skull"></i>
@@ -842,11 +848,12 @@
 14 Medium
 </span><span class="stat-item risk-low"><i class="fas fa-info-circle"></i>
 3 Low
-</span><span class=stat-item><i class="fa-solid fa-robot"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-cube"></i> 1</span>
-<span class=stat-item><i class="fa-solid fa-link"></i> 27</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
+</span><span class=stat-item><i class="fa-solid fa-robot" aria-hidden=true></i> 1 accounts</span>
+<span class=stat-item><i class="fa-solid fa-cube" aria-hidden=true></i> 1 workloads</span>
+<span class=stat-item><i class="fa-solid fa-link" aria-hidden=true></i> 27 bindings</span></div><div class=post-content><p>jaeger-operator Helm chart for Kubernetes</p></div><span class=post-tags>#<a href=https://rbac-atlas.github.io/tags/configmapaccess/>ConfigMapAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/credentialaccess/>CredentialAccess</a>&nbsp;
 #<a href=https://rbac-atlas.github.io/tags/dataexposure/>DataExposure</a>&nbsp;
-(+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.12.1/>See Details ›</a></div></article><div class=pagination><div class=pagination__buttons><a href=/charts/jaegertracing/jaeger-operator/page/2/ class="button inline next">[<span class=button__text>Older entries</span>] ></a></div></div></div></div><footer class=footer><div class=footer__inner><div class=copyright><span>Made with ❤️ by <a href=https://twitter.com/alevsk target=_blank rel="noopener noreferrer">@alevsk</a></span><div class=footer-github><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">rbac-scope</a>
-<span>&#183;</span>
-<a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">rbac-atlas</a></div></div></div></footer><script type=text/javascript src=/bundle.min.js></script></div></body></html>
+(+20 more)</span><div><a class="read-more button inline" href=/charts/jaegertracing/jaeger-operator/2.12.1/>See Details ›</a></div></article><div class=pagination><div class=pagination__buttons><a href=/charts/jaegertracing/jaeger-operator/page/2/ class="button inline next">[<span class=button__text>Older entries</span>] ></a></div></div></div></div><footer class=footer><div class=footer__inner><div class=footer__identity><strong>RBAC Atlas</strong>
+<span>Open source Kubernetes access intelligence.</span></div><div class=footer__links><a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">Website source ↗</a>
+<a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">RBAC Scope CLI ↗</a>
+<a href=https://www.linkedin.com/in/alevsk/ target=_blank rel="noopener noreferrer">By Lenin Alevski ↗</a></div></div></footer><script type=text/javascript src=/bundle.min.js></script><script src=/js/theme.min.98eb4cd26d6896c5fde1906ec096a78351e80d8766346a08baadb6aac608c916.js></script></div></body></html>
