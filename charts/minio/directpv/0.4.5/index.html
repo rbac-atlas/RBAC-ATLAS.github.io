@@ -39,21 +39,23 @@
 <span class=vuln-combo__x aria-hidden=true>×</span>
 <span>image</span>
 <span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
-<span class=vuln-counts>1 critical · 35 high</span></div><div class=vuln-combo__ids><span class=vuln-ids><span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV</span><a class="vuln-id vuln-id--kev" href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a></span></div></li><li class=vuln-combo><div class=vuln-combo__title><span class=vuln-combo__workload>DaemonSet/node-server</span>
+<span class=vuln-counts>1 critical · 36 high</span></div><div class=vuln-combo__ids><span class=vuln-ids><span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV</span><a class="vuln-id vuln-id--kev" href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a></span></div></li><li class=vuln-combo><div class=vuln-combo__title><span class=vuln-combo__workload>DaemonSet/node-server</span>
 <span class=vuln-combo__container>container node-server</span></div><div class=vuln-combo__facts><span>SA <a class=vuln-combo__sa href=#sa-directpv-min-io><code>directpv-min-io</code></a></span>
 <span class="vuln-pill risk-critical">Critical</span>
 <span class=vuln-combo__x aria-hidden=true>×</span>
 <span>image</span>
 <span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
-<span class=vuln-counts>1 critical · 35 high</span></div><div class=vuln-combo__ids><span class=vuln-ids><span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV</span><a class="vuln-id vuln-id--kev" href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a></span></div></li><li class=vuln-combo><div class=vuln-combo__title><span class=vuln-combo__workload>Deployment/controller</span>
+<span class=vuln-counts>1 critical · 36 high</span></div><div class=vuln-combo__ids><span class=vuln-ids><span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV</span><a class="vuln-id vuln-id--kev" href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a></span></div></li><li class=vuln-combo><div class=vuln-combo__title><span class=vuln-combo__workload>Deployment/controller</span>
 <span class=vuln-combo__container>container controller</span></div><div class=vuln-combo__facts><span>SA <a class=vuln-combo__sa href=#sa-directpv-min-io><code>directpv-min-io</code></a></span>
 <span class="vuln-pill risk-critical">Critical</span>
 <span class=vuln-combo__x aria-hidden=true>×</span>
 <span>image</span>
 <span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
-<span class=vuln-counts>1 critical · 35 high</span></div><div class=vuln-combo__ids><span class=vuln-ids><span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV</span><a class="vuln-id vuln-id--kev" href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a></span></div></li></ul><p class=vuln-provenance>Image CVEs: Trivy 0.76.1 + <a href=https://cve.now target=_blank rel=noopener>cve.now</a> enrichment, as of 2026-11-06.
+<span class=vuln-counts>1 critical · 36 high</span></div><div class=vuln-combo__ids><span class=vuln-ids><span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV</span><a class="vuln-id vuln-id--kev" href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a></span></div></li></ul><p class=vuln-provenance>Image CVEs: Trivy 0.76.1 + <a href=https://cve.now target=_blank rel=noopener>cve.now</a> enrichment, as of 2026-11-06.
 Default chart images only; a CVE in an image is not proof it is exploitable in this workload.
-<a href=https://github.com/alevsk/rbac-atlas/blob/master/docs/image-vulns.md#methodology target=_blank rel=noopener>Methodology</a></p></section><div class=post-content><h2>Description</h2><p>DirectPV</p><h2>Overview</h2><table><thead><tr><th>Identity</th><th>Namespace</th><th>Automount</th><th>Secrets</th><th>Permissions</th><th>Workloads</th><th>Risk</th></tr></thead><tbody><tr><td><a href=#sa-directpv-min-io><code>directpv-min-io</code></a></td><td>directpv</td><td><span class="boolean-status boolean-status--no" role=img aria-label=No><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg></span></span></td><td>—</td><td>19</td><td>7</td><td><span class=risk-critical>Critical</span></td></tr></tbody></table><blockquote><p><em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.</em></p></blockquote><hr><h2>Identities</h2><h3 id=sa-directpv-min-io><span class="content-icon content-icon--identity"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
+<a href=https://github.com/alevsk/rbac-atlas/blob/master/docs/image-vulns.md#methodology target=_blank rel=noopener>Methodology</a></p></section><div class=post-content><h2>Description</h2><p>DirectPV</p><h2>Overview</h2><table><thead><tr><th>Identity</th><th>Namespace</th><th>Automount</th><th>Secrets</th><th>Permissions</th><th>Workloads</th><th>Risk</th><th>CVEs</th></tr></thead><tbody><tr><td><a href=#sa-directpv-min-io><code>directpv-min-io</code></a></td><td>directpv</td><td><span class="boolean-status boolean-status--no" role=img aria-label=No><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg></span></span></td><td>—</td><td>19</td><td>7</td><td><span class=risk-critical>Critical</span></td><td class=vuln-sa-td><span class=vuln-sa title="Worst CVE level of 5 images run by this ServiceAccount's workloads; counts are the highest of any one image"><span class=vuln-sa__line><span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
+<span class="vuln-chip vuln-chip--kev">KEV 1</span>
+</span><span class=vuln-counts>1 crit · 36 high</span></span></td></tr></tbody></table><blockquote><p><em>Numbers in the last two columns indicate how many bindings or workloads involve each ServiceAccount.</em></p></blockquote><hr><h2>Identities</h2><h3 id=sa-directpv-min-io><span class="content-icon content-icon--identity"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
 </span></span><code>directpv-min-io</code></h3><p><strong>Namespace:</strong> <code>directpv</code>  |  <strong>Automount:</strong> <span class="boolean-status boolean-status--no" role=img aria-label=No><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg></span></span></p><h4><span class="content-icon content-icon--permissions"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 002 18.828V21a1 1 0 001 1h3a1 1 0 001-1v-1a1 1 0 011-1h1a1 1 0 001-1v-1a1 1 0 011-1h.172a2 2 0 001.414-.586l.814-.814a6.5 6.5.0 10-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>
 </span></span>Permissions (19)</h4><table><thead><tr><th>Role</th><th>Resource</th><th>Verbs</th><th>Risk</th><th>Tags</th></tr></thead><tbody><tr><td>ClusterRole <code>directpv-min-io</code></td><td>apiextensions.k8s.io/customresourcedefinitions</td><td>create · delete · get · list · patch · update · watch</td><td><span class=risk-critical>Critical</span></td><td><span class=tag-crdmanipulation><a href=https://rbac-atlas.github.io/tags/crdmanipulation/>CRDManipulation</a></span>
 <span class=tag-potentialprivilegeescalation><a href=https://rbac-atlas.github.io/tags/potentialprivilegeescalation/>PotentialPrivilegeEscalation</a></span>
@@ -72,7 +74,7 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class=tag-reconnaissance><a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a></span></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>directpv.min.io/directpvdrives</td><td>create · delete · get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>directpv.min.io/directpvinitrequests</td><td>create · delete · get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>directpv.min.io/directpvnodes</td><td>create · delete · get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>directpv.min.io/directpvvolumes</td><td>create · delete · get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>core/endpoints</td><td>create · delete · get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>coordination.k8s.io/leases</td><td>create · delete · get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>Role <code>directpv-min-io</code></td><td>coordination.k8s.io/leases</td><td>create · delete · get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>core/nodes</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>core/persistentvolumeclaims</td><td>get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>core/persistentvolumeclaims/status</td><td>patch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>core/persistentvolumes</td><td>create · delete · get · list · patch · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>core/pods</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>storage.k8s.io/storageclasses</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>directpv-min-io</code></td><td>storage.k8s.io/volumeattachments</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr></tbody></table><h4><span class="content-icon content-icon--warning"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 00-3.48.0l-8 14A2 2 0 004 21h16a2 2 0 001.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
 </span></span>Potential Abuse (7)</h4><p>The following security risks were found based on the above permissions:</p><ul><li><a href=/rules/1010>Read secrets cluster-wide</a></li><li><a href=/rules/1011>Read secrets in a namespace</a></li><li><a href=/rules/1045>Manage CustomResourceDefinitions</a></li><li><a href=/rules/1070>Read events cluster-wide</a></li><li><a href=/rules/1078>Use privileged PodSecurityPolicy (deprecated)</a></li><li><a href=/rules/1100>Read CSINode Objects (Node & Storage Reconnaissance)</a></li></ul><h4><span class="content-icon content-icon--workloads"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
 </span></span>Workloads (7)</h4><table><thead><tr><th>Kind</th><th>Name</th><th>Container</th><th>Image</th></tr></thead><tbody><tr><td>DaemonSet</td><td>node-server</td><td>liveness-probe</td><td class=vuln-image-td>quay.io/minio/livenessprobe:v2.19.0-0<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 29 high</span></div><details class=vuln-details><summary>Top 8 of 86 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
+<span class=vuln-counts>0 critical · 30 high</span></div><details class=vuln-details><summary>Top 8 of 86 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.6</span>
 <span class=vuln-pkg>golang.org/x/net</span>
@@ -105,10 +107,10 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class=vuln-cvss>CVSS 8.1</span>
 <span class=vuln-pkg>stdlib</span>
 <span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li></ul><p class=vuln-meta>OS redhat 8.10 ·
-fixable: 0 critical, 29 high ·
+fixable: 0 critical, 30 high ·
 scanned 2026-11-06 as <code>quay.io/minio/livenessprobe:v2.19.0-0</code></p></details></div></td></tr><tr><td>DaemonSet</td><td>node-server</td><td>node-controller</td><td class=vuln-image-td>quay.io/minio/directpv:v5.1.3<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
 <span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV 1</span>
-<span class=vuln-counts>1 critical · 35 high</span></div><details class=vuln-details><summary>Top 8 of 309 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
+<span class=vuln-counts>1 critical · 36 high</span></div><details class=vuln-details><summary>Top 8 of 309 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class="vuln-chip vuln-chip--kev">KEV</span>
@@ -142,9 +144,9 @@ scanned 2026-11-06 as <code>quay.io/minio/livenessprobe:v2.19.0-0</code></p></de
 <span class=vuln-cvss>CVSS 8.7</span>
 <span class=vuln-pkg>google.golang.org/grpc</span>
 <span class=vuln-fix>fixed in 1.82.2, 1.83.2, 1.84.0-dev.0.20260825144003-d5a41119e0e3 +1</span></li></ul><p class=vuln-meta>OS redhat 8.10 ·
-fixable: 1 critical, 29 high ·
+fixable: 1 critical, 30 high ·
 scanned 2026-11-06 as <code>quay.io/minio/directpv:v5.1.3</code></p></details></div></td></tr><tr><td>DaemonSet</td><td>node-server</td><td>node-driver-registrar</td><td class=vuln-image-td>quay.io/minio/csi-node-driver-registrar:v2.17.0-0<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 29 high</span></div><details class=vuln-details><summary>Top 8 of 86 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
+<span class=vuln-counts>0 critical · 30 high</span></div><details class=vuln-details><summary>Top 8 of 86 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.6</span>
 <span class=vuln-pkg>golang.org/x/net</span>
@@ -177,10 +179,10 @@ scanned 2026-11-06 as <code>quay.io/minio/directpv:v5.1.3</code></p></details></
 <span class=vuln-cvss>CVSS 8.1</span>
 <span class=vuln-pkg>stdlib</span>
 <span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li></ul><p class=vuln-meta>OS redhat 8.10 ·
-fixable: 0 critical, 29 high ·
+fixable: 0 critical, 30 high ·
 scanned 2026-11-06 as <code>quay.io/minio/csi-node-driver-registrar:v2.17.0-0</code></p></details></div></td></tr><tr><td>DaemonSet</td><td>node-server</td><td>node-server</td><td class=vuln-image-td>quay.io/minio/directpv:v5.1.3<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
 <span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV 1</span>
-<span class=vuln-counts>1 critical · 35 high</span></div><details class=vuln-details><summary>Top 8 of 309 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
+<span class=vuln-counts>1 critical · 36 high</span></div><details class=vuln-details><summary>Top 8 of 309 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class="vuln-chip vuln-chip--kev">KEV</span>
@@ -214,10 +216,10 @@ scanned 2026-11-06 as <code>quay.io/minio/csi-node-driver-registrar:v2.17.0-0</c
 <span class=vuln-cvss>CVSS 8.7</span>
 <span class=vuln-pkg>google.golang.org/grpc</span>
 <span class=vuln-fix>fixed in 1.82.2, 1.83.2, 1.84.0-dev.0.20260825144003-d5a41119e0e3 +1</span></li></ul><p class=vuln-meta>OS redhat 8.10 ·
-fixable: 1 critical, 29 high ·
+fixable: 1 critical, 30 high ·
 scanned 2026-11-06 as <code>quay.io/minio/directpv:v5.1.3</code></p></details></div></td></tr><tr><td>Deployment</td><td>controller</td><td>controller</td><td class=vuln-image-td>quay.io/minio/directpv:v5.1.3<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
 <span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV 1</span>
-<span class=vuln-counts>1 critical · 35 high</span></div><details class=vuln-details><summary>Top 8 of 309 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
+<span class=vuln-counts>1 critical · 36 high</span></div><details class=vuln-details><summary>Top 8 of 309 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class="vuln-chip vuln-chip--kev">KEV</span>
@@ -251,44 +253,9 @@ scanned 2026-11-06 as <code>quay.io/minio/directpv:v5.1.3</code></p></details></
 <span class=vuln-cvss>CVSS 8.7</span>
 <span class=vuln-pkg>google.golang.org/grpc</span>
 <span class=vuln-fix>fixed in 1.82.2, 1.83.2, 1.84.0-dev.0.20260825144003-d5a41119e0e3 +1</span></li></ul><p class=vuln-meta>OS redhat 8.10 ·
-fixable: 1 critical, 29 high ·
+fixable: 1 critical, 30 high ·
 scanned 2026-11-06 as <code>quay.io/minio/directpv:v5.1.3</code></p></details></div></td></tr><tr><td>Deployment</td><td>controller</td><td>csi-provisioner</td><td class=vuln-image-td>quay.io/minio/csi-provisioner:v6.3.0-0<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 28 high</span></div><details class=vuln-details><summary>Top 8 of 87 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 9.6</span>
-<span class=vuln-pkg>stdlib</span>
-<span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li><li><a href=https://cve.now/GHSA-hrxh-6v49-42gf target=_blank rel=noopener>GHSA-hrxh-6v49-42gf</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.8</span>
-<span class=vuln-pkg>google.golang.org/grpc</span>
-<span class=vuln-fix>fixed in 1.82.1</span></li><li><a href=https://cve.now/CVE-2026-84304 target=_blank rel=noopener>CVE-2026-84304</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.7</span>
-<span class=vuln-pkg>google.golang.org/grpc</span>
-<span class=vuln-fix>fixed in 1.83.1</span></li><li><a href=https://cve.now/CVE-2026-84445 target=_blank rel=noopener>CVE-2026-84445</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.7</span>
-<span class=vuln-pkg>google.golang.org/grpc</span>
-<span class=vuln-fix>fixed in 1.82.2, 1.83.2, 1.84.0-dev.0.20260825144003-d5a41119e0e3 +1</span></li><li><a href=https://cve.now/CVE-2026-86145 target=_blank rel=noopener>CVE-2026-86145</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>pcre2</span>
-<span class=vuln-fix>fixed in 10.32-4.el8_10</span></li><li><a href=https://cve.now/CVE-2026-56858 target=_blank rel=noopener>CVE-2026-56858</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.1</span>
-<span class=vuln-pkg>stdlib</span>
-<span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li><li><a href=https://cve.now/CVE-2026-39822 target=_blank rel=noopener>CVE-2026-39822</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 7.8</span>
-<span class=vuln-pkg>stdlib</span>
-<span class=vuln-fix>fixed in 1.25.12, 1.26.5, 1.27.0-rc.2</span></li><li><a href=https://cve.now/CVE-2026-103111 target=_blank rel=noopener>CVE-2026-103111</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 7.6</span>
-<span class=vuln-pkg>pcre2</span>
-<span class=vuln-fix>fixed in 10.32-4.el8_10</span></li></ul><p class=vuln-meta>OS redhat 8.10 ·
-fixable: 0 critical, 28 high ·
-scanned 2026-11-06 as <code>quay.io/minio/csi-provisioner:v6.3.0-0</code></p></details></div></td></tr><tr><td>Deployment</td><td>controller</td><td>csi-resizer</td><td class=vuln-image-td>quay.io/minio/csi-resizer:v2.2.1-0<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 29 high</span></div><details class=vuln-details><summary>Top 8 of 88 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
+<span class=vuln-counts>0 critical · 29 high</span></div><details class=vuln-details><summary>Top 8 of 87 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.6</span>
 <span class=vuln-pkg>stdlib</span>
@@ -322,6 +289,41 @@ scanned 2026-11-06 as <code>quay.io/minio/csi-provisioner:v6.3.0-0</code></p></d
 <span class=vuln-pkg>pcre2</span>
 <span class=vuln-fix>fixed in 10.32-4.el8_10</span></li></ul><p class=vuln-meta>OS redhat 8.10 ·
 fixable: 0 critical, 29 high ·
+scanned 2026-11-06 as <code>quay.io/minio/csi-provisioner:v6.3.0-0</code></p></details></div></td></tr><tr><td>Deployment</td><td>controller</td><td>csi-resizer</td><td class=vuln-image-td>quay.io/minio/csi-resizer:v2.2.1-0<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
+<span class=vuln-counts>0 critical · 30 high</span></div><details class=vuln-details><summary>Top 8 of 88 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 9.6</span>
+<span class=vuln-pkg>stdlib</span>
+<span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li><li><a href=https://cve.now/GHSA-hrxh-6v49-42gf target=_blank rel=noopener>GHSA-hrxh-6v49-42gf</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.8</span>
+<span class=vuln-pkg>google.golang.org/grpc</span>
+<span class=vuln-fix>fixed in 1.82.1</span></li><li><a href=https://cve.now/CVE-2026-84304 target=_blank rel=noopener>CVE-2026-84304</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.7</span>
+<span class=vuln-pkg>google.golang.org/grpc</span>
+<span class=vuln-fix>fixed in 1.83.1</span></li><li><a href=https://cve.now/CVE-2026-84445 target=_blank rel=noopener>CVE-2026-84445</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.7</span>
+<span class=vuln-pkg>google.golang.org/grpc</span>
+<span class=vuln-fix>fixed in 1.82.2, 1.83.2, 1.84.0-dev.0.20260825144003-d5a41119e0e3 +1</span></li><li><a href=https://cve.now/CVE-2026-86145 target=_blank rel=noopener>CVE-2026-86145</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.2</span>
+<span class=vuln-pkg>pcre2</span>
+<span class=vuln-fix>fixed in 10.32-4.el8_10</span></li><li><a href=https://cve.now/CVE-2026-56858 target=_blank rel=noopener>CVE-2026-56858</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.1</span>
+<span class=vuln-pkg>stdlib</span>
+<span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li><li><a href=https://cve.now/CVE-2026-39822 target=_blank rel=noopener>CVE-2026-39822</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 7.8</span>
+<span class=vuln-pkg>stdlib</span>
+<span class=vuln-fix>fixed in 1.25.12, 1.26.5, 1.27.0-rc.2</span></li><li><a href=https://cve.now/CVE-2026-103111 target=_blank rel=noopener>CVE-2026-103111</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 7.6</span>
+<span class=vuln-pkg>pcre2</span>
+<span class=vuln-fix>fixed in 10.32-4.el8_10</span></li></ul><p class=vuln-meta>OS redhat 8.10 ·
+fixable: 0 critical, 30 high ·
 scanned 2026-11-06 as <code>quay.io/minio/csi-resizer:v2.2.1-0</code></p></details></div></td></tr></tbody></table><hr></div></article></div><footer class=footer><div class=footer__inner><div class=footer__identity><strong>RBAC Atlas</strong>
 <span>Open source Kubernetes access intelligence.</span></div><div class=footer__links><a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">Website source <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
 </span></a><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">RBAC Scope CLI <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
