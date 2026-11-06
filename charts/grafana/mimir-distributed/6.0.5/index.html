@@ -81,7 +81,7 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class=tag-reconnaissance><a href=https://rbac-atlas.github.io/tags/reconnaissance/>Reconnaissance</a></span></td></tr><tr><td>ClusterRole <code>mimir-distributed-grafana-agent-operator</code></td><td>core/nodes</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>mimir-distributed-grafana-agent-operator</code></td><td>monitoring.grafana.com/podlogs</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>mimir-distributed-grafana-agent-operator</code></td><td>monitoring.grafana.com/podlogs/finalizers</td><td>get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>mimir-distributed-grafana-agent-operator</code></td><td>monitoring.coreos.com/podmonitors</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>mimir-distributed-grafana-agent-operator</code></td><td>monitoring.coreos.com/podmonitors/finalizers</td><td>get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>mimir-distributed-grafana-agent-operator</code></td><td>monitoring.coreos.com/probes</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>mimir-distributed-grafana-agent-operator</code></td><td>monitoring.coreos.com/probes/finalizers</td><td>get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>mimir-distributed-grafana-agent-operator</code></td><td>monitoring.coreos.com/servicemonitors</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>mimir-distributed-grafana-agent-operator</code></td><td>monitoring.coreos.com/servicemonitors/finalizers</td><td>get · list · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr></tbody></table><h4><span class="content-icon content-icon--warning"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 00-3.48.0l-8 14A2 2 0 004 21h16a2 2 0 001.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
 </span></span>Potential Abuse (20)</h4><p>The following security risks were found based on the above permissions:</p><ul><li><a href=/rules/1010>Read secrets cluster-wide</a></li><li><a href=/rules/1011>Read secrets in a namespace</a></li><li><a href=/rules/1012>Modify secrets cluster-wide</a></li><li><a href=/rules/1013>Modify secrets in a namespace</a></li><li><a href=/rules/1022>Read ConfigMaps cluster-wide</a></li><li><a href=/rules/1023>Read ConfigMaps in a namespace</a></li><li><a href=/rules/1024>Modify ConfigMaps cluster-wide</a></li><li><a href=/rules/1025>Modify ConfigMaps in a namespace</a></li><li><a href=/rules/1033>Manage Deployments cluster-wide (potential for privileged pod execution)</a></li><li><a href=/rules/1034>Manage Deployments in a namespace (potential for privileged pod execution)</a></li><li><a href=/rules/1035>Manage DaemonSets cluster-wide (runs on all nodes, high impact)</a></li><li><a href=/rules/1036>Manage DaemonSets in a namespace (runs on nodes, high impact)</a></li><li><a href=/rules/1037>Manage StatefulSets cluster-wide</a></li><li><a href=/rules/1038>Manage StatefulSets in a namespace</a></li><li><a href=/rules/1073>Manage Endpoints or EndpointSlices cluster-wide</a></li><li><a href=/rules/1074>Manage Endpoints or EndpointSlices in a namespace</a></li><li><a href=/rules/1075>Manage Services cluster-wide</a></li><li><a href=/rules/1076>Manage Services in a namespace</a></li><li><a href=/rules/1082>List Namespaces (Cluster Reconnaissance)</a></li></ul><h4><span class="content-icon content-icon--workloads"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
 </span></span>Workloads (1)</h4><table><thead><tr><th>Kind</th><th>Name</th><th>Container</th><th>Image</th></tr></thead><tbody><tr><td>Deployment</td><td>mimir-distributed-grafana-agent-operator</td><td>grafana-agent-operator</td><td class=vuln-image-td>docker.io/grafana/agent-operator:v0.44.2<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--elevated" title="Image contains a Critical CVE">Elevated</span>
-<span class=vuln-counts>2 critical · 52 high</span></div><details class=vuln-details><summary>Top 8 of 269 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2025-68121 target=_blank rel=noopener>CVE-2025-68121</a>
+<span class=vuln-counts>2 critical · 52 high</span></div><details class=vuln-details><summary>Top 8 of 270 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2025-68121 target=_blank rel=noopener>CVE-2025-68121</a>
 <span class="vuln-sev vuln-sev--critical">Critical</span>
 <span class=vuln-cvss>CVSS 10.0</span>
 <span class=vuln-pkg>stdlib</span>
@@ -114,7 +114,7 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class=vuln-cvss>CVSS 9.1</span>
 <span class=vuln-pkg>golang.org/x/crypto</span>
 <span class=vuln-fix>fixed in 0.52.0</span></li></ul><p class=vuln-meta>OS ubuntu 24.04 ·
-fixable: 2 critical, 51 high ·
+fixable: 2 critical, 52 high ·
 scanned 2026-11-06 as <code>docker.io/grafana/agent-operator:v0.44.2</code></p></details></div></td></tr></tbody></table><hr><h3 id=sa-grafana-agent-test-sa><span class="content-icon content-icon--identity"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
 </span></span><code>grafana-agent-test-sa</code></h3><p><strong>Namespace:</strong> <code>default</code>  |  <strong>Automount:</strong> <span class="boolean-status boolean-status--no" role=img aria-label=No><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg></span></span></p><h4><span class="content-icon content-icon--permissions"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 002 18.828V21a1 1 0 001 1h3a1 1 0 001-1v-1a1 1 0 011-1h1a1 1 0 001-1v-1a1 1 0 011-1h.172a2 2 0 001.414-.586l.814-.814a6.5 6.5.0 10-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>
 </span></span>Permissions (7)</h4><table><thead><tr><th>Role</th><th>Resource</th><th>Verbs</th><th>Risk</th><th>Tags</th></tr></thead><tbody><tr><td>ClusterRole <code>grafana-agent-test-cr</code></td><td>core/nodes/proxy</td><td>get · list · watch</td><td><span class=risk-critical>Critical</span></td><td><span class=tag-authorizationbypass><a href=https://rbac-atlas.github.io/tags/authorizationbypass/>AuthorizationBypass</a></span>
@@ -207,7 +207,7 @@ scanned 2026-11-06 as <code>docker.io/grafana/rollout-operator:v0.32.0</code></p
 fixable: 2 critical, 49 high ·
 scanned 2026-11-06 as <code>docker.io/grafana/mimir:3.0.1</code></p></details></div></td></tr><tr><td>Deployment</td><td>mimir-distributed-gateway</td><td>gateway</td><td class=vuln-image-td>docker.io/nginxinc/nginx-unprivileged:1.29-alpine<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
 <span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV 1</span>
-<span class=vuln-counts>1 critical · 36 high</span></div><details class=vuln-details><summary>Top 8 of 140 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
+<span class=vuln-counts>1 critical · 38 high</span></div><details class=vuln-details><summary>Top 8 of 140 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
 <span class="vuln-sev vuln-sev--critical">Critical</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class="vuln-chip vuln-chip--kev">KEV</span>
@@ -224,7 +224,11 @@ scanned 2026-11-06 as <code>docker.io/grafana/mimir:3.0.1</code></p></details></
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.8</span>
 <span class=vuln-pkg>libcrypto3</span>
-<span class=vuln-fix>fixed in 3.5.7-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
+<span class=vuln-fix>fixed in 3.5.7-r0</span></li><li><a href=https://cve.now/CVE-2026-115506 target=_blank rel=noopener>CVE-2026-115506</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.7</span>
+<span class=vuln-pkg>libexpat</span>
+<span class=vuln-fix>fixed in 2.10.0-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.7</span>
 <span class=vuln-pkg>libexpat</span>
@@ -236,12 +240,8 @@ scanned 2026-11-06 as <code>docker.io/grafana/mimir:3.0.1</code></p></details></
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.7</span>
 <span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.8.5-r0</span></li><li><a href=https://cve.now/CVE-2026-76642 target=_blank rel=noopener>CVE-2026-76642</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.5</span>
-<span class=vuln-pkg>libuuid</span>
-<span class=vuln-fix>fixed in 2.41.6-r0</span></li></ul><p class=vuln-meta>OS alpine 3.23.4 ·
-fixable: 1 critical, 36 high ·
+<span class=vuln-fix>fixed in 2.8.5-r0</span></li></ul><p class=vuln-meta>OS alpine 3.23.4 ·
+fixable: 1 critical, 38 high ·
 scanned 2026-11-06 as <code>docker.io/nginxinc/nginx-unprivileged:1.29-alpine</code></p></details></div></td></tr><tr><td>Deployment</td><td>mimir-distributed-overrides-exporter</td><td>overrides-exporter</td><td class=vuln-image-td>grafana/mimir:3.0.1<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--elevated" title="Image contains a Critical CVE">Elevated</span>
 <span class=vuln-counts>2 critical · 49 high</span></div><details class=vuln-details><summary>Top 8 of 99 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2025-68121 target=_blank rel=noopener>CVE-2025-68121</a>
 <span class="vuln-sev vuln-sev--critical">Critical</span>
@@ -629,7 +629,7 @@ scanned 2026-11-06 as <code>docker.io/grafana/mimir:3.0.1</code></p></details></
 fixable: 2 critical, 49 high ·
 scanned 2026-11-06 as <code>docker.io/grafana/mimir:3.0.1</code></p></details></div></td></tr><tr><td>StatefulSet</td><td>mimir-distributed-kafka</td><td>kafka</td><td class=vuln-image-td>apache/kafka-native:4.1.0<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--high" title="Image contains a Critical/High CVE with an EPSS, Metasploit or Exploit-DB signal">High</span>
 <span class="vuln-chip vuln-chip--likely" title="Critical/High with EPSS, Metasploit or Exploit-DB signal">Likely 1</span>
-<span class=vuln-counts>1 critical · 10 high</span></div><details class=vuln-details><summary>Top 8 of 55 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2025-15467 target=_blank rel=noopener>CVE-2025-15467</a>
+<span class=vuln-counts>1 critical · 11 high</span></div><details class=vuln-details><summary>Top 8 of 55 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2025-15467 target=_blank rel=noopener>CVE-2025-15467</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class="vuln-chip vuln-chip--likely">Likely</span>
@@ -642,7 +642,11 @@ scanned 2026-11-06 as <code>docker.io/grafana/mimir:3.0.1</code></p></details></
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.8</span>
 <span class=vuln-pkg>libcrypto3</span>
-<span class=vuln-fix>fixed in 3.5.7-r0</span></li><li><a href=https://cve.now/CVE-2026-28387 target=_blank rel=noopener>CVE-2026-28387</a>
+<span class=vuln-fix>fixed in 3.5.7-r0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-28387 target=_blank rel=noopener>CVE-2026-28387</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.1</span>
 <span class=vuln-pkg>libcrypto3</span>
@@ -658,12 +662,8 @@ scanned 2026-11-06 as <code>docker.io/grafana/mimir:3.0.1</code></p></details></
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>libcrypto3</span>
-<span class=vuln-fix>fixed in 3.5.5-r0</span></li><li><a href=https://cve.now/CVE-2026-14456 target=_blank rel=noopener>CVE-2026-14456</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 7.5</span>
-<span class=vuln-pkg>libcrypto3</span>
-<span class=vuln-fix>fixed in 3.5.8-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.1 ·
-fixable: 1 critical, 10 high ·
+<span class=vuln-fix>fixed in 3.5.5-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.1 ·
+fixable: 1 critical, 11 high ·
 scanned 2026-11-06 as <code>docker.io/apache/kafka-native:4.1.0</code></p></details></div></td></tr><tr><td>StatefulSet</td><td>mimir-distributed-store-gateway-zone-a</td><td>store-gateway</td><td class=vuln-image-td>grafana/mimir:3.0.1<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--elevated" title="Image contains a Critical CVE">Elevated</span>
 <span class=vuln-counts>2 critical · 49 high</span></div><details class=vuln-details><summary>Top 8 of 99 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2025-68121 target=_blank rel=noopener>CVE-2025-68121</a>
 <span class="vuln-sev vuln-sev--critical">Critical</span>

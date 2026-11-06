@@ -123,7 +123,11 @@ scanned 2026-11-06 as <code>quay.io/metallb/controller:v0.16.2</code></p></detai
 <span class=tag-webhookreconnaissance><a href=https://rbac-atlas.github.io/tags/webhookreconnaissance/>WebhookReconnaissance</a></span></td></tr><tr><td>ClusterRole <code>metallb-frr-k8s-controller</code></td><td>frrk8s.metallb.io/bgpsessionstates</td><td>create · delete · get · list · patch · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>metallb-frr-k8s-controller</code></td><td>frrk8s.metallb.io/bgpsessionstates/status</td><td>get · patch · update</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>metallb-frr-k8s-controller</code></td><td>frrk8s.metallb.io/frrconfigurations</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>metallb-frr-k8s-controller</code></td><td>frrk8s.metallb.io/frrk8sconfigurations</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>metallb-frr-k8s-controller</code></td><td>frrk8s.metallb.io/frrnodestates</td><td>create · delete · get · list · patch · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>metallb-frr-k8s-controller</code></td><td>frrk8s.metallb.io/frrnodestates/status</td><td>get · patch · update</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>metallb-frr-k8s-controller</code></td><td>core/nodes</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>metallb-frr-k8s-controller</code></td><td>admissionregistration.k8s.io/validatingwebhookconfigurations <strong>(restricted to: frr-k8s-validating-webhook-configuration)</strong></td><td>update</td><td><span class=risk-low>Low</span></td><td><span class=tag-resourcenamerestricted><a href=https://rbac-atlas.github.io/tags/resourcenamerestricted/>ResourceNameRestricted</a></span></td></tr></tbody></table><h4><span class="content-icon content-icon--warning"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 00-3.48.0l-8 14A2 2 0 004 21h16a2 2 0 001.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
 </span></span>Potential Abuse (4)</h4><p>The following security risks were found based on the above permissions:</p><ul><li><a href=/rules/1049>Create TokenReviews (validate arbitrary tokens)</a></li><li><a href=/rules/1050>Create SubjectAccessReviews (check arbitrary permissions)</a></li><li><a href=/rules/1083>List ValidatingWebhookConfigurations (Reconnaissance)</a></li></ul><h4><span class="content-icon content-icon--workloads"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
 </span></span>Workloads (6)</h4><table><thead><tr><th>Kind</th><th>Name</th><th>Container</th><th>Image</th></tr></thead><tbody><tr><td>DaemonSet</td><td>metallb-frr-k8s</td><td>controller</td><td class=vuln-image-td>quay.io/metallb/frr-k8s:v0.0.27<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 5 high</span></div><details class=vuln-details><summary>Top 8 of 19 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-56851 target=_blank rel=noopener>CVE-2026-56851</a>
+<span class=vuln-counts>0 critical · 6 high</span></div><details class=vuln-details><summary>Top 8 of 19 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-56851 target=_blank rel=noopener>CVE-2026-56851</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>golang.org/x/text</span>
@@ -147,22 +151,22 @@ scanned 2026-11-06 as <code>quay.io/metallb/controller:v0.16.2</code></p></detai
 <span class="vuln-sev vuln-sev--medium">Medium</span>
 <span class=vuln-cvss>CVSS 9.1</span>
 <span class=vuln-pkg>golang.org/x/net</span>
-<span class=vuln-fix>fixed in 0.60.0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
-<span class="vuln-sev vuln-sev--medium">Medium</span>
-<span class=vuln-cvss>CVSS 8.3</span>
-<span class=vuln-pkg>zlib</span>
-<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-56866 target=_blank rel=noopener>CVE-2026-56866</a>
+<span class=vuln-fix>fixed in 0.60.0</span></li><li><a href=https://cve.now/CVE-2026-56866 target=_blank rel=noopener>CVE-2026-56866</a>
 <span class="vuln-sev vuln-sev--medium">Medium</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>stdlib</span>
 <span class=vuln-fix>fixed in 1.26.9, 1.27.2</span></li></ul><p class=vuln-meta>OS alpine 3.24.2 ·
-fixable: 0 critical, 5 high ·
+fixable: 0 critical, 6 high ·
 scanned 2026-11-06 as <code>quay.io/metallb/frr-k8s:v0.0.27</code></p></details></div></td></tr><tr><td>DaemonSet</td><td>metallb-frr-k8s</td><td>frr</td><td class=vuln-image-td>quay.io/frrouting/frr:10.6.2<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 17 high</span></div><details class=vuln-details><summary>Top 8 of 42 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-19445 target=_blank rel=noopener>CVE-2026-19445</a>
+<span class=vuln-counts>0 critical · 19 high</span></div><details class=vuln-details><summary>Top 8 of 43 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-19445 target=_blank rel=noopener>CVE-2026-19445</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.2</span>
 <span class=vuln-pkg>pyc</span>
-<span class=vuln-fix>fixed in 3.12.15-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
+<span class=vuln-fix>fixed in 3.12.15-r0</span></li><li><a href=https://cve.now/CVE-2026-115506 target=_blank rel=noopener>CVE-2026-115506</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.7</span>
+<span class=vuln-pkg>libexpat</span>
+<span class=vuln-fix>fixed in 2.10.0-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.7</span>
 <span class=vuln-pkg>libexpat</span>
@@ -182,22 +186,22 @@ scanned 2026-11-06 as <code>quay.io/metallb/frr-k8s:v0.0.27</code></p></details>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.3</span>
 <span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.9.0-r0</span></li><li><a href=https://cve.now/CVE-2026-113351 target=_blank rel=noopener>CVE-2026-113351</a>
+<span class=vuln-fix>fixed in 2.9.0-r0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
 <span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.10.0-r0</span></li><li><a href=https://cve.now/CVE-2026-117610 target=_blank rel=noopener>CVE-2026-117610</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.10.0-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.5 ·
-fixable: 0 critical, 17 high ·
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li></ul><p class=vuln-meta>OS alpine 3.22.5 ·
+fixable: 0 critical, 19 high ·
 scanned 2026-11-06 as <code>quay.io/frrouting/frr:10.6.2</code></p></details></div></td></tr><tr><td>DaemonSet</td><td>metallb-frr-k8s</td><td>frr-metrics</td><td class=vuln-image-td>quay.io/frrouting/frr:10.6.2<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 17 high</span></div><details class=vuln-details><summary>Top 8 of 42 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-19445 target=_blank rel=noopener>CVE-2026-19445</a>
+<span class=vuln-counts>0 critical · 19 high</span></div><details class=vuln-details><summary>Top 8 of 43 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-19445 target=_blank rel=noopener>CVE-2026-19445</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.2</span>
 <span class=vuln-pkg>pyc</span>
-<span class=vuln-fix>fixed in 3.12.15-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
+<span class=vuln-fix>fixed in 3.12.15-r0</span></li><li><a href=https://cve.now/CVE-2026-115506 target=_blank rel=noopener>CVE-2026-115506</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.7</span>
+<span class=vuln-pkg>libexpat</span>
+<span class=vuln-fix>fixed in 2.10.0-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.7</span>
 <span class=vuln-pkg>libexpat</span>
@@ -217,22 +221,22 @@ scanned 2026-11-06 as <code>quay.io/frrouting/frr:10.6.2</code></p></details></d
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.3</span>
 <span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.9.0-r0</span></li><li><a href=https://cve.now/CVE-2026-113351 target=_blank rel=noopener>CVE-2026-113351</a>
+<span class=vuln-fix>fixed in 2.9.0-r0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
 <span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.10.0-r0</span></li><li><a href=https://cve.now/CVE-2026-117610 target=_blank rel=noopener>CVE-2026-117610</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.10.0-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.5 ·
-fixable: 0 critical, 17 high ·
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li></ul><p class=vuln-meta>OS alpine 3.22.5 ·
+fixable: 0 critical, 19 high ·
 scanned 2026-11-06 as <code>quay.io/frrouting/frr:10.6.2</code></p></details></div></td></tr><tr><td>DaemonSet</td><td>metallb-frr-k8s</td><td>frr-status</td><td class=vuln-image-td>quay.io/frrouting/frr:10.6.2<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 17 high</span></div><details class=vuln-details><summary>Top 8 of 42 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-19445 target=_blank rel=noopener>CVE-2026-19445</a>
+<span class=vuln-counts>0 critical · 19 high</span></div><details class=vuln-details><summary>Top 8 of 43 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-19445 target=_blank rel=noopener>CVE-2026-19445</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.2</span>
 <span class=vuln-pkg>pyc</span>
-<span class=vuln-fix>fixed in 3.12.15-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
+<span class=vuln-fix>fixed in 3.12.15-r0</span></li><li><a href=https://cve.now/CVE-2026-115506 target=_blank rel=noopener>CVE-2026-115506</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.7</span>
+<span class=vuln-pkg>libexpat</span>
+<span class=vuln-fix>fixed in 2.10.0-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.7</span>
 <span class=vuln-pkg>libexpat</span>
@@ -252,22 +256,22 @@ scanned 2026-11-06 as <code>quay.io/frrouting/frr:10.6.2</code></p></details></d
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.3</span>
 <span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.9.0-r0</span></li><li><a href=https://cve.now/CVE-2026-113351 target=_blank rel=noopener>CVE-2026-113351</a>
+<span class=vuln-fix>fixed in 2.9.0-r0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
 <span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.10.0-r0</span></li><li><a href=https://cve.now/CVE-2026-117610 target=_blank rel=noopener>CVE-2026-117610</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.10.0-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.5 ·
-fixable: 0 critical, 17 high ·
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li></ul><p class=vuln-meta>OS alpine 3.22.5 ·
+fixable: 0 critical, 19 high ·
 scanned 2026-11-06 as <code>quay.io/frrouting/frr:10.6.2</code></p></details></div></td></tr><tr><td>DaemonSet</td><td>metallb-frr-k8s</td><td>reloader</td><td class=vuln-image-td>quay.io/frrouting/frr:10.6.2<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 17 high</span></div><details class=vuln-details><summary>Top 8 of 42 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-19445 target=_blank rel=noopener>CVE-2026-19445</a>
+<span class=vuln-counts>0 critical · 19 high</span></div><details class=vuln-details><summary>Top 8 of 43 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-19445 target=_blank rel=noopener>CVE-2026-19445</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.2</span>
 <span class=vuln-pkg>pyc</span>
-<span class=vuln-fix>fixed in 3.12.15-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
+<span class=vuln-fix>fixed in 3.12.15-r0</span></li><li><a href=https://cve.now/CVE-2026-115506 target=_blank rel=noopener>CVE-2026-115506</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.7</span>
+<span class=vuln-pkg>libexpat</span>
+<span class=vuln-fix>fixed in 2.10.0-r0</span></li><li><a href=https://cve.now/CVE-2026-66046 target=_blank rel=noopener>CVE-2026-66046</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.7</span>
 <span class=vuln-pkg>libexpat</span>
@@ -287,18 +291,18 @@ scanned 2026-11-06 as <code>quay.io/frrouting/frr:10.6.2</code></p></details></d
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.3</span>
 <span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.9.0-r0</span></li><li><a href=https://cve.now/CVE-2026-113351 target=_blank rel=noopener>CVE-2026-113351</a>
+<span class=vuln-fix>fixed in 2.9.0-r0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
 <span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.10.0-r0</span></li><li><a href=https://cve.now/CVE-2026-117610 target=_blank rel=noopener>CVE-2026-117610</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>libexpat</span>
-<span class=vuln-fix>fixed in 2.10.0-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.5 ·
-fixable: 0 critical, 17 high ·
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li></ul><p class=vuln-meta>OS alpine 3.22.5 ·
+fixable: 0 critical, 19 high ·
 scanned 2026-11-06 as <code>quay.io/frrouting/frr:10.6.2</code></p></details></div></td></tr><tr><td>Deployment</td><td>metallb-frr-k8s-statuscleaner</td><td>frr-k8s-statuscleaner</td><td class=vuln-image-td>quay.io/metallb/frr-k8s:v0.0.27<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 5 high</span></div><details class=vuln-details><summary>Top 8 of 19 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-56851 target=_blank rel=noopener>CVE-2026-56851</a>
+<span class=vuln-counts>0 critical · 6 high</span></div><details class=vuln-details><summary>Top 8 of 19 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-56851 target=_blank rel=noopener>CVE-2026-56851</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>golang.org/x/text</span>
@@ -322,16 +326,12 @@ scanned 2026-11-06 as <code>quay.io/frrouting/frr:10.6.2</code></p></details></d
 <span class="vuln-sev vuln-sev--medium">Medium</span>
 <span class=vuln-cvss>CVSS 9.1</span>
 <span class=vuln-pkg>golang.org/x/net</span>
-<span class=vuln-fix>fixed in 0.60.0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
-<span class="vuln-sev vuln-sev--medium">Medium</span>
-<span class=vuln-cvss>CVSS 8.3</span>
-<span class=vuln-pkg>zlib</span>
-<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-56866 target=_blank rel=noopener>CVE-2026-56866</a>
+<span class=vuln-fix>fixed in 0.60.0</span></li><li><a href=https://cve.now/CVE-2026-56866 target=_blank rel=noopener>CVE-2026-56866</a>
 <span class="vuln-sev vuln-sev--medium">Medium</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>stdlib</span>
 <span class=vuln-fix>fixed in 1.26.9, 1.27.2</span></li></ul><p class=vuln-meta>OS alpine 3.24.2 ·
-fixable: 0 critical, 5 high ·
+fixable: 0 critical, 6 high ·
 scanned 2026-11-06 as <code>quay.io/metallb/frr-k8s:v0.0.27</code></p></details></div></td></tr></tbody></table><hr></div></article></div><footer class=footer><div class=footer__inner><div class=footer__identity><strong>RBAC Atlas</strong>
 <span>Open source Kubernetes access intelligence.</span></div><div class=footer__links><a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">Website source <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
 </span></a><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">RBAC Scope CLI <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>

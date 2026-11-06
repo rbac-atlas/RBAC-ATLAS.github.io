@@ -46,7 +46,7 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class=tag-logaccess><a href=https://rbac-atlas.github.io/tags/logaccess/>LogAccess</a></span></td></tr><tr><td>Role <code>jenkins-schedule-agents</code></td><td>core/events</td><td>get · list · watch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>Role <code>jenkins-schedule-agents</code></td><td>core/persistentvolumeclaims</td><td>create · delete · deletecollection · get · list · patch · update · watch</td><td><span class=risk-low>Low</span></td><td></td></tr></tbody></table><h4><span class="content-icon content-icon--warning"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 00-3.48.0l-8 14A2 2 0 004 21h16a2 2 0 001.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
 </span></span>Potential Abuse (6)</h4><p>The following security risks were found based on the above permissions:</p><ul><li><a href=/rules/1001>Namespaced pod exec</a></li><li><a href=/rules/1007>Create pods in a namespace</a></li><li><a href=/rules/1009>Update/Patch pods in a namespace</a></li><li><a href=/rules/1019>Read pod logs in a namespace</a></li><li><a href=/rules/1023>Read ConfigMaps in a namespace</a></li></ul><h4><span class="content-icon content-icon--workloads"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
 </span></span>Workloads (2)</h4><table><thead><tr><th>Kind</th><th>Name</th><th>Container</th><th>Image</th></tr></thead><tbody><tr><td>StatefulSet</td><td>jenkins</td><td>config-reload</td><td class=vuln-image-td>docker.io/kiwigrid/k8s-sidecar:2.14.1<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--elevated" title="Image contains a Critical CVE">Elevated</span>
-<span class=vuln-counts>1 critical · 5 high</span></div><details class=vuln-details><summary>Top 8 of 12 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/GHSA-6q48-6c7w-9gw2 target=_blank rel=noopener>GHSA-6q48-6c7w-9gw2</a>
+<span class=vuln-counts>1 critical · 7 high</span></div><details class=vuln-details><summary>Top 8 of 13 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/GHSA-6q48-6c7w-9gw2 target=_blank rel=noopener>GHSA-6q48-6c7w-9gw2</a>
 <span class="vuln-sev vuln-sev--critical">Critical</span>
 <span class=vuln-cvss>CVSS 9.1</span>
 <span class=vuln-pkg>certifi</span>
@@ -58,7 +58,15 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.8</span>
 <span class=vuln-pkg>setuptools</span>
-<span class=vuln-fix>fixed in 78.1.1</span></li><li><a href=https://cve.now/CVE-2026-97687 target=_blank rel=noopener>CVE-2026-97687</a>
+<span class=vuln-fix>fixed in 78.1.1</span></li><li><a href=https://cve.now/CVE-2026-49272 target=_blank rel=noopener>CVE-2026-49272</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.5</span>
+<span class=vuln-pkg>oauthlib</span>
+<span class=vuln-fix>fixed in 4.0.1</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-97687 target=_blank rel=noopener>CVE-2026-97687</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.1</span>
 <span class=vuln-pkg>urllib3</span>
@@ -70,18 +78,10 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>msgpack</span>
-<span class=vuln-fix>fixed in 1.2.1</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
-<span class="vuln-sev vuln-sev--medium">Medium</span>
-<span class=vuln-cvss>CVSS 8.3</span>
-<span class=vuln-pkg>zlib</span>
-<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-97688 target=_blank rel=noopener>CVE-2026-97688</a>
-<span class="vuln-sev vuln-sev--medium">Medium</span>
-<span class=vuln-cvss>CVSS 6.9</span>
-<span class=vuln-pkg>urllib3</span>
-<span class=vuln-fix>fixed in 2.8.0</span></li></ul><p class=vuln-meta>OS alpine 3.24.2 ·
-fixable: 1 critical, 5 high ·
+<span class=vuln-fix>fixed in 1.2.1</span></li></ul><p class=vuln-meta>OS alpine 3.24.2 ·
+fixable: 1 critical, 7 high ·
 scanned 2026-11-06 as <code>docker.io/kiwigrid/k8s-sidecar:2.14.1</code></p></details></div></td></tr><tr><td>StatefulSet</td><td>jenkins</td><td>jenkins</td><td class=vuln-image-td>docker.io/jenkins/jenkins:2.580.2-jdk25<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--elevated" title="Image contains a Critical CVE">Elevated</span>
-<span class=vuln-counts>1 critical · 32 high</span></div><details class=vuln-details><summary>Top 8 of 217 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-60002 target=_blank rel=noopener>CVE-2026-60002</a>
+<span class=vuln-counts>1 critical · 37 high</span></div><details class=vuln-details><summary>Top 8 of 218 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-60002 target=_blank rel=noopener>CVE-2026-60002</a>
 <span class="vuln-sev vuln-sev--critical">Critical</span>
 <span class=vuln-cvss>CVSS 9.4</span>
 <span class=vuln-pkg>openssh-client</span>
@@ -89,6 +89,10 @@ scanned 2026-11-06 as <code>docker.io/kiwigrid/k8s-sidecar:2.14.1</code></p></de
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.8</span>
 <span class=vuln-pkg>libsystemd0</span>
+<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-115506 target=_blank rel=noopener>CVE-2026-115506</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.7</span>
+<span class=vuln-pkg>libexpat1</span>
 <span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-68494 target=_blank rel=noopener>CVE-2026-68494</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.7</span>
@@ -97,22 +101,18 @@ scanned 2026-11-06 as <code>docker.io/kiwigrid/k8s-sidecar:2.14.1</code></p></de
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.5</span>
 <span class=vuln-pkg>libsqlite3-0</span>
+<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-119374 target=_blank rel=noopener>CVE-2026-119374</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.5</span>
+<span class=vuln-pkg>libsqlite3-0</span>
+<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-119379 target=_blank rel=noopener>CVE-2026-119379</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.5</span>
+<span class=vuln-pkg>libsqlite3-0</span>
 <span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-76642 target=_blank rel=noopener>CVE-2026-76642</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.5</span>
 <span class=vuln-pkg>bsdutils</span>
-<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-54369 target=_blank rel=noopener>CVE-2026-54369</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.4</span>
-<span class=vuln-pkg>libacl1</span>
-<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-102554 target=_blank rel=noopener>CVE-2026-102554</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>com.google.guava:guava</span>
-<span class=vuln-fix>fixed in 33.7.2</span></li><li><a href=https://cve.now/CVE-2026-113351 target=_blank rel=noopener>CVE-2026-113351</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 8.2</span>
-<span class=vuln-pkg>libexpat1</span>
 <span class="vuln-fix vuln-fix--none">no fix</span></li></ul><p class=vuln-meta>OS debian 13.7 ·
 fixable: 0 critical, 13 high ·
 scanned 2026-11-06 as <code>docker.io/jenkins/jenkins:2.580.2-jdk25</code></p></details></div></td></tr></tbody></table><hr></div></article></div><footer class=footer><div class=footer__inner><div class=footer__identity><strong>RBAC Atlas</strong>

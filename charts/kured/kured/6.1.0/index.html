@@ -22,11 +22,15 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 </span></span>Permissions (7)</h4><table><thead><tr><th>Role</th><th>Resource</th><th>Verbs</th><th>Risk</th><th>Tags</th></tr></thead><tbody><tr><td>ClusterRole <code>kured</code></td><td>apps/daemonsets</td><td>get</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>kured</code></td><td>extensions/daemonsets</td><td>get</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>kured</code></td><td>core/nodes</td><td>get · patch</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>kured</code></td><td>core/pods</td><td>delete · get · list</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>ClusterRole <code>kured</code></td><td>core/pods/eviction</td><td>create</td><td><span class=risk-low>Low</span></td><td></td></tr><tr><td>Role <code>kured</code></td><td>apps/daemonsets <strong>(restricted to: kured)</strong></td><td>patch · update</td><td><span class=risk-low>Low</span></td><td><span class=tag-resourcenamerestricted><a href=https://rbac-atlas.github.io/tags/resourcenamerestricted/>ResourceNameRestricted</a></span></td></tr><tr><td>Role <code>kured</code></td><td>extensions/daemonsets <strong>(restricted to: kured)</strong></td><td>patch · update</td><td><span class=risk-low>Low</span></td><td><span class=tag-resourcenamerestricted><a href=https://rbac-atlas.github.io/tags/resourcenamerestricted/>ResourceNameRestricted</a></span></td></tr></tbody></table><h4><span class="content-icon content-icon--warning"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 00-3.48.0l-8 14A2 2 0 004 21h16a2 2 0 001.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
 </span></span>Potential Abuse (1)</h4><p>The following security risks were found based on the above permissions:</p><h4><span class="content-icon content-icon--workloads"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
 </span></span>Workloads (1)</h4><table><thead><tr><th>Kind</th><th>Name</th><th>Container</th><th>Image</th></tr></thead><tbody><tr><td>DaemonSet</td><td>kured</td><td>kured</td><td class=vuln-image-td>ghcr.io/kubereboot/kured:1.23.0<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 16 high</span></div><details class=vuln-details><summary>Top 8 of 40 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
+<span class=vuln-counts>0 critical · 17 high</span></div><details class=vuln-details><summary>Top 8 of 40 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-39821 target=_blank rel=noopener>CVE-2026-39821</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.6</span>
 <span class=vuln-pkg>stdlib</span>
-<span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li><li><a href=https://cve.now/CVE-2026-56858 target=_blank rel=noopener>CVE-2026-56858</a>
+<span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-56858 target=_blank rel=noopener>CVE-2026-56858</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.1</span>
 <span class=vuln-pkg>stdlib</span>
@@ -50,12 +54,8 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>golang.org/x/text</span>
-<span class=vuln-fix>fixed in 0.41.0</span></li><li><a href=https://cve.now/CVE-2026-56852 target=_blank rel=noopener>CVE-2026-56852</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 7.5</span>
-<span class=vuln-pkg>golang.org/x/text</span>
-<span class=vuln-fix>fixed in 0.39.0</span></li></ul><p class=vuln-meta>OS alpine 3.24.1 ·
-fixable: 0 critical, 16 high ·
+<span class=vuln-fix>fixed in 0.41.0</span></li></ul><p class=vuln-meta>OS alpine 3.24.1 ·
+fixable: 0 critical, 17 high ·
 scanned 2026-11-06 as <code>ghcr.io/kubereboot/kured:1.23.0</code></p></details></div></td></tr></tbody></table><hr></div></article></div><footer class=footer><div class=footer__inner><div class=footer__identity><strong>RBAC Atlas</strong>
 <span>Open source Kubernetes access intelligence.</span></div><div class=footer__links><a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">Website source <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
 </span></a><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">RBAC Scope CLI <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>

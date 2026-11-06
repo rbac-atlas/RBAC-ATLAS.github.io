@@ -266,7 +266,7 @@ scanned 2026-11-06 as <code>registry.datadoghq.com/operator:1.31.2</code></p></d
 </span></span>Potential Abuse (15)</h4><p>The following security risks were found based on the above permissions:</p><ul><li><a href=/rules/1010>Read secrets cluster-wide</a></li><li><a href=/rules/1011>Read secrets in a namespace</a></li><li><a href=/rules/1022>Read ConfigMaps cluster-wide</a></li><li><a href=/rules/1023>Read ConfigMaps in a namespace</a></li><li><a href=/rules/1070>Read events cluster-wide</a></li><li><a href=/rules/1077>Read RBAC configuration cluster-wide</a></li><li><a href=/rules/1082>List Namespaces (Cluster Reconnaissance)</a></li><li><a href=/rules/1083>List ValidatingWebhookConfigurations (Reconnaissance)</a></li><li><a href=/rules/1084>List MutatingWebhookConfigurations (Reconnaissance)</a></li><li><a href=/rules/1087>Read LimitRanges (Namespace Information Disclosure)</a></li><li><a href=/rules/1088>Read ResourceQuotas (Namespace Information Disclosure)</a></li><li><a href=/rules/1089>Read All ResourceQuotas (Cluster-wide Information Disclosure)</a></li><li><a href=/rules/1095>Read ComponentStatuses (Control Plane Reconnaissance)</a></li></ul><h4><span class="content-icon content-icon--workloads"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
 </span></span>Workloads (1)</h4><table><thead><tr><th>Kind</th><th>Name</th><th>Container</th><th>Image</th></tr></thead><tbody><tr><td>Deployment</td><td>datadog-cluster-agent</td><td>cluster-agent</td><td class=vuln-image-td>registry.datadoghq.com/cluster-agent:7.84.6<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
 <span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV 1</span>
-<span class=vuln-counts>0 critical · 3 high</span></div><details class=vuln-details><summary>Top 8 of 29 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
+<span class=vuln-counts>0 critical · 3 high</span></div><details class=vuln-details><summary>Top 8 of 30 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class="vuln-chip vuln-chip--kev">KEV</span>
@@ -275,7 +275,7 @@ scanned 2026-11-06 as <code>registry.datadoghq.com/operator:1.31.2</code></p></d
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.7</span>
 <span class=vuln-pkg>apt</span>
-<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-116587 target=_blank rel=noopener>CVE-2026-116587</a>
+<span class=vuln-fix>fixed in 2.8.4ubuntu0.1</span></li><li><a href=https://cve.now/CVE-2026-116587 target=_blank rel=noopener>CVE-2026-116587</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>github.com/go-jose/go-jose/v4</span>
@@ -295,12 +295,12 @@ scanned 2026-11-06 as <code>registry.datadoghq.com/operator:1.31.2</code></p></d
 <span class="vuln-sev vuln-sev--medium">Medium</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>libsasl2-2</span>
-<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-88647 target=_blank rel=noopener>CVE-2026-88647</a>
+<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-82560 target=_blank rel=noopener>CVE-2026-82560</a>
 <span class="vuln-sev vuln-sev--medium">Medium</span>
-<span class=vuln-cvss>CVSS 7.4</span>
-<span class=vuln-pkg>libgnutls30t64</span>
+<span class=vuln-cvss>CVSS 7.5</span>
+<span class=vuln-pkg>perl-base</span>
 <span class="vuln-fix vuln-fix--none">no fix</span></li></ul><p class=vuln-meta>OS ubuntu 24.04 ·
-fixable: 0 critical, 2 high ·
+fixable: 0 critical, 3 high ·
 scanned 2026-11-06 as <code>registry.datadoghq.com/cluster-agent:7.84.6</code></p></details></div></td></tr></tbody></table><hr><h3 id=sa-datadog-kube-state-metrics><span class="content-icon content-icon--identity"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
 </span></span><code>datadog-kube-state-metrics</code></h3><p><strong>Namespace:</strong> <code>default</code>  |  <strong>Automount:</strong> <span class="boolean-status boolean-status--no" role=img aria-label=No><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg></span></span></p><h4><span class="content-icon content-icon--permissions"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 002 18.828V21a1 1 0 001 1h3a1 1 0 001-1v-1a1 1 0 011-1h1a1 1 0 001-1v-1a1 1 0 011-1h.172a2 2 0 001.414-.586l.814-.814a6.5 6.5.0 10-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>
 </span></span>Permissions (31)</h4><table><thead><tr><th>Role</th><th>Resource</th><th>Verbs</th><th>Risk</th><th>Tags</th></tr></thead><tbody><tr><td>ClusterRole <code>datadog-kube-state-metrics</code></td><td>core/secrets</td><td>list · watch</td><td><span class=risk-critical>Critical</span></td><td><span class=tag-clusterwidesecretaccess><a href=https://rbac-atlas.github.io/tags/clusterwidesecretaccess/>ClusterWideSecretAccess</a></span>

@@ -57,7 +57,7 @@ scanned 2026-11-06 as <code>quay.io/oauth2-proxy/oauth2-proxy:v7.15.5</code></p>
 </span></span><code>oauth2-proxy-redis-ha</code></h3><p><strong>Namespace:</strong> <code>default</code>  |  <strong>Automount:</strong> <span class="boolean-status boolean-status--no" role=img aria-label=No><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg></span></span></p><h4><span class="content-icon content-icon--permissions"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 002 18.828V21a1 1 0 001 1h3a1 1 0 001-1v-1a1 1 0 011-1h1a1 1 0 001-1v-1a1 1 0 011-1h.172a2 2 0 001.414-.586l.814-.814a6.5 6.5.0 10-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>
 </span></span>Permissions (0)</h4><p><em>No explicit RBAC bindings.</em></p><h4><span class="content-icon content-icon--workloads"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
 </span></span>Workloads (3)</h4><table><thead><tr><th>Kind</th><th>Name</th><th>Container</th><th>Image</th></tr></thead><tbody><tr><td>StatefulSet</td><td>oauth2-proxy-redis-ha-server</td><td>redis</td><td class=vuln-image-td>public.ecr.aws/docker/library/redis:8.2.4-alpine<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--elevated" title="Image contains a Critical CVE">Elevated</span>
-<span class=vuln-counts>1 critical · 14 high</span></div><details class=vuln-details><summary>Top 8 of 46 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-31789 target=_blank rel=noopener>CVE-2026-31789</a>
+<span class=vuln-counts>1 critical · 15 high</span></div><details class=vuln-details><summary>Top 8 of 46 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-31789 target=_blank rel=noopener>CVE-2026-31789</a>
 <span class="vuln-sev vuln-sev--critical">Critical</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class=vuln-pkg>libcrypto3</span>
@@ -69,7 +69,11 @@ scanned 2026-11-06 as <code>quay.io/oauth2-proxy/oauth2-proxy:v7.15.5</code></p>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.5</span>
 <span class=vuln-pkg>setpriv</span>
-<span class=vuln-fix>fixed in 2.41.6-r0</span></li><li><a href=https://cve.now/CVE-2026-28387 target=_blank rel=noopener>CVE-2026-28387</a>
+<span class=vuln-fix>fixed in 2.41.6-r0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-28387 target=_blank rel=noopener>CVE-2026-28387</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.1</span>
 <span class=vuln-pkg>libcrypto3</span>
@@ -85,14 +89,10 @@ scanned 2026-11-06 as <code>quay.io/oauth2-proxy/oauth2-proxy:v7.15.5</code></p>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.8</span>
 <span class=vuln-pkg>zlib</span>
-<span class=vuln-fix>fixed in 1.3.2-r0</span></li><li><a href=https://cve.now/CVE-2026-78410 target=_blank rel=noopener>CVE-2026-78410</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 7.8</span>
-<span class=vuln-pkg>setpriv</span>
-<span class=vuln-fix>fixed in 2.41.6-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.3 ·
-fixable: 1 critical, 14 high ·
+<span class=vuln-fix>fixed in 1.3.2-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.3 ·
+fixable: 1 critical, 15 high ·
 scanned 2026-11-06 as <code>public.ecr.aws/docker/library/redis:8.2.4-alpine</code></p></details></div></td></tr><tr><td>StatefulSet</td><td>oauth2-proxy-redis-ha-server</td><td>sentinel</td><td class=vuln-image-td>public.ecr.aws/docker/library/redis:8.2.4-alpine<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--elevated" title="Image contains a Critical CVE">Elevated</span>
-<span class=vuln-counts>1 critical · 14 high</span></div><details class=vuln-details><summary>Top 8 of 46 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-31789 target=_blank rel=noopener>CVE-2026-31789</a>
+<span class=vuln-counts>1 critical · 15 high</span></div><details class=vuln-details><summary>Top 8 of 46 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-31789 target=_blank rel=noopener>CVE-2026-31789</a>
 <span class="vuln-sev vuln-sev--critical">Critical</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class=vuln-pkg>libcrypto3</span>
@@ -104,7 +104,11 @@ scanned 2026-11-06 as <code>public.ecr.aws/docker/library/redis:8.2.4-alpine</co
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.5</span>
 <span class=vuln-pkg>setpriv</span>
-<span class=vuln-fix>fixed in 2.41.6-r0</span></li><li><a href=https://cve.now/CVE-2026-28387 target=_blank rel=noopener>CVE-2026-28387</a>
+<span class=vuln-fix>fixed in 2.41.6-r0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-28387 target=_blank rel=noopener>CVE-2026-28387</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.1</span>
 <span class=vuln-pkg>libcrypto3</span>
@@ -120,14 +124,10 @@ scanned 2026-11-06 as <code>public.ecr.aws/docker/library/redis:8.2.4-alpine</co
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.8</span>
 <span class=vuln-pkg>zlib</span>
-<span class=vuln-fix>fixed in 1.3.2-r0</span></li><li><a href=https://cve.now/CVE-2026-78410 target=_blank rel=noopener>CVE-2026-78410</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 7.8</span>
-<span class=vuln-pkg>setpriv</span>
-<span class=vuln-fix>fixed in 2.41.6-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.3 ·
-fixable: 1 critical, 14 high ·
+<span class=vuln-fix>fixed in 1.3.2-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.3 ·
+fixable: 1 critical, 15 high ·
 scanned 2026-11-06 as <code>public.ecr.aws/docker/library/redis:8.2.4-alpine</code></p></details></div></td></tr><tr><td>StatefulSet</td><td>oauth2-proxy-redis-ha-server</td><td>split-brain-fix</td><td class=vuln-image-td>public.ecr.aws/docker/library/redis:8.2.4-alpine<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--elevated" title="Image contains a Critical CVE">Elevated</span>
-<span class=vuln-counts>1 critical · 14 high</span></div><details class=vuln-details><summary>Top 8 of 46 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-31789 target=_blank rel=noopener>CVE-2026-31789</a>
+<span class=vuln-counts>1 critical · 15 high</span></div><details class=vuln-details><summary>Top 8 of 46 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-31789 target=_blank rel=noopener>CVE-2026-31789</a>
 <span class="vuln-sev vuln-sev--critical">Critical</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class=vuln-pkg>libcrypto3</span>
@@ -139,7 +139,11 @@ scanned 2026-11-06 as <code>public.ecr.aws/docker/library/redis:8.2.4-alpine</co
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.5</span>
 <span class=vuln-pkg>setpriv</span>
-<span class=vuln-fix>fixed in 2.41.6-r0</span></li><li><a href=https://cve.now/CVE-2026-28387 target=_blank rel=noopener>CVE-2026-28387</a>
+<span class=vuln-fix>fixed in 2.41.6-r0</span></li><li><a href=https://cve.now/CVE-2026-85091 target=_blank rel=noopener>CVE-2026-85091</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.3</span>
+<span class=vuln-pkg>zlib</span>
+<span class=vuln-fix>fixed in 1.3.2-r1</span></li><li><a href=https://cve.now/CVE-2026-28387 target=_blank rel=noopener>CVE-2026-28387</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.1</span>
 <span class=vuln-pkg>libcrypto3</span>
@@ -155,12 +159,8 @@ scanned 2026-11-06 as <code>public.ecr.aws/docker/library/redis:8.2.4-alpine</co
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.8</span>
 <span class=vuln-pkg>zlib</span>
-<span class=vuln-fix>fixed in 1.3.2-r0</span></li><li><a href=https://cve.now/CVE-2026-78410 target=_blank rel=noopener>CVE-2026-78410</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 7.8</span>
-<span class=vuln-pkg>setpriv</span>
-<span class=vuln-fix>fixed in 2.41.6-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.3 ·
-fixable: 1 critical, 14 high ·
+<span class=vuln-fix>fixed in 1.3.2-r0</span></li></ul><p class=vuln-meta>OS alpine 3.22.3 ·
+fixable: 1 critical, 15 high ·
 scanned 2026-11-06 as <code>public.ecr.aws/docker/library/redis:8.2.4-alpine</code></p></details></div></td></tr></tbody></table><hr></div></article></div><footer class=footer><div class=footer__inner><div class=footer__identity><strong>RBAC Atlas</strong>
 <span>Open source Kubernetes access intelligence.</span></div><div class=footer__links><a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">Website source <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
 </span></a><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">RBAC Scope CLI <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>

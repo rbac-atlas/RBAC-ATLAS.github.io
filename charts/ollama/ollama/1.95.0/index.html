@@ -19,11 +19,11 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 </span></span><code>ollama</code></h3><p><strong>Namespace:</strong> <code>default</code>  |  <strong>Automount:</strong> <span class="boolean-status boolean-status--yes" role=img aria-label=Yes><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg></span></span></p><h4><span class="content-icon content-icon--permissions"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 002 18.828V21a1 1 0 001 1h3a1 1 0 001-1v-1a1 1 0 011-1h1a1 1 0 001-1v-1a1 1 0 011-1h.172a2 2 0 001.414-.586l.814-.814a6.5 6.5.0 10-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>
 </span></span>Permissions (0)</h4><p><em>No explicit RBAC bindings.</em></p><h4><span class="content-icon content-icon--workloads"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
 </span></span>Workloads (1)</h4><table><thead><tr><th>Kind</th><th>Name</th><th>Container</th><th>Image</th></tr></thead><tbody><tr><td>Deployment</td><td>ollama</td><td>ollama</td><td class=vuln-image-td>ollama/ollama:0.40.14<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--moderate" title="Image contains a High CVE">Moderate</span>
-<span class=vuln-counts>0 critical · 1 high</span></div><details class=vuln-details><summary>Top 8 of 28 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-109518 target=_blank rel=noopener>CVE-2026-109518</a>
+<span class=vuln-counts>0 critical · 1 high</span></div><details class=vuln-details><summary>Top 8 of 29 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-109518 target=_blank rel=noopener>CVE-2026-109518</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.7</span>
 <span class=vuln-pkg>apt</span>
-<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-86145 target=_blank rel=noopener>CVE-2026-86145</a>
+<span class=vuln-fix>fixed in 2.8.4ubuntu0.1</span></li><li><a href=https://cve.now/CVE-2026-86145 target=_blank rel=noopener>CVE-2026-86145</a>
 <span class="vuln-sev vuln-sev--medium">Medium</span>
 <span class=vuln-cvss>CVSS 8.2</span>
 <span class=vuln-pkg>libpcre2-8-0</span>
@@ -35,7 +35,11 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class="vuln-sev vuln-sev--medium">Medium</span>
 <span class=vuln-cvss>CVSS 7.6</span>
 <span class=vuln-pkg>libpcre2-8-0</span>
-<span class=vuln-fix>fixed in 10.42-4ubuntu2.2</span></li><li><a href=https://cve.now/CVE-2026-88647 target=_blank rel=noopener>CVE-2026-88647</a>
+<span class=vuln-fix>fixed in 10.42-4ubuntu2.2</span></li><li><a href=https://cve.now/CVE-2026-82560 target=_blank rel=noopener>CVE-2026-82560</a>
+<span class="vuln-sev vuln-sev--medium">Medium</span>
+<span class=vuln-cvss>CVSS 7.5</span>
+<span class=vuln-pkg>perl-base</span>
+<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-88647 target=_blank rel=noopener>CVE-2026-88647</a>
 <span class="vuln-sev vuln-sev--medium">Medium</span>
 <span class=vuln-cvss>CVSS 7.4</span>
 <span class=vuln-pkg>libgnutls30t64</span>
@@ -47,12 +51,8 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class="vuln-sev vuln-sev--medium">Medium</span>
 <span class=vuln-cvss>CVSS 7.4</span>
 <span class=vuln-pkg>libpcre2-8-0</span>
-<span class=vuln-fix>fixed in 10.42-4ubuntu2.2</span></li><li><a href=https://cve.now/CVE-2026-89158 target=_blank rel=noopener>CVE-2026-89158</a>
-<span class="vuln-sev vuln-sev--medium">Medium</span>
-<span class=vuln-cvss>CVSS 6.5</span>
-<span class=vuln-pkg>libpcre2-8-0</span>
 <span class=vuln-fix>fixed in 10.42-4ubuntu2.2</span></li></ul><p class=vuln-meta>OS ubuntu 24.04 ·
-fixable: 0 critical, 0 high ·
+fixable: 0 critical, 1 high ·
 scanned 2026-11-06 as <code>docker.io/ollama/ollama:0.40.14</code></p></details></div></td></tr></tbody></table><hr></div></article></div><footer class=footer><div class=footer__inner><div class=footer__identity><strong>RBAC Atlas</strong>
 <span>Open source Kubernetes access intelligence.</span></div><div class=footer__links><a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">Website source <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
 </span></a><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">RBAC Scope CLI <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
