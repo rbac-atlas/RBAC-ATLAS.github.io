@@ -51,7 +51,7 @@
 <span class=vuln-combo__x aria-hidden=true>×</span>
 <span>image</span>
 <span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
-<span class=vuln-counts>0 critical · 20 high</span></div><div class=vuln-combo__ids><span class=vuln-ids><span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV</span><a class="vuln-id vuln-id--kev" href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a></span></div></li></ul><p class=vuln-provenance>Image CVEs: Trivy 0.76.1 + <a href=https://cve.now target=_blank rel=noopener>cve.now</a> enrichment, as of 2026-11-12.
+<span class=vuln-counts>0 critical · 20 high</span></div><div class=vuln-combo__ids><span class=vuln-ids><span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV</span><a class="vuln-id vuln-id--kev" href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a></span></div></li></ul><p class=vuln-provenance>Image CVEs: Trivy 0.76.1 + <a href=https://cve.now target=_blank rel=noopener>cve.now</a> enrichment, as of 2026-11-13.
 Default chart images only; a CVE in an image is not proof it is exploitable in this workload.
 <a href=https://github.com/alevsk/rbac-atlas/blob/master/docs/image-vulns.md#methodology target=_blank rel=noopener>Methodology</a></p></section><div class=post-content><h2>Description</h2><p>HiveMQ Platform Operator Helm Chart</p><h2>Overview</h2><table><thead><tr><th>Identity</th><th>Namespace</th><th>Automount</th><th>Secrets</th><th>Permissions</th><th>Workloads</th><th>Risk</th><th>CVEs</th></tr></thead><tbody><tr><td><a href=#sa-hivemq-platform-operator-hivemq-platform-operator><code>hivemq-platform-operator-hivemq-platform-operator</code></a></td><td>default</td><td><span class="boolean-status boolean-status--no" role=img aria-label=No><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg></span></span></td><td>—</td><td>16</td><td>1</td><td><span class=risk-critical>Critical</span></td><td class=vuln-sa-td><span class=vuln-sa title="Worst CVE level of 1 image run by this ServiceAccount's workloads; counts are the highest of any one image"><span class=vuln-sa__line><span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
 <span class="vuln-chip vuln-chip--kev">KEV 1</span>
@@ -104,7 +104,7 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 </span></span>Potential Abuse (25)</h4><p>The following security risks were found based on the above permissions:</p><ul><li><a href=/rules/1000>Cluster-wide pod exec</a></li><li><a href=/rules/1001>Namespaced pod exec</a></li><li><a href=/rules/1006>Create pods cluster-wide</a></li><li><a href=/rules/1007>Create pods in a namespace</a></li><li><a href=/rules/1008>Update/Patch pods cluster-wide</a></li><li><a href=/rules/1009>Update/Patch pods in a namespace</a></li><li><a href=/rules/1010>Read secrets cluster-wide</a></li><li><a href=/rules/1011>Read secrets in a namespace</a></li><li><a href=/rules/1012>Modify secrets cluster-wide</a></li><li><a href=/rules/1013>Modify secrets in a namespace</a></li><li><a href=/rules/1022>Read ConfigMaps cluster-wide</a></li><li><a href=/rules/1023>Read ConfigMaps in a namespace</a></li><li><a href=/rules/1024>Modify ConfigMaps cluster-wide</a></li><li><a href=/rules/1025>Modify ConfigMaps in a namespace</a></li><li><a href=/rules/1029>Manage Roles in a namespace (create, update, patch, delete)</a></li><li><a href=/rules/1030>Manage RoleBindings in a namespace (create, update, patch, delete)</a></li><li><a href=/rules/1037>Manage StatefulSets cluster-wide</a></li><li><a href=/rules/1038>Manage StatefulSets in a namespace</a></li><li><a href=/rules/1067>Manage ServiceAccounts cluster-wide</a></li><li><a href=/rules/1068>Manage ServiceAccounts in a namespace</a></li><li><a href=/rules/1070>Read events cluster-wide</a></li><li><a href=/rules/1075>Manage Services cluster-wide</a></li><li><a href=/rules/1076>Manage Services in a namespace</a></li><li><a href=/rules/1077>Read RBAC configuration cluster-wide</a></li></ul><h4><span class="content-icon content-icon--workloads"><span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
 </span></span>Workloads (1)</h4><table><thead><tr><th>Kind</th><th>Name</th><th>Container</th><th>Image</th></tr></thead><tbody><tr id=wl-deployment-hivemq-hivemq-platform-operator-hivemq-platform-operator class=vuln-wl-row><td>Deployment</td><td>hivemq-hivemq-platform-operator</td><td>hivemq-platform-operator</td><td class=vuln-image-td>docker.io/hivemq/hivemq-platform-operator:2.2.2<div class=vuln-cell><div class=vuln-cell__summary><span class="vuln-badge vuln-lvl--exploited" title="Image contains a CVE listed in CISA Known Exploited Vulnerabilities (KEV)">Exploited</span>
 <span class="vuln-chip vuln-chip--kev" title="In CISA Known Exploited Vulnerabilities">KEV 1</span>
-<span class=vuln-counts>0 critical · 20 high</span></div><details class=vuln-details><summary>Top 8 of 147 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
+<span class=vuln-counts>0 critical · 20 high</span></div><details class=vuln-details><summary>Top 8 of 158 CVEs</summary><ul class=vuln-list><li><a href=https://cve.now/CVE-2026-111497 target=_blank rel=noopener>CVE-2026-111497</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 9.8</span>
 <span class="vuln-chip vuln-chip--kev">KEV</span>
@@ -117,15 +117,15 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.2</span>
 <span class=vuln-pkg>libssl3t64</span>
-<span class=vuln-fix>fixed in 3.5.5-1ubuntu3.6</span></li><li><a href=https://cve.now/CVE-2026-56858 target=_blank rel=noopener>CVE-2026-56858</a>
+<span class=vuln-fix>fixed in 3.5.5-1ubuntu3.6</span></li><li><a href=https://cve.now/CVE-2026-109518 target=_blank rel=noopener>CVE-2026-109518</a>
+<span class="vuln-sev vuln-sev--high">High</span>
+<span class=vuln-cvss>CVSS 8.1</span>
+<span class=vuln-pkg>apt</span>
+<span class=vuln-fix>fixed in 3.2.1ubuntu0.1</span></li><li><a href=https://cve.now/CVE-2026-56858 target=_blank rel=noopener>CVE-2026-56858</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 8.1</span>
 <span class=vuln-pkg>stdlib</span>
-<span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li><li><a href=https://cve.now/CVE-2026-109518 target=_blank rel=noopener>CVE-2026-109518</a>
-<span class="vuln-sev vuln-sev--high">High</span>
-<span class=vuln-cvss>CVSS 7.7</span>
-<span class=vuln-pkg>apt</span>
-<span class="vuln-fix vuln-fix--none">no fix</span></li><li><a href=https://cve.now/CVE-2026-33818 target=_blank rel=noopener>CVE-2026-33818</a>
+<span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li><li><a href=https://cve.now/CVE-2026-33818 target=_blank rel=noopener>CVE-2026-33818</a>
 <span class="vuln-sev vuln-sev--high">High</span>
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>stdlib</span>
@@ -138,8 +138,8 @@ Default chart images only; a CVE in an image is not proof it is exploitable in t
 <span class=vuln-cvss>CVSS 7.5</span>
 <span class=vuln-pkg>stdlib</span>
 <span class=vuln-fix>fixed in 1.25.13, 1.26.6, 1.27.0-rc.3</span></li></ul><p class=vuln-meta>OS ubuntu 26.04 ·
-fixable: 0 critical, 19 high ·
-scanned 2026-11-06 as <code>docker.io/hivemq/hivemq-platform-operator:2.2.2</code></p></details></div></td></tr></tbody></table><hr></div></article></div><footer class=footer><div class=footer__inner><div class=footer__identity><strong>RBAC Atlas</strong>
+fixable: 0 critical, 20 high ·
+scanned 2026-11-13 as <code>docker.io/hivemq/hivemq-platform-operator:2.2.2</code></p></details></div></td></tr></tbody></table><hr></div></article></div><footer class=footer><div class=footer__inner><div class=footer__identity><strong>RBAC Atlas</strong>
 <span>Open source Kubernetes access intelligence.</span></div><div class=footer__links><a href=https://github.com/alevsk/rbac-atlas target=_blank rel="noopener noreferrer">Website source <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
 </span></a><a href=https://github.com/alevsk/rbac-scope target=_blank rel="noopener noreferrer">RBAC Scope CLI <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
 </span></a><a href=https://www.linkedin.com/in/alevsk/ target=_blank rel="noopener noreferrer">By Lenin Alevski <span class=lucide-icon aria-hidden=true><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a></div></div></footer><script type=text/javascript src=/bundle.min.js></script><script src=/js/theme.min.72823d8c4fe4d1894eccf21d681b6ffb7610da70ef1e7e1c974b6f7ae5afb4cc.js></script></div></body></html>
